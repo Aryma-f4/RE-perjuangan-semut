@@ -1,90 +1,114 @@
-# Panduan Pengembangan Private Server Ant Wars
+# Panduan Lengkap Pengembangan (Step-by-Step Guide)
 
-Dokumen ini berisi langkah-langkah teknis untuk membangun server emulator sendiri (Private Server) menggunakan kode sumber klien yang telah Anda miliki.
-
-## 1. Alur Sistem (System Flow)
-
-Permainan ini menggunakan arsitektur **Client-Server** klasik berbasis HTTP.
-
-1.  **Start Up**: Klien memuat konfigurasi dari `Constants.as`.
-2.  **Resource Loading**: Klien mengunduh aset (gambar, suara, XML) dari URL `ResUrl`.
-3.  **Login/Handshake**: Klien mengirim permintaan POST ke `WebGateway` (`api/flashapi.php`).
-4.  **Game Loop**: Setiap aksi pemain (beli item, masuk dungeon) dikirim sebagai "Command" ke Gateway, server memproses logika, dan mengembalikan hasil (JSON) untuk diperbarui di klien.
-
-## 2. Persiapan Awal (Prerequisites)
-
-Karena server asli sudah mati, Anda harus membuat klien "berbicara" dengan server buatan Anda sendiri.
-
-### Opsi A: Modifikasi Klien (Recompile)
-Jika Anda bisa mengkompilasi ulang kode ActionScript (menggunakan Adobe Flash Builder atau SDK Flex/AIR):
-1.  Buka `src/Constants.as`.
-2.  Ubah variabel `_IpAddress` menjadi alamat server lokal Anda (misal: `http://127.0.0.1:8080/antwarsmobile/`).
-3.  Ubah `CONST_ARR` elemen ke-3 menjadi `true` (untuk mode local).
-    ```actionscript
-    // Ubah false menjadi true
-    public static const CONST_ARR:Array = [3,false,true,1];
-    ```
-
-### Opsi B: DNS Spoofing (Tanpa Recompile)
-Jika Anda hanya menggunakan APK/SWF yang sudah jadi:
-1.  Ubah file `hosts` di komputer/HP Anda.
-2.  Arahkan domain asli (`mvlpidat01.boyaagame.com` atau `pclpidat01.boyaagame.com`) ke `127.0.0.1`.
-3.  Jalankan server Anda di port 80 (HTTP standar).
-
-## 3. Tahap Pengembangan Server
-
-Anda bisa menggunakan bahasa pemrograman apa saja (Rust, Node.js, PHP, Python). Berikut roadmap menggunakan **Rust** (seperti yang Anda rencanakan dengan Tauri nanti).
-
-### Tahap 1: Static File Server
-Klien akan mencoba mengunduh aset sebelum login.
-*   **Tugas**: Buat server HTTP yang melayani folder statis.
-*   **Struktur Folder**:
-    ```
-    /antwarsmobile/
-      └── version/
-          └── facebookid/  (sesuai Constants.lanVersion)
-              ├── config.xml
-              ├── MAP_SMALL/
-              └── ... (aset lain dari hasil decompile)
-    ```
-*   **Test**: Buka browser ke `http://localhost:8080/antwarsmobile/version/facebookid/config.xml`. Jika file XML muncul, tahap ini sukses.
-
-### Tahap 2: API Gateway (`flashapi.php`)
-Klien mengirim semua logika game ke satu URL ini.
-*   **Endpoint**: `POST /antwarsmobile/api/flashapi.php`
-*   **Parameter POST**:
-    *   `sid`: Session ID.
-    *   `win_param`: JSON String. Contoh: `{"method": "GameMember.load", "mid": 123, ...}`.
-*   **Tugas**: Buat rute di server Anda untuk menerima POST ini, parse JSON `win_param`, dan lihat `method` apa yang dipanggil.
-
-### Tahap 3: Mocking Login (`GameMember.load`)
-Saat game loading, metode pertama yang dipanggil biasanya `GameMember.load` atau `GameMember.getAccount`.
-*   **Request**: `method: "GameMember.load"`
-*   **Response**: Anda harus mengembalikan JSON sesuai struktur `PlayerData`.
-    ```json
-    {
-        "status": 1,
-        "mid": 1001,
-        "mrolename": "Admin",
-        "mlevel": 1,
-        "mpoint": 0,
-        "sex": 0
-        ...
-    }
-    ```
-*   **Goal**: Sampai loading bar selesai dan masuk ke Lobby (Kota Utama).
-
-### Tahap 4: Fitur Utama
-Setelah berhasil masuk Lobby, implementasikan fitur satu per satu:
-1.  **Inventory**: Handle `GameMember.getNewWeapon` atau loading `GoodsList`.
-2.  **Shop**: Handle pembelian item.
-3.  **Map/Dungeon**: Handle logika masuk map (`GameCopys.getCopyGrade`).
-
-## 4. Tips Debugging
-*   **Lihat Log Klien**: Di `Constants.as`, `debug` diset ke `false`. Jika Anda recompile, set ke `true` untuk melihat `trace()` output di konsol Flash/Debug player. Ini sangat berharga untuk melihat JSON apa yang dikirim klien.
-*   **Wireshark / Charles Proxy**: Jika menggunakan Opsi B (DNS Spoofing), gunakan tools ini untuk mengintip paket data HTTP yang dikirim klien.
+Panduan ini dirancang untuk pemula (0% knowledge) agar bisa membangun server dan menjalankan game Ant Wars (Perjuangan Semut) secara lokal.
 
 ---
 
-### Langkah Selanjutnya
-Saya sarankan Anda mulai dengan **Tahap 1** (Static Server) dan **Tahap 2** (Gateway Mocking) menggunakan Rust (Actix-web atau Axum). Apakah Anda ingin saya buatkan contoh kode Rust sederhana untuk menangani Tahap 1 dan 2?
+## BAGIAN 1: Persiapan Server (Backend)
+
+Kita akan membuat server emulator sederhana menggunakan bahasa **Rust**. Server ini bertugas menerima data dari game (klien) dan membalasnya.
+
+### 1. Instalasi Rust
+1.  Kunjungi [rustup.rs](https://rustup.rs/).
+2.  Download dan jalankan installer untuk OS Anda (Windows/Mac/Linux).
+3.  Buka terminal (CMD/PowerShell) dan ketik: `cargo --version`. Jika muncul angka versi, instalasi berhasil.
+
+### 2. Menjalankan Server Emulator
+Saya telah menyiapkan kode dasar server di folder `server_emulator`.
+
+1.  Buka terminal di folder proyek ini.
+2.  Masuk ke folder server:
+    ```bash
+    cd server_emulator
+    ```
+3.  Jalankan server:
+    ```bash
+    cargo run
+    ```
+4.  Tunggu proses download dan compile selesai.
+5.  Jika berhasil, akan muncul tulisan: `Server running at http://127.0.0.1:8080`.
+    *   **Jangan tutup terminal ini.** Server harus terus menyala agar game bisa dimainkan.
+
+---
+
+## BAGIAN 2: Persiapan Klien (Game APK)
+
+Tantangan utama adalah game asli (`antwarsmobilestarling.swf`) dikunci untuk menghubungi server resmi yang sudah mati. Kita harus mengubahnya agar menghubungi server lokal kita (`127.0.0.1`).
+
+Ada dua cara untuk melakukan ini:
+
+### CARA A: DNS Spoofing (Paling Mudah - Tidak perlu build ulang)
+Cara ini menipu HP/Emulator agar mengira komputer Anda adalah server resmi.
+
+1.  Pastikan Server Emulator (Bagian 1) sudah jalan.
+2.  Instal **Fiddler Classic** atau **Charles Proxy** di komputer Anda (opsional, untuk debug).
+3.  **Di Windows**:
+    *   Buka Notepad sebagai Administrator.
+    *   Buka file: `C:\Windows\System32\drivers\etc\hosts`.
+    *   Tambahkan baris ini di paling bawah:
+        ```
+        127.0.0.1 mvlpidat01.boyaagame.com
+        127.0.0.1 pclpidat01.boyaagame.com
+        ```
+    *   Simpan file.
+4.  **Di Android Emulator (Bluestacks/LDPlayer)**:
+    *   Anda perlu mengedit file `/system/etc/hosts` di dalam emulator (butuh Root).
+    *   Atau, ganti setting DNS emulator ke IP komputer Anda (jika menggunakan DNS server lokal).
+    *   **Alternatif Mudah**: Gunakan aplikasi "Hosts Go" di Android untuk mengarahkan domain tersebut ke IP Komputer Anda (misal `192.168.1.X`).
+
+### CARA B: Recompile SWF (Cara "Proper" - Lebih Sulit)
+Cara ini memodifikasi kode sumber game (`src/Constants.as`) dan memaket ulang menjadi APK baru.
+
+#### 1. Persiapan Tools
+*   Download **IntelliJ IDEA** (Community Edition gratis).
+*   Download **Apache Flex SDK 4.6** + **AIR SDK** (Cari "Apache Flex SDK Installer").
+*   Download **Android Studio**.
+
+#### 2. Edit Kode
+1.  Buka file `antwarsmobilestarling.swf-decompile/src/Constants.as`.
+2.  Cari baris `private static var _isLocal:Boolean`.
+3.  Ubah array `CONST_ARR` menjadi `[3, false, true, 1]` (ini mengaktifkan mode lokal).
+4.  Cari `_IpAddress` dan ubah menjadi `http://127.0.0.1:8080/antwarsmobile/`.
+
+#### 3. Compile SWF
+Anda membutuhkan perintah `amxmlc` dari Flex SDK untuk mengubah kode `.as` menjadi `.swf`.
+```bash
+# Contoh command (jalankan di terminal)
+amxmlc -source-path+=src -output=bin/antwarsmobilestarling.swf src/AntWars.as
+```
+*(Catatan: Anda mungkin perlu memperbaiki banyak error library yang hilang karena dekompilasi tidak selalu 100% sempurna)*.
+
+#### 4. Build APK
+1.  Ambil file `antwarsmobilestarling.swf` yang baru dibuat.
+2.  Timpa file lama di `app/src/main/assets/antwarsmobilestarling.swf`.
+3.  Buka proyek ini di **Android Studio**.
+4.  Klik menu **Build > Build Bundle(s) / APK(s) > Build APK**.
+5.  Install APK hasil build ke HP Anda.
+
+---
+
+## BAGIAN 3: Mengembangkan Fitur
+
+Saat ini server emulator (`server_emulator/src/main.rs`) hanya memiliki fitur Login dasar.
+
+Untuk menambah fitur (misal: Toko/Shop):
+1.  Buka `server_emulator/src/main.rs`.
+2.  Lihat bagian `match params.method.as_str()`.
+3.  Tambahkan case baru, misal:
+    ```rust
+    "GameCopys.buyProp" => {
+        // Logika pembelian item
+        HttpResponse::Ok().json(serde_json::json!({"status": 1, "msg": "Beli Sukses"}))
+    },
+    ```
+4.  Restart server (`Ctrl+C`, lalu `cargo run` lagi) setiap kali mengubah kode.
+
+---
+
+## Ringkasan untuk Pemula
+1.  Instal Rust.
+2.  Jalankan `cd server_emulator && cargo run`.
+3.  Gunakan **Cara A (DNS Spoofing)** karena jauh lebih mudah daripada compile ulang game Flash lama.
+4.  Install APK asli (dari folder repo `Perjuangan Semut_1.14.85_APKPure.apk`) ke Emulator.
+5.  Set Hosts di Emulator agar `mvlpidat01.boyaagame.com` mengarah ke IP Komputer Anda.
+6.  Buka Game. Lihat terminal server Rust, jika ada tulisan "Request: ...", berarti berhasil konek!
