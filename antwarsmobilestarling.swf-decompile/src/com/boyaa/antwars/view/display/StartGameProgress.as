@@ -1,0 +1,59 @@
+package com.boyaa.antwars.view.display
+{
+   import flash.display.Bitmap;
+   import starling.display.Image;
+   import starling.display.Sprite;
+   import starling.textures.Texture;
+   
+   public class StartGameProgress extends Sprite
+   {
+      
+      public static const Progress:Class = progress_png$4a8acd3df0cfabb859009eea7cecaf451761316058;
+      
+      public static const ProgressBackground:Class = §progressBackgroud_png$3dacaced6a7caa30e72966c88e062146-1709281216§;
+      
+      private var _bitMap:Bitmap;
+      
+      private var _backGround:Image;
+      
+      private var _progressBar:Gauge;
+      
+      private var _progressBarTexture:Texture;
+      
+      public function StartGameProgress()
+      {
+         super();
+         init();
+      }
+      
+      private function init() : void
+      {
+         _bitMap = new Progress();
+         var _loc1_:Texture = Texture.fromBitmap(_bitMap);
+         _progressBarTexture = _loc1_;
+         _progressBar = new Gauge(_loc1_);
+         _bitMap.bitmapData.dispose();
+         _bitMap = new ProgressBackground();
+         _loc1_ = Texture.fromBitmap(_bitMap);
+         _backGround = new Image(_loc1_);
+         _bitMap.bitmapData.dispose();
+         progressBar.x = _backGround.width - progressBar.width >> 1;
+         progressBar.y = _backGround.height - progressBar.height >> 1;
+         addChild(_backGround);
+         addChild(_progressBar);
+      }
+      
+      public function get progressBar() : Gauge
+      {
+         return _progressBar;
+      }
+      
+      override public function dispose() : void
+      {
+         _backGround.texture.dispose();
+         _progressBarTexture.dispose();
+         super.dispose();
+      }
+   }
+}
+

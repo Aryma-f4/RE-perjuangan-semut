@@ -1,0 +1,21 @@
+{
+	"config": "air",
+	"compilerOptions": {
+		"source-path": [
+			"src"
+		],
+		"library-path": [
+			"libs"
+		],
+		"output": "bin/swf-decompile.swf",
+		"default-background-color": "#000000",
+		"default-frame-rate": 30,
+		"default-size": {
+			"width": 1024,
+			"height": 1024
+		},
+		"swf-version": 27
+	},
+	"application": "src/swf-decompile-app.xml",
+	"mainClass": "Main"
+}

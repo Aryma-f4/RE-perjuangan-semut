@@ -1,0 +1,289 @@
+package
+{
+   import com.boyaa.antwars.Loadding;
+   import com.boyaa.antwars.control.DataInit;
+   import com.boyaa.antwars.data.LoginData;
+   import com.boyaa.antwars.helper.Timepiece;
+   import com.boyaa.antwars.lang.LangManager;
+   import com.boyaa.antwars.net.Remoting;
+   import com.boyaa.antwars.net.server.GameServer;
+   import com.boyaa.antwars.sound.SoundManager;
+   import com.boyaa.antwars.view.login.LoginManager;
+   import com.greensock.TweenLite;
+   import flash.display.Bitmap;
+   import flash.display.Sprite;
+   import flash.events.Event;
+   import flash.events.KeyboardEvent;
+   import flash.events.StageOrientationEvent;
+   import flash.filesystem.File;
+   import flash.geom.Point;
+   import flash.geom.Rectangle;
+   import flash.system.Capabilities;
+   import flash.ui.Multitouch;
+   import starling.core.Starling;
+   import starling.textures.Texture;
+   import starling.utils.RectangleUtil;
+   import starling.utils.formatString;
+   import swcs.screen.LoginScreen;
+   
+   public class Main extends Sprite
+   {
+      
+      public static const RunImage:Class = §boyaa_id_jpg$e26d6df477007e82e772481b41291555-74018486§;
+      
+      private var mStarling:Starling;
+      
+      private var _loadding:Loadding = null;
+      
+      private var _loginManager:LoginManager = null;
+      
+      private var _dataInit:DataInit = null;
+      
+      private var mViewPort:Rectangle;
+      
+      private var runImage:Bitmap;
+      
+      public function Main()
+      {
+         super();
+         var _loc1_:LoginScreen = new LoginScreen();
+         if(stage)
+         {
+            this.init();
+         }
+         else
+         {
+            addEventListener("addedToStage",this.init);
+         }
+         Remoting.instance.apkPromo(1);
+      }
+      
+      private function init(param1:Event = null) : void
+      {
+         removeEventListener("addedToStage",this.init);
+         Constants.isPC = Capabilities.manufacturer.indexOf("Windows") != -1 || Capabilities.manufacturer.indexOf("Mac") != -1;
+         if(Constants.isPC)
+         {
+            stage.nativeWindow.x = (Capabilities.screenResolutionX - 1365) / 2;
+            stage.nativeWindow.y = (Capabilities.screenResolutionY - 768) / 2;
+         }
+         stage.scaleMode = "noScale";
+         stage.align = "TL";
+         stage.addEventListener("orientationChanging",refreshOrientation);
+         mViewPort = RectangleUtil.fit(new Rectangle(0,0,1365,768),new Rectangle(0,0,Constants.isPC ? stage.stageWidth : stage.fullScreenWidth,Constants.isPC ? stage.stageHeight : stage.fullScreenHeight),"showHeight");
+         Constants.scaleFactor = mViewPort.width < 1024 ? 0.5 : 1;
+         Constants.scaleFactor = 0.5;
+         Application.instance.init(stage,mViewPort);
+         Application.instance.setCurrentMain(this);
+         Timepiece.instance.initStage(this.stage);
+         Multitouch.inputMode = "touchPoint";
+         LoginData.instance.init();
+         Application.instance.application.addEventListener("keyDown",handleKeys);
+         runImage = new RunImage();
+         runImage.width = mViewPort.width;
+         runImage.height = mViewPort.height;
+         runImage.x = mViewPort.x;
+         runImage.y = mViewPort.y;
+         start();
+      }
+      
+      public function handleKeys(param1:KeyboardEvent) : void
+      {
+         var event:KeyboardEvent = param1;
+         if(Application.instance.iOS)
+         {
+            return;
+         }
+         if(event.keyCode == 16777238)
+         {
+            event.preventDefault();
+            Application.instance.systemAlert(LangManager.t("systemTip"),LangManager.t("eixt"),[LangManager.t("yes"),LangManager.t("no")],[function():void
+            {
+               Application.instance.application.exit();
+            },function():void
+            {
+            }]);
+         }
+      }
+      
+      public function start() : void
+      {
+         if(!_loadding)
+         {
+            _loadding = new Loadding(this,mViewPort);
+         }
+         if(runImage)
+         {
+            stage.addChild(runImage);
+            Timepiece.instance.addDelayCall(function():void
+            {
+               TweenLite.to(runImage,0.5,{
+                  "alpha":0,
+                  "onComplete":function():void
+                  {
+                     runImage.parent && runImage.parent.removeChild(runImage);
+                     runImage.bitmapData.dispose();
+                     runImage = null;
+                  }
+               });
+            },2000);
+         }
+         if(Constants.lanVersion == 2)
+         {
+            _loadding.setStateText("Lần đầu vào game sẽ hơi chậm,vui lòng nhẫn nại chờ đợi!");
+         }
+         else if(Constants.lanVersion == 3)
+         {
+            _loadding.setStateText("Pertama kali masuk sedikit lama, silakan tunggu sabar!");
+         }
+         if(!_loginManager)
+         {
+            _loginManager = new LoginManager(this,mViewPort);
+         }
+         Application.instance.resManager.update(function(param1:Number):void
+         {
+            if(param1 >= 1)
+            {
+               Application.instance.log("DataInit","更新资源成功");
+               LangManager.getLang.init();
+               _loginManager.login();
+            }
+         });
+      }
+      
+      private function refreshOrientation(param1:StageOrientationEvent) : void
+      {
+         switch(param1.afterOrientation)
+         {
+            case "default":
+               param1.preventDefault();
+               break;
+            case "rotatedRight":
+               this.stage.setOrientation("rotatedRight");
+               break;
+            case "rotatedLeft":
+               this.stage.setOrientation("rotatedLeft");
+               break;
+            case "upsideDown":
+               param1.preventDefault();
+         }
+      }
+      
+      public function loginStateChange(param1:String) : void
+      {
+         switch(param1)
+         {
+            case "STATE_START":
+               _loginManager.removeToStage();
+               _loadding.setStateText(LangManager.t("login"));
+               break;
+            case "STATE_COMPLETE":
+               _loginManager = null;
+               initializeData();
+         }
+      }
+      
+      private function initializeData() : void
+      {
+         _loadding.setStateText(LangManager.t("loadData"));
+         _dataInit = new DataInit(stage,mViewPort);
+         _dataInit.dataInitStateSignal.add(dataInitStateChange);
+         _dataInit.init();
+         trace("LoginData.instance.mid:",LoginData.instance.mid);
+      }
+      
+      private function dataInitStateChange(param1:String) : void
+      {
+         switch(param1)
+         {
+            case "STATE_INIT_DATA":
+               _loadding.setStateText(LangManager.t("loadData"));
+               break;
+            case "STATE_CREATE_ROLE":
+               _loadding.setStateText(LangManager.t("createRole"));
+               break;
+            case "STATE_CONNECT_SERVER":
+               _loadding.setStateText(LangManager.t("connectServer"));
+               break;
+            case "STATE_COMPLETE":
+               _dataInit.dataInitStateSignal.removeAll();
+               _dataInit = null;
+               initializeDataComplete();
+         }
+      }
+      
+      private function initializeDataComplete() : void
+      {
+         Application.instance.log("Main","initializeDataComplete");
+         if(!Starling.current)
+         {
+            enterGame();
+         }
+         else
+         {
+            Starling.juggler.delayCall(removeLoading,2);
+            Starling.current.start();
+            Application.instance.currentGame.addEventAfterReLogin();
+            Application.instance.currentGame.enterGame();
+         }
+      }
+      
+      public function removeLoading() : void
+      {
+         _loadding.removeToStage();
+         _loadding = null;
+      }
+      
+      private function enterGame() : void
+      {
+         var scaleFactor:Number;
+         var appDir:File;
+         var assets:ResAssetManager;
+         Starling.multitouchEnabled = true;
+         Starling.handleLostContext = !Application.instance.iOS;
+         scaleFactor = Constants.scaleFactor;
+         appDir = File.applicationDirectory;
+         assets = new ResAssetManager(scaleFactor);
+         assets.verbose = Constants.debug;
+         assets.enqueue(Application.instance.resManager.getAllResByDir([formatString("textures/{0}x/CHAR",scaleFactor),formatString("textures/{0}x/GAME",scaleFactor),formatString("textures/{0}x/UI",scaleFactor),formatString("asset"),"audio"]),Application.instance.resManager.getResFile("ScreensPos.xml"));
+         mStarling = new Starling(Game,stage,mViewPort);
+         mStarling.stage.stageWidth = 1365;
+         mStarling.stage.stageHeight = 768;
+         mStarling.enableErrorChecking = Constants.debug;
+         mStarling.antiAliasing = 2;
+         if(Constants.debug)
+         {
+            mStarling.showStatsAtPoint(new Point(Assets.rightTop.x - 50,Assets.rightTop.y));
+         }
+         mStarling.addEventListener("rootCreated",(function():*
+         {
+            var onRootCreated:Function;
+            return onRootCreated = function(param1:Object, param2:Game):void
+            {
+               mStarling.removeEventListener("rootCreated",onRootCreated);
+               var _loc3_:Texture = Texture.fromBitmap(_loadding.getBitMap(),false,false,1);
+               removeLoading();
+               param2.start(_loc3_,assets);
+               mStarling.start();
+            };
+         })());
+      }
+      
+      public function logout() : void
+      {
+         SoundManager.stopBgSound();
+         LoginData.instance.logout();
+         if(Starling.current)
+         {
+            Starling.current.stop();
+         }
+         GameServer.instance.disposeRecvFunAll();
+         if(GameServer.instance.isConnect)
+         {
+            GameServer.instance.close();
+         }
+         Application.instance.currentMain.start();
+      }
+   }
+}
+

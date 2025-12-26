@@ -1,0 +1,848 @@
+package com.boyaa.antwars.view.screen.battlefield
+{
+   import com.boyaa.antwars.data.PlayerDataList;
+   import com.boyaa.antwars.data.model.GoodsData;
+   import com.boyaa.antwars.data.model.PlayerData;
+   import com.boyaa.antwars.helper.MathHelper;
+   import com.boyaa.antwars.helper.SmallCodeTools;
+   import com.boyaa.antwars.helper.Timepiece;
+   import com.boyaa.antwars.lang.LangManager;
+   import com.boyaa.antwars.net.server.BattleServer;
+   import com.boyaa.antwars.sound.SoundManager;
+   import com.boyaa.antwars.view.character.Character;
+   import com.boyaa.antwars.view.character.CharacterCtrl;
+   import com.boyaa.antwars.view.character.CharacterFactory;
+   import com.boyaa.antwars.view.mission.MissionManager;
+   import com.boyaa.antwars.view.screen.battlefield.element.LostMovieClip;
+   import com.boyaa.antwars.view.screen.battlefield.element.OtherCharacterCtrl;
+   import com.boyaa.antwars.view.screen.battlefield.element.PokerView;
+   import com.boyaa.antwars.view.screen.battlefield.element.RobotShowCtrl;
+   import com.boyaa.antwars.view.screen.battlefield.element.WinMovieClip;
+   import com.boyaa.antwars.view.screen.battlefield.element.bullet.BulletSlottingManager;
+   import com.boyaa.antwars.view.screen.wedding.WeddingManager;
+   import com.boyaa.debug.Logging.LevelLogger;
+   import flash.geom.Point;
+   import starling.core.Starling;
+   
+   public class Robot2vs2Battlefield extends RobotBattlefield
+   {
+      
+      private static const DELAY_OUT_TIME:Number = 45000;
+      
+      private var _otherCtrlVec:Vector.<OtherCharacterCtrl> = new Vector.<OtherCharacterCtrl>();
+      
+      private var _robotCtrlVec:Vector.<RobotShowCtrl> = new Vector.<RobotShowCtrl>();
+      
+      private var _charcterArr:Array = [];
+      
+      public const PLAYER_DATA:int = 0;
+      
+      public const SHOOT:int = 1;
+      
+      public const ACTION_COMPLETE:int = 2;
+      
+      public const SWICTH_CTRL:int = 3;
+      
+      public const ROBOT_ACTION:int = 4;
+      
+      public const DROP_HP:int = 5;
+      
+      public const BOMB_DATA:int = 6;
+      
+      public const PLAYER_DEAD:int = 7;
+      
+      public const PASS_ROUND:int = 8;
+      
+      private var _currentShooterSiteID:int = -1;
+      
+      public const MAX_PLAYER_NUM:int = 2;
+      
+      private var _wind:Number = 0;
+      
+      private var _hurtArr:Array = [0,0,0,0];
+      
+      private var _shooterArr:Array = [];
+      
+      private var _backArr:Array = [];
+      
+      private var _playerShowCount:int = 0;
+      
+      private var _fightData:Object;
+      
+      private var _dropHpArr:Array = [];
+      
+      private var _win:Boolean;
+      
+      public function Robot2vs2Battlefield()
+      {
+         super();
+      }
+      
+      private function onSetShooter(param1:int) : void
+      {
+         _currentShooterSiteID = param1;
+         var _loc2_:CharacterCtrl = getCtrlBySiteID(param1);
+         if(_loc2_ is RobotShowCtrl)
+         {
+            RobotShowCtrl(_loc2_).attackTarget = getCtrlBySiteID(_fightData.data.arr[3]).icharacter;
+         }
+         switchCtrl();
+      }
+      
+      private function getShooterArr() : Array
+      {
+         var _loc2_:int = 0;
+         var _loc1_:Array = [[0,2,1,3],[1,2,0,3],[3,0,2,1],[2,1,3,0]];
+         if(_backArr.length == 0)
+         {
+            _loc2_ = 0;
+            while(_loc2_ < 1)
+            {
+               _backArr = SmallCodeTools.instance.getRandItemInArr(_loc1_) as Array;
+               _loc2_++;
+            }
+         }
+         return _backArr.concat();
+      }
+      
+      private function changeShooter() : void
+      {
+         var char:CharacterCtrl;
+         var playerCtrl:CharacterCtrl;
+         var robotFightData:Array;
+         if(_gameOver)
+         {
+            return;
+         }
+         _playerShowCount = 0;
+         char = null;
+         while(true)
+         {
+            if(_shooterArr.length == 0)
+            {
+               _shooterArr = getShooterArr();
+            }
+            if(_gameOver)
+            {
+               break;
+            }
+            _currentShooterSiteID = _shooterArr.shift();
+            if(_currentShooterSiteID >= 4)
+            {
+               _currentShooterSiteID = 0;
+            }
+            char = getCtrlBySiteID(_currentShooterSiteID);
+            if(char && char.isDie)
+            {
+               char = null;
+            }
+            LevelLogger.getLogger("Robot2vs2Battlefield").info("changeShooter: " + _currentShooterSiteID);
+            if(char)
+            {
+               _wind = MathHelper.randomWithinRange(0,10) / 10;
+               if(char is RobotShowCtrl)
+               {
+                  playerCtrl = getRandAlivePlayer();
+                  RobotShowCtrl(char).attackTarget = playerCtrl.icharacter;
+                  robotFightData = RobotShowCtrl(char).getRobotFightData();
+                  sendFightData([3,[char.siteID,_wind],selfCharacterCtrl.siteID,playerCtrl.siteID]);
+                  Starling.juggler.delayCall((function():*
+                  {
+                     var delay:Function;
+                     return delay = function():void
+                     {
+                        trace("robotFightData:",robotFightData);
+                        sendFightData([4,[robotFightData],selfCharacterCtrl.siteID,char.siteID]);
+                        RobotShowCtrl(char).addSetpData(robotFightData[0]);
+                     };
+                  })(),2);
+               }
+               else
+               {
+                  sendFightData([3,[char.siteID,_wind],selfCharacterCtrl.siteID]);
+               }
+               Timepiece.instance.removeFun(timeToChangeShooter,2);
+               Timepiece.instance.addDelayCall(timeToChangeShooter,45000);
+               switchCtrl();
+               return;
+            }
+         }
+      }
+      
+      private function timeToChangeShooter() : void
+      {
+         if(PlayerDataList.instance.selfData.houseOwner)
+         {
+            changeShooter();
+         }
+      }
+      
+      private function onFightData(param1:Object) : void
+      {
+         var _loc7_:RobotShowCtrl = null;
+         var _loc6_:Array = null;
+         var _loc4_:Array = null;
+         var _loc3_:CharacterCtrl = null;
+         Application.instance.log("TAG-onFightData",JSON.stringify(param1));
+         _fightData = param1;
+         var _loc8_:CharacterCtrl = getCtrlBySiteID(param1.data.siteID);
+         if(!_loc8_)
+         {
+            sendFightData([2,[],selfCharacterCtrl.siteID]);
+            return;
+         }
+         var _loc2_:Array = [2,5,8];
+         if(_loc8_.siteID == selfCharacterCtrl.siteID && _loc2_.indexOf(param1.data.action) == -1)
+         {
+            return;
+         }
+         switch(param1.data.action)
+         {
+            case 0:
+               OtherCharacterCtrl(_loc8_).addSetpData(param1.data.fightData);
+               break;
+            case 1:
+               BulletSlottingManager.instance.addBulletData(param1.data.fightData as Array,_loc8_.siteID);
+               break;
+            case 2:
+               if(PlayerDataList.instance.selfData.houseOwner)
+               {
+                  _playerShowCount = _playerShowCount + 1;
+                  if(_playerShowCount >= getPlayerCount())
+                  {
+                     isGameOver();
+                     changeShooter();
+                  }
+               }
+               break;
+            case 3:
+               _wind = param1.data.fightData[1];
+               onSetShooter(param1.data.fightData[0]);
+               break;
+            case 4:
+               _loc7_ = getCtrlBySiteID(param1.data.arr[3]) as RobotShowCtrl;
+               RobotShowCtrl(_loc7_).offist = param1.data.fightData[0][1];
+               RobotShowCtrl(_loc7_).addSetpData(param1.data.fightData[0][0]);
+               break;
+            case 5:
+               _loc6_ = param1.data.fightData;
+               if(PlayerDataList.instance.selfData.siteID == _loc6_[0])
+               {
+                  canOverturnPoker = true;
+               }
+               _dropHpArr.push(_loc6_);
+               if(_loc8_.siteID > 1)
+               {
+                  dropHPFunction();
+               }
+               if(PlayerDataList.instance.selfData.siteID == _loc8_.siteID)
+               {
+                  dropHPFunction();
+               }
+               break;
+            case 6:
+               _loc6_ = param1.data.fightData[0];
+               if(!PlayerDataList.instance.selfData.houseOwner)
+               {
+                  break;
+               }
+               var _loc10_:int = 0;
+               var _loc9_:* = _loc6_;
+               while(§§hasnext(_loc9_,_loc10_))
+               {
+                  var _loc5_:Array = §§nextvalue(_loc10_,_loc9_);
+                  _loc4_ = getLossHp(getCtrlBySiteID(_loc5_[7]),getCtrlBySiteID(_loc5_[0]),_loc5_[1]);
+                  sendFightData([5,[_loc5_[7],_loc5_[0],_loc4_[0],_loc4_[1]],_loc8_.siteID]);
+               }
+               break;
+            case 7:
+               _loc6_ = param1.data.fightData;
+               _loc3_ = getCtrlBySiteID(_loc6_[0]);
+               if(_loc3_.isDie)
+               {
+                  return;
+               }
+               break;
+            case 8:
+               if(PlayerDataList.instance.selfData.houseOwner)
+               {
+                  changeShooter();
+               }
+               UILayer.timer.stop();
+         }
+      }
+      
+      private function sendFightData(param1:Array) : void
+      {
+         BattleServer.instance.sendFightData(param1);
+      }
+      
+      private function onPlayerLeave(param1:Object) : void
+      {
+         LevelLogger.getLogger("Robot2vs2Battlefield-onPlayerLeave").info(JSON.stringify(param1));
+         var _loc2_:int = int(param1.data.uid);
+         var _loc3_:int = int(param1.data.siteID);
+         var _loc4_:int = int(param1.data.ownSiteID);
+         PlayerDataList.instance.getDataByUID(_loc2_).leaving = true;
+         removeOtherPlayerBySiteID(_loc3_);
+         UILayer.clearCharBySiteID(_loc3_);
+         if(_loc3_ == _currentShooterSiteID)
+         {
+            sendFightData([2,[],selfCharacterCtrl.siteID]);
+         }
+      }
+      
+      private function onChangeHouseOwner(param1:Object) : void
+      {
+         LevelLogger.getLogger("Robot2vs2Battlefield-onChangeHouseOwner").info(JSON.stringify(param1));
+         var _loc2_:int = int(param1.data.uid);
+         var _loc3_:PlayerData = PlayerDataList.instance.getDataByUID(_loc2_);
+         _loc3_.houseOwner = 1;
+         changeShooter();
+      }
+      
+      private function onUseProp(param1:Object) : void
+      {
+         LevelLogger.getLogger("Robot2vs2Battlefield-onUseProp").info(JSON.stringify(param1));
+         var _loc2_:PlayerData = PlayerDataList.instance.getDataByUID(param1.data.uid);
+         if(_loc2_.siteID != selfCharacterCtrl.siteID)
+         {
+            trace("playData.siteID:",_loc2_.siteID);
+            getCtrlBySiteID(_loc2_.siteID).useProp(param1.data.type);
+         }
+      }
+      
+      private function onPlayerBack(param1:Object) : void
+      {
+      }
+      
+      override protected function switchCtrl() : void
+      {
+         var i:int;
+         if(in_switchCtrl)
+         {
+            return;
+         }
+         in_switchCtrl = true;
+         if(_gameOver)
+         {
+            return;
+         }
+         UILayer.timer.start(30);
+         i = 0;
+         while(i < _charcterArr.length)
+         {
+            _charcterArr[i].ctrlStart(false);
+            i = i + 1;
+         }
+         Starling.juggler.delayCall(function():void
+         {
+            var char:CharacterCtrl;
+            if(_gameOver)
+            {
+               return;
+            }
+            if(_currentShooterSiteID == selfCharacterCtrl.siteID)
+            {
+               cameraFocusCtrlByTouch(true);
+               camera.swapFocus(selfCharacterCtrl.icharacter);
+               playMyGo(function():void
+               {
+                  selfCharacterCtrl.ctrlStart(true);
+                  in_switchCtrl = false;
+               });
+            }
+            else
+            {
+               char = getCtrlBySiteID(_currentShooterSiteID);
+               char.ctrlStart(true);
+               camera.swapFocus(char.icharacter);
+               in_switchCtrl = false;
+            }
+         },1);
+         UILayer.updateRound(_currentShooterSiteID,_wind);
+      }
+      
+      override protected function onTimeOver() : void
+      {
+         if(_currentShooterSiteID == PlayerDataList.instance.selfData.siteID)
+         {
+            selfCharacterCtrl.ctrlStart(false);
+         }
+      }
+      
+      override protected function startGame() : void
+      {
+         Application.instance.currentGame.mainMenu.isEnable(true);
+         this.visible = false;
+         getMap().mapSolid = false;
+         infoSprite.visible = false;
+         addOtherPlayerInWorld();
+         addRobotToWorld(null);
+         addSelfToWorld(PlayerDataList.instance.bornPoint[PlayerDataList.instance.selfData.siteID]);
+         selfCharacterCtrl.downStart();
+         selfCharacterCtrl.slottingCompleteSignal.add(slottingCompleteSignalHandle);
+         selfCharacterCtrl.actionCompeleteSignal.add(actionCompleteHandle);
+         selfCharacterCtrl.dieSignal.addOnce(dieSignalHandle);
+         selfCharacterCtrl.setServer(BattleServer.instance);
+         selfCharacterCtrl.ctrlCompeleteSignal.add(ctrlCompeleteSignalHandle);
+         _charcterArr.push(selfCharacterCtrl);
+         UILayer.timer.timeoverSignal.add(onTimeOver);
+         this.visible = true;
+         bindNet();
+         Application.instance.log("是否是房主…… ：",PlayerDataList.instance.selfData.houseOwner.toString());
+         if(PlayerDataList.instance.selfData.houseOwner)
+         {
+            Starling.juggler.delayCall(changeShooter,3);
+         }
+      }
+      
+      private function bindNet() : void
+      {
+         BattleServer.instance.onFightData(onFightData);
+         BattleServer.instance.onPlayerLeaveInRobot(onPlayerLeave);
+         BattleServer.instance.onChangeRoomOwner(onChangeHouseOwner);
+         BattleServer.instance.onUseProp(onUseProp);
+         BattleServer.instance.onGameOver(onGameOver);
+         BattleServer.instance.onLuckyDraw(onLuckyDraw);
+         BattleServer.instance.onVipLuckyDraw(onLuckyDraw);
+         BattleServer.instance.onPlayerLeave(onPlayerBack);
+         BattleServer.instance.onPlayerChangeWeaponInFightDone(onPlayerChangeWeapon);
+         BattleServer.instance.onFace(receiveFace);
+      }
+      
+      private function unBindNet() : void
+      {
+         BattleServer.instance.disposeRecvFun(onFightData);
+         BattleServer.instance.disposeRecvFun(onPlayerLeave);
+         BattleServer.instance.disposeRecvFun(onGameOver);
+         BattleServer.instance.disposeRecvFun(onLuckyDraw);
+         BattleServer.instance.disposeRecvFun(onChangeHouseOwner);
+         BattleServer.instance.disposeRecvFun(onUseProp);
+         BattleServer.instance.disposeRecvFun(onPlayerBack);
+         BattleServer.instance.disposeRecvFun(receiveFace);
+         BattleServer.instance.disposeRecvFun(onPlayerChangeWeapon);
+      }
+      
+      private function onPlayerChangeWeapon(param1:Object) : void
+      {
+         Application.instance.log("onPlayerChangeWeapon-ROBOTBATTLE",JSON.stringify(param1));
+         if(param1.data.uid == PlayerDataList.instance.selfData.uid)
+         {
+            return;
+         }
+         var _loc3_:PlayerData = PlayerDataList.instance.getDataByUID(param1.data.uid);
+         var _loc2_:GoodsData = new GoodsData();
+         _loc2_.updateGoodsInfo(param1.data.weaponArr);
+         getCtrlBySiteID(_loc3_.siteID).changeWeapon(_loc2_);
+      }
+      
+      override public function onPassBtnHandle() : void
+      {
+         sendFightData([8,[],selfCharacterCtrl.siteID]);
+         selfCharacterCtrl.ctrlStart(false);
+      }
+      
+      override protected function isMyCtrl() : Boolean
+      {
+         if(_currentShooterSiteID == selfCharacterCtrl.siteID)
+         {
+            return true;
+         }
+         return false;
+      }
+      
+      private function dropHPFunction() : void
+      {
+         var _loc1_:Array = null;
+         while(_dropHpArr.length > 0)
+         {
+            _loc1_ = _dropHpArr.shift();
+            dropHpByServer(getCtrlBySiteID(_loc1_[0]),getCtrlBySiteID(_loc1_[1]),_loc1_[2],_loc1_[3]);
+            UILayer.updateCharHP(_loc1_[1],getCtrlBySiteID(_loc1_[1]).hp);
+            addHurt(_loc1_[0],_loc1_[2]);
+         }
+      }
+      
+      override protected function slottingCompleteSignalHandle(param1:int, param2:Array) : void
+      {
+         var _loc9_:int = 0;
+         var _loc8_:CharacterCtrl = null;
+         var _loc3_:Array = null;
+         var _loc7_:int = int(param2.shift());
+         var _loc5_:* = param2;
+         if(param1 == selfCharacterCtrl.siteID)
+         {
+            Application.instance.log("TAG-sendShootData",JSON.stringify(param2) + " siteID " + param1);
+            sendFightData([1,[_loc5_[0],_loc5_[1],_loc5_[2],_loc5_[3]],param1]);
+         }
+         dropHPFunction();
+         if(_loc7_ == 2 || _loc7_ == 3)
+         {
+            return;
+         }
+         _loc9_ = 0;
+         while(_loc9_ < 4)
+         {
+            _loc8_ = getCtrlBySiteID(_loc9_);
+            if(_loc8_)
+            {
+               _loc8_.downStart();
+            }
+            _loc9_++;
+         }
+         var _loc6_:Array = param2[3];
+         if(PlayerDataList.instance.selfData.houseOwner)
+         {
+            for each(var _loc4_ in _loc6_)
+            {
+               _loc3_ = getLossHp(getCtrlBySiteID(_loc4_[7]),getCtrlBySiteID(_loc4_[0]),_loc4_[1]);
+               sendFightData([5,[_loc4_[7],_loc4_[0],_loc3_[0],_loc3_[1]],param1]);
+            }
+         }
+         else if(param1 <= 1)
+         {
+            sendFightData([6,[_loc6_],selfCharacterCtrl.siteID]);
+         }
+      }
+      
+      override protected function actionCompleteHandle(param1:int = 0) : void
+      {
+         var siteId:int = param1;
+         cameraFocusCtrlByTouch(true);
+         Starling.juggler.delayCall((function():*
+         {
+            var delay:Function;
+            return delay = function():void
+            {
+               sendFightData([2,[],selfCharacterCtrl.siteID]);
+            };
+         })(),2);
+      }
+      
+      override protected function dieSignalHandle(param1:int, param2:String) : void
+      {
+         sendFightData([7,[param1,param2],selfCharacterCtrl.siteID]);
+         var _loc3_:CharacterCtrl = getCtrlBySiteID(param1);
+         if(!_loc3_ || _loc3_.isDie)
+         {
+            return;
+         }
+         _loc3_.hp = 0;
+         UILayer.updateCharHP(_loc3_.siteID,_loc3_.hp);
+      }
+      
+      override protected function update(param1:Number) : void
+      {
+         super.update(param1);
+         if(_playerShowCount >= getPlayerCount())
+         {
+            isGameOver();
+         }
+      }
+      
+      override protected function addRobotToWorld(param1:Point) : void
+      {
+         var _loc2_:Array = PlayerDataList.instance.getRobotTeam();
+         for each(var _loc3_ in _loc2_)
+         {
+            addRobotPlayer(_loc3_,PlayerDataList.instance.bornPoint[_loc3_.siteID]);
+         }
+      }
+      
+      private function addRobotPlayer(param1:PlayerData, param2:Point) : void
+      {
+         LevelLogger.getLogger("addRobotPlayer").info("player\'siteID: " + param1.siteID + " player\'s name: " + param1.babyName);
+         var _loc4_:Character = CharacterFactory.instance.checkOutCharacter(param1.babySex);
+         _loc4_.initData(param1.getPropData());
+         var _loc3_:RobotShowCtrl = new RobotShowCtrl(this,_loc4_,param1.siteID,param1.HP,param1.babyName);
+         this._charatersLayer.addChild(_loc4_);
+         _loc4_.x = param2.x;
+         _loc4_.y = param2.y;
+         _loc3_.slottingCompleteSignal.add(slottingCompleteSignalHandle);
+         _loc3_.actionCompeleteSignal.add(actionCompleteHandle);
+         _loc3_.dieSignal.addOnce(dieSignalHandle);
+         _loc3_.downStart();
+         _robotCtrlVec.push(_loc3_);
+         _charcterArr.push(_loc3_);
+         this.UILayer.addChar(param1.siteID,param1.team,_loc4_,param1.HP);
+      }
+      
+      private function addOtherPlayerInWorld() : void
+      {
+         var _loc2_:Array = PlayerDataList.instance.list;
+         for each(var _loc1_ in _loc2_)
+         {
+            if(!(_loc1_.isrobot || _loc1_.uid == PlayerDataList.instance.selfData.uid))
+            {
+               addOtherPlayer(_loc1_);
+            }
+         }
+      }
+      
+      private function addOtherPlayer(param1:PlayerData) : void
+      {
+         var _loc3_:Character = CharacterFactory.instance.checkOutCharacter(param1.babySex);
+         _loc3_.initData(param1.getPropData());
+         LevelLogger.getLogger("RobotBattlefield").info("addOtherPlayer playerData.siteID:" + param1.siteID + " mid:" + param1.uid);
+         var _loc2_:OtherCharacterCtrl = new OtherCharacterCtrl(this,_loc3_,param1.siteID,param1.HP,param1.babyName);
+         _loc2_.actionCompeleteSignal.add(actionCompleteHandle);
+         _loc2_.slottingCompleteSignal.add(slottingCompleteSignalHandle);
+         _loc2_.dieSignal.addOnce(dieSignalHandle);
+         _loc2_.setAttr();
+         _loc2_.downStart();
+         this._charatersLayer.addChild(_loc3_);
+         sHelperPoint = PlayerDataList.instance.bornPoint[param1.siteID];
+         _loc3_.x = sHelperPoint.x;
+         _loc3_.y = sHelperPoint.y;
+         _otherCtrlVec.push(_loc2_);
+         _charcterArr.push(_loc2_);
+         this.UILayer.addChar(param1.siteID,param1.team,_loc3_,param1.HP);
+      }
+      
+      private function isGameOver() : void
+      {
+         var _loc1_:CharacterCtrl = null;
+         var _loc5_:int = 0;
+         if(_gameOver || PlayerDataList.instance.selfData.houseOwner == 0)
+         {
+            return;
+         }
+         var _loc2_:int = 0;
+         var _loc3_:int = 0;
+         var _loc4_:int = 0;
+         _loc5_ = 0;
+         while(_loc5_ < 2)
+         {
+            _loc1_ = getCtrlBySiteID(_loc5_);
+            if(_loc1_ && _loc1_.hp != 0 && !_loc1_.isDie)
+            {
+               _loc3_++;
+            }
+            _loc5_++;
+         }
+         _loc5_ = 2;
+         while(_loc5_ < 4)
+         {
+            _loc1_ = getCtrlBySiteID(_loc5_);
+            if(_loc1_ && _loc1_.hp != 0 && !_loc1_.isDie)
+            {
+               _loc4_++;
+            }
+            _loc5_++;
+         }
+         if(_loc4_ == 0)
+         {
+            _gameOver = true;
+            _loc2_ = 0;
+         }
+         if(_loc3_ == 0)
+         {
+            _gameOver = true;
+            _loc2_ = 1;
+         }
+         if(_gameOver)
+         {
+            BattleServer.instance.sendGameOverInRobot(_loc2_,_hurtArr);
+         }
+      }
+      
+      override protected function onGameOver(param1:Object) : void
+      {
+         super.onGameOver(param1);
+         UILayer.timer.stop();
+      }
+      
+      override protected function playWinOrLostMC(param1:Object) : void
+      {
+         var winMovie:WinMovieClip;
+         var lostMovie:LostMovieClip;
+         var retData:Object = param1;
+         _win = retData.data.winner == PlayerDataList.instance.selfData.team;
+         MissionManager.instance.updateMissionData(104);
+         MissionManager.instance.updateMissionData(136);
+         if(WeddingManager.instance.isCoupleFight)
+         {
+            MissionManager.instance.updateMissionData(158);
+         }
+         if(_win)
+         {
+            MissionManager.instance.updateMissionData(137);
+            if(WeddingManager.instance.isCoupleFight)
+            {
+               MissionManager.instance.updateMissionData(159);
+            }
+            winMovie = new WinMovieClip();
+            addChild(winMovie);
+            winMovie.x = 1365 >> 1;
+            winMovie.y = 768 >> 1;
+            winMovie.completeSignal.addOnce(function():void
+            {
+               winMovie.removeFromParent(true);
+               showResultView(true,retData);
+            });
+            winMovie.play(2);
+            SoundManager.playSound("sound 27");
+         }
+         else
+         {
+            lostMovie = new LostMovieClip();
+            addChild(lostMovie);
+            lostMovie.x = 1365 >> 1;
+            lostMovie.y = 768 >> 1;
+            lostMovie.completeSignal.addOnce(function():void
+            {
+               lostMovie.removeFromParent(true);
+               showResultView(false,retData);
+            });
+            lostMovie.play(2);
+            SoundManager.playSound("sound 28");
+         }
+      }
+      
+      override protected function rewardPoker() : void
+      {
+         var index:int = canOverturnPoker ? 1 : 0;
+         poker = new PokerView(index);
+         if(!canOverturnPoker)
+         {
+            poker.disableMsg = LangManager.t("unPoker");
+         }
+         addChild(poker);
+         poker.play(8);
+         poker.clickPokerSignal.add(function(param1:int):void
+         {
+            LevelLogger.getLogger("rewardPoker").info("玩家：" + PlayerDataList.instance.selfData.siteID + ", 发送翻牌命令--------牌的ID为：" + param1);
+            BattleServer.instance.luckyDraw(param1);
+         });
+         poker.timeView.timeoverSignal.addOnce(function():void
+         {
+            trace("已收到时间结束消失消息====================================");
+            if(poker.pokerNumSelf > 0)
+            {
+               poker.autoTurnCard();
+            }
+            Starling.juggler.delayCall(backToRoom,2);
+         });
+         PlayerDataList.instance.removeLeavingPlayers();
+         PlayerDataList.instance.removeRobotPlayers();
+      }
+      
+      override protected function onLuckyDraw(param1:Object) : void
+      {
+         super.onLuckyDraw(param1);
+      }
+      
+      override protected function showResultView(param1:Boolean, param2:Object) : void
+      {
+         super.showResultView(param1,param2);
+      }
+      
+      override protected function getCtrlBySiteID(param1:int) : CharacterCtrl
+      {
+         var _loc3_:int = 0;
+         var _loc2_:CharacterCtrl = null;
+         _loc3_ = 0;
+         while(_loc3_ < _charcterArr.length)
+         {
+            _loc2_ = _charcterArr[_loc3_] as CharacterCtrl;
+            if(_loc2_.siteID == param1)
+            {
+               return _loc2_;
+            }
+            _loc3_++;
+         }
+         return null;
+      }
+      
+      private function getRandAlivePlayer() : CharacterCtrl
+      {
+         var _loc3_:int = 0;
+         var _loc1_:CharacterCtrl = null;
+         var _loc2_:Array = [];
+         _loc3_ = 0;
+         while(_loc3_ < 2)
+         {
+            _loc1_ = getCtrlBySiteID(_loc3_);
+            if(_loc1_ && _loc1_.isDie == false)
+            {
+               _loc2_.push(_loc1_);
+            }
+            _loc3_++;
+         }
+         return _loc2_[MathHelper.randomWithinRange(0,_loc2_.length - 1)];
+      }
+      
+      private function getPlayerCount() : int
+      {
+         var _loc3_:int = 0;
+         var _loc2_:CharacterCtrl = null;
+         var _loc1_:int = 0;
+         _loc3_ = 0;
+         while(_loc3_ < 2)
+         {
+            _loc2_ = getCtrlBySiteID(_loc3_);
+            if(_loc2_)
+            {
+               _loc1_++;
+            }
+            _loc3_++;
+         }
+         return _loc1_;
+      }
+      
+      private function addHurt(param1:int, param2:int) : void
+      {
+         var _loc3_:* = param1;
+         var _loc4_:* = _hurtArr[_loc3_] + param2;
+         _hurtArr[_loc3_] = _loc4_;
+      }
+      
+      private function getHurtBySiteID(param1:int) : int
+      {
+         return _hurtArr[param1];
+      }
+      
+      private function removeOtherPlayerBySiteID(param1:int) : void
+      {
+         var _loc3_:int = 0;
+         var _loc2_:OtherCharacterCtrl = null;
+         _loc3_ = 0;
+         while(_loc3_ < _charcterArr.length)
+         {
+            _loc2_ = _charcterArr[_loc3_] as OtherCharacterCtrl;
+            if(_loc2_ && _loc2_.siteID == param1)
+            {
+               _loc2_.ctrlStart(false);
+               if(_loc2_.character)
+               {
+                  _loc2_.character.removeFromParent(true);
+               }
+               _loc2_.dispose();
+               _charcterArr.splice(_loc3_,1);
+            }
+            _loc3_++;
+         }
+      }
+      
+      override public function dispose() : void
+      {
+         var _loc2_:int = 0;
+         var _loc1_:CharacterCtrl = null;
+         super.dispose();
+         unBindNet();
+         _loc2_ = 0;
+         while(_loc2_ < _charcterArr.length)
+         {
+            _loc1_ = _charcterArr[_loc2_];
+            if(_loc1_ is RobotShowCtrl)
+            {
+               _loc1_.dispose();
+            }
+            _loc2_++;
+         }
+         Timepiece.instance.removeFun(timeToChangeShooter,2);
+      }
+   }
+}
+

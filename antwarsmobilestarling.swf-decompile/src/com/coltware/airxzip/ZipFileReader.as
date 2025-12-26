@@ -1,0 +1,394 @@
+package com.coltware.airxzip
+{
+   import com.coltware.airxzip.crypt.ICrypto;
+   import com.coltware.airxzip.crypt.ZipCrypto;
+   import flash.events.*;
+   import flash.filesystem.*;
+   import flash.utils.*;
+   import mx.logging.*;
+   
+   use namespace zip_internal;
+   
+   public class ZipFileReader extends EventDispatcher
+   {
+      
+      private static var log:ILogger = Log.getLogger("com.coltware.airxzip.ZipFileReader");
+      
+      private var _unzipWorking:Boolean = false;
+      
+      private var _totalEntries:uint = 0;
+      
+      private var _charset:String = "shift_jis";
+      
+      private var _entries:Array;
+      
+      private var _endRecord:ZipEndRecord;
+      
+      private var _file:File;
+      
+      private var _unzipNum:int = 0;
+      
+      private var _stream:FileStream;
+      
+      private var _unzipStack:Array;
+      
+      private var _decryptors:Array;
+      
+      private var _password:ByteArray;
+      
+      public function ZipFileReader()
+      {
+         super();
+         this._stream = new FileStream();
+         this._stream.addEventListener(IOErrorEvent.IO_ERROR,this.ioError);
+         this._unzipStack = new Array();
+         this._entries = new Array();
+         this._decryptors = new Array();
+      }
+      
+      private function ioError(param1:Event) : void
+      {
+         log.fatal("ioError " + param1);
+         this.dispatchEvent(param1);
+      }
+      
+      public function addDecrypto(param1:ICrypto) : void
+      {
+         this._decryptors.push(param1);
+      }
+      
+      public function open(param1:File) : void
+      {
+         this._file = param1;
+         this._stream.open(this._file,FileMode.READ);
+         this._stream.endian = Endian.LITTLE_ENDIAN;
+         this._stream.position = this._stream.bytesAvailable - ZipEndRecord.LENGTH;
+         var _loc2_:int = 0;
+         var _loc3_:int = 0;
+         while(this._stream.position > 0)
+         {
+            _loc2_ = int(this._stream.position);
+            _loc3_ = int(this._stream.readInt());
+            if(_loc3_ == ZipEndRecord.SIGNATURE)
+            {
+               this._endRecord = new ZipEndRecord();
+               this._stream.position = _loc2_;
+               this._endRecord.read(this._stream);
+               this._entries = new Array();
+               this._totalEntries = this._endRecord.getTotalEntries();
+               log.debug("ZipEndRecord " + _loc2_);
+               break;
+            }
+            if(_loc3_ == ZipHeader.HEADER_CENTRAL_DIR)
+            {
+               log.debug("FOUND CENTRAL " + this._stream.position);
+            }
+            this._stream.position = _loc2_ - 1;
+         }
+      }
+      
+      public function setPasswordBytes(param1:ByteArray) : void
+      {
+         this._password = param1;
+         this._password.position = 0;
+      }
+      
+      public function check(param1:File) : Boolean
+      {
+         var s:FileStream = null;
+         var i:int = 0;
+         var file:File = param1;
+         if(file.isDirectory)
+         {
+            return false;
+         }
+         if(file.isSymbolicLink)
+         {
+            return false;
+         }
+         try
+         {
+            s = new FileStream();
+            s.open(file,FileMode.READ);
+            s.endian = Endian.LITTLE_ENDIAN;
+            s.position = 0;
+            i = int(s.readInt());
+            s.close();
+            if(i == ZipHeader.HEADER_LOCAL_FILE)
+            {
+               return true;
+            }
+         }
+         catch(err:Error)
+         {
+            return false;
+         }
+         return false;
+      }
+      
+      public function rawdata(param1:ZipEntry) : ByteArray
+      {
+         var _loc2_:int = param1.getLocalHeaderOffset();
+         this._stream.position = _loc2_;
+         var _loc3_:ZipHeader = new ZipHeader();
+         _loc3_.readAuto(this._stream);
+         param1.zip_internal::_headerLocal = _loc3_;
+         var _loc4_:ByteArray = new ByteArray();
+         var _loc5_:int = param1.getCompressSize();
+         if(_loc5_ > 0)
+         {
+            this._stream.readBytes(_loc4_,0,param1.getCompressSize());
+         }
+         _loc4_.position = 0;
+         return _loc4_;
+      }
+      
+      private function execUnzip(param1:int = 10) : void
+      {
+         var _loc2_:ZipEntry = null;
+         if(this._unzipStack.length > 0)
+         {
+            this._unzipWorking = true;
+            _loc2_ = this._unzipStack.shift();
+            setTimeout(this.unzipAsyncTimeout,param1,_loc2_);
+         }
+      }
+      
+      private function unzipAsyncTimeout(param1:ZipEntry) : void
+      {
+         var size:int;
+         var bytes:ByteArray;
+         var method:int;
+         var lzh:ZipHeader;
+         var err:ZipErrorEvent = null;
+         var decrypt:ICrypto = null;
+         var i:int = 0;
+         var _decrypt:ICrypto = null;
+         var e:ZipErrorEvent = null;
+         var entry:ZipEntry = param1;
+         var event:ZipEvent = new ZipEvent(ZipEvent.ZIP_DATA_UNCOMPRESS);
+         var pos:int = entry.getLocalHeaderOffset();
+         this._stream.position = pos;
+         this._stream.position = pos;
+         lzh = new ZipHeader();
+         lzh.readAuto(this._stream);
+         entry.zip_internal::_headerLocal = lzh;
+         bytes = new ByteArray();
+         size = entry.getCompressSize();
+         if(size > 0)
+         {
+            this._stream.readBytes(bytes,0,size);
+         }
+         if(entry.isEncrypted())
+         {
+            if(this._password == null)
+            {
+               err = new ZipErrorEvent(ZipErrorEvent.ZIP_PASSWORD_ERROR);
+               this.dispatchEvent(err);
+               return;
+            }
+            decrypt = null;
+            i = 0;
+            while(i < this._decryptors.length && decrypt == null)
+            {
+               _decrypt = this._decryptors[i];
+               if(_decrypt.checkDecrypt(entry))
+               {
+                  decrypt = _decrypt;
+               }
+               i++;
+            }
+            if(decrypt == null)
+            {
+               decrypt = new ZipCrypto();
+            }
+            decrypt.initDecrypt(this._password,lzh);
+            try
+            {
+               bytes = decrypt.decrypt(bytes);
+            }
+            catch(ze:ZipError)
+            {
+               err = new ZipErrorEvent(ZipErrorEvent.ZIP_PASSWORD_ERROR);
+               this.dispatchEvent(err);
+            }
+         }
+         method = entry.getCompressMethod();
+         if(method != ZipEntry.METHOD_NONE)
+         {
+            if(method != ZipEntry.METHOD_DEFLATE)
+            {
+               e = new ZipErrorEvent(ZipErrorEvent.ZIP_NO_SUCH_METHOD);
+               this.dispatchEvent(e);
+               return;
+            }
+            event.zip_internal::$method = CompressionAlgorithm.DEFLATE;
+         }
+         event.zip_internal::$entry = entry;
+         event.zip_internal::$data = bytes;
+         this.dispatchEvent(event);
+         this._unzipWorking = false;
+         ++this._unzipNum;
+         log.debug("unzipping " + entry.getFilename() + "..." + this._unzipNum);
+         this.execUnzip();
+      }
+      
+      public function setPassword(param1:String, param2:String = null) : void
+      {
+         var _loc3_:ByteArray = new ByteArray();
+         if(param2 == null)
+         {
+            _loc3_.writeUTFBytes(param1);
+         }
+         else
+         {
+            _loc3_.writeMultiByte(param1,param2);
+         }
+         this._password = _loc3_;
+         this._password.position = 0;
+      }
+      
+      public function unzip(param1:ZipEntry) : ByteArray
+      {
+         var _loc7_:ICrypto = null;
+         var _loc8_:int = 0;
+         var _loc9_:ICrypto = null;
+         log.debug("unzip(" + param1.getFilename() + ")");
+         var _loc2_:int = param1.getLocalHeaderOffset();
+         this._stream.position = _loc2_;
+         var _loc3_:ZipHeader = new ZipHeader();
+         _loc3_.readAuto(this._stream);
+         param1.zip_internal::_headerLocal = _loc3_;
+         var _loc4_:ByteArray = new ByteArray();
+         var _loc5_:int = param1.getCompressSize();
+         if(_loc5_ > 0)
+         {
+            this._stream.readBytes(_loc4_,0,param1.getCompressSize());
+         }
+         if(param1.isEncrypted())
+         {
+            if(this._password == null)
+            {
+               throw new ZipError("password is NULL");
+            }
+            _loc7_ = null;
+            _loc8_ = 0;
+            while(_loc8_ < this._decryptors.length && _loc7_ == null)
+            {
+               _loc9_ = this._decryptors[_loc8_];
+               if(_loc9_.checkDecrypt(param1))
+               {
+                  _loc7_ = _loc9_;
+               }
+               _loc8_++;
+            }
+            if(_loc7_ == null)
+            {
+               _loc7_ = new ZipCrypto();
+            }
+            _loc7_.initDecrypt(this._password,_loc3_);
+            _loc4_ = _loc7_.decrypt(_loc4_);
+         }
+         var _loc6_:int = param1.getCompressMethod();
+         if(_loc6_ != ZipEntry.METHOD_NONE)
+         {
+            if(_loc6_ != ZipEntry.METHOD_DEFLATE)
+            {
+               throw new ZipError("not support compress method : " + _loc6_);
+            }
+            log.debug("uncompress data size is + " + _loc4_.length);
+            _loc4_.uncompress(CompressionAlgorithm.DEFLATE);
+         }
+         return _loc4_;
+      }
+      
+      protected function parseCentralHeaders() : void
+      {
+         var _loc5_:int = 0;
+         var _loc6_:ZipHeader = null;
+         var _loc7_:ZipEntry = null;
+         var _loc1_:int = this._endRecord.getOffset();
+         var _loc2_:int = this._endRecord.getSize();
+         this._stream.position = _loc1_;
+         var _loc3_:ByteArray = new ByteArray();
+         _loc3_.endian = Endian.LITTLE_ENDIAN;
+         this._stream.readBytes(_loc3_,0,_loc2_);
+         _loc3_.position = 0;
+         var _loc4_:ByteArray = new ByteArray();
+         _loc4_.endian = Endian.LITTLE_ENDIAN;
+         while(_loc3_.bytesAvailable)
+         {
+            _loc5_ = _loc3_.readInt();
+            _loc6_ = new ZipHeader(_loc5_);
+            _loc6_.read(_loc3_,_loc4_);
+            _loc6_.dumpLogInfo();
+            _loc7_ = new ZipEntry(this._stream);
+            _loc7_.setHeader(_loc6_);
+            this._entries.push(_loc7_);
+         }
+         log.debug("parse central header end " + this._entries.length);
+      }
+      
+      public function getEntries() : Array
+      {
+         this.parseCentralHeaders();
+         return this._entries;
+      }
+      
+      public function close() : void
+      {
+         if(this._stream)
+         {
+            this._stream.close();
+         }
+      }
+      
+      public function unzipAsync(param1:ZipEntry) : void
+      {
+         this._unzipStack.push(param1);
+         if(this._unzipWorking == false)
+         {
+            this.execUnzip(1000);
+         }
+      }
+      
+      private function readStream(param1:Event) : void
+      {
+         var _loc3_:int = 0;
+         var _loc4_:ZipHeader = null;
+         var _loc5_:ByteArray = null;
+         var _loc6_:ZipEntry = null;
+         var _loc7_:ZipHeader = null;
+         var _loc2_:ByteArray = new ByteArray();
+         this._stream.endian = Endian.LITTLE_ENDIAN;
+         _loc2_.endian = Endian.LITTLE_ENDIAN;
+         while(this._stream.bytesAvailable)
+         {
+            _loc3_ = int(this._stream.readInt());
+            if(_loc3_ == ZipHeader.HEADER_LOCAL_FILE)
+            {
+               _loc4_ = new ZipHeader(_loc3_);
+               _loc4_.read(this._stream,_loc2_);
+               _loc5_ = new ByteArray();
+               if(_loc4_.getCompressSize() > 0)
+               {
+                  this._stream.readBytes(_loc5_,0,_loc4_.getCompressSize());
+               }
+               _loc6_ = new ZipEntry(this._stream);
+               _loc6_.setHeader(_loc4_);
+            }
+            else
+            {
+               if(_loc3_ != ZipHeader.HEADER_CENTRAL_DIR)
+               {
+                  break;
+               }
+               log.debug("CENTRAL DIR.." + _loc3_.toString(16));
+               _loc7_ = new ZipHeader(_loc3_);
+               _loc7_.read(this._stream,_loc2_);
+            }
+         }
+      }
+   }
+}
+
