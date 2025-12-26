@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://texturepacker.com-->
+<!-- $TexturePacker:SmartUpdate:029e3b3f68716db26bfa46c52f95fab6$ -->
+<TextureAtlas imagePath="weddingInfo.png">
+    <SubTexture name="btnS_agreeBtn1" x="413" y="285" width="88" height="41"/>
+    <SubTexture name="btnS_agreeBtn2" x="414" y="240" width="89" height="43"/>
+    <SubTexture name="btnS_chooseFriend1" x="323" y="159" width="128" height="33"/>
+    <SubTexture name="btnS_chooseFriend2" x="323" y="124" width="128" height="33"/>
+    <SubTexture name="btnS_closeBtn1" x="453" y="131" width="39" height="39"/>
+    <SubTexture name="btnS_closeBtn2" x="467" y="90" width="39" height="39"/>
+    <SubTexture name="btnS_refuseBtn1" x="323" y="285" width="88" height="41"/>
+    <SubTexture name="btnS_refuseBtn2" x="323" y="240" width="89" height="43"/>
+    <SubTexture name="btnS_sendPop1" x="323" y="47" width="148" height="41"/>
+    <SubTexture name="btnS_sendPop2" x="323" y="2" width="149" height="43"/>
+    <SubTexture name="img_divorceBg" x="2" y="298" width="305" height="269"/>
+    <SubTexture name="img_friendNameBg" x="323" y="90" width="142" height="32"/>
+    <SubTexture name="img_lihunTitle" x="323" y="218" width="107" height="20"/>
+    <SubTexture name="img_marryTitle" x="323" y="194" width="115" height="22"/>
+    <SubTexture name="img_popInputBg" x="2" y="2" width="319" height="294"/>
+</TextureAtlas>
+

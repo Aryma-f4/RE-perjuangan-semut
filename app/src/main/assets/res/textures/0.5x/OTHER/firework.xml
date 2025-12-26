@@ -1,0 +1,12 @@
+<TextureAtlas name="firework">
+  <SubTexture name="cz 124" x="92" y="0" width="5" height="4"/>
+  <SubTexture name="cz 123" x="66" y="0" width="5" height="7"/>
+  <SubTexture name="cz 122" x="50" y="0" width="7" height="8"/>
+  <SubTexture name="cz 121" x="72" y="0" width="6" height="5"/>
+  <SubTexture name="cz 120" x="86" y="0" width="5" height="5"/>
+  <SubTexture name="cz 119" x="79" y="0" width="6" height="4"/>
+  <SubTexture name="cz 118" x="98" y="0" width="3" height="3"/>
+  <SubTexture name="yh 238" x="58" y="0" width="7" height="6"/>
+  <SubTexture name="yh 241" x="0" y="0" width="40" height="119"/>
+  <SubTexture name="yh 236" x="41" y="0" width="8" height="52"/>
+</TextureAtlas>

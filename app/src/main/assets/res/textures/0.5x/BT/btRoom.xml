@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://texturepacker.com-->
+<!-- $TexturePacker:SmartUpdate:4731384cfa2d2be52d5062c2c9446e50$ -->
+<TextureAtlas imagePath="btRoom.png">
+    <SubTexture name="btnS_btHallBackButton1" x="295" y="579" width="31" height="24"/>
+    <SubTexture name="btnS_btHallBackButton2" x="262" y="579" width="31" height="24"/>
+    <SubTexture name="btnS_btHallCreateBtn1" x="200" y="427" width="98" height="46"/>
+    <SubTexture name="btnS_btHallCreateBtn2" x="100" y="427" width="98" height="46"/>
+    <SubTexture name="btnS_btHallCreateButton1" x="296" y="978" width="96" height="42"/>
+    <SubTexture name="btnS_btHallCreateButton2" x="198" y="978" width="96" height="42"/>
+    <SubTexture name="btnS_btHallCreateDlgChoice1" x="103" y="579" width="27" height="27" frameX="-1" frameY="-3" frameWidth="31" frameHeight="31"/>
+    <SubTexture name="btnS_btHallCreateDlgChoice2" x="70" y="579" width="31" height="32"/>
+    <SubTexture name="btnS_btHallFightButton1" x="394" y="668" width="117" height="67"/>
+    <SubTexture name="btnS_btHallFightButton2" x="878" y="612" width="117" height="67"/>
+    <SubTexture name="btnS_btHallItemSelectStateButton1" x="525" y="656" width="350" height="39"/>
+    <SubTexture name="btnS_btHallItemSelectStateButton2" x="525" y="615" width="350" height="39"/>
+    <SubTexture name="btnS_btHallJoinGameButton1" x="828" y="346" width="59" height="29"/>
+    <SubTexture name="btnS_btHallJoinGameButton2" x="828" y="315" width="59" height="29"/>
+    <SubTexture name="btnS_btHallOkButton1" x="100" y="978" width="96" height="42"/>
+    <SubTexture name="btnS_btHallOkButton2" x="2" y="978" width="96" height="42"/>
+    <SubTexture name="btnS_btHallPickerButton1" x="828" y="483" width="55" height="16"/>
+    <SubTexture name="btnS_btHallPickerButton2" x="828" y="465" width="55" height="16"/>
+    <SubTexture name="btnS_btHallRefreshBtn1" x="828" y="421" width="56" height="42"/>
+    <SubTexture name="btnS_btHallRefreshBtn2" x="828" y="377" width="56" height="42"/>
+    <SubTexture name="btnS_btHallSearchBtn1" x="559" y="436" width="98" height="46"/>
+    <SubTexture name="btnS_btHallSearchBtn2" x="559" y="388" width="98" height="46"/>
+    <SubTexture name="btnS_btRoomCancelButton1" x="447" y="484" width="87" height="85"/>
+    <SubTexture name="btnS_btRoomCancelButton2" x="358" y="484" width="87" height="85"/>
+    <SubTexture name="btnS_btRoomChangeButton1" x="877" y="681" width="82" height="46"/>
+    <SubTexture name="btnS_btRoomChangeButton2" x="468" y="427" width="82" height="46"/>
+    <SubTexture name="btnS_btRoomInviteButton1" x="384" y="427" width="82" height="46"/>
+    <SubTexture name="btnS_btRoomInviteButton2" x="300" y="427" width="82" height="46"/>
+    <SubTexture name="btnS_btRoomPropButton1" x="2" y="579" width="66" height="34" frameX="-3" frameY="-3" frameWidth="74" frameHeight="38"/>
+    <SubTexture name="btnS_btRoomPropButton2" x="943" y="163" width="74" height="40"/>
+    <SubTexture name="btnS_btRoomReadyButton1" x="269" y="484" width="87" height="85"/>
+    <SubTexture name="btnS_btRoomReadyButton2" x="180" y="484" width="87" height="85"/>
+    <SubTexture name="btnS_btRoomStartButton1" x="91" y="484" width="87" height="85"/>
+    <SubTexture name="btnS_btRoomStartButton2" x="2" y="484" width="87" height="85"/>
+    <SubTexture name="btnS_btRoomWeaponButton1" x="943" y="205" width="66" height="34" frameX="-4" frameY="-2" frameWidth="74" frameHeight="38"/>
+    <SubTexture name="btnS_btRoomWeaponButton2" x="943" y="121" width="74" height="40"/>
+    <SubTexture name="img_btHall1v1Flag" x="328" y="579" width="48" height="23"/>
+    <SubTexture name="img_btHall2v2Flag" x="828" y="539" width="49" height="23"/>
+    <SubTexture name="img_btHallBigBg" x="2" y="2" width="682" height="384"/>
+    <SubTexture name="img_btHallBigTitleBg" x="2" y="388" width="521" height="37"/>
+    <SubTexture name="img_btHallCreateDlgTitle" x="878" y="591" width="127" height="19"/>
+    <SubTexture name="img_btHallInputBg" x="686" y="227" width="201" height="34"/>
+    <SubTexture name="img_btHallListBg" x="2" y="681" width="371" height="295"/>
+    <SubTexture name="img_btHallLittleTitle0" x="865" y="263" width="21" height="12"/>
+    <SubTexture name="img_btHallLittleTitle1" x="378" y="599" width="64" height="12"/>
+    <SubTexture name="img_btHallLittleTitle2" x="889" y="227" width="43" height="12"/>
+    <SubTexture name="img_btHallLockImg" x="997" y="612" width="18" height="22"/>
+    <SubTexture name="img_btHallPlayerInfoBg" x="686" y="306" width="140" height="271"/>
+    <SubTexture name="img_btHallPlayerInfoTitle" x="497" y="579" width="60" height="15"/>
+    <SubTexture name="img_btHallSearchDlgTitle" x="378" y="579" width="117" height="18"/>
+    <SubTexture name="img_btHallTitle" x="686" y="283" width="159" height="21"/>
+    <SubTexture name="img_btHallselectBg1" x="197" y="579" width="63" height="26"/>
+    <SubTexture name="img_btHallselectBg2" x="132" y="579" width="63" height="26"/>
+    <SubTexture name="img_btPasswordTitle" x="686" y="263" width="177" height="18"/>
+    <SubTexture name="img_btRoomBottomBg" x="2" y="615" width="521" height="51"/>
+    <SubTexture name="img_btRoomFireFlagImg" x="559" y="484" width="86" height="109"/>
+    <SubTexture name="img_btRoomItem1" x="51" y="427" width="47" height="48"/>
+    <SubTexture name="img_btRoomItem2" x="2" y="427" width="47" height="48"/>
+    <SubTexture name="img_btRoomItem3" x="828" y="564" width="48" height="49"/>
+    <SubTexture name="img_btRoomPlayerBoxBg1" x="886" y="416" width="132" height="173"/>
+    <SubTexture name="img_btRoomPlayerBoxBg2" x="889" y="241" width="132" height="173"/>
+    <SubTexture name="img_btRoomPlayerOwnerBg" x="847" y="298" width="32" height="15"/>
+    <SubTexture name="img_btRoomPropBg" x="686" y="2" width="335" height="117"/>
+    <SubTexture name="img_btRoomPropSmallBg" x="686" y="121" width="255" height="104"/>
+    <SubTexture name="img_btRoomReady" x="828" y="501" width="49" height="36"/>
+    <SubTexture name="img_btRoomTitleFlag" x="865" y="277" width="20" height="19"/>
+</TextureAtlas>
+

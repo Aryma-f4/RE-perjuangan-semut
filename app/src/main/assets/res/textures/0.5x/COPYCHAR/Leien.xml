@@ -1,0 +1,61 @@
+<TextureAtlas name="Leien">
+  <SubTexture name="莱恩资源/补间 22" x="489" y="28" width="22" height="19"/>
+  <SubTexture name="莱恩资源/a43" x="479" y="340" width="27" height="8"/>
+  <SubTexture name="莱恩资源/a42" x="479" y="321" width="31" height="18"/>
+  <SubTexture name="莱恩资源/a41" x="253" y="124" width="36" height="30"/>
+  <SubTexture name="莱恩资源/a40" x="253" y="90" width="37" height="33"/>
+  <SubTexture name="莱恩资源/a39" x="236" y="285" width="40" height="46"/>
+  <SubTexture name="莱恩资源/a38" x="237" y="237" width="43" height="47"/>
+  <SubTexture name="莱恩资源/a37" x="196" y="381" width="63" height="47"/>
+  <SubTexture name="莱恩资源/a36" x="0" y="376" width="66" height="45"/>
+  <SubTexture name="莱恩资源/a35" x="419" y="400" width="64" height="43"/>
+  <SubTexture name="莱恩资源/a34" x="330" y="414" width="60" height="46"/>
+  <SubTexture name="莱恩资源/a33" x="0" y="422" width="55" height="46"/>
+  <SubTexture name="莱恩资源/a32" x="260" y="426" width="55" height="42"/>
+  <SubTexture name="莱恩资源/a31" x="391" y="246" width="31" height="31"/>
+  <SubTexture name="莱恩资源/a30" x="0" y="156" width="152" height="56"/>
+  <SubTexture name="莱恩资源/a13" x="141" y="361" width="54" height="78"/>
+  <SubTexture name="莱恩资源/a12" x="364" y="335" width="54" height="78"/>
+  <SubTexture name="莱恩资源/a11" x="275" y="347" width="54" height="78"/>
+  <SubTexture name="莱恩资源/a10" x="424" y="321" width="54" height="78"/>
+  <SubTexture name="莱恩资源/a18" x="426" y="139" width="83" height="90"/>
+  <SubTexture name="莱恩资源/a17" x="153" y="179" width="83" height="90"/>
+  <SubTexture name="莱恩资源/a16" x="152" y="270" width="83" height="90"/>
+  <SubTexture name="莱恩资源/a15" x="0" y="213" width="83" height="90"/>
+  <SubTexture name="莱恩资源/a14" x="424" y="230" width="83" height="90"/>
+  <SubTexture name="莱恩资源/bsb20" x="439" y="444" width="43" height="35"/>
+  <SubTexture name="莱恩资源/bsb25" x="237" y="184" width="50" height="52"/>
+  <SubTexture name="莱恩资源/bsb27" x="396" y="85" width="27" height="42"/>
+  <SubTexture name="莱恩资源/bsb26" x="114" y="440" width="51" height="36"/>
+  <SubTexture name="莱恩资源/bsb24" x="391" y="278" width="32" height="25"/>
+  <SubTexture name="莱恩资源/bsb1" x="391" y="444" width="47" height="34"/>
+  <SubTexture name="莱恩资源/bsb32" x="253" y="155" width="37" height="28"/>
+  <SubTexture name="莱恩资源/bsb18" x="196" y="429" width="53" height="39"/>
+  <SubTexture name="莱恩资源/bsb2" x="364" y="285" width="23" height="27"/>
+  <SubTexture name="莱恩资源/bsb23" x="84" y="213" width="67" height="73"/>
+  <SubTexture name="莱恩资源/bsb16" x="489" y="77" width="12" height="17"/>
+  <SubTexture name="莱恩资源/bsb31" x="196" y="361" width="39" height="19"/>
+  <SubTexture name="莱恩资源/bsb3" x="236" y="332" width="38" height="36"/>
+  <SubTexture name="莱恩资源/bsb35" x="316" y="461" width="40" height="25"/>
+  <SubTexture name="莱恩资源/补间 1" x="56" y="465" width="41" height="19"/>
+  <SubTexture name="莱恩资源/补间 6" x="396" y="156" width="27" height="28"/>
+  <SubTexture name="莱恩资源/bsb19" x="388" y="304" width="35" height="30"/>
+  <SubTexture name="莱恩资源/bsb4" x="0" y="304" width="66" height="71"/>
+  <SubTexture name="莱恩资源/pf1" x="288" y="201" width="102" height="83"/>
+  <SubTexture name="莱恩资源/bsb17" x="291" y="0" width="135" height="84"/>
+  <SubTexture name="莱恩资源/bsb5" x="56" y="431" width="57" height="33"/>
+  <SubTexture name="莱恩资源/pf3" x="153" y="0" width="137" height="89"/>
+  <SubTexture name="莱恩资源/bsb37" x="277" y="285" width="86" height="61"/>
+  <SubTexture name="莱恩资源/bsb11" x="391" y="212" width="32" height="33"/>
+  <SubTexture name="莱恩资源/bsb36" x="153" y="90" width="99" height="88"/>
+  <SubTexture name="莱恩资源/pf2" x="84" y="287" width="56" height="83"/>
+  <SubTexture name="莱恩资源/bsb12" x="396" y="128" width="29" height="27"/>
+  <SubTexture name="莱恩资源/bsb34" x="291" y="85" width="104" height="115"/>
+  <SubTexture name="莱恩资源/bsb28" x="489" y="0" width="17" height="27"/>
+  <SubTexture name="莱恩资源/bsb33" x="0" y="0" width="152" height="155"/>
+  <SubTexture name="莱恩资源/bsb8" x="67" y="371" width="55" height="59"/>
+  <SubTexture name="莱恩资源/bsb10" x="502" y="48" width="9" height="21"/>
+  <SubTexture name="莱恩资源/bsb9" x="489" y="48" width="12" height="28"/>
+  <SubTexture name="莱恩资源/bsb13" x="396" y="185" width="28" height="26"/>
+  <SubTexture name="莱恩资源/bsb14" x="427" y="0" width="61" height="138"/>
+</TextureAtlas>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://texturepacker.com-->
+<!-- $TexturePacker:SmartUpdate:43f848002ae4681525dab6926e618ff8$ -->
+<TextureAtlas imagePath="BattlefieldUI.png">
+    <SubTexture name="btnS_btUIAutoFightBtn1" x="368" y="492" width="52" height="52"/>
+    <SubTexture name="btnS_btUIAutoFightBtn2" x="2" y="431" width="50" height="50"/>
+    <SubTexture name="btnS_btUIDown1" x="322" y="397" width="68" height="68"/>
+    <SubTexture name="btnS_btUIDown2" x="252" y="374" width="68" height="68"/>
+    <SubTexture name="btnS_btUIEmotionIcon1" x="314" y="467" width="52" height="52"/>
+    <SubTexture name="btnS_btUIEmotionIcon2" x="105" y="431" width="49" height="49"/>
+    <SubTexture name="btnS_btUIFight1" x="142" y="361" width="68" height="68"/>
+    <SubTexture name="btnS_btUIFight2" x="72" y="361" width="68" height="68"/>
+    <SubTexture name="btnS_btUIHeadBtn1" x="463" y="437" width="43" height="43"/>
+    <SubTexture name="btnS_btUIHeadBtn2" x="463" y="392" width="43" height="43"/>
+    <SubTexture name="btnS_btUILayerRelive1" x="457" y="115" width="52" height="56"/>
+    <SubTexture name="btnS_btUILayerRelive2" x="457" y="57" width="52" height="56"/>
+    <SubTexture name="btnS_btUILeft1" x="2" y="361" width="68" height="68"/>
+    <SubTexture name="btnS_btUILeft2" x="393" y="386" width="68" height="68"/>
+    <SubTexture name="btnS_btUIPassBtn1" x="252" y="444" width="60" height="32"/>
+    <SubTexture name="btnS_btUIPassBtn2" x="392" y="460" width="56" height="30"/>
+    <SubTexture name="btnS_btUIPropChangeBtn1" x="341" y="121" width="114" height="37"/>
+    <SubTexture name="btnS_btUIPropChangeBtn2" x="341" y="42" width="114" height="38"/>
+    <SubTexture name="btnS_btUIPropIcon1" x="323" y="327" width="68" height="68"/>
+    <SubTexture name="btnS_btUIPropIcon2" x="438" y="173" width="71" height="71"/>
+    <SubTexture name="btnS_btUIRight1" x="253" y="304" width="68" height="68"/>
+    <SubTexture name="btnS_btUIRight2" x="411" y="316" width="68" height="68"/>
+    <SubTexture name="btnS_btUISkill1" x="450" y="482" width="52" height="52"/>
+    <SubTexture name="btnS_btUISkill2" x="54" y="431" width="49" height="49"/>
+    <SubTexture name="btnS_btUIUp1" x="341" y="257" width="68" height="68"/>
+    <SubTexture name="btnS_btUIUp2" x="438" y="246" width="68" height="68"/>
+    <SubTexture name="btnS_btUIWeaponChangeBtn1" x="341" y="82" width="114" height="37"/>
+    <SubTexture name="btnS_btUIWeaponChangeBtn2" x="341" y="2" width="114" height="38"/>
+    <SubTexture name="btnS_btUIcloseBtn1" x="198" y="448" width="38" height="38"/>
+    <SubTexture name="btnS_btUIcloseBtn2" x="212" y="408" width="38" height="38"/>
+    <SubTexture name="btnS_btUIsetBtn1" x="156" y="431" width="40" height="40"/>
+    <SubTexture name="btnS_btUIsetBtn2" x="212" y="368" width="38" height="38"/>
+    <SubTexture name="img_btUIAngerBtnBg" x="457" y="2" width="53" height="53"/>
+    <SubTexture name="img_btUIAngerBtnPower" x="422" y="536" width="51" height="51"/>
+    <SubTexture name="img_btUIAngerIcon" x="475" y="536" width="34" height="34"/>
+    <SubTexture name="img_btUIBloodBg" x="212" y="361" width="39" height="5"/>
+    <SubTexture name="img_btUIBloodItem" x="156" y="473" width="38" height="4"/>
+    <SubTexture name="img_btUIBloodLightBg" x="156" y="479" width="37" height="1"/>
+    <SubTexture name="img_btUIControlBg" x="2" y="226" width="337" height="76"/>
+    <SubTexture name="img_btUIControlCircle" x="341" y="160" width="95" height="95"/>
+    <SubTexture name="img_btUIControlDial" x="2" y="342" width="249" height="17"/>
+    <SubTexture name="img_btUIControlMemroyPoint" x="392" y="456" width="57" height="2"/>
+    <SubTexture name="img_btUIControlPoint" x="463" y="386" width="47" height="4"/>
+    <SubTexture name="img_btUIControlPower" x="2" y="323" width="249" height="17"/>
+    <SubTexture name="img_btUIControlSmallBg" x="2" y="304" width="249" height="17"/>
+    <SubTexture name="img_btUIPropBg" x="2" y="2" width="337" height="222"/>
+    <SubTexture name="img_btUIVSIcon" x="475" y="572" width="32" height="27"/>
+</TextureAtlas>
+

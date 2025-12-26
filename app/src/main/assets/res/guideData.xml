@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!-- code表示任务动作ID，step表示步骤，lang表示要显示的文本, compulsory表示是否强制, direction表示箭头的方向 -->
+<guide>
+<!-- 101 使用某战斗道具N次 -->
+<mission>
+	<code>101</code>
+	<guide step="0" lang="this is a guide0" compulsory="0" direction="UP"/>
+	<guide step="10" lang="this is a guide1" compulsory="0" direction="UP"/>
+	<guide step="20" lang="this is a guide2" compulsory="0" direction="UP"/>
+	<guide step="30" lang="this is a guide3" compulsory="0" direction="UP"/>
+	<guide step="40" lang="this is a guide3" compulsory="0" direction="UP"/>
+	<guide step="50" lang="this is a guide3" compulsory="0" direction="UP"/>
+	<guide step="60" lang="this is a guide3" compulsory="0" direction="UP"/>
+</mission>
+<!-- 102 胜利任意战斗模式N场 -->
+<mission>
+	<code>102</code>
+	<guide step="0" lang="this is a guide0" compulsory="0" direction="UP"/>
+	<guide step="10" lang="this is a guide1" compulsory="0" direction="UP"/>
+	<guide step="20" lang="this is a guide2" compulsory="0" direction="UP"/>
+	<guide step="30" lang="this is a guide3" compulsory="0" direction="UP"/>
+	<guide step="40" lang="this is a guide3" compulsory="0" direction="UP"/>
+	<guide step="50" lang="this is a guide3" compulsory="0" direction="UP"/>
+	<guide step="60" lang="this is a guide3" compulsory="0" direction="UP"/>
+</mission>
+<!-- 103 参加1v1战斗任意模式N场 -->
+<mission>
+	<code>103</code>
+	<guide step="0" lang="this is a guide0" compulsory="0" direction="UP"/>
+	<guide step="10" lang="this is a guide1" compulsory="0" direction="UP"/>
+	<guide step="20" lang="this is a guide2" compulsory="0" direction="UP"/>
+	<guide step="30" lang="this is a guide3" compulsory="0" direction="UP"/>
+	<guide step="40" lang="this is a guide3" compulsory="0" direction="UP"/>
+	<guide step="50" lang="this is a guide3" compulsory="0" direction="UP"/>
+	<guide step="60" lang="this is a guide3" compulsory="0" direction="UP"/>
+</mission>
+<!-- 104 参加2v2战斗任意模式N场 -->
+<mission>
+	<code>104</code>
+	<guide step="0" lang="this is a guide0" compulsory="0" direction="UP"/>
+	<guide step="10" lang="this is a guide1" compulsory="0" direction="UP"/>
+	<guide step="20" lang="this is a guide2" compulsory="0" direction="UP"/>
+	<guide step="30" lang="this is a guide3" compulsory="0" direction="UP"/>
+	<guide step="40" lang="this is a guide3" compulsory="0" direction="UP"/>
+	<guide step="50" lang="this is a guide3" compulsory="0" direction="UP"/>
+	<guide step="60" lang="this is a guide3" compulsory="0" direction="UP"/>
+</mission>
+<!-- 112 充值N博雅币 -->
+<mission>
+	<code>112</code>
+	<guide step="0" lang="this is a guide0" compulsory="0" direction="UP"/>
+	<guide step="10" lang="this is a guide1" compulsory="0" direction="UP"/>
+	<guide step="20" lang="this is a guide2" compulsory="0" direction="UP"/>
+	<guide step="30" lang="this is a guide3" compulsory="0" direction="UP"/>
+	<guide step="40" lang="this is a guide3" compulsory="0" direction="UP"/>
+	<guide step="50" lang="this is a guide3" compulsory="0" direction="UP"/>
+	<guide step="60" lang="this is a guide3" compulsory="0" direction="UP"/>
+</mission>
+<!-- 114 拥有某物品N个 -->
+<mission>
+	<code>114</code>
+	<guide step="0" lang="this is a guide0" compulsory="0" direction="UP"/>
+	<guide step="10" lang="this is a guide1" compulsory="0" direction="UP"/>
+	<guide step="20" lang="this is a guide2" compulsory="0" direction="UP"/>
+	<guide step="30" lang="this is a guide3" compulsory="0" direction="UP"/>
+	<guide step="40" lang="this is a guide3" compulsory="0" direction="UP"/>
+	<guide step="50" lang="this is a guide3" compulsory="0" direction="UP"/>
+	<guide step="60" lang="this is a guide3" compulsory="0" direction="UP"/>
+</mission>
+<!-- 117 升级到某级别 -->
+<mission>
+	<code>117</code>
+	<guide step="0" lang="this is a guide0" compulsory="0" direction="UP"/>
+	<guide step="10" lang="this is a guide1" compulsory="0" direction="UP"/>
+	<guide step="20" lang="this is a guide2" compulsory="0" direction="UP"/>
+	<guide step="30" lang="this is a guide3" compulsory="0" direction="UP"/>
+	<guide step="40" lang="this is a guide3" compulsory="0" direction="UP"/>
+	<guide step="50" lang="this is a guide3" compulsory="0" direction="UP"/>
+	<guide step="60" lang="this is a guide3" compulsory="0" direction="UP"/>
+</mission>
+<!-- 119 参加任意战斗N场 -->
+<mission>
+	<code>119</code>
+	<guide step="0" lang="this is a guide0" compulsory="0" direction="UP"/>
+	<guide step="10" lang="this is a guide1" compulsory="0" direction="UP"/>
+	<guide step="20" lang="this is a guide2" compulsory="0" direction="UP"/>
+	<guide step="30" lang="this is a guide3" compulsory="0" direction="UP"/>
+	<guide step="40" lang="this is a guide3" compulsory="0" direction="UP"/>
+	<guide step="50" lang="this is a guide3" compulsory="0" direction="UP"/>
+	<guide step="60" lang="this is a guide3" compulsory="0" direction="UP"/>
+</mission>
+<!-- 121 使用某道具N次 -->
+<mission>
+	<code>121</code>
+	<guide step="0" lang="this is a guide0" compulsory="0" direction="UP"/>
+	<guide step="10" lang="this is a guide1" compulsory="0" direction="UP"/>
+	<guide step="20" lang="this is a guide2" compulsory="0" direction="UP"/>
+	<guide step="30" lang="this is a guide3" compulsory="0" direction="UP"/>
+	<guide step="40" lang="this is a guide3" compulsory="0" direction="UP"/>
+	<guide step="50" lang="this is a guide3" compulsory="0" direction="UP"/>
+	<guide step="60" lang="this is a guide3" compulsory="0" direction="UP"/>
+</mission>
+<!-- 122 加入某公会N次 -->
+<mission>
+	<code>122</code>
+	<guide step="0" lang="this is a guide0" compulsory="0" direction="UP"/>
+	<guide step="10" lang="this is a guide1" compulsory="0" direction="UP"/>
+	<guide step="20" lang="this is a guide2" compulsory="0" direction="UP"/>
+	<guide step="30" lang="this is a guide3" compulsory="0" direction="UP"/>
+	<guide step="40" lang="this is a guide3" compulsory="0" direction="UP"/>
+	<guide step="50" lang="this is a guide3" compulsory="0" direction="UP"/>
+	<guide step="60" lang="this is a guide3" compulsory="0" direction="UP"/>
+</mission>
+<!-- 123 公会等级提升到N级 -->
+<mission>
+	<code>123</code>
+	<guide step="0" lang="this is a guide0" compulsory="0" direction="UP"/>
+	<guide step="10" lang="this is a guide1" compulsory="0" direction="UP"/>
+	<guide step="20" lang="this is a guide2" compulsory="0" direction="UP"/>
+	<guide step="30" lang="this is a guide3" compulsory="0" direction="UP"/>
+	<guide step="40" lang="this is a guide3" compulsory="0" direction="UP"/>
+	<guide step="50" lang="this is a guide3" compulsory="0" direction="UP"/>
+	<guide step="60" lang="this is a guide3" compulsory="0" direction="UP"/>
+</mission>
+<!-- 126 公会商场等级提升到N级 -->
+<mission>
+	<code>126</code>
+	<guide step="0" lang="this is a guide0" compulsory="0" direction="UP"/>
+	<guide step="10" lang="this is a guide1" compulsory="0" direction="UP"/>
+	<guide step="20" lang="this is a guide2" compulsory="0" direction="UP"/>
+	<guide step="30" lang="this is a guide3" compulsory="0" direction="UP"/>
+	<guide step="40" lang="this is a guide3" compulsory="0" direction="UP"/>
+	<guide step="50" lang="this is a guide3" compulsory="0" direction="UP"/>
+	<guide step="60" lang="this is a guide3" compulsory="0" direction="UP"/>
+</mission>
+<!-- 131 成功创建某公会N次 -->
+<mission>
+	<code>131</code>
+	<guide step="0" lang="this is a guide0" compulsory="0" direction="UP"/>
+	<guide step="10" lang="this is a guide1" compulsory="0" direction="UP"/>
+	<guide step="20" lang="this is a guide2" compulsory="0" direction="UP"/>
+	<guide step="30" lang="this is a guide3" compulsory="0" direction="UP"/>
+	<guide step="40" lang="this is a guide3" compulsory="0" direction="UP"/>
+	<guide step="50" lang="this is a guide3" compulsory="0" direction="UP"/>
+	<guide step="60" lang="this is a guide3" compulsory="0" direction="UP"/>
+</mission>
+<!-- 132 通关某副本任意模式N场 -->
+<mission>
+	<code>132</code>
+	<guide step="0" lang="this is a guide0" compulsory="0" direction="UP"/>
+	<guide step="10" lang="this is a guide1" compulsory="0" direction="UP"/>
+	<guide step="20" lang="this is a guide2" compulsory="0" direction="UP"/>
+	<guide step="30" lang="this is a guide3" compulsory="0" direction="UP"/>
+	<guide step="40" lang="this is a guide3" compulsory="0" direction="UP"/>
+	<guide step="50" lang="this is a guide3" compulsory="0" direction="UP"/>
+	<guide step="60" lang="this is a guide3" compulsory="0" direction="UP"/>
+</mission>
+<!-- 134 参加1v1竞技模式N场 -->
+<mission>
+	<code>134</code>
+	<guide step="0" lang="this is a guide0" compulsory="0" direction="UP"/>
+	<guide step="10" lang="this is a guide1" compulsory="0" direction="UP"/>
+	<guide step="20" lang="this is a guide2" compulsory="0" direction="UP"/>
+	<guide step="30" lang="this is a guide3" compulsory="0" direction="UP"/>
+	<guide step="40" lang="this is a guide3" compulsory="0" direction="UP"/>
+	<guide step="50" lang="this is a guide3" compulsory="0" direction="UP"/>
+	<guide step="60" lang="this is a guide3" compulsory="0" direction="UP"/>
+</mission>
+<!-- 135 胜利1V1竞技模式N场 -->
+<mission>
+	<code>135</code>
+	<guide step="0" lang="this is a guide0" compulsory="0" direction="UP"/>
+	<guide step="10" lang="this is a guide1" compulsory="0" direction="UP"/>
+	<guide step="20" lang="this is a guide2" compulsory="0" direction="UP"/>
+	<guide step="30" lang="this is a guide3" compulsory="0" direction="UP"/>
+	<guide step="40" lang="this is a guide3" compulsory="0" direction="UP"/>
+	<guide step="50" lang="this is a guide3" compulsory="0" direction="UP"/>
+	<guide step="60" lang="this is a guide3" compulsory="0" direction="UP"/>
+</mission>
+<!-- 136 参加2v2竞技模式N场 -->
+<mission>
+	<code>136</code>
+	<guide step="0" lang="this is a guide0" compulsory="0" direction="UP"/>
+	<guide step="10" lang="this is a guide1" compulsory="0" direction="UP"/>
+	<guide step="20" lang="this is a guide2" compulsory="0" direction="UP"/>
+	<guide step="30" lang="this is a guide3" compulsory="0" direction="UP"/>
+	<guide step="40" lang="this is a guide3" compulsory="0" direction="UP"/>
+	<guide step="50" lang="this is a guide3" compulsory="0" direction="UP"/>
+	<guide step="60" lang="this is a guide3" compulsory="0" direction="UP"/>
+</mission>
+<!-- 137 胜利2V2竞技模式N场 -->
+<mission>
+	<code>137</code>
+	<guide step="0" lang="this is a guide0" compulsory="0" direction="UP"/>
+	<guide step="10" lang="this is a guide1" compulsory="0" direction="UP"/>
+	<guide step="20" lang="this is a guide2" compulsory="0" direction="UP"/>
+	<guide step="30" lang="this is a guide3" compulsory="0" direction="UP"/>
+	<guide step="40" lang="this is a guide3" compulsory="0" direction="UP"/>
+	<guide step="50" lang="this is a guide3" compulsory="0" direction="UP"/>
+	<guide step="60" lang="this is a guide3" compulsory="0" direction="UP"/>
+</mission>
+<!-- 148 结婚 -->
+<mission>
+	<code>148</code>
+	<guide step="0" lang="this is a guide0" compulsory="0" direction="UP"/>
+	<guide step="10" lang="this is a guide1" compulsory="0" direction="UP"/>
+	<guide step="20" lang="this is a guide2" compulsory="0" direction="UP"/>
+	<guide step="30" lang="this is a guide3" compulsory="0" direction="UP"/>
+	<guide step="40" lang="this is a guide3" compulsory="0" direction="UP"/>
+	<guide step="50" lang="this is a guide3" compulsory="0" direction="UP"/>
+	<guide step="60" lang="this is a guide3" compulsory="0" direction="UP"/>
+</mission>
+<!-- 149 订婚，即求婚成功 -->
+<mission>
+	<code>149</code>
+	<guide step="0" lang="this is a guide0" compulsory="0" direction="UP"/>
+	<guide step="10" lang="this is a guide1" compulsory="0" direction="UP"/>
+	<guide step="20" lang="this is a guide2" compulsory="0" direction="UP"/>
+	<guide step="30" lang="this is a guide3" compulsory="0" direction="UP"/>
+	<guide step="40" lang="this is a guide3" compulsory="0" direction="UP"/>
+	<guide step="50" lang="this is a guide3" compulsory="0" direction="UP"/>
+	<guide step="60" lang="this is a guide3" compulsory="0" direction="UP"/>
+</mission>
+<!-- 163 穿上某装备 -->
+<mission>
+	<code>163</code>
+	<guide step="0" lang="this is a guide0" compulsory="0" direction="UP"/>
+	<guide step="10" lang="this is a guide1" compulsory="0" direction="UP"/>
+	<guide step="20" lang="this is a guide2" compulsory="0" direction="UP"/>
+	<guide step="30" lang="this is a guide3" compulsory="0" direction="UP"/>
+	<guide step="40" lang="this is a guide3" compulsory="0" direction="UP"/>
+	<guide step="50" lang="this is a guide3" compulsory="0" direction="UP"/>
+	<guide step="60" lang="this is a guide3" compulsory="0" direction="UP"/>
+</mission>
+<!-- 170 加好友 -->
+<mission>
+	<code>170</code>
+	<guide step="0" lang="this is a guide0" compulsory="0" direction="UP"/>
+	<guide step="10" lang="this is a guide1" compulsory="0" direction="UP"/>
+	<guide step="20" lang="this is a guide2" compulsory="0" direction="UP"/>
+	<guide step="30" lang="this is a guide3" compulsory="0" direction="UP"/>
+	<guide step="40" lang="this is a guide3" compulsory="0" direction="UP"/>
+	<guide step="50" lang="this is a guide3" compulsory="0" direction="UP"/>
+	<guide step="60" lang="this is a guide3" compulsory="0" direction="UP"/>
+</mission>
+<!-- 172 【移动版】通关任意副本N次 -->
+<mission>
+	<code>172</code>
+	<guide step="0" lang="this is a guide0" compulsory="0" direction="UP"/>
+	<guide step="10" lang="this is a guide1" compulsory="0" direction="UP"/>
+	<guide step="20" lang="this is a guide2" compulsory="0" direction="UP"/>
+	<guide step="30" lang="this is a guide3" compulsory="0" direction="UP"/>
+	<guide step="40" lang="this is a guide3" compulsory="0" direction="UP"/>
+	<guide step="50" lang="this is a guide3" compulsory="0" direction="UP"/>
+	<guide step="60" lang="this is a guide3" compulsory="0" direction="UP"/>
+</mission>
+<!-- 174 【移动版】通关副本并且拿到多少星 -->
+<mission>
+	<code>174</code>
+	<guide step="0" lang="this is a guide0" compulsory="0" direction="UP"/>
+	<guide step="10" lang="this is a guide1" compulsory="0" direction="UP"/>
+	<guide step="20" lang="this is a guide2" compulsory="0" direction="UP"/>
+	<guide step="30" lang="this is a guide3" compulsory="0" direction="UP"/>
+	<guide step="40" lang="this is a guide3" compulsory="0" direction="UP"/>
+	<guide step="50" lang="this is a guide3" compulsory="0" direction="UP"/>
+	<guide step="60" lang="this is a guide3" compulsory="0" direction="UP"/>
+</mission>
+<!-- 177 【移动版】参加副本（进入关卡，不计胜负） -->
+<mission>
+	<code>177</code>
+	<guide step="0" lang="this is a guide0" compulsory="0" direction="UP"/>
+	<guide step="10" lang="this is a guide1" compulsory="0" direction="UP"/>
+	<guide step="20" lang="this is a guide2" compulsory="0" direction="UP"/>
+	<guide step="30" lang="this is a guide3" compulsory="0" direction="UP"/>
+	<guide step="40" lang="this is a guide3" compulsory="0" direction="UP"/>
+	<guide step="50" lang="this is a guide3" compulsory="0" direction="UP"/>
+	<guide step="60" lang="this is a guide3" compulsory="0" direction="UP"/>
+</mission>
+<!-- 178 【移动版】装备道具卡 -->
+<mission>
+	<code>178</code>
+	<guide step="0" lang="this is a guide0" compulsory="0" direction="UP"/>
+	<guide step="10" lang="this is a guide1" compulsory="0" direction="UP"/>
+	<guide step="20" lang="this is a guide2" compulsory="0" direction="UP"/>
+	<guide step="30" lang="this is a guide3" compulsory="0" direction="UP"/>
+	<guide step="40" lang="this is a guide3" compulsory="0" direction="UP"/>
+	<guide step="50" lang="this is a guide3" compulsory="0" direction="UP"/>
+	<guide step="60" lang="this is a guide3" compulsory="0" direction="UP"/>
+</mission>
+<!-- 179 移动版】强化任意装备 -->
+<mission>
+	<code>179</code>
+	<guide step="0" lang="this is a guide0" compulsory="0" direction="UP"/>
+	<guide step="10" lang="this is a guide1" compulsory="0" direction="UP"/>
+	<guide step="20" lang="this is a guide2" compulsory="0" direction="UP"/>
+	<guide step="30" lang="this is a guide3" compulsory="0" direction="UP"/>
+	<guide step="40" lang="this is a guide3" compulsory="0" direction="UP"/>
+	<guide step="50" lang="this is a guide3" compulsory="0" direction="UP"/>
+	<guide step="60" lang="this is a guide3" compulsory="0" direction="UP"/>
+</mission>
+<!-- 180 【移动版】穿戴任意装备 -->
+<mission>
+	<code>180</code>
+	<guide step="0" lang="this is a guide0" compulsory="0" direction="UP"/>
+	<guide step="10" lang="this is a guide1" compulsory="0" direction="UP"/>
+	<guide step="20" lang="this is a guide2" compulsory="0" direction="UP"/>
+	<guide step="30" lang="this is a guide3" compulsory="0" direction="UP"/>
+	<guide step="40" lang="this is a guide3" compulsory="0" direction="UP"/>
+	<guide step="50" lang="this is a guide3" compulsory="0" direction="UP"/>
+	<guide step="60" lang="this is a guide3" compulsory="0" direction="UP"/>
+</mission>
+<!-- 181 【移动版】成功闯过XX层无尽塔 -->
+<mission>
+	<code>181</code>
+	<guide step="0" lang="this is a guide0" compulsory="0" direction="UP"/>
+	<guide step="10" lang="this is a guide1" compulsory="0" direction="UP"/>
+	<guide step="20" lang="this is a guide2" compulsory="0" direction="UP"/>
+	<guide step="30" lang="this is a guide3" compulsory="0" direction="UP"/>
+	<guide step="40" lang="this is a guide3" compulsory="0" direction="UP"/>
+	<guide step="50" lang="this is a guide3" compulsory="0" direction="UP"/>
+	<guide step="60" lang="this is a guide3" compulsory="0" direction="UP"/>
+</mission>
+
+</guide>

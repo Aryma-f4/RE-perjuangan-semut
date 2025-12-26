@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://texturepacker.com-->
+<!-- $TexturePacker:SmartUpdate:8f6f8893b6d0f1a7657a1319555c4ef2$ -->
+<TextureAtlas imagePath="smallmap.png">
+    <SubTexture name="smallmap_0" x="428" y="2" width="67" height="42"/>
+    <SubTexture name="smallmap_1001" x="2" y="206" width="140" height="100"/>
+    <SubTexture name="smallmap_1002" x="2" y="104" width="140" height="100"/>
+    <SubTexture name="smallmap_1003" x="286" y="2" width="140" height="100"/>
+    <SubTexture name="smallmap_1004" x="144" y="2" width="140" height="100"/>
+    <SubTexture name="smallmap_1101" x="2" y="2" width="140" height="100"/>
+    <SubTexture name="smallmap_1102" x="144" y="308" width="140" height="100"/>
+    <SubTexture name="smallmap_1103" x="286" y="206" width="140" height="100"/>
+    <SubTexture name="smallmap_1104" x="144" y="206" width="140" height="100"/>
+    <SubTexture name="smallmap_1201" x="286" y="104" width="140" height="100"/>
+    <SubTexture name="smallmap_1202" x="144" y="104" width="140" height="100"/>
+    <SubTexture name="smallmap_1203" x="2" y="410" width="140" height="100"/>
+    <SubTexture name="smallmap_1204" x="2" y="308" width="140" height="100"/>
+</TextureAtlas>
+

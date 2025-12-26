@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://texturepacker.com-->
+<!-- $TexturePacker:SmartUpdate:cfbf81e957f0852837ffdfdaec59f633$ -->
+<TextureAtlas imagePath="UnionMain.png">
+    <SubTexture name="btnS_unionBack1" x="936" y="262" width="72" height="19" frameX="-1" frameY="-1" frameWidth="74" frameHeight="21"/>
+    <SubTexture name="btnS_unionBack2" x="936" y="241" width="72" height="19" frameX="-1" frameY="-1" frameWidth="74" frameHeight="21"/>
+    <SubTexture name="btnS_unionBook1" x="533" y="476" width="92" height="93" frameX="-6" frameY="-11" frameWidth="98" frameHeight="107"/>
+    <SubTexture name="btnS_unionBook2" x="914" y="463" width="92" height="105" frameX="-2" frameY="-1" frameWidth="98" frameHeight="107"/>
+    <SubTexture name="btnS_unionCopy1" x="486" y="374" width="167" height="100" frameX="0" frameY="-9" frameWidth="177" frameHeight="120"/>
+    <SubTexture name="btnS_unionCopy2" x="755" y="390" width="157" height="116" frameX="-20" frameY="0" frameWidth="177" frameHeight="120"/>
+    <SubTexture name="btnS_unionLevelBtn1" x="688" y="235" width="66" height="86"/>
+    <SubTexture name="btnS_unionLevelBtn2" x="936" y="283" width="67" height="93"/>
+    <SubTexture name="btnS_unionLevelBtn3" x="688" y="323" width="65" height="86"/>
+    <SubTexture name="btnS_unionNotice1" x="486" y="2" width="268" height="231" frameX="0" frameY="-16" frameWidth="276" frameHeight="251"/>
+    <SubTexture name="btnS_unionNotice2" x="756" y="2" width="236" height="237" frameX="-32" frameY="-5" frameWidth="276" frameHeight="251"/>
+    <SubTexture name="btnS_unionOffice1" x="914" y="390" width="102" height="71" frameX="0" frameY="-10" frameWidth="104" frameHeight="87"/>
+    <SubTexture name="btnS_unionOffice2" x="655" y="411" width="96" height="87" frameX="-8" frameY="0" frameWidth="104" frameHeight="87"/>
+    <SubTexture name="btnS_unionStorage1" x="155" y="454" width="132" height="113" frameX="0" frameY="-4" frameWidth="134" frameHeight="117"/>
+    <SubTexture name="btnS_unionStorage2" x="2" y="495" width="124" height="117" frameX="-10" frameY="0" frameWidth="134" frameHeight="117"/>
+    <SubTexture name="btnS_unionStore1" x="412" y="476" width="119" height="93" frameX="0" frameY="-10" frameWidth="127" frameHeight="111"/>
+    <SubTexture name="btnS_unionStore2" x="289" y="454" width="121" height="111" frameX="-6" frameY="0" frameWidth="127" frameHeight="111"/>
+    <SubTexture name="btnS_unionWorship1" x="486" y="235" width="200" height="137" frameX="0" frameY="-10" frameWidth="200" frameHeight="147"/>
+    <SubTexture name="btnS_unionWorship2" x="756" y="241" width="178" height="147" frameX="-19" frameY="0" frameWidth="200" frameHeight="147"/>
+    <SubTexture name="img_publishbg" x="2" y="2" width="482" height="450" frameX="-129" frameY="0" frameWidth="750" frameHeight="500"/>
+    <SubTexture name="s9_GreenBtn" x="994" y="68" width="20" height="20"/>
+    <SubTexture name="s9_GreenOverBtn" x="994" y="46" width="20" height="20"/>
+    <SubTexture name="s9_YellowBtn" x="994" y="24" width="20" height="20"/>
+    <SubTexture name="s9_YellowOverBtn" x="994" y="2" width="20" height="20"/>
+    <SubTexture name="s9_commonGreyBg" x="1016" y="2" width="6" height="6"/>
+    <SubTexture name="unionMainTitleBg" x="2" y="454" width="151" height="39"/>
+    <SubTexture name="unionMainTitleLevelIcon" x="994" y="90" width="17" height="11"/>
+</TextureAtlas>
+

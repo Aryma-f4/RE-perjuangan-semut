@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://texturepacker.com-->
+<!-- $TexturePacker:SmartUpdate:5f0b85dfbbce50c341f140727a777166$ -->
+<TextureAtlas imagePath="UnionStore.png">
+    <SubTexture name="UnionStoreBg" x="2" y="2" width="512" height="384"/>
+    <SubTexture name="UnionStoreItemBg1" x="577" y="2" width="344" height="75"/>
+    <SubTexture name="UnionStoreItemBg2" x="206" y="388" width="344" height="75"/>
+    <SubTexture name="UnionStoreItemBgNull" x="2" y="496" width="0" height="0" frameX="0" frameY="0" frameWidth="344" frameHeight="75"/>
+    <SubTexture name="UnionStoreUnionCoinIcon" x="71" y="476" width="37" height="31"/>
+    <SubTexture name="btnS_UnionStoreBuyBtn1" x="345" y="465" width="82" height="39"/>
+    <SubTexture name="btnS_UnionStoreBuyBtn2" x="258" y="465" width="85" height="42" frameX="-4" frameY="-4" frameWidth="89" frameHeight="46"/>
+    <SubTexture name="btnS_UnionStoreItemBtna1" x="923" y="2" width="72" height="29"/>
+    <SubTexture name="btnS_UnionStoreItemBtna2" x="516" y="153" width="71" height="28"/>
+    <SubTexture name="btnS_UnionStoreItemBtnb1" x="503" y="465" width="72" height="29"/>
+    <SubTexture name="btnS_UnionStoreItemBtnb2" x="516" y="123" width="71" height="28"/>
+    <SubTexture name="btnS_UnionStoreItemBtnc1" x="429" y="465" width="72" height="29"/>
+    <SubTexture name="btnS_UnionStoreItemBtnc2" x="516" y="93" width="71" height="28"/>
+    <SubTexture name="btnS_UnionStoreItemBtnd1" x="184" y="476" width="72" height="29"/>
+    <SubTexture name="btnS_UnionStoreItemBtnd2" x="923" y="63" width="71" height="28"/>
+    <SubTexture name="btnS_UnionStoreItemBtne1" x="110" y="476" width="72" height="29"/>
+    <SubTexture name="btnS_UnionStoreItemBtne2" x="923" y="33" width="71" height="28"/>
+    <SubTexture name="btnS_storeItemBg1" x="577" y="2" width="344" height="75"/>
+    <SubTexture name="btnS_storeItemBg2" x="206" y="388" width="344" height="75"/>
+    <SubTexture name="btnS_unionLevelBtn1" x="71" y="388" width="66" height="86"/>
+    <SubTexture name="btnS_unionLevelBtn2" x="2" y="388" width="67" height="93"/>
+    <SubTexture name="btnS_unionLevelBtn3" x="139" y="388" width="65" height="86"/>
+    <SubTexture name="unionMainTitleLevelIcon" x="2" y="483" width="17" height="11"/>
+</TextureAtlas>
+

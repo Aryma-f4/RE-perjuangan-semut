@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://texturepacker.com-->
+<!-- $TexturePacker:SmartUpdate:4826944cf037f39ff44a0215b69356e0$ -->
+<TextureAtlas imagePath="rankList.png">
+    <SubTexture name="btnS_rankListArrowMe1" x="375" y="458" width="77" height="29"/>
+    <SubTexture name="btnS_rankListArrowMe2" x="828" y="244" width="77" height="33"/>
+    <SubTexture name="btnS_rankListBack1" x="900" y="315" width="31" height="24"/>
+    <SubTexture name="btnS_rankListBack2" x="867" y="315" width="31" height="24"/>
+    <SubTexture name="btnS_rankListFightButton1" x="828" y="175" width="98" height="43"/>
+    <SubTexture name="btnS_rankListFightButton2" x="828" y="130" width="98" height="43"/>
+    <SubTexture name="btnS_rankListFightPower1" x="890" y="284" width="77" height="29"/>
+    <SubTexture name="btnS_rankListFightPower2" x="928" y="130" width="77" height="33"/>
+    <SubTexture name="btnS_rankListItemButton1" x="354" y="776" width="350" height="43"/>
+    <SubTexture name="btnS_rankListItemButton2" x="2" y="749" width="350" height="44"/>
+    <SubTexture name="btnS_rankListRewardBtn1" x="828" y="279" width="60" height="30"/>
+    <SubTexture name="btnS_rankListRewardBtn2" x="907" y="252" width="60" height="30"/>
+    <SubTexture name="btnS_rankListchallenge1" x="375" y="427" width="77" height="29"/>
+    <SubTexture name="btnS_rankListchallenge2" x="928" y="165" width="77" height="33"/>
+    <SubTexture name="img_rankListBgOne" x="2" y="427" width="371" height="320"/>
+    <SubTexture name="img_rankListBgTwo" x="525" y="388" width="371" height="320"/>
+    <SubTexture name="img_rankListBigBigBg" x="2" y="2" width="682" height="384"/>
+    <SubTexture name="img_rankListFacebook" x="969" y="289" width="35" height="35"/>
+    <SubTexture name="img_rankListIcon1" x="969" y="252" width="38" height="35"/>
+    <SubTexture name="img_rankListIcon2" x="937" y="215" width="38" height="35"/>
+    <SubTexture name="img_rankListIcon3" x="977" y="213" width="38" height="34"/>
+    <SubTexture name="img_rankListRewardFlag1" x="928" y="200" width="43" height="13"/>
+    <SubTexture name="img_rankListRewardFlag2" x="828" y="311" width="37" height="17"/>
+    <SubTexture name="img_rankListRewardFlagPic" x="946" y="2" width="31" height="31"/>
+    <SubTexture name="img_rankListRightBoxBG" x="686" y="2" width="140" height="338"/>
+    <SubTexture name="img_rankListRightBoxSmallBG" x="828" y="2" width="116" height="126"/>
+    <SubTexture name="img_rankListSmallBgOne" x="375" y="743" width="357" height="31"/>
+    <SubTexture name="img_rankListSmallTitleOne" x="686" y="342" width="325" height="14"/>
+    <SubTexture name="img_rankListSmallTitleThree" x="375" y="710" width="357" height="31"/>
+    <SubTexture name="img_rankListTitle" x="828" y="220" width="107" height="22"/>
+    <SubTexture name="img_rankListTitleBg" x="2" y="388" width="521" height="37"/>
+    <SubTexture name="img_rankListVipIcon" x="973" y="200" width="24" height="11"/>
+</TextureAtlas>
+

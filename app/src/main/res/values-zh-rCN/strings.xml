@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Perjuangan semut</string>
+    <string name="flash_browser_plugin">Flash 插件</string>
+    <string name="audio_files">音频文件</string>
+    <string name="image_files">图像文件</string>
+    <string name="video_files">视频文件</string>
+    <string name="empty_file_list">未找到文件。</string>
+    <string name="button_ok">确定</string>
+    <string name="button_cancel">取消</string>
+    <string name="button_continue">继续</string>
+    <string name="file_save_as">另存为:</string>
+    <string name="file_download">下载</string>
+    <string name="file_upload">上传</string>
+    <string name="button_yes">是</string>
+    <string name="button_no">否</string>
+    <string name="IDA_CURL_SSL_SECURITY_WARNING">安全警告</string>
+    <string name="IDA_CURL_INTERFACE_THISSESS">信任会话</string>
+    <string name="IDA_CURL_INTERFACE_NOSESS">取消</string>
+    <string name="IDA_CURL_INTERFACE_OK">确定</string>
+    <string name="IDA_CURL_INTERFACE_UNVERSER_2">应用程序要连接的服务器 未经过验证。</string>
+    <string name="IDA_CURL_INTERFACE_ALLSESS">始终信任</string>
+    <string name="IDA_CURL_INTERFACE_SERVER">服务器:</string>
+    <string name="IDA_CURL_INTERFACE_TRUSTSER">是否信任此服务器并进行连接？</string>
+    <string name="IDA_CURL_INTERFACE_CNAME_MSG">服务器的名称 (%1$s) 与证书上的名称 (%2$s) 不符。是否信任此服务器并继续?</string>
+    <string name="IDA_CURL_INTERFACE_VIEW_CERT">查看证书</string>
+    <string name="IDA_CURL_INTERFACE_CERTIFICATE_DETAILS_TITLE">证书详细信息</string>
+    <string name="IDA_CERTIFICATE_DETAILS">证书:\n \n 颁发对象:\n 公共名称:\n %1$s\n \n 组织:\n %2$s\n \n 组织单位:\n %3$s\n \n 颁发者:\n 公共名称:\n %4$s\n \n 组织:\n %5$s\n \n 组织单位:\n %6$s\n \n 有效性:\n 颁发时间:\n %7$s\n \n 到期时间:\n %8$s </string>
+    <string name="IDA_APP_WAITING_DEBUGGER_TITLE">Adobe AIR: 正在等待连接</string>
+    <string name="IDA_APP_UNABLE_LISTEN_ERROR">Adobe AIR: 正在侦听端口</string>
+    <string name="IDA_APP_WAITING_DEBUGGER_WARNING">AIR 应用程序正在等待调试器建立连接。最多可能需要 %d 秒钟。</string>
+    <string name="IDA_APP_DEBUGGER_TIMEOUT_INFO">无法连接到调试器。</string>
+    <string name="app_version">APP_VERSION</string>
+    <string name="button_install">安装</string>
+    <string name="button_exit">退出</string>
+    <string name="title_adobe_air">Adobe® AIR®</string>
+    <string name="text_runtime_required">此应用程序需要 Adobe AIR。\n\n</string>
+    <string name="text_install_runtime">若要继续，请在此设备上安装 Adobe AIR。</string>
+    <string name="text_runtime_on_external_storage">若要继续，请在此设备上安装 Adobe AIR，或退出此应用程序并装入存有 Adobe AIR 的 SD 卡，然后重新启动。</string>
+    <string name="text_gamepreview_loading">正在载入...</string>
+    <string name="text_gamepreview_loading_error">无法加载游戏。</string>
+    <string name="text_install_gamepreview_app">立刻安装</string>
+    <string name="text_air_missing_header">要求 Adobe AIR</string>
+    <string name="text_air_missing_text">您需要安装 Adobe AIR，才能预览游戏。</string>
+    <string name="button_install_air_from_playstore">从 Play Store 安装。</string>
+    <string name="text_dont_show_again">不再显示此消息。</string>
+</resources>

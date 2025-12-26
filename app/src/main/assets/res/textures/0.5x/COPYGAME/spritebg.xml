@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://texturepacker.com-->
+<!-- $TexturePacker:SmartUpdate:c90a5b44b34a9b1fc7f3e9a365832271$ -->
+<TextureAtlas imagePath="spritebg.png">
+    <SubTexture name="fbbg4" x="2" y="2" width="683" height="384"/>
+</TextureAtlas>
+

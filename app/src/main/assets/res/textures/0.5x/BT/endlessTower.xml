@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://texturepacker.com-->
+<!-- $TexturePacker:SmartUpdate:3324a12decb9dda4fb6619afdbd2d1e9$ -->
+<TextureAtlas imagePath="endlessTower.png">
+    <SubTexture name="btnS_endlessTowerFight1" x="173" y="582" width="74" height="41"/>
+    <SubTexture name="btnS_endlessTowerFight2" x="2" y="601" width="72" height="39"/>
+    <SubTexture name="btnS_endlessToweradd1" x="972" y="39" width="35" height="35"/>
+    <SubTexture name="btnS_endlessToweradd2" x="972" y="2" width="35" height="35"/>
+    <SubTexture name="btnS_endlessTowerfly1" x="97" y="540" width="74" height="41"/>
+    <SubTexture name="btnS_endlessTowerfly2" x="97" y="583" width="72" height="39"/>
+    <SubTexture name="btnS_endlessTowerintro1" x="2" y="674" width="66" height="30"/>
+    <SubTexture name="btnS_endlessTowerintro2" x="2" y="642" width="66" height="30"/>
+    <SubTexture name="btnS_endlessTowernextTower1" x="2" y="465" width="107" height="39"/>
+    <SubTexture name="btnS_endlessTowernextTower2" x="359" y="490" width="107" height="39"/>
+    <SubTexture name="btnS_endlessTowerrank1" x="211" y="539" width="74" height="41"/>
+    <SubTexture name="btnS_endlessTowerrank2" x="428" y="402" width="72" height="39"/>
+    <SubTexture name="btnS_endlessTowerreturn1" x="250" y="459" width="107" height="39"/>
+    <SubTexture name="btnS_endlessTowerreturn2" x="375" y="443" width="113" height="45"/>
+    <SubTexture name="img_complete" x="294" y="531" width="79" height="56"/>
+    <SubTexture name="img_countTime" x="211" y="500" width="85" height="16"/>
+    <SubTexture name="img_edlessSmallBg" x="502" y="2" width="468" height="303"/>
+    <SubTexture name="img_endlessBigBg" x="2" y="2" width="498" height="386"/>
+    <SubTexture name="img_endlessTitle" x="250" y="438" width="123" height="19"/>
+    <SubTexture name="img_line" x="2" y="390" width="435" height="10"/>
+    <SubTexture name="img_lock" x="111" y="465" width="98" height="73"/>
+    <SubTexture name="img_monsterBox" x="76" y="624" width="71" height="71"/>
+    <SubTexture name="img_rankBg" x="502" y="307" width="462" height="310"/>
+    <SubTexture name="img_rankTitle" x="211" y="518" width="81" height="19"/>
+    <SubTexture name="img_rewardBox" x="2" y="506" width="93" height="93"/>
+    <SubTexture name="img_txtBg0" x="2" y="402" width="246" height="61"/>
+    <SubTexture name="img_txtBg1" x="250" y="402" width="176" height="34"/>
+</TextureAtlas>
+

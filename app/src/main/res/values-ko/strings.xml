@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Perjuangan semut</string>
+    <string name="flash_browser_plugin">Flash 플러그인</string>
+    <string name="audio_files">오디오 파일</string>
+    <string name="image_files">이미지 파일</string>
+    <string name="video_files">비디오 파일</string>
+    <string name="empty_file_list">파일이 없습니다.</string>
+    <string name="button_ok">확인</string>
+    <string name="button_cancel">취소</string>
+    <string name="button_continue">계속</string>
+    <string name="file_save_as">다른 이름으로 저장:</string>
+    <string name="file_download">다운로드</string>
+    <string name="file_upload">업로드</string>
+    <string name="button_yes">예</string>
+    <string name="button_no">아니요</string>
+    <string name="IDA_CURL_SSL_SECURITY_WARNING">보안 경고</string>
+    <string name="IDA_CURL_INTERFACE_THISSESS">세션 신뢰</string>
+    <string name="IDA_CURL_INTERFACE_NOSESS">취소</string>
+    <string name="IDA_CURL_INTERFACE_OK">확인</string>
+    <string name="IDA_CURL_INTERFACE_UNVERSER_2">응용 프로그램이 연결되어 있는 서버가 확인되지 않았습니다.</string>
+    <string name="IDA_CURL_INTERFACE_ALLSESS">항상 신뢰</string>
+    <string name="IDA_CURL_INTERFACE_SERVER">서버:</string>
+    <string name="IDA_CURL_INTERFACE_TRUSTSER">이 서버를 신뢰할 수 있는 대상으로 확인하고 연결하시겠습니까?</string>
+    <string name="IDA_CURL_INTERFACE_CNAME_MSG">서버 이름(%1$s)이 인증서에 있는 이름(%2$s)과 일치하지 않습니다. 이 서버를 신뢰하고 계속하시겠습니까?</string>
+    <string name="IDA_CURL_INTERFACE_VIEW_CERT">인증서 보기</string>
+    <string name="IDA_CURL_INTERFACE_CERTIFICATE_DETAILS_TITLE">인증서 세부 사항</string>
+    <string name="IDA_CERTIFICATE_DETAILS">인증서:\n \n 발급 대상:\n 일반 이름:\n %1$s\n \n 조직:\n %2$s\n \n 부서:\n %3$s\n \n 발급 주체:\n 일반 이름:\n %4$s\n \n 조직:\n %5$s\n \n 부서:\n %6$s\n \n 유효성:\n 발급 날짜:\n %7$s\n \n 만료 날짜:\n %8$s </string>
+    <string name="IDA_APP_WAITING_DEBUGGER_TITLE">Adobe AIR: 연결 대기 중</string>
+    <string name="IDA_APP_UNABLE_LISTEN_ERROR">Adobe AIR: 포트에서 수신 대기 중</string>
+    <string name="IDA_APP_WAITING_DEBUGGER_WARNING">AIR 응용 프로그램에서 디버거가 연결을 설정하기를 기다리고 있습니다. 연결하는 데 최대 %d초가 소요될 수 있습니다.</string>
+    <string name="IDA_APP_DEBUGGER_TIMEOUT_INFO">디버거에 연결할 수 없습니다.</string>
+    <string name="app_version">APP_VERSION</string>
+    <string name="button_install">설치</string>
+    <string name="button_exit">종료</string>
+    <string name="title_adobe_air">Adobe® AIR®</string>
+    <string name="text_runtime_required">이 응용 프로그램을 사용하려면 Adobe AIR가 필요합니다.\n\n</string>
+    <string name="text_install_runtime">계속하려면 이 장치에 Adobe AIR를 설치해야 합니다.</string>
+    <string name="text_runtime_on_external_storage">계속하려면 이 장치에 Adobe AIR를 설치하거나, 이 응용 프로그램을 종료하고 Adobe AIR가 포함된 SD 카드를 장착한 후 다시 시작하십시오.</string>
+    <string name="text_gamepreview_loading">로드하는 중...</string>
+    <string name="text_gamepreview_loading_error">게임을 로드할 수 없습니다.</string>
+    <string name="text_install_gamepreview_app">지금 설치</string>
+    <string name="text_air_missing_header">Adobe AIR 필요</string>
+    <string name="text_air_missing_text">게임 미리 보기를 사용하려면 Adobe AIR를 설치해야 합니다.</string>
+    <string name="button_install_air_from_playstore">Play Store에서 설치하십시오.</string>
+    <string name="text_dont_show_again">다시 표시하지 않음</string>
+</resources>

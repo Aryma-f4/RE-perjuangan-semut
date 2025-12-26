@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://texturepacker.com-->
+<!-- $TexturePacker:SmartUpdate:2c0037c382b9b2322f17b63eb201afc8$ -->
+<TextureAtlas imagePath="fightgoods.png">
+    <SubTexture name="fightgoods0" x="124" y="121" width="58" height="52" frameX="-1" frameY="-4" frameWidth="60" frameHeight="60"/>
+    <SubTexture name="fightgoods1" x="184" y="122" width="56" height="52" frameX="0" frameY="-4" frameWidth="60" frameHeight="60"/>
+    <SubTexture name="fightgoods10" x="64" y="64" width="60" height="50" frameX="0" frameY="-7" frameWidth="60" frameHeight="60"/>
+    <SubTexture name="fightgoods11" x="188" y="62" width="60" height="58" frameX="0" frameY="-2" frameWidth="60" frameHeight="60"/>
+    <SubTexture name="fightgoods12" x="188" y="2" width="60" height="58" frameX="0" frameY="-2" frameWidth="60" frameHeight="60"/>
+    <SubTexture name="fightgoods15" x="126" y="2" width="60" height="59"/>
+    <SubTexture name="fightgoods2" x="64" y="116" width="58" height="60" frameX="-1" frameY="0" frameWidth="60" frameHeight="60"/>
+    <SubTexture name="fightgoods3" x="64" y="2" width="60" height="60"/>
+    <SubTexture name="fightgoods5" x="2" y="188" width="60" height="60"/>
+    <SubTexture name="fightgoods50" x="124" y="175" width="48" height="60" frameX="-5" frameY="0" frameWidth="60" frameHeight="60"/>
+    <SubTexture name="fightgoods51" x="126" y="63" width="60" height="56" frameX="0" frameY="-2" frameWidth="60" frameHeight="60"/>
+    <SubTexture name="fightgoods6" x="2" y="126" width="60" height="60"/>
+    <SubTexture name="fightgoods7" x="2" y="64" width="60" height="60"/>
+    <SubTexture name="fightgoods8" x="2" y="2" width="60" height="60"/>
+</TextureAtlas>
+

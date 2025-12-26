@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://texturepacker.com-->
+<!-- $TexturePacker:SmartUpdate:d1d725d422f0232e802d5f034936bbc6$ -->
+<TextureAtlas imagePath="monsterskill2.png">
+    <SubTexture name="地刺效果0001" x="103" y="223" width="9" height="5" frameX="-17" frameY="-23" frameWidth="43" frameHeight="39"/>
+    <SubTexture name="地刺效果0002" x="228" y="224" width="25" height="19" frameX="-9" frameY="-17" frameWidth="43" frameHeight="39"/>
+    <SubTexture name="地刺效果0003" x="215" y="295" width="31" height="23" frameX="-6" frameY="-13" frameWidth="43" frameHeight="39"/>
+    <SubTexture name="地刺效果0004" x="178" y="270" width="35" height="29" frameX="-4" frameY="-6" frameWidth="43" frameHeight="39"/>
+    <SubTexture name="地刺效果0005" x="44" y="291" width="39" height="35" frameX="-2" frameY="0" frameWidth="43" frameHeight="39"/>
+    <SubTexture name="地刺效果0006" x="139" y="258" width="37" height="33" frameX="-2" frameY="-2" frameWidth="43" frameHeight="39"/>
+    <SubTexture name="地刺效果0007" x="50" y="260" width="41" height="29" frameX="-1" frameY="-6" frameWidth="43" frameHeight="39"/>
+    <SubTexture name="地刺效果0008" x="50" y="231" width="43" height="27" frameX="0" frameY="-8" frameWidth="43" frameHeight="39"/>
+    <SubTexture name="地刺效果0009" x="159" y="231" width="43" height="25" frameX="0" frameY="-11" frameWidth="43" frameHeight="39"/>
+    <SubTexture name="地刺效果0010" x="114" y="226" width="43" height="29" frameX="0" frameY="-7" frameWidth="43" frameHeight="39"/>
+    <SubTexture name="地刺效果0011" x="204" y="245" width="43" height="23" frameX="0" frameY="-13" frameWidth="43" frameHeight="39"/>
+    <SubTexture name="地刺效果0012" x="114" y="82" width="13" height="23" frameX="-14" frameY="-13" frameWidth="43" frameHeight="39"/>
+    <SubTexture name="地刺效果0013" x="114" y="130" width="13" height="21" frameX="-14" frameY="-15" frameWidth="43" frameHeight="39"/>
+    <SubTexture name="地刺效果0014" x="114" y="107" width="13" height="21" frameX="-14" frameY="-15" frameWidth="43" frameHeight="39"/>
+    <SubTexture name="地刺效果0015" x="112" y="174" width="13" height="19" frameX="-14" frameY="-17" frameWidth="43" frameHeight="39"/>
+    <SubTexture name="地刺效果0016" x="114" y="153" width="13" height="19" frameX="-14" frameY="-17" frameWidth="43" frameHeight="39"/>
+    <SubTexture name="地刺效果0017" x="237" y="143" width="13" height="17" frameX="-14" frameY="-19" frameWidth="43" frameHeight="39"/>
+    <SubTexture name="地刺效果0018" x="237" y="124" width="13" height="17" frameX="-14" frameY="-20" frameWidth="43" frameHeight="39"/>
+    <SubTexture name="地刺效果0019" x="237" y="162" width="13" height="15" frameX="-14" frameY="-22" frameWidth="43" frameHeight="39"/>
+    <SubTexture name="地刺效果0020" x="112" y="195" width="13" height="13" frameX="-14" frameY="-24" frameWidth="43" frameHeight="39"/>
+    <SubTexture name="地刺效果0021" x="103" y="210" width="13" height="11" frameX="-14" frameY="-26" frameWidth="43" frameHeight="39"/>
+    <SubTexture name="地刺效果0022" x="192" y="61" width="0" height="0" frameX="0" frameY="0" frameWidth="43" frameHeight="39"/>
+    <SubTexture name="石头子弹b" x="114" y="63" width="18" height="17"/>
+    <SubTexture name="石头爆炸b0001" x="129" y="120" width="54" height="53" frameX="-6" frameY="-8" frameWidth="74" frameHeight="61"/>
+    <SubTexture name="石头爆炸b0002" x="2" y="120" width="54" height="53" frameX="-6" frameY="-8" frameWidth="74" frameHeight="61"/>
+    <SubTexture name="石头爆炸b0003" x="58" y="118" width="54" height="53" frameX="-6" frameY="-8" frameWidth="74" frameHeight="61"/>
+    <SubTexture name="石头爆炸b0004" x="58" y="63" width="54" height="53" frameX="-6" frameY="-8" frameWidth="74" frameHeight="61"/>
+    <SubTexture name="石头爆炸b0005" x="2" y="63" width="54" height="55" frameX="-6" frameY="-5" frameWidth="74" frameHeight="61"/>
+    <SubTexture name="石头爆炸b0006" x="192" y="65" width="54" height="57" frameX="-6" frameY="-3" frameWidth="74" frameHeight="61"/>
+    <SubTexture name="石头爆炸b0007" x="136" y="61" width="54" height="57" frameX="-6" frameY="-3" frameWidth="74" frameHeight="61"/>
+    <SubTexture name="石头爆炸b0008" x="198" y="2" width="56" height="61" frameX="-4" frameY="0" frameWidth="74" frameHeight="61"/>
+    <SubTexture name="石头爆炸b0009" x="70" y="2" width="64" height="59" frameX="0" frameY="-1" frameWidth="74" frameHeight="61"/>
+    <SubTexture name="石头爆炸b0010" x="136" y="2" width="60" height="57" frameX="-8" frameY="-1" frameWidth="74" frameHeight="61"/>
+    <SubTexture name="石头爆炸b0011" x="2" y="2" width="66" height="59" frameX="-6" frameY="0" frameWidth="74" frameHeight="61"/>
+    <SubTexture name="石头爆炸b0012" x="127" y="175" width="50" height="49" frameX="-16" frameY="0" frameWidth="74" frameHeight="61"/>
+    <SubTexture name="石头爆炸b0013" x="58" y="173" width="52" height="35" frameX="-14" frameY="-14" frameWidth="74" frameHeight="61"/>
+    <SubTexture name="石头爆炸b0014" x="2" y="316" width="38" height="37" frameX="-15" frameY="-13" frameWidth="74" frameHeight="61"/>
+    <SubTexture name="石头爆炸b0015" x="2" y="275" width="40" height="39" frameX="-13" frameY="-12" frameWidth="74" frameHeight="61"/>
+    <SubTexture name="石头爆炸b0016" x="95" y="257" width="42" height="41" frameX="-13" frameY="-12" frameWidth="74" frameHeight="61"/>
+    <SubTexture name="石头爆炸b0017" x="2" y="228" width="46" height="45" frameX="-11" frameY="-10" frameWidth="74" frameHeight="61"/>
+    <SubTexture name="石头爆炸b0018" x="185" y="124" width="50" height="51" frameX="-9" frameY="-6" frameWidth="74" frameHeight="61"/>
+    <SubTexture name="石头爆炸b0019" x="2" y="175" width="50" height="51" frameX="-9" frameY="-6" frameWidth="74" frameHeight="61"/>
+    <SubTexture name="石头爆炸b0020" x="215" y="270" width="32" height="23" frameX="-17" frameY="-29" frameWidth="74" frameHeight="61"/>
+    <SubTexture name="蜘蛛网子弹0001" x="228" y="207" width="26" height="15"/>
+    <SubTexture name="蜘蛛网子弹0002" x="230" y="179" width="22" height="13" frameX="-1" frameY="0" frameWidth="26" frameHeight="15"/>
+    <SubTexture name="蜘蛛网子弹0003" x="230" y="194" width="22" height="11" frameX="0" frameY="-1" frameWidth="26" frameHeight="15"/>
+    <SubTexture name="蜘蛛网爆炸0001" x="179" y="204" width="47" height="25" frameX="-4" frameY="0" frameWidth="51" frameHeight="37"/>
+    <SubTexture name="蜘蛛网爆炸0002" x="179" y="204" width="47" height="25" frameX="-4" frameY="0" frameWidth="51" frameHeight="37"/>
+    <SubTexture name="蜘蛛网爆炸0003" x="54" y="210" width="47" height="19" frameX="0" frameY="-10" frameWidth="51" frameHeight="37"/>
+    <SubTexture name="蜘蛛网爆炸0004" x="54" y="210" width="47" height="19" frameX="0" frameY="-10" frameWidth="51" frameHeight="37"/>
+    <SubTexture name="蜘蛛网爆炸0005" x="179" y="177" width="49" height="25" frameX="0" frameY="-10" frameWidth="51" frameHeight="37"/>
+    <SubTexture name="蜘蛛网爆炸0006" x="179" y="177" width="49" height="25" frameX="0" frameY="-10" frameWidth="51" frameHeight="37"/>
+    <SubTexture name="蜘蛛网爆炸0007" x="139" y="293" width="33" height="17" frameX="-7" frameY="-20" frameWidth="51" frameHeight="37"/>
+    <SubTexture name="蜘蛛网爆炸0008" x="139" y="293" width="33" height="17" frameX="-7" frameY="-20" frameWidth="51" frameHeight="37"/>
+    <SubTexture name="蜘蛛网爆炸0009" x="174" y="301" width="31" height="15" frameX="-9" frameY="-22" frameWidth="51" frameHeight="37"/>
+    <SubTexture name="蜘蛛网爆炸0010" x="174" y="301" width="31" height="15" frameX="-9" frameY="-22" frameWidth="51" frameHeight="37"/>
+</TextureAtlas>
+

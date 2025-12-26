@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://texturepacker.com-->
+<!-- $TexturePacker:SmartUpdate:da7f62da17301e6a935bb4888049a490$ -->
+<TextureAtlas imagePath="forge.png">
+    <SubTexture name="additionBtn1" x="644" y="459" width="153" height="50"/>
+    <SubTexture name="additionBtn2" x="654" y="229" width="153" height="50"/>
+    <SubTexture name="additionText" x="375" y="402" width="44" height="16"/>
+    <SubTexture name="buyStoneBtn1" x="765" y="422" width="90" height="33"/>
+    <SubTexture name="buyStoneBtn2" x="673" y="422" width="90" height="33"/>
+    <SubTexture name="chooseBtn1" x="769" y="321" width="38" height="39" frameX="0" frameY="-4" frameWidth="44" frameHeight="43"/>
+    <SubTexture name="chooseBtn2" x="375" y="357" width="44" height="43"/>
+    <SubTexture name="forgeAddQuickBuy1" x="809" y="344" width="75" height="33"/>
+    <SubTexture name="forgeAddQuickBuy2" x="896" y="475" width="75" height="33"/>
+    <SubTexture name="forgeBuyPropBg" x="807" y="34" width="102" height="193"/>
+    <SubTexture name="forgeHccgTitleImg" x="807" y="2" width="212" height="30"/>
+    <SubTexture name="forgePlusIcon" x="414" y="308" width="17" height="16"/>
+    <SubTexture name="forgeQuickBuy1" x="934" y="440" width="75" height="33"/>
+    <SubTexture name="forgeQuickBuy2" x="857" y="422" width="75" height="33"/>
+    <SubTexture name="forgeSelect1 - 副本" x="911" y="212" width="111" height="176" frameX="-7" frameY="0" frameWidth="125" frameHeight="176"/>
+    <SubTexture name="forgeSelect1" x="911" y="212" width="111" height="176" frameX="-7" frameY="0" frameWidth="125" frameHeight="176"/>
+    <SubTexture name="forgeSelect2" x="911" y="34" width="111" height="176" frameX="-7" frameY="0" frameWidth="125" frameHeight="176"/>
+    <SubTexture name="forgeSelect3" x="560" y="281" width="111" height="176" frameX="-7" frameY="0" frameWidth="125" frameHeight="176"/>
+    <SubTexture name="forgeSelect4" x="447" y="288" width="111" height="176" frameX="-7" frameY="0" frameWidth="125" frameHeight="176"/>
+    <SubTexture name="forgeTipBlackBg" x="499" y="2" width="306" height="225"/>
+    <SubTexture name="forgebg1" x="2" y="2" width="310" height="334"/>
+    <SubTexture name="forgebg10" x="314" y="2" width="183" height="284"/>
+    <SubTexture name="forgebg11" x="292" y="338" width="81" height="81"/>
+    <SubTexture name="forgebg14" x="414" y="288" width="23" height="18"/>
+    <SubTexture name="forgebg15" x="809" y="276" width="98" height="45"/>
+    <SubTexture name="forgebg16" x="546" y="466" width="96" height="44"/>
+    <SubTexture name="forgebg19" x="202" y="482" width="25" height="24"/>
+    <SubTexture name="forgebg2" x="147" y="338" width="143" height="142"/>
+    <SubTexture name="forgebg20" x="673" y="303" width="115" height="16"/>
+    <SubTexture name="forgebg22" x="375" y="335" width="63" height="20"/>
+    <SubTexture name="forgebg23" x="2" y="482" width="198" height="28"/>
+    <SubTexture name="forgebg24" x="340" y="473" width="204" height="33"/>
+    <SubTexture name="forgebg31" x="799" y="457" width="95" height="41"/>
+    <SubTexture name="forgebg32" x="673" y="323" width="94" height="39"/>
+    <SubTexture name="forgebg33" x="809" y="323" width="95" height="19"/>
+    <SubTexture name="forgebg6" x="229" y="482" width="109" height="21"/>
+    <SubTexture name="forgebg7" x="673" y="281" width="133" height="20"/>
+    <SubTexture name="forgebg8" x="809" y="229" width="98" height="45"/>
+    <SubTexture name="forgebg9" x="314" y="288" width="98" height="45"/>
+    <SubTexture name="forgejccgTitleImg" x="799" y="390" width="218" height="30"/>
+    <SubTexture name="hightbg" x="2" y="338" width="143" height="142"/>
+    <SubTexture name="synthesisBtn1" x="499" y="229" width="153" height="50"/>
+    <SubTexture name="synthesisBtn2" x="292" y="421" width="153" height="50"/>
+    <SubTexture name="synthesisText" x="934" y="422" width="76" height="16"/>
+</TextureAtlas>
+

@@ -1,0 +1,837 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LangContent>
+<config id="net_notroom" 	value="belum ada rumah cocok bisa ganti"/>
+<config id="net_connetclose" 	value="Jaringan erro, coba refresh halaman"/>
+<config id="create_repeat" 	value="dear, nama ini sudah dipakai!！"/>
+<config id="shop_success" 	value="beli hasil"/>
+<config id="shop_fail" 	value="beli gagal"/>
+<config id="shop_paycoin" 	value="Boyaa cash"/>
+<config id="shop_freecoin" 	value="Kupon tukar"/>
+<config id="chat_system" 	value="[Sistem]"/>
+<config id="reloadPage" 	value="Login gagal, silakan refresh"/>
+<config id="luckDraw" 	value="Balik kartu gagal"/>
+<config id="gold" 	value="Uang"/>
+<config id="expendForce" 	value="Habis energi"/>
+<config id="fight" 	value="Daya juang"/>
+<config id="rank" 	value="Peringkat："/>
+<config id="level" 	value="Level"/>
+<config id="win" 	value="Menang"/>
+<config id="winPercent" 	value="Persentasi menang"/>
+<config id="fail" 	value="gagal"/>
+<config id="ygq" 	value="Expire"/>
+<config id="yjyx" 	value="senantiasa"/>
+<config id="hsy" 	value="sisa"/>
+<config id="day" 	value="hari"/>
+<config id="year" 	value="tahun"/>
+<config id="month" 	value="bulan"/>
+<config id="ri" 	value="tanggal"/>
+<config id="goodsTitle" 	value="Topi|kacamata|baju|kaus|sayap|sepatu|cincin|cincin|kalung|bingkai|cincin menikah|kartu|senjata|pembantu"/>
+<config id="fightGoodsInfo_gjk1" 	value="Tembak +1|putaran ini tambah 1 kali tembak, daya serangnya dikurangi 10%"/>
+<config id="fightGoodsInfo_gjk2" 	value="Tembak +2|putaran ini tambah 2 kali tembak, daya serangnya dikurangi 45%"/>
+<config id="fightGoodsInfo_ddtk" 	value="Terperulu|putaran ini tambah 3 kali tembak, daya serangnya dikurangi 50%"/>
+<config id="fightGoodsInfo_jck1" 	value="Lebih 10% kuat|daya serangnya ditingkatkan menjadi 10%"/>
+<config id="fightGoodsInfo_jck2" 	value="Lebih 20% kuat|daya serangnya ditingkatkan menjadi 20%"/>
+<config id="fightGoodsInfo_jck3" 	value="Lebih 30% kuat|daya serangnya ditingkatkan menjadi 30%"/>
+<config id="fightGoodsInfo_jck4" 	value="Lebih 40% kuat|daya serangnya ditingkatkan menjadi 40%"/>
+<config id="fightGoodsInfo_jck5" 	value="Lebih 50% kuat|daya serangnya ditingkatkan menjadi 50%"/>
+<config id="fightGoodsInfo_csk" 	value="Pesawat kertas|bawah saya ke tempat diinginkan"/>
+<config id="fightGoodsInfo_qxk" 	value="Unseen|membuat saya unseen slm 3 putaran, kecuali kena tembak"/>
+<config id="fightGoodsInfo_smhfk" 	value="Pemulihan|memulikan 500 point nilai hidup"/>
+<config id="fightGoodsInfo_tdhf" 	value="Pemulihan tim|memulikan 300 point setiap kawan setim"/>
+<config id="fightGoodsInfo_ltk" 	value="Kemarahan|meningkatkan 50 point kemarahan"/>
+<config id="fightGoodsInfo_tdys" 	value="Unseen tim|membuat tim unseen slm 3 putaran"/>
+<config id="fightGoodsInfo_icebound" 	value="dies|gak bisa serang dan jalan slm 2 putaran,sampai kena tembak,gak bisa pakai bersama ketrampilan unik"/>
+<config id="fightGoodsInfo_bomb" 	value="Nukir|darerah ditembak akan dirusak dahsyat,gak bisa pakai bersama ketrampilan unik"/>
+<config id="fightGoodsInfo_lead" 	value="Bimbing|daya serang diturun 50%,peluru akan otomatis membiidik tujuan wkt sampai jangkauan tertentu"/>
+<config id="fightGoodsInfo_firing" 	value="Bakar|tujuan dibakar, slm 3 putaran diturun 2% nilai hidup, bisa berlipat 5, sama dengan pow gak efek"/>
+<config id="fightGoodsInfo_blood" 	value="Hirup darah|terasfer 50% luka lawan jadi nilai hidup sendiri"/>
+<config id="fightGoodsInfo_share" 	value="Membagi|membagi luka semut setim, slm 2putaran"/>
+<config id="ljsb" 	value="Ambil hadiah gagal"/>
+<config id="ljcg" 	value="Ambil hadiah hasil"/>
+<config id="cscghdyxb" 	value="Jual sukses, Anda dpt parma1 uang"/>
+<config id="bfztcfj" 	value="Anda dikeluar rumah oleh parma1"/>
+<config id="wzcw" 	value="Erro"/>
+<config id="mczbtcfj" 	value="Lama belum mulai, dikeluar kamar"/>
+<config id="ymgqsxym" 	value="Halaman expire, silakan refresh"/>
+<config id="bbygxsxym" 	value="Edisi sudah ganti,silakan refresh"/>
+<config id="wlgzsxym" 	value="Jaringan erro, coba refresh halaman"/>
+<config id="nhdl" 	value="Anda dpt parma1"/>
+<config id="nhdlkcl" 	value="Anda dpt&lt;font color='#ff0000'&gt; parma1 &lt;/font&gt;，habiskan parma2/>"/>
+<config id="nhdljgkcl" 	value="Anda dpt parma1 个&lt;font color='#ff0000'&gt; parma2 &lt;/font&gt;，habiskan parma3"/>
+<config id="fscg" 	value="kirim hasil"/>
+<config id="noRead" 	value="Inbox( parma1 )"/>
+<config id="detailsNameArr" 	value="Kekuatan|Fisik|Kelincahan|Untung|serangan|pertahanan|nilai hidup|Tenaga jasmani"/>
+<config id="detailsNameArr1" 	value="Kekuatan|Fisik|Kelincahan|Untung|serangan|pertahanan|nilai hidup|Tenaga jasmani"/>
+<config id="sex" 	value="Laki-laki|perempuan|gak tahu"/>
+<config id="srjrfjh" 	value="silakan tulis nomor kamar"/>
+<config id="nhd" 	value="Anda dpt"/>
+<config id="nhdjyz" 	value="Anda dpt parma1 point EXP"/>
+<config id="nhdyxb" 	value="Anda dpt parma1 uang"/>
+<config id="jbbz" 	value="uang anda gak cukup"/>
+<config id="boyyabz" 	value="Boyaa cash anda gak cukup,silakan mengisi"/>
+<config id="topUp" 	value="Mengisi"/>
+<config id="close" 	value="Tutup"/>
+<config id="dcy" 	value="Semut jerami"/>
+<config id="accept" 	value="Setujut"/>
+<config id="refuse" 	value="Tolak"/>
+<config id="cancel" 	value="Batal"/>
+<config id="kqhhc" 	value="bisa"/>
+<config id="xts" 	value="Tipis："/>
+<config id="makeSure" 	value="Menegaskan"/>
+<config id="share" 	value="Membagi"/>
+<config id="visit" 	value="kunjungi"/>
+<config id="prop" 	value="Alat"/>
+<config id="strengthen" 	value="Memperkuat"/>
+<config id="synthesis" 	value="Memadu"/>
+<config id="rongLian" 	value="Melebur"/>
+<config id="zhuanYi" 	value="Transfer"/>
+<config id="buy" 	value="Beli"/>
+<config id="detail" 	value="Detail"/>
+<config id="privateChat" 	value="Chat"/>
+<config id="privateChat1" 	value="[Chat]"/>
+<config id="receive" 	value="Terima"/>
+<config id="visitFriend" 	value="kunjungiteman"/>
+<config id="open" 	value="Buka"/>
+<config id="enable" 	value="Pakai"/>
+<config id="sell" 	value="Jual"/>
+<config id="xufei" 	value="Beli lagi"/>
+<config id="createCharcter" 	value="Membuat peran"/>
+<config id="inviteFriend" 	value="Undang berjuang"/>
+<config id="kshf" 	value="Ganti kamar"/>
+<config id="changeTeam" 	value="Ganti pihak"/>
+<config id="lookUp" 	value="Mencari"/>
+<config id="skip" 	value="Lanjutkan"/>
+<config id="submit" 	value="Menyerahkan"/>
+<config id="back" 	value="Kembali"/>
+<config id="doubleExpInfo" 	value="setelah 5 menit, waktu dobel-nilai akan buka, tunggu sabar~ "/>
+<config id="ljsbdjcl" 	value="Login gagal, kilik refresh lagi"/>
+<config id="matching" 	value="parma1 sedang pilih lawan"/>
+<config id="reading" 	value="parma1 sedang persiap"/>
+<config id="fighting" 	value="parma1 sedang perjuang"/>
+<config id="inCopyRoom" value="parma1 dalam rumah duplikat"/>
+<config id="refuseInvite" 	value="parma1 tolak undangan anda"/>
+<config id="ndhyyxx" 	value="teman anda sudah offline"/>
+<config id="yqndryxx" 	value="teman yg undang Anda itu sudah offline"/>
+<config id="xufeiSuccess" 	value="Belihasil"/>
+<config id="xufeiFailure" 	value="Beligagal"/>
+<config id = "savePhotoSuccess" value = "Simpan foto hasil"/>
+<config id = "savePhotoFailure" value = "Simpan foto gagal"/>
+<config id="randomMapName"  value="peta random"/>
+<config id="general" value="Jenderal"/>
+<config id = "jumpJin" value="Bayar &lt;font color='#ff0000'&gt;parma1parma3&lt;/font&gt;Masuk &lt;font color='#ff0000'&gt;ke-parma2 babak &lt;/font&gt;？/>"/>
+<config id = "recast" value = "Buat kembali"/>
+<config id="paramError" value = "Parameter erro"/>	
+<config id ="championGift" value="Selamat anda jadi juara 1 di shoutout, silakan cek email ambil kotak juara"/>
+<config id="ge" value="buat"/>
+<config id="serverRaceMapError" value="Gagal memuat peta, silahkan pilih lawan lagi!"/>
+<config id="roomID" value="No. kamar"/>
+<config id="roomName" value="Nama kamar"/>
+<config id="noDupRoom" value="Belum ada kamar!"/>
+<config id="inputRoomID" value="Silahkan masukkan nomor kamar:"/>
+<config id="noRoom" value="Nmor kamar ini gak ada！"/>
+<config id="roomKey" value="Password kamar："/>
+<config id="roomNameCanNotEmpty" value="Nama kamar kosong!"/>
+<config id="isFull" value="(penuh)"/>
+<config id="reloadpages" value="Refresh halaman"/>
+<config id="passwordWrong" value="password salah"/>
+<config id="loginFail" value="Gagal Login"/>
+<config id="energyIsNotEnough" value="Energi anda gak cukup 15 poin"/>
+<config id="promotionRace" value="shoutout"/>
+<config id="fastTalk" value="Jangan buhun saya, tolong!|Ayo kita perjuangkan sampai besok!|Anda kok bisa membunuh saya?!|Meleset! Meleset! Meleset!|Ayo cepat!|Ingatlah,saya akan kembali lagi~~~sampai jumpa,sy pasti rindu kpd semuanya.|Sangat gembira bekerjasama dng anda."/>
+<config id="currentGoodsInfo" value="Current"/>
+<config id="current" value="[current]"/>
+<config id="fightMode" value="Perjuangan sendiri|Perjuangan Tim|Duplikat|Perjuangan serikat"/>
+<config id="loudspeaker" value="[Dunia]"/>
+<config id="PR_beginning" value="Shoutout akan mulai setelah 5 menit"/>
+<config id="deductEightEnergy" value="Ikut duplikat, dikurangi parma1 poin energi!"/>
+<config id="buyEnergy" value="Beli obat energi"/>
+<config id="energyIsFull" value="Energi Anda sudah penuh, gak bisa minum obat!"/>
+<config id="updateEnergy" value="Energi ditambah parma1 poin!"/>
+<config id="updateTotalEnergy" value="Batas teratas energi ditambah parma1 poin!"/>
+<config id="waitPlayersReady" value="Tunggu pemain lain siap!"/>
+<config id="luckTurn" value="Putar piring yg beruntung"/>
+<config id="sysinfo1"><![CDATA[<font color="#ffffff"><a href='event:2'>【Sistem】</a><u><a href='event:parma5|parma1|parma2'><font color="#8ed3ff">parma2</font></a></u> telah di parma3 mendapat <font color="parma9"><a href='event:parma6|parma7|parma8'>parma4</a></font></font>]]></config>
+<config id="sysinfo2"><![CDATA[<font color="#ffffff"><a href='event:2'>【Sistem】</a>Selamat <u><a href='event:parma4|parma1|parma2'><font color="#8ed3ff">parma2</font></a></u> menjadi juara di Shoutout, menang sebuah <font color="#ff0000">parma3</font></font]]></config>
+<config id="sysinfo3"><![CDATA[<font color="#ffffff"><a href='event:2'>【Sistem】</a>Pahlawan daratan semut yg NO.parma1<u><a href='event:parma4|parma2|parma3'><font color="#8ed3ff">parma3</font></a></u> online </font>]]></config>
+<config id="sysinfo4"><![CDATA[<font color="#ffffff"><a href='event:2'>【Sistem】</a><u><a href='event:parma5|parma1|parma2'><font color="#8ed3ff">parma2</font></a></u> telah memperkuatkan <font color="parma9"><a href='event:parma6|parma7|parma8'>parma3</a></font>nya menjadi Lv<font color="#ff0000">parma4</font>, daya juangnya diperkuatkan lagi!</font>]]></config>
+<config id="sysinfo5"><![CDATA[<font color="#ffffff"><a href='event:2'>【Sistem】</a><u><a href='event:parma4|parma1|parma2'><font color="#8ed3ff">parma2</font></a></u>berhasil memadu sebuah <font color="parma8"><a href='event:parma5|parma6|parma7'>parma3</a></font></font>]]></config>
+<config id="sysinfo6" value="[Sistem] Pahlawan daratan semut yg NO.parma1 parma2 online."/>
+<config id="sysinfo7" value="[Sistem] parma1 telah memperkuatkan parma2nya menjadi Lvparma3, daya juangnya diperkuatkan lagi!"/>
+<config id="notEnough" value="Tas Anda sudah penuh, Silakan kosongkan parma1 ruang kosong!"/>
+<config id="admin" 	value="Admin"/>
+<config id="veryShort" value="Pendek sekali"/>
+<config id="short" value="Pendek"/>
+<config id="middle" value="Sedang"/>
+<config id="long" value="Panjang"/>
+<config id="veryLong" value="Panjang sekali"/>
+<config id="auBuyPrice" value="Harga persetujuaan gak bisa kurang dr harga minimal!"/>
+<config id="NotAuType" value="Gak ada macam ini!"/>
+<config id="NotAuGood" value="Gak ada barang macam ini!"/>
+<config id="auMaxPrice" value="&lt;font color='#ff0000'&gt;harga yg Anda berikan paling tinggi &lt;/font&gt;"/>
+<config id="auOverPrice" value="Harga yg Anda berikan sudah dilebihi"/>
+<config id="enterRoomFail" value="Kamar ini tertutup"/>
+<config id="login" value="sedang login..." />
+<config id="connectServer" value="Loading server..." />
+<config id="loadData" value="Cek data game..." />
+<config id="createRole" value="Membuat peran..." />
+<config id="pleaseselectamount" value="Jumlah:" />
+<config id="systemTip" value="Sistem prompt" />
+<config id="relogin" value="sudah lama gak ada operasi, silakan login lagi" />
+<config id="yes" value="Ya" />
+<config id="no" value="Tidak" />
+<config id="sure" value="Menegaskan" />
+<config id="restart" value="Akun 91 Anda sudah ganti\nsilakan refresh game!" />
+<config id="debugInfo" value="调试信息" />
+<config id="loginFailure" value="Jaringan erro, login gagal" />
+<config id="helpInfo" value="1,Dalam perjuangan, karakter bisa jalan ke kiri dan kanan\n tembak dengan bergilir, bisa kilik “←”atau”→“, untuk berjalan, kalau jalan akan menguras energi, energi gak cukup, gak bisa jalan terus dan pakai teknik.\n\n2、Mulai tembak\n jari tangan kilik karakter dan tarik ke bawah, akan muncul garis tembak,lepas jari anda maka semut akan menembak \n\n3、Pakai teknik\n buat kamar perjuangan, dibawah karakter ada 'pilih ketrampilanik', kilik itu akan muncul banyak alat ketrampilan. pilih alat yang kamu butuhkan, alat akan masuk tas ketrampilan\n\n4、energy\ndlm perjuangan, jalan, pakai alat dan teknik semua harus habiskan energi,kalau energi kurang, gak bisa jalan dan pakai apa-apa.\n\n5、dlm peta perjuangan, bisa memperbesar dan mengecilkan layar\njari tangan tekan peta mulai mengecil dan memperbesar.\n\n6、pakai kemarahan\ndlm perjuangan, bisa menimbun kemarahan, kalau pow penuh, kilik pow bisa pakai, kemarahan bisa tambah efek serang\n\n"/>;
+<config id="suggestion" value="Silakan beri pendapat Anda:\n"/>
+<config id="changePassword" value="Akun Anda login di tempat lain, kalau bukan login sendiri, silakan hati-hati aman, coba ganti sandi."/>
+<config id="connectSuccess" value="Hubungi server sukses!"/>
+<config id="reconnect" value="Hubungan dengan server terputus, sedang hubungi lagi..."/>
+<config id="netError" value="Jaringan erro!"/>
+<config id="netSafetyError" value="Keamanan jaringan erro!"/>
+<config id="noMissionData" value="Belum ada data tugas, gak bisa ambil hadiah"/>
+<config id="exp" value="EXP:"/>
+<config id="leftMonster" value="Momok yg sisa:"/>
+<config id="recharge" value="Skr batalkan pembelian?"/>
+<config id="sellOK" value="Jual sukses, Anda dpt  "/>
+<config id="equipOK" value="pakai hasil！"/>
+<config id="equipFail" value="pakai gagal！"/>
+<config id="renewOK" value="Belihasil！"/>
+<config id="renewFail" value="Beligagal！"/>
+<config id="unPoker" value="Gak bisa kilik, karena belum melukai lawan"/>
+<config id="longinBattleFail" value="Login perjuangan gagal, nomor erro:"/>
+<config id="loadMapOvertime" value="loding peta time out!"/>
+<config id="loadMapOvertime1" value="Peta lawan loading time out!"/>
+<config id="matching" value="Sedang pilih..."/>
+<config id="unMatch" value="Tunggu"/>
+<config id="buySkillCardFail" value="Beli alat ketrampilan gagal"/>
+<config id="free" value="Gratis, "/>
+<config id="noReward" value="Maaf, kali ini gak ada hadiah, semangat!"/>
+<config id="open" value="Anda hanya bisa kilik "/>
+<config id="pokerNum" value=" kartu"/>
+<config id="tired" value="Aku lelah, gak bisa jalan lagi"/>
+<config id="input" value="Silakan tulis kata-kata"/>
+<config id="selectFriend" value="Pilih teman"/>
+<config id="rechargeGold" value="Uang gak cukup, silakan pembelian！"/>
+<config id="rechargeBoyaaGold" value="Boyaacash gak cukup, silakan pembelian！"/>
+<config id="useGoldSendMsg" value="Bayar parma1 uang utk kirim berita?"/>
+<config id="useBoyaaGoldSendMsg" value="Bayar 500 boyaa chash utk kirim berita?"/>
+<config id="nickName" value="Nama"/>
+<config id="mid" value="Id semut"/>
+
+<config id="freshMoveRole" value=" Tekan panah pindah peran, ambil senjata"/>
+<config id="freshUsePlane" value="Kilik pilih 'pesawat kertas'"/>
+<config id="freshAim" value="tempat tujuan yg terbang"/>
+<config id="freshFly" value="kilik peran dan menggores ke bawah, terbang ke tempat diinginkan."/>
+<config id="freshFire" value="menggores ke kiri, membidik dan tembak"/>
+<config id="freSkiCard" value="Kilik pilih 'Terperulu'"/>
+<config id="freSkiCard1" value="Kilik pilih 'Kemarahan'"/>
+<config id="freshPoker" value="Kilik satu kartu, dpt hadiah"/>
+<config id="guide0" value="Ambil hadiah tugas"/>
+<config id="guide1" value="Kilik utk cek tugas lain"/>
+<config id="guide2" value="Ambil hadiah"/>
+<config id="guide3" value="Dapat:tas uang"/>
+<config id="guide4" value="Kalau ingin lebih kuat, selesai tugas lebih cepat tumbuhan."/>
+<config id="guide5" value="Kilik masuk toko"/>
+<config id="guide6" value="Masuk alat pabrik "/>
+<config id="guide7" value="Masuk Tas"/>
+<config id="guide8" value="Masuk lobi perjuangan"/>
+<config id="guide9" value="Masuk duplikat"/>
+<config id="guide10" value="Kilik Masuk"/>
+<config id="guide11" value="Beli batu kuat"/>
+<config id="guide12" value="Pilih palu kayu"/>
+<config id="guide13" value="Pilih pakai"/>
+<config id="guide14" value="Pilih ketrampilan"/>
+<config id="guide17" value="Pilih alat"/> 
+<config id="guide15" value="Pilih kartu ketrampilan"/>
+<config id="guide18" value="Pilih alat"/>
+<config id="guide16" value="pindah layar, lihat musuh."/>
+<config id="guide19" value="Habiskan 3 poin energi"/>
+
+
+<config id="fanpage" value="Fanpage:https://www.facebook.com/PerjuangansemutAndroid" />
+<config id="sugemail" value="" />
+
+<config id="fightNum" value="Ronde dimain"/>
+<config id="physical" value="Energi: "/>
+<config id="life" value="Nilai hidup: "/>
+<config id="lucky" value="Untung: "/>
+<config id="agile" value="Kelincahan: "/>
+<config id="reduceBlood" value="Serangan"/>
+<config id="defense" value="Pertahanan: "/>
+<config id="constitution" value="Fisik: "/>
+<config id="strength" value="Kekuatan: "/>
+<config id="unpoen" value="Akan buka!"/>
+<config id="currentMe" value="[current]|:|"/>
+<config id="worldMe" value="[Dunia]|saya:|"/>
+<config id="singleMe" value="[Chat]|saya:|"/>
+<config id="describe" value="Lukisan: "/>
+<config id="biShaJi" value="Kemarahan: "/>
+<config id="biShaJiName" value="ludah asam、duri serang: "/>
+<config id="normal" value="Biasa"/>
+<config id = "unbelievable" value = "gak bisa mengabaikan" />
+<config id="unknow" value="Gak tahu"/>
+<config id="monster" value="Pesilat semut "/>
+<config id="angrySkill" value="bisa pakai pow"/>
+<config id="skill3" value="Coba ketrampilan Terperulu"/>
+<config id="useOk" value="Pakai hasil"/>	
+<config id="useFail" value="pakai gagal"/>	
+<config id="lastCount" value="Jumlah sisa:" />
+<config id="activityQuit" value="Skr keluar pusat kegiatan？" />
+<config id="levelerror" value="Level kurang，harus Level:" />
+<config id="updateTips" value="Info replace" />
+<config id="eixt" value="Skr keluar game atau tidak？" />
+<config id="dropoutGoods" value="Barang" />
+<config id="gain" value="Memperoleh" />
+<config id="missionerror" value="Ambil gagal" />
+<config id="jsonerror" value="json error " />
+<config id="submitok" value="Menyerahkanhasil" />
+<config id="entercontent" value="Masuk isinya" />
+<config id="fkxx" value="Info feedback" />
+<config id="sexerror" value="Jenis kelamin salah, gak bisa coba！" />
+<config id="idError" value="Tipis: silakan tulis id betul!" />
+<config id="nameError" value="Tipis: silakan tulis nama cocok!" />
+<config id="inputError" value="Tulisan salah" />
+<config id="18" value="18 tahun" />
+<config id="tipHour" value="Jam" />
+<config id="tipMin" value="Menit" />
+<config id="id" value="Nomor kartu identitas:" />
+<config id="name" value="Nama:" />
+<config id="antiAddiction3" value="Tipis: hari ini sudah online"/>
+<config id="antiAddiction4" value="belum Indulge certification" />
+<config id="antiAddiction5" value="Memaksakan keluar game" />
+<config id="antiAddiction6" value="Anda dipaksa keluar game" />
+<config id="antiAddiction2" value="Tulis info asli, masih bisa main game resmi" />
+<config id="buyAll" value="  Beli semua perlengkapan yg skr pakai itu atau tidak? harus bayar" />
+<config id="needLevel" value="Batasan Level:" />
+<config id="levelUnit" value="Level" />
+<config id="validate" value="Sisa:" />
+<config id="dayUnit" value="hari" />
+<config id = "goodType" value = "Macam：" />
+<config id="bbPos" value="Topi|Baju|Kaus|Senjata|Sepatu|Sayap|Kalung|Kacamata|Cincin kawin|Cincin" />
+<config id="bbTip" value="Tas Anda belum ada barnag ini!" />
+<config id="noWeapon" value="Silakan pakai senjata!" />
+<config id="renewTip" value="Beli atau tidak?" />
+<config id="renewPay" value="Harus bayar" />
+<config id="timeOver" value="Perlengkapan current sudah Expire, silakan beli lagi！" />
+<config id="goRecharge" value="Uang tak cukup, silakan mengisi dulu!" />
+<config id="renewAll" value="Apakah beli semua perlengkapan yg expire?" />
+
+<config id = "selectDiffDlgTip1" value = "Harus mode biasa" />
+<config id = "selectDiffDlgTip2" value = "sampai parma1   buka" />
+<config id="levelUp" value = "Selamat naik level jadi【parma1】"/>
+<config id="copyGameTip1" value = "selamat Anda menantang hasil di【parma3】parma1！Menantang parma2 terus atau tidak？"/>
+<config id="copyGameTip2" value = "Kasihan, Anda menantang gagal di【parma2】parma1！Beli senjata dan Memperkuat bisa naik daya juang"/>
+<config id="copyGameTip3" value = "Anda sudah melalui semua rintangan yg mode biasa，sangat hebat, skr masuk mode ahli atau tidak?"/>
+<config id="copyGameTip4" value = "selamat Anda dpt menang di semua rintangan-【parma1】"/>
+<config id="lessPowerBuy" value = "Energi gak cukup, silakan beli obat energi"/>
+<config id="lessPowerUse" value = "Energi gak cukup, silakan pakai obat energi？"/>
+<config id = "powerName" value = "Energi" />
+<config id="copyGameNormal" value = "Biasa" />
+<config id="copyGameHero" value = "Ahli" />
+<config id = "skycity" value = "Panggilan langit" />
+<config id = "spidercity" value = "Benteng labah-labah" />
+<config id = "spritecity" value = "Ngarai siluman" />
+<config id = "palsyName" value="Lumpuh"/>
+<config id = "palsyInfo" value="kena lumpuh, slm 2 putaran, semua sifat turun 20%, dan putaran kedua tak bisa jalan"/>
+<config id = "chainName" value = "Kunci" />
+<config id = "chainInfo" value="Dikunci，gak bisa jalan, gak bisa atur sudut dan pakai alat"/>
+<config id = "clearBadState" value = "Efek hapus" />
+<config id = "robotSelf" value = "Semut bayangan:" />
+<config id = "copyGameConnetFaile" value = "Hubungi server gagal, silakan cek jaringan atau WIFI……" />
+<config id = "monsterSkillDesc" value = "melemparkan batu|menggigit|mengendorkan|belenggu、fisik tinggi|duri serang|buas|ludah asam|memanggil、pindah cepat、jebakan|menyembur api" />
+
+<config id="attr" value = "sifat" />
+<config id="qhOK" value="Dapat parma1 point EXP yg Memperkuat"/>
+<config id="qhLevel" value="Memperkuat jadi lv parma1 "/>
+<config id="zyOK" value="Transfer hasil！"/>
+<config id="zyFail" value="Transfer gagal！"/>
+<config id="optFail" value="Lakukan gagal！"/>
+<config id="toBuyQHStone" value="Batu kuat Anda gak cukup，mau beli？"/>
+<config id="toBuyZYStone" value="Batu Transfer gak cukup，skr memperoleh dari perjuangan?"/>
+<config id="toSelectZB" value="silakan pilih perlengkapan！"/>
+<config id="qhStone" value="Batu kuat"/>
+<config id="zyStone" value="Batu Transfer"/>
+<config id="qhmax" value="Perlengkapan sudah jadi paling kuat,gak usah diperkuat lagi！"/>
+
+<config id="sxsc" value="Sifatnya output"/>
+<config id="sxjs" value="sifatnya masuk"/>
+<config id="needZyStone" value="*10/parma1"/>
+<config id="needZyBoyaa" value="bayar Boyaa cash:"/>
+<config id="zycgl" value="Persentasi sukses:"/>
+<config id="zyerror1" value="kedua barnag bukan semacam,gak bisa Transfer!"/>
+<config id="zyerror2" value="Level salah,gak bisa Transfer!"/>
+<config id="qhhelp" value="penjelasan Memperkuat：\n\nsenjata/alat tahan akan ditambah 10%poin serang/tahan stl dinaikkan 1 lv\n\nTipis：\n1.satu batu kuat tambah 10 EXP memperkuat。\n\n2.Memperkuat Level lebih tinggi, Exp perkuat harus lebih banyak。\n\n3.Kalau EXp perkuat penuh, level naik.\n\n4.Pilih terus memperkuat, akan selalu habiskan batu kuat utk memperkuat, sampai naik 1 lv masih henti."/>
+<config id="zyhelp" value="Penjelasan Transfer：\n\nMelalui transformasi, lv dan sifat si alat output akan di pindah ke alat input,lv dan difat si alat output akan hilang.\n\nTipis：\nAlat output/alat input harus semacam\n\nhanya bisa transfer dari perlengkapan tinggi ke rendah,\n\nUang transfer ditentukan oleh lv perkuatan alat"/>
+
+<config id="privacyPolicy" value =" Privacy Policy" />
+<config id="privacyPolicyUrl" value ="http://www.boyaa.com/mobile/PrivacyPolicy1.html" />
+<config id="termsofservice" value ="service agreement" />
+<config id="termsofserviceUrl" value ="http://www.boyaa.com/mobile/termsofservice1.html" />
+
+<config id="loadingTips" value ="Tipis：poin energi bisa kembali sendiri,harus tunggu wkt|Tipis：poin energi gak cukup, bisa minum obat energi|Tipis：kalau ingin batalkan tembak, dua jari tangan sentuh layar, bisa batal tembak|Tipis：kalau masuk rintnagan lebih susah, coba ganti perlengkapan lebih kuat." />
+<config id="NetError" value ="Jaringan erro, silakan main di wifi" />
+
+<config id="signTxt0" value ="kilik kotak cek isi hadiah" />
+<config id="signTxt1" value ="Login terus" />
+<config id="signTxt2" value ="Melengkapi" />
+<config id="signTxt3" value ="melengkapi hasil,bayar 20Boyaa cash" />
+<config id="signTxt4" value ="Apakah bayar 20 boyaa cash utk melengkapi？" />
+<config id="signTxt5" value ="melengkapi gagal" />
+
+<config id="invite8" value ="Tuan rumah masih bisa lakukan ini！" />
+<config id="invite7" value ="parma1 undang anda ikut rintangan parma2 yg biasa，Terima atau tidak？" />
+<config id="invite6" value ="Dia sudah ada tim" />
+<config id="invite5" value ="Level gak cukup" />
+<config id="invite4" value ="dia sedang perjuangan" />
+<config id="invite3" value ="sudah sampai batasan" />
+<config id="invite0" value ="sudah undang" />
+<config id="invite2" value ="sudah kirim undangan" />
+<config id="invite1" value ="orang" />
+<config id="upLoad" value ="sedang loading daftar..." />
+<config id="leave" value ="skr mau keluar tim？" />
+<config id="copyBoss" value ="sangat kuat, boss super muncul!bersama tambak musuhnya！" />
+<config id="teamList0" value ="Tim sedang berjuang！" />
+<config id="teamList1" value ="Tim ini sudah penuh！" />
+<config id="teamList2" value ="Masuk tim gagal！" />
+<config id="teamList3" value ="Anda dikeluar rumah！" />
+<config id="teamList4" value ="Belum ada tim cocok" />
+<config id="teamList5" value ="tunggu teman lain siap, masih bisa mulai!" />
+<config id="teamList6" value ="tambah teman hasil!"/>
+<config id="teamList7" value ="Hapus teman hasil!"/>
+<config id="second" value ="Detik"/>
+<config id="noPlayer" value ="Belum ada teman cocok"/>
+<config id="notice" value ="(官方QQ交流群285555144)"/>
+<config id="inputName" value ="Silakan masuk nama peran!"/>
+<config id="bindBoyaa" value ="Tunggu buka!"/>
+<config id="bindAccountHelper" value="1、akun bagi pengunjung munking hilang data, kalau hilang, akun gak bisa cari kembali\n2、kilik mengikat akun dng boyaa pass(pass lain), pilih satu boyaa pass yg belum mengikat akun semut, selesai mengikat, \n3、mengikat akun agar lebih aman\n4、stl mengikat akun, bisa login game di mobile lain。\n5、Login bagi pengunjung hanya main sampai lv 15" />
+<config id="zhunhuang" value="Raja labah-labah" />
+
+<config id="chat0" value="saya" />
+<config id="chat1" value="kpd" />
+<config id="chat2" value=":" />
+
+<config id="leien" value="leien" />
+<config id="sprice" value="Harga jual" />
+<config id="bprice" value="Harga beli" />
+
+<config id="wqs1" value="senjata" />
+<config id="pss1" value="Hiasan" />
+<config id="fjs1" value="Alat pertahan" />
+<config id="error15" value="tunggu parma1 menit masih bisa kirim kabar." />
+<config id="diffi" value="Kesulitan" />
+
+<!-- 排行榜相关 -->
+<config id="rewardDone" value="Sudah dpt 1 parma1"/>
+<config id="rewardFaile" value="Ambil gagal"/>
+<config id="rankFightEnd" value="setiap hr hanya bisa menantang 6 orang"/>
+<config id="rankFightSelectTip" value="pilih satu orang mulai menantang"/>
+<config id="rankListWin" value="menang"/>
+<config id="rankListLose" value="gagal"/>
+
+<!-- 复活相关 -->
+<config id="reliveTip" value = "Apakah bayar parma1 Boyaa cash utk hidup lagi?"/>
+
+<!-- 2v2相关 -->
+<config id="noEnoughPlayers" value = "Jumlah belum cukup, gak bisa berjuang"/>
+<config id="noRoomNow" value = "belum bisa ganti rumah"/>
+<config id="connectFail" value = "hubungi server gagal, tunggu bentar coba lagi！"/>
+<config id="noReadyForFight" value = "Lawan belum siap, gak bisa berjuang！"/>
+<config id="changeRoomFast" value = "stl 10 detik, maish bisa ganti rumah"/>
+
+<!-- 邀请好友 -->
+<config id="refuseInvite" 	value="parma1 tolak undang anda"/>
+<config id="invite2v2" 	value="parma1 undang anda masuk perjuangan 2vs2，mau ikut?"/>
+<config id="invite1v1" 	value="parma1 undang anda masuk perjuangan 1vs1，mau ikut?"/>
+<config id="inviteCopy" 	value="parma1 邀请你进入 parma2 副本，难度为 parma3，是否接受？"/>
+<!-- 无尽塔 -->
+<config id="endless_txt0" value = "current melalui parma1 lapisan "/>
+<config id="endless_txt1" value = "Melalui parma1 lapis lagi dpt hadiah"/>
+<config id="endless_txt2" value = "Jumlah sisa：parma1 "/>
+<config id="endless_txt3" value = "Lapisan tertinggi parma1 "/>
+<config id="endless_txt4" value = "Lapisan ke-parma1 "/>
+<config id="endless_txt5" value = "Bayar parma1 boyaa cash tambah 1 kali kesempatan utk menantang?"/>
+<config id="endless_txt6" value = "Apakah bayar parma1 boyaa cash melalui ke parma2 lapisan?"/>
+<config id="endless_txt7" value = "Berhasil dapat hadiah."/>
+<config id="endless_help" value = "1、Setiap hari ada 1 kali menantang gratis, juga bisa bayar utk menantang.\n2、kalau sudah bayar beli menantang, silakan pakai habis, setiap hr 00:00 akan refresh.\n3、Melalui sesuatu lapisan, bisa dpt hadiah.\n4、Melalui lapisan sukses, kilk kembali,akan catat lapis yg sudah melalui,keluar sebelum selesai, akan gagal.\n5、kalau melalui gagal, bisa coba lagi, bisa pakai bc langsung melalui ke lapisnya yg sudah.\n6、Hadiah akan langsung kirim ke tas."/>
+<config id="endless_fly_tip" value = "Anda belum melalui, gak bisa terbang！"/>
+<config id="endless_fly_tip1" value = "Rintangan skr terbaru, gak bisa terbang！"/>
+<config id="endless_fly_tip2" value = "terbang ke lapisan tertinggi, hadiah sudah kirim！"/>
+<config id="endless_rank_titleArr" value = "Ranking |Nama|Daya juang|Lapisan"/>
+<config id="loadAssetTip" value = "Pertama kali masuk sedikit lama, silakan tunggu sabar!"/>
+
+<!-- 邮箱 -->
+
+<config id="sendMailTipError_0" value = "Sukses"/>
+<config id="sendMailTipError_1" value = "Info kurang"/>
+<config id="sendMailTipError_2" value = "Jumlah lampiran erro, hanya bisa 1-4 buah"/>
+<config id="sendMailTipError_3" value = "Uang kurang"/>
+<config id="sendMailTipError_4" value = "Bukan teman"/>
+<config id="sendMailTipError_100" value = "Gagal"/>
+<config id="sendMailTip_manager" value = "Admin"/>
+
+
+<!-- 公会相关 -->
+<config id="joinUnionCon" value="pemain yg mencapai lv 15 ke atas baru bisa mendirikan serikat"/>
+<config id="unionNameCon" value="Nama serikat gak cocok"/>
+<config id="sameUnionName" value="Nama serikat ini sudah diguna"/>
+<config id="createUnionOK" value="Mendirikan serikat sukses"/>
+<config id="storageNoLevel" value="Lv gudang kurang, halaman ini belum buka"/>
+<config id="noStoragePlace" value="Gudnng sudah penuh"/>
+<config id="storageGrids" value="Level parma1：bisa simpan parma2 tempat"/>
+<config id="chairmanUplevel" value="Hanya ketua dan wakil ketua baru bisa naik level"/>
+<config id="storageHighestLevel" value="Gudang serikat sudah mencapai lv tertinggi"/>
+<config id="unionNeedLevel" value="Lv serikat harus naik sampai lv parma1"/>
+<config id="payUpLevelStorage" value="Pastikan bayar parma1 sumbangan utk naik gudang serikat?"/>
+<config id="noContributor" value="Sumbangan serikat gak cukup"/>
+<config id="uplevelOK" value="Naik sukses"/>
+<config id="upStorageInfo" value="parma1 sudah naik lv gudang serikat, kosong simpan tambah parma2, coba lihat!"/>
+<config id="searchUnionMember" value="Tulis nama anggota mulai cek"/>
+<config id="endowOK" value="Derma sukses"/>
+<config id="noRights" value="Batas kekuasaan kurang"/>
+<config id="noViceChairmanKeajim" value="Gak ada wakil ketua terima ketua"/>
+<config id="isNotChairman" value="Hanya ketua baru bisa memecat ketua"/>
+<config id="noPeopleJoinUnion" value="Gak ada orang minta masuk serikat(*^__^*)"/>
+<config id="dismissUnion" value="Patikan keluar serikat dan bubar serikat?"/>
+<config id="appointChairman" value="Silakan menetapkan ketua jabatan berikutnya"/>
+<config id="inputNotEmpty" value="Isinya gak bisa kosong"/>
+<config id="noThisUnionMember" value="Gak ada anggota ini"/>
+<config id="appointVicechairman" value="Silakan atur wakil ketua dulu"/>
+<config id="stepDownChairman" value="Sudah memecat ketua"/>
+<config id="appointVicechairmanInfo" value="Ketua parma1 naik jabatan parma2 jadi ketua baru"/>
+<config id="unionWarfare" value="Turnamen serikat"/>
+<config id="inviteJoinUnion" value="Undang masuk serikat"/>
+<config id="applyHandle" value="Atur permohonan"/>
+<config id="outUnionMember" value="Memecat anggota"/>
+<config id="posHandle" value="Naik dan turun jabatan"/>
+<config id="updateNotice" value="Pengumuman update"/>
+<config id="uplevelUnion" value="Naik serikat"/>
+<config id="stepDown" value="Memecat ketua"/>
+<config id="changeOK" value="Berhasil ganti"/>
+<config id="isOutUnionMember" value="Benar mau memecat anggota parma1?"/>
+<config id="outOK" value="Berhasil memecat"/>
+<config id="upPosOK" value="Berhasil menaikkan jabatan"/>
+<config id="downPosOK" value="Berhasil turun jabatan"/>
+<config id="vicechairmanFull" value="Wakil ketua sudah penuh"/>
+<config id="noMoreUnion" value="Utk sementara itu belum ada serikat yg bisa diikuti."/>
+<config id="noSelectUnion" value="Anda belum memilih serikat"/>
+<config id="applyOK" value="Berhasil ajukkan permohonan"/>
+<config id="cannotApplyUnion" value="Anda sudah mengajukkan 3 permohonan."/>
+<config id="waitApproval" value="Permohonan Anda lagi diperiksa, mohon sabar."/>
+<config id="nowInUnion" value="Anda sudah ikut serikat."/>
+<config id="unionLevelNeed" value="Level Anda belum cukup Lvparma1, gagal ikut."/>
+<config id="unionFightNeed" value="Daya juang Anda belum cukup parma1, gagal ikut."/>
+<config id="searchUnionName" value="Silakan masukkan nama serikat."/>
+<config id="noApplyIniteNote" value="Gak ada catatan permohonan dan undangan."/>
+<config id="welcomeJoinUnion" value="parma1 telah ikut serikat ini, ayo menyambut kedatangannya!"/>
+<config id="unionPeopleFull" value="Serikat ini sudah penuh."/>
+<config id="canUplevelUnion" value="Hanya ketua dan wakil ketua bisa naik level"/>
+<config id="unionUplevelHighest" value="Serikat ini sudah mencapai level tertinggi"/>
+<config id="payUplevelUnion" value="Benar mau bayar parma1 poin sumbangan utk menaikkan lv serikat?"/>
+<config id="uplevelUnionPeople" value="parma1 telah menaikkan lv serikat, batas jumlah anggota yg terbanyak menjadi parma2"/>
+<config id="levelPeople" value="Lv parma1: paling banyak parma2 orang."/>
+<config id="contributorDay" value="          Tiap hari diminta parma1 poin sumbangan.          "/>
+<config id="missionContributorDay" value="          Poin sumbangan didapat dr tugas harian paling byk adalah parma1 poin"/>
+<config id="sendInviteUnion" value="Undangan terkirim"/>
+<config id="canntInvite" value="Maaf Anda gak punya hak kirim undangan"/>
+<config id="isInAnotherUnion" value="Pemain ini sudah ikut serikat lain."/>
+<config id="hadInviteFriend" value="Anda pernah undang teman ini."/>
+<config id="overRecruitPeople" value="Jumlah anggota direkrut hari ini sudah mencapai 20 orang."/>
+<config id="changeUnionIntro" value="Ringkasan serikat berhasil diperbarui."/>
+<config id="waitingPos" value="Pos ini belum ada"/>
+<config id="writeApplyRestrict" value="Setidaknya mengisi satu batas"/>
+<config id="levelNotOverforty" value="Maximal level: 45"/>
+<config id="fightNotOver" value="Maximal daya juang: 110k"/>
+<config id="editOK" value="Berhail mengedit"/>
+<config id="selectUnionMember" value="Silakan pilih anggota"/>
+<config id="acceptOK" value="Berhasil terima"/>
+<config id="refuseOK" value="Berhasil menolak"/>
+<config id="chairman" value="Ketua"/>
+<config id="vicechairman" value="Wakil ketua"/>
+<config id="goodMember" value="Anggota elite"/>
+<config id="commonMember" value="Anggota biasa"/>
+<config id="youLevelLess" value="Level Anda kurang"/>
+<config id="youFightLess" value="Daya juang Anda kurang"/>
+<config id="build" value="Fasilitas"/>
+<config id="honour" value="Kehormatan"/>
+<config id="outUnion" value="parma1 mundur diri dr serikat."/>
+<config id="byOutUnion" value="parma1 dikeluarkan serikat oleh parma2."/>
+<config id="armShopLevelHighest" value="Pabrik senjata serikat sudah mencapai level tertinggi"/>
+<config id="isUplevelArmshop" value="Benar mau pakai parma1 poin sumbangan serikat utk update pabrik senjata?"/>
+<config id="armShopUplevelInfo" value="parma1 telah update pabrik senjata serikat, persentasi memadu telah ditingkat ke lvparma2, ayo lihat!"/>
+<config id="yourContributorLess" value="Poin sumbangan Anda kurang"/>
+<config id="contributorLess" value="Poin sumbangan kurang"/>
+<config id="armShopHelpInfo" value="Lv parma1: adisi parma2%. "/>
+<config id="unionshopLevelHighest" value="Toko serikat sudah mencapai level tertinggi"/>
+<config id="payUpLevelUnionShop" value="Benar mau pakai parma1 poin sumbangan serikat utk update toko?"/>
+<config id="uplevelUnionShopOK" value="parma1telah update toko serikat, dimasukkan byk barang baru, ayo lihat!"/>
+<config id="auctionPayLess" value="Apel lelang Anda kurang"/>
+<config id="contributor" value="Poin sumbangan"/>
+<config id="createUnionInfo1" value="1. Pemain yg mencapai lv15 ke atas baru bisa mendirikan serikat."/>
+<config id="createUnionInfo2" value="2. Kalau poin nilai serikat terus tgl 0 slm 14 hari, serikat akan dibubarkan otomatis."/>
+<config id="createUnionInfo3" value="3. Kalau anggota serikat terus lebih sedikit drpd 1/3 jumlah max slm 14 hari, serikat akan dibubarkan otomatis."/>
+<config id="notJoinUnion" value="Anda belum ikut serikat."/>
+<config id="unionChat" value="[Serikat]"/>
+<config id="plesaseInputPage" value="Silakah masukkan nomor halaman yg mau langkah"/>
+<config id="unionPeople" value="Anggota serikat"/>
+<config id="unionContribute" value="Sunbangan serikat"/>
+<config id="unionLevel" value="Level serikat"/>
+<config id="unionShopLevel" value="Level toko"/>
+<config id="unionArmShopLevel" value="Level pabrik"/>
+<config id="unionStorageLevel" value="Level gudang"/>
+<config id="acceptOverRecruitPeople" value="Serikat ini sudah menarik 20 anggota, sudah penuh."/>
+<config id="levelNotEnoughToInDupRoom" value="Level Anda kurang dr Lvparma1, gagal masuk duplikat ini!"/>
+<config id="getMoonBox" value="Selamat Anda mendapat tas hadiah Tiongqiu"/>
+<config id="moonGiftBag" value="Tas hadiah Tiongqiu"/>
+<config id="honor" value="Poin kehormatan"/>
+<config id="stepDownSure" value="Benar mau mengoperkan jabatan Anda ke parma1?"/>
+<config id="pleaseOutUnion" value="Anda dikeluarkan serikat oleh parma1."/>
+<config id="assignUnionMember" value="parma1 mengangkat parma2 sbg parma3"/>
+<config id="endowGetDevote" value="Berhasil menyumbang, Anda mendapat parma1 poin sumbang serikat."/>
+<config id="unionCoins" value="Sumbangan serikat"/>
+<config id="EXP" value="Exp"/>
+<config id="useBoyyaGold" value="Uangnya kurang, Anda bisa pakai Boyaa cash"/>
+<config id="nohave" value="gak ada"/>
+<config id="online" value="Online"/>
+<config id="inputUnionName" value="Silakan masukkan nama serikat baru"/>
+<config id="inputRoleName" value="Silakan masukkan nama tokoh baru"/>
+<config id="unionNameLen" value="Nama serikat max: 5 kata"/>
+<config id="hour" value="jam"/>
+<config id="week" value="minggu"/>
+<config id="forlong" value="Lama"/>
+<config id="notKickOwn" value="Gak bisa memecat sendiri!"/>
+<config id="comeUn" value="Telah di turnamen serikat mengalahkan anggota dari "/>
+<config id="unionChat1" value="serikat"/>
+<config id="noSeeContributeDetail" value="Belum ada catatan sumbangan"/>
+<config id="contributeDetailTips" value="Stl 60 detik baru cek info catatan"/>
+<config id="contributeDetailInfo" value="Catatan sumbangan hanya simpan 300 buah belakang ini|catatan derma dan catatan konsumen"/>
+<config id="unionBOssRankHelp" value = "Penjelasan peringkat:\n\n1. Ranking1-5 bisa ambil hadiah.\n2. Semua anggota bisa ambil hadiah di halaman peringkat, seorang hanya bisa ambil 1 kali, hari ini tadi masuk serikt, gak bisa ambil.\n3. Peringkat menurut waktu yg tembak boss mati, waktu lebih sedikit, ranking lebih tinggi."/>
+<config id="unionworshipLevel" value = "hanya bisa memuja yang lvnya lebih tinggi parma1 lv dari lv anda"/>
+
+<config id="UnionOfficeBtnInfoPrivateChack" value="Chat"/>
+<config id="UnionOfficeBtnInfoAddFriend" value="Tambah teman"/>
+<config id="UnionOfficeBtnInfoUp" value="Naik jabatan"/>
+<config id="UnionOfficeBtnInfoDown" value="Turun jabatan"/>
+<config id="UnionOfficeBtnInfoOut" value="Memecat"/>
+<config id="UnionWorshipLeftNum" value="sisa:parma1"/>
+<config id="UnionWorshipNum" value="Dipuja:parma1"/>
+<config id="UnionCreateErrorCoinNotEnough" value="Uang atau boyaa cash gak cukup, mendirikan gagal"/>
+<config id="UnionCreateErrorPayTypeIsNull" value="Gak tahu cara pembayaran"/>
+<config id="UnionNameIsWrong" value="Nama serikat pengulangan"/>
+<config id="exitUnionInfo" value="Pastikan keluar serikat?"/>
+<config id="makeSureUnlayUnionInfo" value="Pastikan bubar serikat?"/>
+<config id="TodayWorshiped" value="Hari ini sudah memuja"/>
+<config id="worshipReceiveMyDevote" value="Selamat dpt parma1 sumbangan"/>
+<config id="worshipedReceiveMyCoin" value="Selamat dpt parma1 uang"/>
+<config id="unionNoWorshiped" value="Anda belum dipuja"/>
+<config id="dataIsLoading" value="loading..."/>
+
+<config id="unionDonateTip0" value = "Sumbangan pribadi"/>
+<config id="unionDonateTip1" value = "Sumbangan serikat"/>
+<config id="unionDonateTip2" value = "Dapat point"/>
+
+<config id="unionErrorTip0" value = "Id serikat erro"/>
+<config id="unionErrorTip1" value = "Id pemain erro"/>
+<config id="unionErrorTip2" value = "Orang ini sudah masuk serikat lain"/>
+<config id="unionErrorTip3" value = "gak ada Id serikat ini "/>
+<config id="unionErrorTip4" value = "server beda"/>
+<config id="unionErrorTip5" value = "Levelnya kurang"/>
+<config id="unionErrorTip6" value = "Gak ada Peran in"/>
+<config id="unionErrorTip7" value = "Sudah kirim permintaan lebih 3 "/>
+<config id="unionErrorTip8" value = "Orang ini sudah minta masuk serikat ini"/>
+<config id="unionErrorTip9" value = "memery error"/>
+<config id="unionCreateErrorTip0" value = "uang kurang parma1，gak bisa memdirikan！"/>
+<config id="unionCreateErrorTip1" value = "boyaacash kurang parma1，gak bisa memdirikan！"/>
+<config id="unionCreateErrorTip2" value = "Ada kata-kata ilegal, tidak bisa pakai nama ini！"/>
+<config id="unionInvitedTip0" value = "silakan pilih serikat dulu！"/>
+<config id="unionInvitedTip1" value = "Mausk serikat sukses, kilik bangunan serikat lagi akan masuk aula aerikat！"/>
+<config id="unionChatTip" value = "[Serikat]"/>
+<config id="unionStoreTip0" value = "Cek"/>
+<config id="unionMessageTip0" value = "Ada kata-kata ilegal, tidak bisa pakai"/>
+<config id="unionShopFailTip0" value = "Sumbangan gak cukup， Apakah tukar skr?"/> 
+<config id="unionWorldShipHelp" value = "Penjelasan:\n1.Bisa memuja anggota yg lebih tinggi dari lv 5\n2.Memuja 1 kali akan dpt 100 sumbangan.\n3.Yg dipuja akan dpt 30 sumbangan.\n4.Setiap hari bisa memuja 1 kali.\n5.Yg dipuja gak ada batasan."/>
+<config id="unionOfficeHelp" value = "Batasan pengurus\n\nWewenang ketua:\nNaik jabatan, Turun jabatan, Naik serikat, Memecat ketua, Menerima, Memecat, Undang masuk.\nWewenang Wakil:\nMenerima, Memacat,Undang masuk"/>
+<config id="unionPositionArr" value = "Ketua|Wakil ketua|Anggota"/>
+<config id="unionmessageFull" value = "Sehari hanya bisa tulis parma1 pesan"/> <!-- 一天每人只能留言parma1条信息  -->
+<config id="unionFightAddDevote" value = "Selamat Anda, Boss sudah diusir, mendapat parma1 sumbangan, silakan cek!"/> <!-- 祝贺你成功把BOSS赶跑了，获得parma1贡献，请注意查收！ -->
+
+<!-- 结婚相关 -->
+<config id="weddingHelp" value = "1.Sel menikah, harus melamar dulu, melamar harus beli kartu melamar di toko..\n2.Dua pihak online, masih bisa melamar, kabar melamar catat 1 jam..\n3.Stl melamar sukses, bisa mulai mengadakan pernikahan, masuk istana perkawin mulai.\n4.Penikahan beda, kotak menikah juga beda, penikahan bersih dan segar dpt cincin, penikahan geraja kesunyian dpt cincin +perlengkapan kekasih, penikahan istana impian dpt cincin+perlengkapan kekasih+ Panah yg cupid.\n5.Kumpul bunga mawar utk naik level cincin menikah, yg tertinggi level 4.\n6.Selesai tugas perjuangan suami- istri, bisa dpt bunga mawar, juga bisa beli di toko.\n7.Cerai ada dua pilihan: Mencapai persetujuan mengenai cerai dan Memaksa cerai.\n8.Mencapai persetujuan mengenai cerai harus belu surat persetujuan cerai, dan dua pihak harus online.\n9.Memaksa cerai harus bayar banyak uang, tak usah semua online."/>
+<config id="weddingTipMsg" value = "silakan tulis isinya"/>
+<config id="weddingTipMsg1" value = "Silakan tulis nama"/>
+<config id="weddingForceDivorce" value = "Apakah bayar parma1 boyaa cash Memaksa cerai dengan pihak lain"/>
+<config id="weddingTip0" value = "Dia sudah offline, kabar gak bisa kirim！"/>
+<config id="weddingTip1" value = "Anda sudah punya pacar！"/>
+<config id="weddingTip2" value = "Dia sudah punya pacar！"/>
+<config id="weddingTip3" value = "Anda tolak pemintaan lamar ini！"/>
+<config id="weddingTip4" value = "Kabar melamar sudah expired！"/>
+<config id="weddingTip5" value = "Selamat, melamar sukses！"/>
+<config id="weddingTip6" value = " Dia tolak lamar Anda！"/>
+<config id="weddingTip7" value = "Dia sudah setuju lamar Anda！"/>
+<config id="weddingTip8" value = "Anda sudah setuju pemintaan cerai！"/>
+<config id="weddingTip9" value = "Anda tolak pemintaan cerai！"/>
+<config id="weddingTip10" value = "Memaksa cerai sukses！"/>
+<config id="weddingTip11" value = "Anda masih bujangan, Ayo cepat cari satu pacar！"/>
+<config id="weddingMarryInfo0" value = "Sayang"/>
+<config id="weddingMarryInfo1" value = "yg cintamu"/>
+<config id="weddingError" value = "Data erro！"/>
+<config id="marryState" value = "Info menikah"/>
+<config id="marryStateArr" value = "Udah menikah|Udah melamar|Belum menikah|Pacar"/>
+<config id="exchangeRingTip0" value = "Tukar sukses"/>
+<config id="exchangeRingTip1" value = "Tukar gagal"/>
+<config id="exchangeRingTip2" value = "parma1 gak cukup！"/>
+<config id="weddingNames" value = "Upacara penikahan bersih dan segar|Upacara penikahan geraja kesunyian|Upacara penikahan istana impian"/>
+<config id="weddingDescs" value = "Stl pernikahan, akan dpt kotak penikahan bersih dan segar, buka bisa memperoleh cincin.|Stl pernikahan, akan dpt kotak penikahan bersih dan segar, buka bisa memperoleh cincin + perlengkapan kekasih.|Stl pernikahan, akan dpt kotak penikahan istana impian, buka bisa memperoleh cincin+perlengkapan kekasih+ Panah yg cupid."/>
+<config id="weddingPrice" value = "Bayar parma1 boyaa cash mengadakan pernikahan?"/>
+<config id="weddingTitleTip" value = "current ada"/>
+<config id="weddingTip12" value = "Kilik lagi keluar upacara pernikahan..."/>
+<config id="bindTip" value = "Khusus"/>
+
+<!-- 公会副本BOSS -->
+<config id="unionFightTip0" value = "pasti mau masuk duplikat serikat menantang boss dengan teman？"/>
+<config id="unionFightTip1" value = "Belum buka, silakan tunggu sabar"/>
+<config id="unionFightTip2" value = "Selamat sukses ambil parma1 poin sumbangan！"/>
+<config id="unionFightTip3" value = "Serikat anda belum masuk ranking, gak bisa ambil hadiah,semangat！"/>
+<config id="unionFightTip4" value = "Anda sudah ambil hadiah, besok ikut lagi！"/>
+<config id="unionFightTip5" value = "Ranking serikt sendiri："/>
+<config id="unionFightTip6" value = "Belum masuk ranking"/>
+<config id="unionFightTip7" value = "BOSS sudah dibunuh oleh prajurit, tunggu kali lain masih ikut."/>
+
+<!-- payment -->
+<config id="paymentTip0" value = "current"/>
+
+<!-- 兑换中心 -->
+<config id="excg_count" value="Jumlah: "/>
+<config id="excg_expire" value="sisa: "/>
+<config id="excg_forever" value="senantiasa"/>
+<config id="excg_please_select" value="silakan pilih barang"/>
+<config id="excg_not_enough" value="Syarat tukar kurang"/>
+<config id="excg_success" value="Tukar sukses"/>
+<config id="excg_label_tip" value="Tukar barang ini harus punya："/>
+
+<!-- 冲榜活动 -->
+<config id="rankActivityTipArr" value = "Ranking|Nama|Daya juang|Level"/>
+
+<config id="popTip0" value = "Hanya bisa melamar ke gender sebaliknya"/> <!-- 同性不能结婚哦，请将你的求婚请求发给你喜欢的异性 -->
+
+<!-- 结婚提示 -->
+<config id="popInfo" value = "1.Sebelum menikah, harus melamar dulu,melamar harus beli kartu melamar di toko.\n2.Dua pihak online, masih bisa melamar, kabar melamar catat 1 jam.\n3.Stl melamar sukses, bisa mulai mengadakan pernikahan, masuk istana perkawin mulai."/>
+<config id="divorceInfo" value = "Pastikan mau cerai? Lupa cinta pernah tentang kalian? Coba pikir lagi atau tidak?"/>
+<config id="divorceInfoTip" value = "Tips: Mencapai persetujuan mengenai cerai harus belu surat persetujuan cerai, dan dua pihak harus online."/>
+
+<config id="openActityLevel" value = "Lvparma1 masih bisa buka pusat kegiatan!"/>
+<config id="marryMe" value = "I love you, marry me!"/>
+<!-- 反馈中心 -->
+<config id="feedBackTip" value = "Kirim sukses, terimakasih feedback Anda!"/>
+<config id="feedBackError" value = "Kirim gagal, silakan coba lagi!"/>
+
+<!-- 查找房间返回 -->
+	<config id="net_gamestart" value="Game sudah mulai, silahkan coba nanti."/>
+	<config id="net_notroom" value="Kamarnya gak ada"/>
+	<config id="net_roomfull" value="Kamar ini penuh, silahkan coba yg lain."/>
+	
+<!-- VIP系统 -->
+<config id="vipAutoFightTip" value = "Anda masih punya parma1 kali tembak otomatis gratis，"/><!-- 你当前还有parma1次免费机会自动战斗， -->
+<config id="buyAutoFightTip" value = "Tembak otomatis harus habis 1 kartu tembak otomatis，"/><!-- 自动战斗需要消耗一张自动战斗卡，" -->
+<config id="isOpenAutoFight" value = "Apakah mau buka tambak otomatis？"/><!-- 是否要开启自动战斗？ -->
+<config id="isCloseAutoFight" value = "Apakah mau tutup tambak otomatis？"/><!-- 是否要关闭自动战斗？ -->
+<config id="vipPowerTip0" value = "VIP bisa dpt hadiah lebih banyak di kehadiran"/> <!-- 签到奖励VIP用户获得翻倍奖励 -->
+<config id="vipPowerTip1" value = "Tas istimewa toko VIP"/> <!-- 商城专属VIP礼包 -->
+<config id="vipPowerTip2" value = "Kotak VIP"/> <!-- VIP达成礼包 -->
+<config id="vipPowerTip3" value = "Perjuangan otomatis gratis:parma1"/> <!-- 每天VIP免费挂机 -->
+<config id="vipPowerTip4" value = "Buka lubang teknik terakhir"/> <!-- 开启道具购买栏最后一个框 -->
+<config id="vipPowerTip5" value = "Tambah jumlah memuja:parma1"/> <!-- 每天额外增加膜拜次数 -->
+<config id="vipPowerTip6" value = "Exp perjuangan tambah:parma1%"/> <!-- 对战经验加成 -->
+<config id="vipPowerTip7" value = "Balik kartu 2x di perjuangan"/> <!-- 对战可多翻一次牌 -->
+<config id="vipPowerTip8" value = "Masuk pagoda gratis:parma1"/> <!-- 每天可以额外免费进无尽塔 -->
+<config id="vipPowerTip9" value = "Exp Ekspedisi tambah:parma1%"/> <!-- 副本经验加成 -->
+<config id="vipPowerTip10" value = "Hidup kembali di Ekspedisi:parma1"/> <!-- 副本VIP复活 -->
+<config id="vipPowerTip11" value = "Hidup kembali di pagoda:parma1"/> <!-- 每天可以额外复活无尽塔 -->
+<config id="vipCondition" value = "Vipparma1 harus pembelian parma2 Boyaa cash"/> <!-- Vip parma1需要累积储值 parma2 Boyaa cash -->
+<config id="vipNextLevelText" value = "Pembeli parma1 boyaa cash lagi, akan naik jadi level VIP parma2"/> <!-- 再充值 parma1 博雅币，即可享受 VIP parma2 特权 -->
+<config id="vipReliveInEndless" value = "Anda masih punya parma1 kesempatan hidup kembali gratis, segera pakai？"/> <!-- 你当前还有 parma1 次免费复活的机会，是否使用？ -->
+<config id="vipReliveFail" value = "Hidup kembali gagal..."/> <!-- 复活失败...？ -->
+<config id="vipReliveCopyTip" value = "Anda masih punya parma1 ke                 sempatan hidup kembali gratis，segera hidup kembali？"/> <!-- 你当前还有parma1次免费复活的机会，是否复活？ -->
+<config id="vipTurnCardFailTip" value = "Kartu ini harus VIP3 ke atas masih bisa buka"/> <!-- 此卡片只有VIP3玩家才可以翻开 -->
+<config id="signInDoublePrice" value = "Hadiah VIP x2"/> <!-- VIP翻倍奖励 -->
+<config id="UnionWorshipVipLeft" value="vip sisa:parma1"/> <!-- VIP剩余膜拜 -->
+<config id="noVipCannotBuy" value="Barang ini hanya dibeli oleh Semut VIP"/> <!-- 此物品只能VIP玩家购买 -->
+<config id="autoFightTip" value="Tembak otomatis...."/> <!-- 自动战斗中... -->
+<config id="vipTopLevelTip" value="Level VIP sudah sampai tertinggi!"/> <!-- 你目前的VIP等级已达到最高等级 -->
+<config id="coinName" value = "Boyaa cash"/>
+<config id="moneyName" value = "IDR"/>
+<config id="zingMobileconfirm" value = "Apakah pakai cara yg pembelian SMS otomatis? cara ini lebih cepat dan mudah!"/><!-- 确定操作将使用自动短信的形式购买商品，是否确认购买？ -->
+
+<config id="mywarehouse_help" value = "1.semua barang bisa pindah ke gudang pribadi.
+2.Gudang serikat lebih tinggi, lubang gudang pribadi lebih banyak
+3.level 1-10 gudnag serikat masing-masing punya lubang 4，6，8，10，12，14，16，18，20，30.
+4.4.Lubang yg dikunci bisa buka, stl gudnag serikat naik level."/>
+<config id="rent_goods_help" value = "1.Bisa search barang yg Anda mau.
+2.kilik barang akan muncul sifat barang dan harga sewa.
+3.3.Stl sewa sukses, barang akan kirim ke email, coba ambil di email box."/>
+<config id="noThisProp" value = "Anda belum ada barang parma1 ini "/>
+<config id="union_locktip" value="silakan naik lv gudang serikat lalu buka gudang pribadi"/>
+<config id="union_storage_maxlevel" value="Gudang serikat sudah naik jadi level tertinggi!"/>
+<config id="union_storage_levelup_ok" value="Naik gudang serikat sukses!"/>
+<config id="union_storage_rent_tip" value="Pastikan bayar parma1 derma menyewakan barnag ini?"/>
+<config id="union_storage_rent_no" value="Derma sendiri tidak cukup"/>
+<config id="union_storage_rent_ok" value="Sukses menyewa barang ini,masuk email ambil"/>
+<config id="union_storage_rent_fail" value="Menyewakan barnag gagal"/>
+<config id="search" value="tulis nama yg mau"/>
+<config id="rent_price" value="tulis harganya"/>
+<config id="select_goods" value="silakan pilih barang"/>
+<config id="goods_0" value="Harga:"/>
+<config id="goods_1" value="Level:"/>
+<config id="goods_2" value="Waktu:"/>
+<config id="rentout_ok" value="sukses sewa!"/>
+<config id="rentout_no" value="Gagal sewa!"/>
+<config id="rent" value="Dari sewa"/>
+<config id="rentout_over" value="Set parma1 yg disewa sudah expired, silakan ganti perlengkapan!"/>
+<config id="payUpLevelUnionStore" value="Benar mau pakai parma1 poin sumbangan serikat utk update Gudang?"/>
+<config id="iwant_rent_help" value="1.Barang harus simpan di gudang pribadi masih bisa sewa.
+2.Barang harus ≥7hari masih bisa menyewakan.
+3.menyewakan 3 jam harus bayar 50 sumbangan, 7 jam harus 100 sumbangan sebagai biaya penyimpanan.
+4.Stl sewa sukses, gudang pribadi juga bisa lihat barang, tapi ada cap”sedang sewa” dan barang juga tidak bisa pakai.
+5.Stl sewa sukses, sistem akan beri kabar untuk anda di email.
+6.Semua barang bisa sewa 7 hari, stl 7hari, barang tidak ada orang menyewa, barnag akan kembali gudang pribadi anda!
+7.stl barang disewakan, sistem ambil 10% sumbangan sebagai ongkos servis. Sumbangan lain akan langsung ke akun Anda."/>
+
+<!-- 合成和加成 -->
+<config id="stoneLevelEnough" value="Level batu memadu lebih rendah drpd level senjata!"/>	<!-- 当前合成石等级小于装备合成石等级 -->
+<config id="hcsb" value="Gagal memadu"/>	<!-- 合成失败 -->
+<config id="jcsb" value = "Gagal Adisi"/> 	<!-- 加成失败 -->
+<config id="highAttrTip" value = "Sifatnya sudah menjadi yg paling tinggi, gak usah adisi lagi!"/> <!-- 当前属性已在到最高等级，无法继续加成 -->
+<config id="highAttrSynTip" value = "Sifatnya sudah menjadi yg paling tinggi, gak usah memadu lagi!!"/> <!-- 当前属性已在到最高等级，无法继续合成 -->
+<config id="noGold" value = "Uang kurang"/>	<!-- 金币不足 -->
+<config id="notEnoughPayGold" value = "Boyaa cash kurang!"/>
+<config id="nhclyk" value="parma1 Anda dipadu menjadi parma2"/> <!-- 您的 parma1 合成了一块 parma2 -->
+<config id="attr_tips" value = "Kekuatan|Untung|Fisik|Kelincahan"/>
+<config id="putEquiptInBox" value = "masuk perlengkapan"/> <!-- 放入装备 -->
+<config id="putSynStoneInBox" value = "masuk kristal"/>	<!-- 放入合成石 -->
+<config id="putAddStoneInBox" value = "masuk batu"/>	<!-- 放入加成石 -->
+
+<config id="shop_cart" value = "Ada barang di troli, apakah bayar sekarang?"/>
+<config id="hasSigned" value = "Hari ini sudah kahadiran, besok coba lagi!"/>
+
+<!-- 新手训练引导语 -->
+<config id="freshWorld_guide0" value = "Kilik tombol → jalan ke kanan, lalu ambil palu kayu"/>
+<config id="freshWorld_guide1" value = "Kilik tombol ← untuk mengatur arah"/>
+<config id="freshWorld_guide2" value = "Buka box alat dan senjata"/>
+<config id="freshWorld_guide3" value = "pilih pesawat terbang dan terbang"/>
+<config id="freshWorld_guide4" value = "Kilik tombol ↑ dan ↓ mengatur sudut"/>
+<config id="freshWorld_guide5" value = "Kilik tombol tembak jangan lepas, tunggu sampai tenaga cukup masih lepas, selesai tembak"/>
+<config id="freshWorld_guide6" value = "Kilik tombol tembak jangan lepas, tunggu sampai tenaga cukup masih lepas, selesai tembak"/>
+<config id="freshWorld_guide7" value = "Dalam perjuangan, bisa ganti senjata,skr kita mau ganti senjata baru"/>
+<config id="freshWorld_guide8" value = "Kilik tombol Senjata"/>
+<config id="freshWorld_guide9" value = "Setelat perjuangan, ambil 1 kartu, ini hasil menang"/>
+<config id="freshWorld_guide10" value = "Pakai kemarahan, tambah serangan"/>
+<config id="freshWorld_guide11" value = "Pakai teknik dengan baik, agar perjuangan lebih hebat"/>
+<config id="freshWorld_guide12" value = "Kilik tombol → untuk mengatur arah"/>
+
+<config id="reliveErrorTip0" value = "Peran belum mati, tidak bisa hidup kembali"/>
+<config id="fightModeArr" value = "All|Athletics|Bebas"/>
+<config id="propItemBoxFull" value = "Kosong alat sudah penuh!"/><!-- 道具栏已满 -->
+<config id="payPropIsFull" value = "You cann't purchase more than parma1 pay props!"/><!-- 道具栏已满 -->
+<config id="vipLevelTip" value = "VIP parma1 Hak istimewt"/><!-- 道具栏已满 -->
+</LangContent>

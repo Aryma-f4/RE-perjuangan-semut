@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding ="utf-8"?>
+<swc xmlns="http://www.adobe.com/flash/swccatalog/9">
+  <versions>
+    <swc version="1.2" />
+    <flex version="4.6.0" build="23201" minimumSupportedVersion="3.0.0" />
+  </versions>
+  <features>
+    <feature-script-deps />
+    <feature-files />
+  </features>
+  <libraries>
+    <library path="library.swf">
+      <script name="_e7fc719964e5329f57cf438bd1da879958d4b7619c65b0aa48bc14a2aad96ed6_flash_display_Sprite" mod="1374593706160" signatureChecksum="3935599413" >
+        <def id="_e7fc719964e5329f57cf438bd1da879958d4b7619c65b0aa48bc14a2aad96ed6_flash_display_Sprite" /> 
+        <dep id="flash.system:Security" type="e" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="flash.display:Sprite" type="i" /> 
+      </script>
+      <script name="com/freshplanet/ane/AirDeviceId" mod="1374593586000" signatureChecksum="3067387315" >
+        <def id="com.freshplanet.ane:AirDeviceId" /> 
+        <dep id="trace" type="e" /> 
+        <dep id="flash.system:Capabilities" type="e" /> 
+        <dep id="flash.events:StatusEvent" type="e" /> 
+        <dep id="flash.external:ExtensionContext" type="e" /> 
+        <dep id="Error" type="e" /> 
+        <dep id="flash.events:StatusEvent" type="s" /> 
+        <dep id="flash.external:ExtensionContext" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="flash.events:EventDispatcher" type="i" /> 
+      </script>
+      <digests>
+        <digest type="SHA-256" signed="false" value="9132fa9374e6bdd0a5e36fe0db8f54f886a57160116b7b7bdbf43a6ba5781ea2"   />
+      </digests>
+    </library>
+  </libraries>
+  <files>
+  </files>
+</swc>
+

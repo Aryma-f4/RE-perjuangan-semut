@@ -1,0 +1,1056 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with LeoLuo -->
+<Antwars>
+    <Screen name="btSelectDlg">
+        <Item name="dzrs1" x="91" y="131.95" width="359.95" height="419.9"/>
+        <Item name="dzrs3" x="463" y="133" width="470.9" height="419.9"/>
+        <Item name="dzrs6" x="185" y="580.95" width="267.95" height="83.95"/>
+        <Item name="dzrs7" x="535" y="580.95" width="267.95" height="83.95"/>
+        <Item name="closeBtn" x="924.95" y="13.45" width="60" height="60"/>
+        <Item name="hall_title" x="425.8" y="22.85" width="145" height="38"/>
+    </Screen>
+    <Screen name="shopSmallTip">
+        <Item name="bg" x="0" y="0" width="303.95" height="361.95"/>
+        <Item name="btnBuy" x="71.55" y="262" width="164.95" height="79.95"/>
+        <Item name="goodsBox" x="4.55" y="23.7" width="120" height="120"/>
+        <Item name="goodsName" x="122.55" y="28.45" width="165" height="50"/>
+        <Item name="type" x="123.55" y="95.45" width="149.45" height="30.55"/>
+        <Item name="price" x="28.55" y="232.55" width="141" height="28.05"/>
+        <Item name="value" x="170.5" y="232.6" width="89" height="30"/>
+        <Item name="line" x="27.05" y="130.95" width="251.95" height="28.05"/>
+        <Item name="desc" x="27.05" y="163.95" width="252.85" height="62"/>
+        <Item name="img_buyType" x="244.55" y="232.95" width="30" height="30"/>
+        <Item name="btn0" x="16.25" y="274.95" width="130.95" height="54.95"/>
+        <Item name="btn1" x="156.8" y="274.95" width="130.95" height="54.95"/>
+    </Screen>
+    <Screen name="renewDlg">
+        <Item name="title" x="134" y="15" width="144.95" height="38.95"/>
+        <Item name="bg" x="0" y="0" width="395.9" height="690.9"/>
+        <Item name="btn_renew" x="107" y="599.9" width="180.95" height="73.95"/>
+        <Item name="txt0" x="25" y="545.4" width="151" height="30"/>
+        <Item name="gold_img" x="145.05" y="533.95" width="54" height="53"/>
+        <Item name="txt1" x="200" y="543.4" width="111" height="34"/>
+        <Item name="item" x="25" y="74" width="347.95" height="450.95"/>
+        <Item name="closeBtn" x="328.7" y="3.5" width="60" height="60"/>
+    </Screen>
+    <Screen name="SelectFriendView">
+        <Item name="bg" x="0" y="0" width="725.6" height="496.25"/>
+        <Item name="title0" x="43.95" y="34.2" width="109.35" height="34"/>
+        <Item name="title2" x="367.9" y="34.2" width="108" height="34"/>
+        <Item name="title1" x="187.95" y="34.2" width="141" height="34"/>
+        <Item name="list" x="41.85" y="73" width="640.2" height="391.9"/>
+        <Item name="title3" x="547.95" y="34.2" width="108" height="34"/>
+    </Screen>
+    <Screen name="skillitem">
+        <Item name="box" x="15" y="11" width="120" height="120"/>
+        <Item name="title" x="165.95" y="19.5" width="303" height="37.95"/>
+        <Item name="desc" x="165.95" y="70.95" width="401" height="50"/>
+    </Screen>
+    <Screen name="monsterInfoDlg">
+        <Item name="bg" x="0" y="0" width="612" height="512"/>
+        <Item name="btnClose" x="535.95" y="14" width="60" height="60"/>
+        <Item name="txt0" x="347.95" y="101.95" width="100" height="29"/>
+        <Item name="txt1" x="437.95" y="101.95" width="140" height="29"/>
+        <Item name="txt4" x="347.95" y="199.95" width="100" height="29"/>
+        <Item name="txt2" x="347.95" y="164.95" width="100" height="29"/>
+        <Item name="txt3" x="441.95" y="164.95" width="130" height="29"/>
+        <Item name="txt5" x="440.95" y="200.95" width="130" height="29"/>
+        <Item name="txt6" x="351.95" y="254.95" width="220" height="200"/>
+        <Item name="txt7" x="47" y="397.45" width="250" height="34"/>
+        <Item name="headImg" x="170" y="248.4" width="281" height="281"/>
+    </Screen>
+    <Screen name="copyGameTip">
+        <Item name="tipBg" x="0" y="0" width="946" height="142"/>
+        <Item name="txt" x="13.2" y="10.1" width="918.05" height="47"/>
+        <Item name="button1" x="798.3" y="72.35" width="134" height="58"/>
+        <Item name="button2" x="657.35" y="72.35" width="134" height="58"/>
+        <Item name="button3" x="516.5" y="72.35" width="134" height="58"/>
+        <Item name="button4" x="375.65" y="72.35" width="134" height="58"/>
+    </Screen>
+    <Screen name="forge">
+        <Item name="goldbg" x="1005.9" y="693.95" width="174.95" height="38.95"/>
+        <Item name="forgebg1" x="182" y="99" width="619.9" height="667.9"/>
+        <Item name="top_bar" x="165" y="0" width="1036.85" height="115.95"/>
+        <Item name="helpbtn" x="1042.5" y="30.05" width="65.95" height="65.95"/>
+        <Item name="title" x="596.95" y="44.5" width="225" height="45"/>
+        <Item name="box1" x="210" y="174" width="284.95" height="283.95"/>
+        <Item name="box2" x="494" y="174" width="284.95" height="283.95"/>
+        <Item name="listbg" x="812.95" y="99" width="364.95" height="566.9"/>
+        <Item name="boyaabg" x="814.5" y="693.95" width="174.95" height="38.95"/>
+        <Item name="qhbtn" x="532.95" y="645.95" width="194.95" height="89.95"/>
+        <Item name="badd" x="937.95" y="680" width="69.95" height="69.95"/>
+        <Item name="goldicon" x="995.9" y="687.1" width="55.95" height="54.95"/>
+        <Item name="bicon" x="808.9" y="689.1" width="53.95" height="52.95"/>
+        <Item name="fbarbg" x="266.95" y="448.95" width="174.95" height="38.95"/>
+        <Item name="fbar" x="274.45" y="456.45" width="159.95" height="23.95"/>
+        <Item name="sbg" x="544.5" y="448.95" width="174.95" height="38.95"/>
+        <Item name="sadd" x="671.95" y="434.05" width="69.95" height="69.95"/>
+        <Item name="levelto" x="363.95" y="542.5" width="44.95" height="35.95"/>
+        <Item name="yjqh" x="324" y="672" width="157.95" height="50.95"/>
+        <Item name="yjqhok" x="245.95" y="640.9" width="85" height="86"/>
+        <Item name="zyok" x="260.95" y="540.65" width="55" height="55.65"/>
+        <Item name="zyok1" x="499.95" y="540.65" width="55" height="55.65"/>
+        <Item name="exit" x="1111.6" y="31.1" width="64" height="64"/>
+        <Item name="gtxt" x="1050.4" y="698.5" width="119.2" height="30.8"/>
+        <Item name="btxt" x="859.05" y="698.5" width="86.65" height="30.8"/>
+        <Item name="ptitle" x="265.3" y="502.75" width="174.15" height="35.5"/>
+        <Item name="plevel" x="265.3" y="543.8" width="108.75" height="32.4"/>
+        <Item name="plevel2" x="399.15" y="542.75" width="49.9" height="32.4"/>
+        <Item name="levelto2" x="363.95" y="582.1" width="44.95" height="35.95"/>
+        <Item name="pattr" x="265.3" y="583.4" width="108.75" height="32.4"/>
+        <Item name="pattr2" x="399.15" y="582.35" width="49.9" height="32.4"/>
+        <Item name="ptitle2" x="547.1" y="502.75" width="174.15" height="35.5"/>
+        <Item name="zybtn" x="400.95" y="647" width="194.95" height="89.95"/>
+        <Item name="zbox1" x="206.55" y="154.5" width="284.95" height="283.95"/>
+        <Item name="zbox2" x="490.55" y="154.5" width="284.95" height="283.95"/>
+        <Item name="zptitle" x="266.95" y="429.8" width="174.15" height="35.5"/>
+        <Item name="zptitle2" x="547.6" y="431.1" width="174.15" height="35.5"/>
+        <Item name="zplevel" x="266.95" y="464.1" width="174.15" height="35.5"/>
+        <Item name="zpattr" x="266.95" y="498.4" width="174.15" height="35.5"/>
+        <Item name="zplevel2" x="547.95" y="465.4" width="174.15" height="35.5"/>
+        <Item name="zpattr2" x="547.95" y="499.7" width="174.15" height="35.5"/>
+        <Item name="zps1" x="319.95" y="552.8" width="174.15" height="35.5"/>
+        <Item name="zps2" x="409.55" y="603.1" width="174.15" height="35.5"/>
+        <Item name="zps3" x="556.95" y="552.8" width="174.15" height="35.5"/>
+        <Item name="goodsbox3" x="281" y="232.45" width="134" height="123"/>
+        <Item name="goodsbox4" x="567.5" y="234.45" width="134" height="123"/>
+        <Item name="goodsbox1" x="286" y="254" width="134" height="123"/>
+        <Item name="goodsbox2" x="571.45" y="255" width="134" height="123"/>
+        <Item name="listbox" x="840.95" y="128" width="312" height="509.95"/>
+    </Screen>
+    <Screen name="map202">
+        <Item name="egg1" x="554.6" y="229.35" width="127.8" height="109.25"/>
+        <Item name="egg4" x="93.9" y="643.7" width="155.05" height="143.75"/>
+        <Item name="egg8" x="74.8" y="306.95" width="131.2" height="113.3"/>
+        <Item name="egg5" x="360.2" y="528.15" width="146.75" height="132.6"/>
+        <Item name="egg10" x="258.4" y="124.95" width="138.1" height="121.65"/>
+        <Item name="egg11" x="39.6" y="909.85" width="134.8" height="117.65"/>
+        <Item name="egg3" x="585" y="737.6" width="134.85" height="117.65"/>
+        <Item name="egg9" x="911.15" y="135.7" width="142.6" height="127.25"/>
+        <Item name="egg7" x="909.55" y="398.75" width="153.85" height="142.15"/>
+        <Item name="egg2" x="937.4" y="888.65" width="142.7" height="127.35"/>
+        <Item name="egg6" x="801.5" y="561.8" width="155.05" height="143.75"/>
+    </Screen>
+    <Screen name="checkDetail">
+        <Item name="bg" x="0" y="0" width="368" height="611.9"/>
+        <Item name="bntBuy" x="107" y="516.9" width="164.95" height="79.95"/>
+        <Item name="star" x="214" y="115.5" width="99.95" height="18.95"/>
+        <Item name="goodsImg" x="13.55" y="19.7" width="128.95" height="129.95"/>
+        <Item name="goodsName" x="149" y="16.65" width="201" height="30"/>
+        <Item name="level" x="149" y="48.65" width="192" height="28.05"/>
+        <Item name="type" x="149" y="78.65" width="192" height="28.05"/>
+        <Item name="grade" x="149" y="107.65" width="60.95" height="30"/>
+        <Item name="property" x="16" y="141.65" width="323" height="28.05"/>
+        <Item name="key0" x="23" y="206.65" width="149.9" height="28.05"/>
+        <Item name="value0" x="180.85" y="203.7" width="89.95" height="30"/>
+        <Item name="key1" x="23" y="270.7" width="149.95" height="28.05"/>
+        <Item name="value1" x="180.85" y="266.3" width="89.95" height="30"/>
+        <Item name="key2" x="23" y="238.65" width="149.95" height="28.05"/>
+        <Item name="value2" x="180.85" y="235" width="89.95" height="30"/>
+        <Item name="key3" x="23" y="302.6" width="149.95" height="28.05"/>
+        <Item name="value3" x="180.85" y="297.7" width="89.9" height="30"/>
+        <Item name="line" x="26" y="328.65" width="319" height="28.05"/>
+        <Item name="desc" x="26.9" y="356.95" width="316.95" height="77.3"/>
+        <Item name="priceKey" x="26.85" y="440.3" width="173.15" height="31.55"/>
+        <Item name="goodstype" x="27.9" y="477.85" width="311" height="32.05"/>
+        <Item name="priceValue" x="183.75" y="439.7" width="92.2" height="30"/>
+        <Item name="value4" x="21.9" y="171.7" width="240" height="30"/>
+        <Item name="synValue0" x="249.85" y="203.7" width="89.95" height="30"/>
+        <Item name="synValue1" x="249.85" y="266.3" width="89.95" height="30"/>
+        <Item name="synValue2" x="249.85" y="235" width="89.95" height="30"/>
+        <Item name="synValue3" x="249.85" y="297.7" width="89.9" height="30"/>
+        <Item name="strengthAddValue" x="270.85" y="171.7" width="89.95" height="30"/>
+        <Item name="btn0" x="16.3" y="536.95" width="130.95" height="54.95"/>
+        <Item name="btn1" x="211.75" y="537.95" width="130.95" height="54.95"/>
+    </Screen>
+    <Screen name="teamListItem">
+        <Item name="itemBg" x="0" y="0" width="879.85" height="65.95"/>
+        <Item name="state" x="753.05" y="16.95" width="115.95" height="32.95"/>
+        <Item name="roomId" x="33" y="15.9" width="59" height="28.05"/>
+        <Item name="roomName" x="129.95" y="15" width="259" height="28.05"/>
+        <Item name="owner" x="435" y="16.95" width="193" height="28.05"/>
+        <Item name="playerNum" x="639.95" y="18" width="101" height="28.05"/>
+    </Screen>
+    <Screen name="backpackitem">
+        <Item name="bg1" x="4.05" y="6.05" width="139.95" height="131.95"/>
+        <Item name="box" x="15.05" y="17" width="118.9" height="110.85"/>
+        <Item name="lowerlevel" x="45.15" y="86.05" width="86.15" height="43"/>
+        <Item name="icon" x="-7.5" y="-2.95" width="75" height="75"/>
+        <Item name="title" x="141.95" y="12" width="196" height="32.45"/>
+        <Item name="level" x="140.95" y="46.2" width="196" height="32.45"/>
+        <Item name="validate" x="140.95" y="81.55" width="196" height="32.45"/>
+        <Item name="iconbind" x="191.8" y="112.35" width="147" height="28"/>
+    </Screen>
+    <Screen name="buyDlg">
+    </Screen>
+    <Screen name="aniAddiction">
+        <Item name="errorTxt" x="41.55" y="560.8" width="283" height="40"/>
+        <Item name="title" x="367.95" y="21" width="180" height="38"/>
+        <Item name="bg" x="0" y="0" width="928.85" height="661.9"/>
+        <Item name="btnCommit" x="335.95" y="524.95" width="271.95" height="85.95"/>
+        <Item name="inputBg1" x="257" y="333" width="457.9" height="70.95"/>
+        <Item name="inputBg2" x="257" y="424" width="457.9" height="70.95"/>
+        <Item name="txt3" x="87.05" y="351.15" width="161.95" height="34"/>
+        <Item name="txt1" x="59" y="110.2" width="834.95" height="186.4"/>
+        <Item name="txt2" x="59" y="273.2" width="811.95" height="34.8"/>
+        <Item name="txt5" x="261" y="344.15" width="428.95" height="50.8"/>
+        <Item name="txt6" x="261" y="437.15" width="428.95" height="50.8"/>
+        <Item name="txtHour" x="300.95" y="198" width="87.95" height="28.05"/>
+        <Item name="btnClose" x="853.95" y="12" width="60" height="60"/>
+        <Item name="txt1_2" x="275.95" y="178.3" width="590.95" height="28.05"/>
+        <Item name="text" x="68.95" y="83" width="794" height="198"/>
+        <Item name="txt4" x="87.05" y="443.1" width="161.95" height="34"/>
+    </Screen>
+    <Screen name="skycity">
+        <Item name="level1_1" x="195" y="245" width="124.95" height="127.95"/>
+        <Item name="level1_2" x="389.95" y="226" width="124.95" height="127.95"/>
+        <Item name="level1_3" x="399.95" y="107" width="124.95" height="127.95"/>
+        <Item name="level1_4" x="580.95" y="87" width="124.95" height="127.95"/>
+        <Item name="level1_5" x="728.95" y="245" width="124.95" height="127.95"/>
+        <Item name="level1_6" x="580.95" y="291" width="124.95" height="127.95"/>
+        <Item name="level1_7" x="487.95" y="423.95" width="124.95" height="127.95"/>
+        <Item name="level1_8" x="807.05" y="416" width="124.95" height="127.95"/>
+        <Item name="level1_9" x="1014.05" y="331" width="124.95" height="127.95"/>
+        <Item name="level1_10" x="932" y="89" width="124.95" height="127.95"/>
+        <Item name="bgTitle" x="515" y="0" width="317" height="70"/>
+        <Item name="title" x="577.6" y="7.85" width="193" height="49"/>
+        <Item name="btnPropSkill" x="1113.7" y="102.1" width="72" height="215"/>
+        <Item name="lock2" x="435" y="222.85" width="34.45" height="40"/>
+        <Item name="lock3" x="445.8" y="104.3" width="34.45" height="40"/>
+        <Item name="lock4" x="626" y="83.85" width="34.45" height="40"/>
+        <Item name="lock6" x="628.1" y="286.35" width="34.45" height="40"/>
+        <Item name="lock5" x="775.95" y="239.55" width="34.45" height="40"/>
+        <Item name="lock7" x="535.2" y="420.2" width="34.45" height="40"/>
+        <Item name="lock8" x="853.5" y="410.55" width="34.45" height="40"/>
+        <Item name="lock10" x="978.2" y="85.8" width="34.45" height="40"/>
+        <Item name="lock9" x="1059.75" y="327.35" width="34.45" height="40"/>
+        <Item name="lock1" x="239.85" y="240.95" width="34.45" height="40"/>
+        <Item name="energy0" x="163.5" y="0.85" width="333" height="71"/>
+        <Item name="energy1" x="163" y="4.2" width="81" height="28.05"/>
+        <Item name="energy2" x="266.85" y="3.85" width="187" height="35"/>
+        <Item name="energy3" x="272.85" y="9.85" width="175" height="23"/>
+        <Item name="energy4" x="316" y="6.85" width="59.95" height="29"/>
+        <Item name="star" x="267.9" y="35.4" width="34.95" height="33.95"/>
+        <Item name="txtNum" x="295" y="38.85" width="59.95" height="29"/>
+        <Item name="energy5" x="352.95" y="6.85" width="59.95" height="29"/>
+    </Screen>
+    <Screen name="lessPowerDlg">
+        <Item name="bg" x="0" y="0" width="775" height="482"/>
+        <Item name="buy" x="445.3" y="326.95" width="140" height="60"/>
+        <Item name="cancel" x="170.8" y="329.95" width="131" height="55"/>
+        <Item name="txt" x="50.5" y="144.35" width="680.95" height="62"/>
+    </Screen>
+    <Screen name="btRoom">
+        <Item name="bottomBar" x="0" y="638" width="1365" height="130"/>
+        <Item name="top_bar" x="0" y="0" width="1365" height="106"/>
+        <Item name="btn_close" x="1128.75" y="2.35" width="60" height="60"/>
+        <Item name="vs" x="583.75" y="150" width="191" height="225"/>
+        <Item name="zdpp23" x="779.25" y="435" width="410" height="198"/>
+        <Item name="zdpp13" x="443.8" y="441" width="332" height="204"/>
+        <Item name="box1" x="174.8" y="100" width="199" height="323"/>
+        <Item name="box2" x="378.8" y="100" width="199" height="323"/>
+        <Item name="box3" x="781.5" y="100" width="199" height="323"/>
+        <Item name="box4" x="989" y="100" width="199" height="323"/>
+        <Item name="zdpp9" x="534.6" y="6.35" width="149" height="80"/>
+        <Item name="zdpp11" x="677.6" y="6.35" width="149" height="80"/>
+        <Item name="zdpp15" x="170.8" y="440" width="289" height="205"/>
+        <Item name="zdpp14" x="535.8" y="535" width="151" height="35"/>
+        <Item name="zdpp4" x="794.5" y="468" width="198" height="60"/>
+        <Item name="zdpp5" x="794" y="558" width="201" height="60"/>
+        <Item name="zdpp8" x="986.1" y="480" width="188" height="124"/>
+        <Item name="vs_fire_animation" x="548.6" y="29.35" width="281" height="272"/>
+        <Item name="skill0" x="466.75" y="483.95" width="64" height="64"/>
+        <Item name="skill1" x="537.75" y="483.95" width="64" height="64"/>
+        <Item name="skill2" x="608.75" y="483.95" width="64" height="64"/>
+        <Item name="skill3" x="679.75" y="483.95" width="64" height="64"/>
+        <Item name="skill4" x="466.75" y="551.95" width="64" height="64"/>
+        <Item name="skill5" x="537.75" y="551.95" width="64" height="64"/>
+        <Item name="skill6" x="608.75" y="551.95" width="64" height="64"/>
+        <Item name="skill7" x="679.75" y="551.95" width="64" height="64"/>
+        <Item name="mapthumb" x="192.8" y="488.95" width="240" height="130"/>
+        <Item name="zdpp_map_random" x="263.4" y="490.8" width="100" height="29"/>
+        <Item name="matchingImage" x="794.6" y="129" width="170" height="240"/>
+        <Item name="matchingImage2" x="1003.1" y="129" width="170" height="240"/>
+        <Item name="name1" x="193.8" y="379" width="155.95" height="29"/>
+        <Item name="name2" x="399.3" y="379" width="155.95" height="29"/>
+        <Item name="name3" x="803.3" y="379" width="155.95" height="29"/>
+        <Item name="name4" x="1010.5" y="379" width="155.95" height="29"/>
+        <Item name="img_zyms" x="570.1" y="32.3" width="96" height="27"/>
+        <Item name="img_jjms" x="697.75" y="31.75" width="99" height="27"/>
+        <Item name="img_room_bg" x="222.8" y="10.75" width="174" height="41"/>
+        <Item name="img_room" x="177.8" y="10.75" width="40" height="39"/>
+        <Item name="roomname" x="250.8" y="21.25" width="118" height="22"/>
+        <Item name="ready0" x="247.4" y="300.9" width="120" height="77.1"/>
+        <Item name="ready1" x="453.35" y="300.9" width="120" height="77.1"/>
+        <Item name="btnS_select" x="0" y="0" width="332" height="204"/>
+        <Item name="prop0" x="686.6" y="496" width="64" height="64"/>
+        <Item name="prop1" x="757.6" y="496" width="64" height="64"/>
+        <Item name="prop2" x="828.6" y="496" width="64" height="64"/>
+        <Item name="prop3" x="899.6" y="496" width="64" height="64"/>
+        <Item name="prop4" x="686.6" y="564" width="64" height="64"/>
+        <Item name="prop5" x="757.6" y="564" width="64" height="64"/>
+        <Item name="prop6" x="828.6" y="564" width="64" height="64"/>
+        <Item name="prop7" x="899.6" y="564" width="64" height="64"/>
+        <Item name="pos0" x="340.8" y="223.9" width="188" height="276"/>
+        <Item name="barBg0" x="271.2" y="93.9" width="121.95" height="28.95"/>
+        <Item name="energyBar0" x="255.65" y="87.05" width="110.95" height="17.95"/>
+        <Item name="pos1" x="555.75" y="223.9" width="188" height="276"/>
+        <Item name="energyBar1" x="470.6" y="87.05" width="110.95" height="17.95"/>
+        <Item name="pos2" x="340.8" y="506.85" width="188" height="276"/>
+        <Item name="barBg2" x="271.05" y="375.45" width="121.95" height="28.95"/>
+        <Item name="energyBar2" x="255.65" y="369" width="110.95" height="17.95"/>
+        <Item name="pos3" x="555.75" y="506.85" width="188" height="276"/>
+        <Item name="energyBar3" x="470.6" y="370" width="110.95" height="17.95"/>
+        <Item name="bottle0" x="255.2" y="89.4" width="39.95" height="39.95"/>
+        <Item name="bottle1" x="470.2" y="89.4" width="39.95" height="39.95"/>
+        <Item name="barBg1" x="485.15" y="93.9" width="121.95" height="28.95"/>
+        <Item name="text_energy" x="0" y="0" width="104" height="28.05"/>
+        <Item name="energy2" x="282.75" y="376.5" width="104" height="28.05"/>
+        <Item name="barBg3" x="485" y="375.45" width="121.95" height="28.95"/>
+        <Item name="bottle2" x="255.6" y="372" width="39.95" height="39.95"/>
+        <Item name="bottle3" x="470.6" y="372" width="39.95" height="39.95"/>
+        <Item name="text_energy" x="0" y="0" width="104" height="28.05"/>
+        <Item name="energy0" x="280.15" y="94.35" width="104" height="28.05"/>
+        <Item name="text_energy" x="0" y="0" width="104" height="28.05"/>
+        <Item name="energy1" x="495.15" y="93" width="104" height="28.05"/>
+        <Item name="text_energy" x="0" y="0" width="104" height="28.05"/>
+        <Item name="energy3" x="499.15" y="375.95" width="104" height="28.05"/>
+        <Item name="vipLevelIcon0" x="209.05" y="93" width="134" height="36"/>
+        <Item name="vipLevelIcon1" x="414.6" y="93" width="134" height="36"/>
+        <Item name="vipLevelIcon2" x="816.45" y="93" width="134" height="36"/>
+        <Item name="vipLevelIcon3" x="1022.45" y="93" width="134" height="36"/>
+    </Screen>
+    <Screen name="forgeSelectView">
+        <Item name="btn1" x="189.15" y="230" width="250" height="350.65"/>
+        <Item name="btn2" x="432.5" y="230" width="250" height="350.65"/>
+        <Item name="btn3" x="675.85" y="230" width="250" height="350.65"/>
+        <Item name="btn4" x="919.3" y="230" width="250" height="350.65"/>
+    </Screen>
+    <Screen name="rewards">
+        <Item name="title" x="306.5" y="26" width="143.95" height="38.95"/>
+        <Item name="bg" x="0" y="0" width="756.9" height="478.9"/>
+        <Item name="btn_close" x="682" y="15.45" width="60" height="60"/>
+        <Item name="list" x="72" y="103" width="619.95" height="199.15"/>
+        <Item name="btn_reward" x="274.5" y="358.95" width="207.95" height="81.95"/>
+        <Item name="item3" x="302" y="103.85" width="159.95" height="159.95"/>
+        <Item name="goodsBox" x="318.45" y="120.5" width="120" height="120"/>
+        <Item name="item0" x="305" y="267.1" width="150" height="34"/>
+        <Item name="item2" x="381.5" y="214.7" width="66" height="34"/>
+    </Screen>
+    <Screen name="shop">
+        <Item name="aucteCoinIcon" x="648.9" y="688.95" width="58" height="46"/>
+        <Item name="aucteCoin" x="710" y="698.1" width="131.95" height="29"/>
+        <Item name="goldBg2" x="922.45" y="692.8" width="165" height="39"/>
+        <Item name="goldBg1" x="594.35" y="691.8" width="165" height="39"/>
+        <Item name="bg" x="171" y="0" width="1024" height="768"/>
+        <Item name="top_bar" x="165" y="0" width="1036.85" height="115.95"/>
+        <Item name="boyaaCoinIcon" x="575.85" y="691.65" width="38" height="38"/>
+        <Item name="boyaaCoin" x="616.05" y="698.8" width="131.95" height="29"/>
+        <Item name="gameGold" x="949.95" y="697.8" width="131.95" height="29"/>
+        <Item name="recharge" x="713.3" y="676.05" width="70" height="70"/>
+        <Item name="gameGoldIcon" x="911.8" y="691.95" width="38" height="38"/>
+        <Item name="radio0" x="501" y="670" width="75" height="75"/>
+        <Item name="radio1" x="834.4" y="670" width="75" height="75"/>
+        <Item name="btn0" x="211.95" y="214.95" width="177.95" height="320.95"/>
+        <Item name="btn1" x="403.95" y="214.95" width="177.95" height="320.95"/>
+        <Item name="btn3" x="787.95" y="214.95" width="177.95" height="320.95"/>
+        <Item name="btn2" x="595.95" y="214.95" width="177.95" height="320.95"/>
+        <Item name="btn4" x="979.95" y="214.95" width="177.95" height="320.95"/>
+        <Item name="title" x="627" y="50" width="89" height="31"/>
+        <Item name="shop0" x="219.15" y="285" width="160.95" height="143.95"/>
+        <Item name="shop1" x="422.65" y="287" width="138.95" height="132.95"/>
+        <Item name="shop2" x="614.5" y="294" width="142.95" height="117.95"/>
+        <Item name="shop3" x="786.95" y="279.05" width="181.95" height="136.95"/>
+        <Item name="shop4" x="1002.9" y="293" width="128.95" height="129.95"/>
+        <Item name="name0" x="260.05" y="487.45" width="78" height="28.8"/>
+        <Item name="name1" x="435.9" y="487.45" width="109" height="33"/>
+        <Item name="name2" x="609.35" y="487.45" width="150" height="24.7"/>
+        <Item name="name3" x="828.25" y="487.45" width="99" height="27"/>
+        <Item name="name4" x="995.85" y="487.45" width="146" height="25.25"/>
+        <Item name="back" x="198" y="36" width="88.95" height="52.95"/>
+        <Item name="title2" x="620.5" y="52" width="156" height="27"/>
+        <Item name="left_bg" x="179" y="111" width="255.95" height="650.9"/>
+        <Item name="character" x="216.5" y="142.45" width="182.05" height="200"/>
+        <Item name="weapon" x="320.75" y="330.35" width="101.45" height="39.15"/>
+        <Item name="buy_all" x="215" y="583" width="181.95" height="74.95"/>
+        <Item name="clear" x="215" y="662.5" width="179.95" height="74.95"/>
+        <Item name="item" x="461" y="157.5" width="700" height="465"/>
+        <Item name="exit" x="1118.95" y="36" width="60" height="60"/>
+        <Item name="property0" x="205" y="389" width="142" height="28.05"/>
+        <Item name="property1" x="205" y="416" width="142" height="28.05"/>
+        <Item name="property2" x="205" y="444" width="142" height="28.05"/>
+        <Item name="property3" x="205" y="481" width="142" height="28.05"/>
+        <Item name="property4" x="205" y="505.95" width="142" height="28.05"/>
+        <Item name="property5" x="205" y="532.95" width="142" height="28.05"/>
+        <Item name="txt_num_0" x="343" y="389" width="70" height="28.05"/>
+        <Item name="txt_num_1" x="343" y="417" width="70" height="28.05"/>
+        <Item name="txt_num_2" x="343" y="444" width="70" height="28.05"/>
+        <Item name="txt_num_3" x="347" y="479.95" width="70" height="28.05"/>
+        <Item name="txt_num_4" x="347" y="505.95" width="70" height="28.05"/>
+        <Item name="txt_num_5" x="347" y="532.95" width="70" height="28.05"/>
+        <Item name="goldBg1" x="587.45" y="692.2" width="165" height="39"/>
+        <Item name="goldBg2" x="930.95" y="691.9" width="165" height="39"/>
+        <Item name="frame" x="444.35" y="134.4" width="733.95" height="512.8"/>
+        <Item name="lineKey" x="926" y="418" width="77" height="30"/>
+        <Item name="lineValue" x="1007.05" y="418" width="174" height="30"/>
+        <Item name="rowKey" x="926" y="511" width="62" height="30"/>
+        <Item name="rowValue" x="989.15" y="511" width="74.75" height="30"/>
+        <Item name="levelText" x="355.1" y="135.35" width="56" height="28.05"/>
+        <Item name="btnLeft" x="211" y="333" width="92" height="92"/>
+        <Item name="arrow0" x="231" y="358" width="41" height="52"/>
+        <Item name="btnRight" x="1058" y="333" width="92" height="92"/>
+        <Item name="arrow1" x="1078" y="358" width="41" height="52"/>
+    </Screen>
+    <Screen name="friends">
+        <Item name="bg" x="0" y="0" width="835" height="682"/>
+        <Item name="btnFriend" x="93.6" y="108.35" width="164.15" height="58.35"/>
+        <Item name="btnOnline" x="258.55" y="108.35" width="164.15" height="58.35"/>
+        <Item name="bgFrame" x="59.05" y="149.8" width="725.6" height="496.25"/>
+        <Item name="item" x="98" y="221.05" width="644.2" height="396.1"/>
+        <Item name="btnClose" x="762.7" y="14.15" width="60" height="60"/>
+        <Item name="title0" x="115" y="184" width="109.35" height="34"/>
+        <Item name="title2" x="457.95" y="184" width="108" height="34"/>
+        <Item name="title1" x="265.95" y="184" width="126" height="34"/>
+        <Item name="title3" x="628.95" y="184" width="108" height="34"/>
+    </Screen>
+    <Screen name="chatRoom">
+        <Item name="chatBg" x="0" y="0" width="998.85" height="716.9"/>
+        <Item name="bgFrame0" x="10" y="88" width="979" height="621.2"/>
+        <Item name="btnClose" x="944.5" y="-17.5" width="75.95" height="75.95"/>
+        <Item name="tabBar0" x="29.05" y="22.05" width="144.95" height="66.95"/>
+        <Item name="tabBar1" x="195.75" y="22.05" width="144.95" height="66.95"/>
+        <Item name="tabBar2" x="362.45" y="22.05" width="144.95" height="66.95"/>
+        <Item name="tabBar3" x="529.15" y="22.05" width="144.95" height="66.95"/>
+        <Item name="tabBar4" x="695.85" y="22.05" width="144.95" height="66.95"/>
+        <Item name="btnSend" x="844" y="101" width="119.95" height="69.95"/>
+        <Item name="textInput" x="16" y="107" width="810.85" height="56.95"/>
+        <Item name="txt" x="24.05" y="110" width="794" height="50"/>
+        <Item name="textFriend" x="206.95" y="107" width="619.9" height="56.95"/>
+        <Item name="txtFriend" x="218" y="110" width="600" height="50"/>
+        <Item name="btnFriend" x="24" y="107" width="179.95" height="56.95"/>
+        <Item name="bgFrame" x="19" y="177.85" width="961" height="521"/>
+    </Screen>
+    <Screen name="copyMode">
+        <Item name="bg" x="3" y="0" width="655.9" height="589.9"/>
+        <Item name="bg1" x="-2.45" y="145" width="320.95" height="491.9"/>
+        <Item name="btnStart" x="37" y="524.95" width="249.95" height="89.95"/>
+        <Item name="bg2" x="344" y="144.95" width="320.95" height="491.9"/>
+        <Item name="star" x="109" y="204.05" width="45.95" height="43.95"/>
+        <Item name="starNum" x="154.95" y="207" width="86.05" height="40"/>
+        <Item name="txt0" x="93.95" y="256" width="116.05" height="28.05"/>
+        <Item name="goods0" x="12.05" y="292.95" width="94.95" height="94.95"/>
+        <Item name="goods1" x="108.05" y="292.95" width="94.95" height="94.95"/>
+        <Item name="goods2" x="205.05" y="292.95" width="94.95" height="94.95"/>
+        <Item name="goods3" x="12.05" y="389.95" width="94.95" height="94.95"/>
+        <Item name="goods4" x="108.05" y="389.95" width="94.95" height="94.95"/>
+        <Item name="goods5" x="205.05" y="389.95" width="94.95" height="94.95"/>
+        <Item name="btnStart1" x="379.95" y="526.95" width="249.95" height="89.95"/>
+        <Item name="star1" x="451.95" y="206.05" width="45.95" height="43.95"/>
+        <Item name="starNum1" x="497.9" y="209" width="86.05" height="40"/>
+        <Item name="txt2" x="443.9" y="258" width="116.05" height="28.05"/>
+        <Item name="goods10" x="362" y="294.95" width="94.95" height="94.95"/>
+        <Item name="goods11" x="456" y="294.95" width="94.95" height="94.95"/>
+        <Item name="goods12" x="551" y="294.95" width="94.95" height="94.95"/>
+        <Item name="goods13" x="362" y="391.95" width="94.95" height="94.95"/>
+        <Item name="goods14" x="456" y="391.95" width="94.95" height="94.95"/>
+        <Item name="goods15" x="551" y="391.95" width="94.95" height="94.95"/>
+        <Item name="txtName" x="234.95" y="79" width="193" height="49"/>
+        <Item name="txtHave0" x="19" y="213.05" width="91" height="34"/>
+        <Item name="txtHave1" x="393.95" y="213.05" width="61" height="29"/>
+        <Item name="tip" x="425" y="372.45" width="158.95" height="45"/>
+        <Item name="tip1" x="381.95" y="427.9" width="248" height="38.05"/>
+        <Item name="tipStar" x="521" y="424.9" width="35" height="34"/>
+    </Screen>
+    <Screen name="signIn">
+        <Item name="bg" x="0" y="0" width="994.85" height="767.9"/>
+        <Item name="title" x="460.95" y="28" width="72.95" height="37.95"/>
+        <Item name="btn_close" x="921.95" y="14" width="60" height="60"/>
+        <Item name="border" x="53" y="97" width="891.85" height="343.95"/>
+        <Item name="sign0" x="75" y="114.25" width="72.95" height="67.95"/>
+        <Item name="btn_sign" x="533.9" y="644.95" width="177.95" height="81.95"/>
+        <Item name="txt0" x="112.95" y="583.2" width="111" height="34"/>
+        <Item name="txt1" x="259.95" y="583.2" width="111" height="34"/>
+        <Item name="txt2" x="439.95" y="583.2" width="111" height="34"/>
+        <Item name="txt3" x="724.95" y="583.2" width="111" height="34"/>
+        <Item name="txt4" x="135.95" y="443.2" width="497" height="28.05"/>
+        <Item name="txt6" x="835.95" y="355.2" width="53" height="34"/>
+        <Item name="txt9" x="835.95" y="389.2" width="53" height="34"/>
+        <Item name="txt5" x="727.95" y="355.2" width="123" height="34"/>
+        <Item name="txt7" x="879.95" y="356.2" width="37" height="34"/>
+        <Item name="txt8" x="780.95" y="389.2" width="66" height="34"/>
+        <Item name="txt10" x="879.95" y="390.2" width="37" height="34"/>
+        <Item name="rect" x="716.95" y="350" width="218.6" height="76.6"/>
+        <Item name="bar_bg" x="106" y="536.95" width="778.9" height="38.95"/>
+        <Item name="bar" x="113" y="544.25" width="765.9" height="25.95"/>
+        <Item name="num1" x="172.95" y="129.2" width="89" height="34"/>
+        <Item name="num2" x="280.95" y="129.2" width="89" height="34"/>
+        <Item name="num3" x="390.95" y="129.2" width="89" height="34"/>
+        <Item name="num4" x="500.95" y="129.2" width="89" height="34"/>
+        <Item name="num5" x="610.95" y="129.2" width="89" height="34"/>
+        <Item name="num6" x="720.95" y="129.2" width="89" height="34"/>
+        <Item name="num7" x="830.95" y="129.2" width="89" height="34"/>
+        <Item name="num8" x="67.95" y="211.2" width="89" height="34"/>
+        <Item name="num9" x="172.95" y="211.2" width="89" height="34"/>
+        <Item name="num10" x="280.95" y="211.2" width="89" height="34"/>
+        <Item name="num11" x="390.95" y="211.2" width="89" height="34"/>
+        <Item name="num12" x="500.95" y="211.2" width="89" height="34"/>
+        <Item name="num13" x="610.95" y="211.2" width="89" height="34"/>
+        <Item name="num14" x="720.95" y="211.2" width="89" height="34"/>
+        <Item name="num15" x="830.95" y="211.2" width="89" height="34"/>
+        <Item name="num16" x="67.95" y="291.2" width="89" height="34"/>
+        <Item name="num17" x="172.95" y="291.2" width="89" height="34"/>
+        <Item name="num18" x="280.95" y="291.2" width="89" height="34"/>
+        <Item name="num19" x="390.95" y="291.2" width="89" height="34"/>
+        <Item name="num20" x="500.95" y="291.2" width="89" height="34"/>
+        <Item name="num21" x="610.95" y="291.2" width="89" height="34"/>
+        <Item name="num22" x="720.95" y="291.2" width="89" height="34"/>
+        <Item name="num23" x="830.95" y="291.2" width="89" height="34"/>
+        <Item name="num24" x="67.95" y="371.2" width="89" height="34"/>
+        <Item name="num25" x="172.95" y="371.2" width="89" height="34"/>
+        <Item name="num26" x="280.95" y="371.2" width="89" height="34"/>
+        <Item name="num27" x="390.95" y="371.2" width="89" height="34"/>
+        <Item name="num28" x="500.95" y="371.2" width="89" height="34"/>
+        <Item name="num29" x="610.95" y="371.2" width="89" height="34"/>
+        <Item name="num0" x="66.95" y="129.2" width="89" height="34"/>
+        <Item name="sign8" x="75" y="196.25" width="72.95" height="67.95"/>
+        <Item name="sign16" x="75" y="275.25" width="72.95" height="67.95"/>
+        <Item name="sign24" x="75" y="355.25" width="72.95" height="67.95"/>
+        <Item name="sign1" x="181.95" y="115.45" width="72.95" height="67.95"/>
+        <Item name="sign9" x="181.95" y="197.45" width="72.95" height="67.95"/>
+        <Item name="sign17" x="181.95" y="276.45" width="72.95" height="67.95"/>
+        <Item name="sign25" x="181.95" y="356.45" width="72.95" height="67.95"/>
+        <Item name="sign2" x="292.9" y="115.45" width="72.95" height="67.95"/>
+        <Item name="sign10" x="292.9" y="197.45" width="72.95" height="67.95"/>
+        <Item name="sign18" x="292.9" y="276.45" width="72.95" height="67.95"/>
+        <Item name="sign26" x="292.9" y="356.45" width="72.95" height="67.95"/>
+        <Item name="sign3" x="402.9" y="115.45" width="72.95" height="67.95"/>
+        <Item name="sign11" x="402.9" y="197.45" width="72.95" height="67.95"/>
+        <Item name="sign19" x="402.9" y="276.45" width="72.95" height="67.95"/>
+        <Item name="sign27" x="402.9" y="356.45" width="72.95" height="67.95"/>
+        <Item name="sign4" x="510.9" y="115.45" width="72.95" height="67.95"/>
+        <Item name="sign12" x="510.9" y="197.45" width="72.95" height="67.95"/>
+        <Item name="sign20" x="510.9" y="276.45" width="72.95" height="67.95"/>
+        <Item name="sign28" x="510.9" y="356.45" width="72.95" height="67.95"/>
+        <Item name="sign5" x="620.9" y="114.25" width="72.95" height="67.95"/>
+        <Item name="sign13" x="620.9" y="196.25" width="72.95" height="67.95"/>
+        <Item name="sign21" x="620.9" y="275.25" width="72.95" height="67.95"/>
+        <Item name="sign29" x="620.9" y="355.25" width="72.95" height="67.95"/>
+        <Item name="sign6" x="730.9" y="114.25" width="72.95" height="67.95"/>
+        <Item name="sign14" x="730.9" y="196.25" width="72.95" height="67.95"/>
+        <Item name="sign22" x="730.9" y="275.25" width="72.95" height="67.95"/>
+        <Item name="sign7" x="844" y="115.45" width="72.95" height="67.95"/>
+        <Item name="sign15" x="844" y="197.45" width="72.95" height="67.95"/>
+        <Item name="sign23" x="844" y="276.45" width="72.95" height="67.95"/>
+        <Item name="btn_add_sign" x="310.95" y="644.95" width="174" height="78"/>
+        <Item name="vipTxt" x="589.95" y="442.95" width="347" height="28.05"/>
+        <Item name="btn0" x="120.95" y="477.2" width="118.95" height="105.95"/>
+        <Item name="btn1" x="255.95" y="477.2" width="118.95" height="105.95"/>
+        <Item name="btn2" x="435.95" y="477.2" width="118.95" height="105.95"/>
+        <Item name="btn3" x="712.95" y="477.2" width="118.95" height="105.95"/>
+        <Item name="icon" x="341.35" y="666.35" width="38" height="38"/>
+        <Item name="gained0" x="151.5" y="507.4" width="52" height="52"/>
+        <Item name="gained1" x="291.95" y="506.4" width="52" height="52"/>
+        <Item name="gained2" x="474.95" y="506.4" width="52" height="52"/>
+        <Item name="gained3" x="747.95" y="507.4" width="52" height="52"/>
+    </Screen>
+    <Screen name="map204">
+        <Item name="shootspider1" x="1396.65" y="292.1" width="90.95" height="64.15"/>
+        <Item name="shootspider2" x="1463.05" y="286.9" width="90.95" height="64.15"/>
+        <Item name="stonedoor" x="1426.35" y="475.45" width="194" height="339"/>
+    </Screen>
+    <Screen name="configDlg">
+        <Item name="closeBtn" x="702.85" y="13.35" width="60" height="60"/>
+        <Item name="bgSound" x="152.2" y="150.8" width="163" height="49"/>
+        <Item name="bgActSound" x="460.3" y="150.8" width="164" height="49"/>
+        <Item name="helpBtn" x="95" y="260" width="176.95" height="80.95"/>
+        <Item name="suggestionBtn" x="514.95" y="260" width="176.95" height="80.95"/>
+        <Item name="title" x="352.95" y="28" width="73" height="37"/>
+        <Item name="fansBtn" x="304.45" y="259.95" width="178" height="81"/>
+        <Item name="btnCertificate" x="265" y="260" width="207" height="81"/>
+        <Item name="btnNotice" x="265" y="350" width="204" height="78"/>
+        <Item name="btn_private" x="51.75" y="350.3" width="204" height="78"/>
+        <Item name="btm_service" x="501.95" y="350.3" width="204" height="78"/>
+        <Item name="closeBtn1" x="704.15" y="15.9" width="60" height="60"/>
+        <Item name="submit" x="271.1" y="482.7" width="212.95" height="76.95"/>
+        <Item name="suggestionText" x="73.9" y="162.15" width="624.7" height="264.05"/>
+        <Item name="closeBtn2" x="702.55" y="13.75" width="60" height="60"/>
+        <Item name="helpText" x="69.25" y="120.6" width="636.45" height="421.6"/>
+    </Screen>
+    <Screen name="wedding">
+        <Item name="bg" x="-170" y="0" width="1365" height="768"/>
+        <Item name="ant" x="385.9" y="322.9" width="335" height="244"/>
+    </Screen>
+    <Screen name="MainMenu">
+        <Item name="FriendsBtn" x="415.65" y="5" width="91.95" height="95.95"/>
+        <Item name="MissionBtn" x="219" y="6" width="91.95" height="94.95"/>
+        <Item name="PackageBtn" x="317.45" y="6" width="91.95" height="93.95"/>
+        <Item name="btn_menu" x="614.85" y="-0.05" width="104.95" height="104.95"/>
+        <Item name="setBtn" x="514.75" y="5.4" width="91.95" height="93.95"/>
+        <Item name="mailBoxBtn" x="107" y="-0.05" width="108" height="108"/>
+        <Item name="exchangeCenterBtn" x="-4.6" y="-1.1" width="108" height="108"/>
+    </Screen>
+    <Screen name="backpack">
+        <Item name="bgbg" x="4" y="15" width="1014" height="730.05"/>
+        <Item name="bg" x="3" y="14" width="0" height="0"/>
+        <Item name="top" x="0" y="0" width="1024" height="81"/>
+        <Item name="closeBtn" x="959.95" y="11" width="60" height="60"/>
+        <Item name="bag" x="83.95" y="15" width="103" height="50"/>
+        <Item name="bottom" x="0" y="728" width="1024" height="39"/>
+        <Item name="left_bg" x="11.05" y="79" width="255.95" height="650.9"/>
+        <Item name="character" x="37.55" y="112.45" width="200" height="219.7"/>
+        <Item name="weapon" x="169.8" y="318.35" width="80" height="60"/>
+        <Item name="property0" x="34.05" y="403" width="142" height="28.05"/>
+        <Item name="property1" x="34.05" y="430" width="142" height="28.05"/>
+        <Item name="property2" x="34.05" y="458" width="142" height="28.05"/>
+        <Item name="property3" x="34.05" y="487" width="142" height="28.05"/>
+        <Item name="property4" x="33.05" y="564.95" width="142" height="29"/>
+        <Item name="property5" x="33.05" y="591.95" width="142" height="28.05"/>
+        <Item name="txt_num_0" x="176.05" y="404" width="70" height="28.05"/>
+        <Item name="txt_num_1" x="178.05" y="432" width="70" height="28.05"/>
+        <Item name="txt_num_2" x="177.05" y="459" width="70" height="28.05"/>
+        <Item name="txt_num_3" x="176.05" y="486.95" width="70" height="28.05"/>
+        <Item name="txt_num_4" x="190.95" y="563.9" width="70" height="28.05"/>
+        <Item name="txt_num_5" x="191.05" y="593.95" width="70" height="28.05"/>
+        <Item name="property6" x="33.55" y="619.95" width="142" height="28.05"/>
+        <Item name="txt_num_6" x="190.95" y="618.95" width="70" height="28.05"/>
+        <Item name="item" x="291.95" y="156" width="700" height="465"/>
+        <Item name="btn_renew" x="769.95" y="660.9" width="101.95" height="68.95"/>
+        <Item name="btn_shop" x="889.9" y="660.9" width="101.95" height="68.95"/>
+        <Item name="wqBtn" x="324" y="64" width="189.95" height="65.95"/>
+        <Item name="fzBtn" x="528.95" y="64" width="189.95" height="65.95"/>
+        <Item name="qtBtn" x="732" y="64" width="189.95" height="65.95"/>
+        <Item name="boyaaCoinIcon" x="275.95" y="678.05" width="38" height="38"/>
+        <Item name="boyaaCoin" x="316.15" y="685.2" width="131.95" height="29"/>
+        <Item name="gameGold" x="515.05" y="685.2" width="131.95" height="29"/>
+        <Item name="recharge" x="413.4" y="662.45" width="70" height="70"/>
+        <Item name="gameGoldIcon" x="476.9" y="679.35" width="38" height="38"/>
+        <Item name="goldBg1" x="285.95" y="678.55" width="174.95" height="38.95"/>
+        <Item name="goldBg2" x="490.9" y="679.55" width="174.95" height="38.95"/>
+        <Item name="bg_frame_btn" x="269" y="221.2" width="440.9" height="96.95"/>
+        <Item name="btn0" x="288.75" y="243.9" width="130.95" height="54.95"/>
+        <Item name="btn1" x="425.7" y="243.9" width="130.95" height="54.95"/>
+        <Item name="btn2" x="562.7" y="243.9" width="130.95" height="54.95"/>
+        <Item name="btn_check_equip" x="192.65" y="272.65" width="99.95" height="211.95"/>
+        <Item name="btn_check_equip1" x="911.6" y="272.65" width="99.95" height="211.95"/>
+        <Item name="frame" x="274" y="134.2" width="733.95" height="512.8"/>
+        <Item name="levelText" x="185" y="101.9" width="56" height="28.05"/>
+        <Item name="check_equp_bg" x="215" y="77" width="800.85" height="653.9"/>
+        <Item name="btn_hide_equip" x="908" y="304.5" width="99.95" height="211.95"/>
+        <Item name="item0" x="441.95" y="155" width="160.95" height="159.95"/>
+        <Item name="item1" x="621.95" y="155" width="160.95" height="159.95"/>
+        <Item name="item2" x="801.95" y="155" width="160.95" height="159.95"/>
+        <Item name="item6" x="801.95" y="335" width="160.95" height="159.95"/>
+        <Item name="item9" x="801.95" y="515" width="160.95" height="159.95"/>
+        <Item name="item8" x="621.95" y="515" width="160.95" height="159.95"/>
+        <Item name="item7" x="441.95" y="515" width="160.95" height="159.95"/>
+        <Item name="item3" x="263" y="330.5" width="160.95" height="159.95"/>
+        <Item name="item4" x="441.5" y="330.5" width="160.95" height="159.95"/>
+        <Item name="item5" x="621.95" y="330.5" width="160.95" height="159.95"/>
+        <Item name="equip_list" x="438.1" y="315" width="520" height="200"/>
+        <Item name="txt_tip" x="499.05" y="393.85" width="296.4" height="24.5"/>
+        <Item name="level0" x="547.75" y="280.65" width="50" height="28.05"/>
+        <Item name="level1" x="729.75" y="280.65" width="50" height="28.05"/>
+        <Item name="level2" x="908.75" y="280.65" width="50" height="28.05"/>
+        <Item name="level3" x="368.7" y="455" width="50" height="28.05"/>
+        <Item name="level4" x="545.7" y="455" width="50" height="28.05"/>
+        <Item name="level5" x="727.7" y="455" width="50" height="28.05"/>
+        <Item name="level6" x="909.7" y="455" width="50" height="28.05"/>
+        <Item name="level7" x="547.05" y="639.95" width="50" height="28.05"/>
+        <Item name="level8" x="728.05" y="639.95" width="50" height="28.05"/>
+        <Item name="level9" x="908.05" y="639.95" width="50" height="28.05"/>
+    </Screen>
+    <Screen name="accountInfo">
+        <Item name="boyaaCoinIcon" x="0" y="15.6" width="38" height="38"/>
+        <Item name="boyaaCoin" x="40.2" y="22.75" width="131.95" height="29"/>
+        <Item name="gameGold" x="239.1" y="22.75" width="131.95" height="29"/>
+        <Item name="recharge" x="137.45" y="0" width="70" height="70"/>
+        <Item name="gameGoldIcon" x="200.95" y="16.9" width="38" height="38"/>
+        <Item name="goldBg1" x="10" y="16.1" width="174.95" height="38.95"/>
+        <Item name="goldBg2" x="214.95" y="17.1" width="174.95" height="38.95"/>
+    </Screen>
+    <Screen name="systemTip">
+        <Item name="bg" x="0" y="0" width="757" height="479"/>
+        <Item name="btnYes" x="136.5" y="310" width="213" height="77"/>
+        <Item name="btnNo" x="416.45" y="310" width="213" height="77"/>
+        <Item name="tipTxt" x="136.95" y="170" width="500" height="32"/>
+        <Item name="system_tip" x="266.05" y="29.85" width="213" height="32"/>
+    </Screen>
+    <Screen name="bfUILayer">
+        <Item name="bottombar" x="170" y="664.9" width="1024" height="102.95"/>
+        <Item name="plane" x="973.75" y="672.85" width="89.95" height="71.85"/>
+        <Item name="passbtn" x="173" y="9.65" width="108.85" height="56.65"/>
+        <Item name="charbox1" x="519.1" y="14.35" width="87.8" height="87.85"/>
+        <Item name="charbox3" x="748.5" y="13.35" width="87.8" height="87.85"/>
+        <Item name="windVane" x="619.35" y="6" width="131.35" height="77.7"/>
+        <Item name="charline1" x="525.6" y="104.85" width="76.9" height="10.15"/>
+        <Item name="charline2" x="753.85" y="103.85" width="76.9" height="10.15"/>
+        <Item name="emoticon" x="277.9" y="697.85" width="65.3" height="65.35"/>
+        <Item name="msg" x="184.55" y="703.3" width="79.8" height="64.6"/>
+        <Item name="toggle" x="177.35" y="644" width="70.35" height="41.4"/>
+        <Item name="bomb" x="1077.3" y="652.8" width="113.2" height="113.25"/>
+        <Item name="setbtn" x="1126.75" y="8.25" width="60.2" height="60.25"/>
+        <Item name="s1" x="387.9" y="689.9" width="73.95" height="71.1"/>
+        <Item name="s2" x="459" y="689.9" width="73.95" height="71.1"/>
+        <Item name="s3" x="530.15" y="689.9" width="73.95" height="71.1"/>
+        <Item name="s4" x="601.25" y="689.9" width="73.95" height="71.1"/>
+        <Item name="s5" x="672.35" y="689.9" width="73.95" height="71.1"/>
+        <Item name="s6" x="743.5" y="689.9" width="73.95" height="71.1"/>
+        <Item name="s7" x="814.6" y="689.9" width="73.95" height="71.1"/>
+        <Item name="s8" x="885.7" y="689.9" width="73.95" height="71.1"/>
+        <Item name="timeView" x="620.25" y="70.7" width="120" height="120"/>
+        <Item name="leftMonster" x="990.95" y="117.95" width="200" height="50"/>
+        <Item name="reliveBtn" x="1061.65" y="188.1" width="108.85" height="56.65"/>
+        <Item name="charbox2" x="434.15" y="14.35" width="87.8" height="87.85"/>
+        <Item name="charbox4" x="835.5" y="13.35" width="87.8" height="87.85"/>
+        <Item name="minute" x="605.35" y="82.7" width="62.85" height="37.1"/>
+        <Item name="second" x="683.4" y="82.7" width="62.85" height="37.1"/>
+        <Item name="semicolon" x="667.95" y="86.85" width="14.95" height="28.55"/>
+        <Item name="autoFightBtn" x="1040.7" y="508.75" width="136" height="64.2"/>
+    </Screen>
+    <Screen name="btSeekRoomDlg">
+        <Item name="bg" x="0" y="0" width="827" height="519"/>
+        <Item name="closeBtn" x="752.95" y="14" width="60" height="60"/>
+        <Item name="roomidbg" x="152.85" y="205.35" width="317" height="70"/>
+        <Item name="dzrs15" x="484.3" y="195.5" width="206" height="87"/>
+        <Item name="roomidtext" x="161.35" y="215.35" width="300" height="50"/>
+        <Item name="find_room" x="341.7" y="25.85" width="144" height="38"/>
+    </Screen>
+    <Screen name="notice">
+        <Item name="bg" x="0" y="0" width="774.9" height="481.9"/>
+        <Item name="closeBtn" x="702.85" y="13.35" width="60" height="60"/>
+        <Item name="title" x="314.95" y="25" width="145" height="38"/>
+        <Item name="btn_sure" x="304.45" y="362.45" width="174" height="78"/>
+        <Item name="txt_content" x="81.85" y="90.05" width="600" height="276.6"/>
+        <Item name="qq" x="364.95" y="90.35" width="311" height="28.05"/>
+    </Screen>
+    <Screen name="skillDlg">
+        <Item name="stab" x="72" y="103" width="213.95" height="57.95"/>
+        <Item name="ptab" x="291" y="103" width="213.95" height="57.95"/>
+        <Item name="sbox1" x="699" y="231" width="123.95" height="123.95"/>
+        <Item name="pbox1" x="819" y="231" width="123.95" height="123.95"/>
+        <Item name="sbox2" x="699" y="351" width="123.95" height="123.95"/>
+        <Item name="pbox2" x="819" y="351" width="123.95" height="123.95"/>
+        <Item name="sbox3" x="699" y="471" width="123.95" height="123.95"/>
+        <Item name="pbox3" x="819" y="471" width="123.95" height="123.95"/>
+        <Item name="sbox4" x="699" y="591" width="123.95" height="123.95"/>
+        <Item name="pbox4" x="819" y="591" width="123.95" height="123.95"/>
+        <Item name="gameGold" x="303.95" y="679.65" width="125.95" height="27.3"/>
+        <Item name="boyaaCoin" x="96.05" y="679.65" width="131.95" height="27.3"/>
+        <Item name="aucteCoin" x="531" y="679.65" width="117.95" height="27.3"/>
+        <Item name="item" x="56.9" y="174.5" width="601.15" height="467"/>
+        <Item name="closeBtn" x="922" y="13" width="60" height="60"/>
+        <Item name="skill" x="424.95" y="23" width="145" height="38"/>
+        <Item name="skill_bg" x="26.45" y="142.45" width="937" height="596"/>
+    </Screen>
+    <Screen name="InviteFriendItem">
+        <Item name="btn_invite" x="565" y="0" width="123.95" height="57.95"/>
+        <Item name="txt_name" x="11.55" y="18.45" width="181.45" height="26"/>
+        <Item name="txt_level" x="251.55" y="18.45" width="181.45" height="26"/>
+        <Item name="img_invited" x="560.95" y="0.9" width="101" height="59"/>
+    </Screen>
+    <Screen name="rewardsItem">
+        <Item name="item3" x="0" y="0" width="159.95" height="159.95"/>
+        <Item name="goodsBox" x="16.45" y="16.65" width="120" height="120"/>
+        <Item name="item0" x="3" y="163.25" width="150" height="34"/>
+        <Item name="item2" x="79.5" y="110.85" width="66" height="34"/>
+    </Screen>
+    <Screen name="freshGifts">
+        <Item name="bg" x="0" y="0" width="670.9" height="591.9"/>
+        <Item name="title" x="220.55" y="26" width="199" height="37"/>
+        <Item name="levelBg" x="64" y="78" width="548.9" height="278.95"/>
+        <Item name="levelUp" x="215" y="291" width="231" height="32"/>
+        <Item name="level" x="460.2" y="272.15" width="33.8" height="56.85"/>
+        <Item name="star1" x="28.55" y="11.5" width="109.95" height="106.95"/>
+        <Item name="star6" x="538.55" y="8.5" width="109.95" height="106.95"/>
+        <Item name="star2" x="135.35" y="7.5" width="85.25" height="82.95"/>
+        <Item name="star4" x="426.35" y="38.5" width="85.25" height="82.95"/>
+        <Item name="star5" x="489" y="106.5" width="109.95" height="106.95"/>
+        <Item name="star0" x="80.7" y="50.5" width="85.25" height="82.95"/>
+        <Item name="star3" x="361.95" y="43.5" width="109.95" height="106.95"/>
+        <Item name="box2" x="440" y="354.7" width="161.95" height="161.95"/>
+        <Item name="goodsImg2" x="461" y="375.7" width="119.95" height="119.95"/>
+        <Item name="box0" x="74.05" y="354.7" width="161.95" height="161.95"/>
+        <Item name="goodsImg0" x="95.05" y="375.7" width="119.95" height="119.95"/>
+        <Item name="box1" x="255.95" y="354.7" width="161.95" height="161.95"/>
+        <Item name="goodsImg1" x="276.95" y="375.7" width="119.95" height="119.95"/>
+        <Item name="name0" x="76" y="518.05" width="157" height="28.05"/>
+        <Item name="name1" x="258.95" y="518.05" width="157" height="28.05"/>
+        <Item name="name2" x="443.95" y="518.05" width="157" height="28.05"/>
+        <Item name="num0" x="136.95" y="465.5" width="86.15" height="43"/>
+        <Item name="num1" x="319.9" y="465.5" width="86.15" height="43"/>
+        <Item name="num2" x="503.9" y="465.5" width="86.15" height="43"/>
+        <Item name="bg2" x="63.5" y="73.9" width="548.9" height="472.9"/>
+        <Item name="bg3" x="180.65" y="466.45" width="228" height="22"/>
+        <Item name="txt_level" x="413.4" y="444.55" width="33.8" height="56.85"/>
+    </Screen>
+    <Screen name="goodsInfoDlg">
+        <Item name="goodsBox" x="65" y="27.55" width="118.9" height="110.85"/>
+        <Item name="descTxt" x="30.05" y="171" width="232.9" height="82"/>
+        <Item name="otherTxt" x="30.05" y="265.9" width="232.9" height="36.1"/>
+        <Item name="attrTxt" x="275" y="50" width="217.9" height="127.9"/>
+        <Item name="saleBtn" x="285" y="221" width="228" height="92"/>
+    </Screen>
+    <Screen name="anitAddictionTip">
+        <Item name="bg" x="0" y="0" width="774.9" height="481.9"/>
+        <Item name="btnClose" x="435" y="333.95" width="176.95" height="80.95"/>
+        <Item name="btnCertificate" x="180.55" y="333.95" width="206.95" height="80.95"/>
+        <Item name="txtHour" x="419" y="148.2" width="121.05" height="36.1"/>
+        <Item name="tip1" x="137.55" y="146.65" width="283.55" height="36.2"/>
+        <Item name="txt2" x="138.55" y="228.25" width="185" height="35"/>
+        <Item name="txtMin" x="287" y="228" width="111" height="36.1"/>
+        <Item name="txt3" x="393.55" y="229.25" width="246" height="35"/>
+        <Item name="title" x="302.95" y="25" width="180" height="38"/>
+    </Screen>
+    <Screen name="shopitem">
+        <Item name="star" x="207.5" y="60" width="99.95" height="18.95"/>
+        <Item name="txt_grade" x="141.45" y="55.45" width="84" height="30"/>
+        <Item name="bg1" x="4.05" y="5.05" width="139.95" height="131.95"/>
+        <Item name="goodsBox" x="15.05" y="16" width="118.9" height="110.85"/>
+        <Item name="priceType" x="144.95" y="89.9" width="38" height="38"/>
+        <Item name="price" x="189.95" y="93.4" width="133" height="35"/>
+        <Item name="goodsName" x="141.95" y="16" width="196" height="37.95"/>
+        <Item name="lowerlevel" x="45.15" y="85.05" width="86.15" height="43"/>
+        <Item name="arrow" x="320.95" y="59.9" width="8" height="27"/>
+        <Item name="remove" x="187.5" y="47" width="130.95" height="54.95"/>
+        <Item name="frameBtn" x="36.05" y="53.05" width="313.95" height="95.95"/>
+    </Screen>
+    <Screen name="paymentdlg">
+        <Item name="closeBtn" x="762" y="13" width="60" height="60"/>
+        <Item name="boyaaicon" x="67.95" y="123" width="38" height="38"/>
+        <Item name="icon1" x="121.9" y="213.95" width="76.05" height="76.05"/>
+        <Item name="boyaaCoin" x="115.95" y="124.95" width="146" height="40"/>
+        <Item name="by1" x="120.9" y="295" width="78" height="40"/>
+        <Item name="rmb1" x="113.95" y="339.95" width="91.95" height="40"/>
+        <Item name="icon2" x="292.95" y="214.95" width="76.05" height="76.05"/>
+        <Item name="by2" x="291.95" y="296" width="78" height="40"/>
+        <Item name="rmb2" x="285" y="340.95" width="91.95" height="40"/>
+        <Item name="icon3" x="462.95" y="214.95" width="76.05" height="76.05"/>
+        <Item name="by3" x="461.95" y="296" width="78" height="40"/>
+        <Item name="rmb3" x="455" y="340.95" width="91.95" height="40"/>
+        <Item name="icon4" x="631.95" y="214.95" width="76.05" height="76.05"/>
+        <Item name="by4" x="630.95" y="296" width="78" height="40"/>
+        <Item name="rmb4" x="624" y="340.95" width="91.95" height="40"/>
+        <Item name="icon5" x="121.9" y="445.95" width="76.05" height="76.05"/>
+        <Item name="by5" x="120.9" y="527" width="78" height="40"/>
+        <Item name="rmb5" x="113.95" y="571.95" width="91.95" height="40"/>
+        <Item name="icon6" x="292.95" y="445.95" width="76.05" height="76.05"/>
+        <Item name="by6" x="291.95" y="527" width="78" height="40"/>
+        <Item name="rmb6" x="285" y="571.95" width="91.95" height="40"/>
+        <Item name="icon7" x="462.95" y="445.95" width="76.05" height="76.05"/>
+        <Item name="by7" x="461.95" y="527" width="78" height="40"/>
+        <Item name="rmb7" x="455" y="571.95" width="91.95" height="40"/>
+        <Item name="icon8" x="631.95" y="445.95" width="76.05" height="76.05"/>
+        <Item name="by8" x="630.95" y="527" width="78" height="40"/>
+        <Item name="rmb8" x="624" y="571.95" width="91.95" height="40"/>
+    </Screen>
+    <Screen name="copygame">
+        <Item name="tkzc" x="411.95" y="339" width="274.95" height="197.95"/>
+        <Item name="jlxg" x="514.95" y="29" width="161.95" height="148.95"/>
+        <Item name="lszc" x="236" y="217.05" width="168.95" height="157.95"/>
+        <Item name="wait2" x="489.95" y="197" width="133.95" height="103.95"/>
+        <Item name="wait1" x="675.95" y="109" width="133.95" height="103.95"/>
+        <Item name="wait3" x="748.95" y="202.05" width="133.95" height="103.95"/>
+        <Item name="wait4" x="786.95" y="298.95" width="133.95" height="103.95"/>
+        <Item name="wait5" x="937.95" y="309.95" width="133.95" height="103.95"/>
+        <Item name="wait6" x="817" y="394.9" width="133.95" height="103.95"/>
+        <Item name="name0" x="444" y="329.35" width="200" height="37"/>
+        <Item name="name1" x="234" y="217.05" width="197" height="43"/>
+        <Item name="name2" x="492.95" y="23" width="200" height="32"/>
+    </Screen>
+    <Screen name="inviteFriends">
+        <Item name="title" x="297.5" y="16" width="145.95" height="37.95"/>
+        <Item name="text" x="296.85" y="574" width="212.15" height="28.05"/>
+        <Item name="up_arrow" x="278.9" y="572" width="13.95" height="30.95"/>
+        <Item name="title_bar" x="10" y="70" width="721.9" height="69.95"/>
+        <Item name="item" x="21" y="141" width="699.9" height="479.9"/>
+        <Item name="text_bg" x="16.95" y="628.9" width="404.95" height="56.95"/>
+        <Item name="txt0" x="22.25" y="644.4" width="120.7" height="28.05"/>
+        <Item name="txtNum" x="147.25" y="644.4" width="75.7" height="28.05"/>
+        <Item name="txt1" x="226.9" y="644.35" width="49" height="28.05"/>
+        <Item name="time0" x="279" y="644.3" width="17.85" height="28.05"/>
+        <Item name="txtSecond" x="328.95" y="645.3" width="39" height="28.05"/>
+        <Item name="btnRefresh" x="602.95" y="627.85" width="94" height="58"/>
+        <Item name="time2" x="291" y="644.8" width="47" height="31.65"/>
+        <Item name="time1" x="394.95" y="645.3" width="17.85" height="28.05"/>
+        <Item name="btn_close" x="672.9" y="6.45" width="60" height="60"/>
+        <Item name="noPlayer" x="213" y="323.35" width="303.05" height="28.05"/>
+        <Item name="time3" x="361.45" y="645.4" width="36" height="28.05"/>
+    </Screen>
+    <Screen name="energy">
+        <Item name="energy0Other" x="0" y="0" width="231" height="45"/>
+        <Item name="energy1Other" x="16.5" y="8.25" width="81" height="28.05"/>
+        <Item name="energy2Other" x="100.6" y="7.1" width="123.5" height="33.25"/>
+        <Item name="energy6Other" x="90.85" y="34" width="139" height="45"/>
+        <Item name="starOther" x="99.4" y="38.8" width="34.95" height="33.95"/>
+        <Item name="txtNumOther" x="121.5" y="41.25" width="59.95" height="29"/>
+        <Item name="energy3Other" x="104.6" y="11.85" width="115.6" height="21.85"/>
+        <Item name="energy4Other" x="114.9" y="8.25" width="59.95" height="29"/>
+        <Item name="energy5Other" x="150.85" y="8.25" width="59.95" height="29"/>
+    </Screen>
+    <Screen name="btCreateRoomDlg">
+        <Item name="bg" x="0" y="0" width="827" height="519"/>
+        <Item name="closeBtn" x="759.95" y="7" width="60" height="60"/>
+        <Item name="dzrs11" x="186.3" y="365.45" width="206" height="87"/>
+        <Item name="dzrs13" x="456.3" y="365.45" width="206" height="87"/>
+        <Item name="namebg" x="330" y="132.35" width="317" height="70"/>
+        <Item name="passwordbg" x="330" y="232.35" width="317" height="70"/>
+        <Item name="nametext" x="338.5" y="142.35" width="300" height="50"/>
+        <Item name="passwordtext" x="338.5" y="242.35" width="300" height="50"/>
+        <Item name="roomname" x="144" y="142.35" width="180" height="50"/>
+        <Item name="roompassword" x="144" y="242.35" width="180" height="50"/>
+        <Item name="create_room" x="341.5" y="26" width="144" height="38"/>
+    </Screen>
+    <Screen name="chatRoomFriendList">
+        <Item name="bg" x="0" y="0" width="718.9" height="728.9"/>
+        <Item name="border" x="12" y="70" width="692.9" height="644.9"/>
+        <Item name="btnClose" x="642.95" y="14" width="60" height="60"/>
+        <Item name="btnFriendSociaty" x="29" y="27" width="173.95" height="57.95"/>
+        <Item name="btnFriendAll" x="205" y="27" width="173.95" height="57.95"/>
+        <Item name="borderBg" x="31" y="132" width="654.9" height="563.95"/>
+        <Item name="item" x="28" y="143" width="660" height="543.55"/>
+    </Screen>
+    <Screen name="aboutMe">
+        <Item name="bg" x="0" y="0" width="612" height="612"/>
+        <Item name="btnClose" x="533.45" y="15" width="60" height="60"/>
+        <Item name="btnAddFriend" x="69.5" y="483.45" width="213" height="77"/>
+        <Item name="txtName" x="125" y="348.35" width="192.95" height="28.05"/>
+        <Item name="txtLevel" x="127" y="380.3" width="189.95" height="28.05"/>
+        <Item name="txtId" x="127" y="411.9" width="190.95" height="28.05"/>
+        <Item name="txt2" x="356" y="115.2" width="200" height="29"/>
+        <Item name="txt5" x="356" y="205.2" width="200" height="29"/>
+        <Item name="txt8" x="356" y="334.25" width="200" height="29"/>
+        <Item name="txt11" x="356.45" y="467.35" width="199.55" height="29"/>
+        <Item name="icon" x="69.5" y="18" width="142" height="85"/>
+        <Item name="txt4" x="356" y="174.2" width="200" height="29"/>
+        <Item name="txt3" x="356" y="145.2" width="200" height="29"/>
+        <Item name="txt6" x="356" y="275.2" width="200" height="29"/>
+        <Item name="txt7" x="356" y="305.2" width="200" height="29"/>
+        <Item name="txt9" x="356" y="365.2" width="200" height="29"/>
+        <Item name="txt10" x="356" y="437.2" width="199.55" height="29"/>
+        <Item name="txt12" x="356.45" y="496.45" width="199.55" height="29"/>
+        <Item name="headImg" x="54.05" y="108.6" width="240.55" height="216.75"/>
+        <Item name="txtName0" x="22.65" y="348.35" width="95.35" height="28.05"/>
+        <Item name="txtLevel0" x="35.65" y="380.35" width="97.35" height="28.05"/>
+        <Item name="txtId0" x="18.65" y="411.35" width="106.35" height="28.05"/>
+        <Item name="txtExp" x="127" y="442.35" width="190.95" height="28.05"/>
+        <Item name="txtExp0" x="18.65" y="442.35" width="106.35" height="28.05"/>
+        <Item name="line1" x="350" y="249.25" width="218.9" height="2.5"/>
+        <Item name="line2" x="350" y="412.2" width="218.9" height="2.5"/>
+        <Item name="acountType" x="259.6" y="316.35" width="44" height="26"/>
+        <Item name="vipLevelIcon" x="18" y="83.95" width="134" height="36"/>
+    </Screen>
+    <Screen name="teamList">
+        <Item name="bg" x="0" y="0" width="994.85" height="767.9"/>
+        <Item name="title" x="430" y="24" width="143.95" height="37.95"/>
+        <Item name="frame" x="36.95" y="125.95" width="916.05" height="510"/>
+        <Item name="img_up" x="418.9" y="578.75" width="13.95" height="30.95"/>
+        <Item name="btn_quickPlay" x="49.95" y="648.9" width="189.95" height="78.95"/>
+        <Item name="btnS_creatTeam" x="295.95" y="648.9" width="189.95" height="78.95"/>
+        <Item name="btnS_findRoom" x="545.95" y="648.9" width="189.95" height="78.95"/>
+        <Item name="title_bar" x="49.95" y="136" width="893.85" height="61.95"/>
+        <Item name="btn_close" x="922.95" y="14" width="60" height="60"/>
+        <Item name="item" x="62.4" y="212.95" width="875.3" height="401.9"/>
+        <Item name="text" x="414.8" y="577.6" width="212.15" height="28.05"/>
+        <Item name="btnRefresh" x="802.95" y="648.9" width="130" height="79"/>
+    </Screen>
+    <Screen name="map201">
+        <Item name="monster6" x="1100" y="150.65" width="409.45" height="307.05"/>
+        <Item name="monster5" x="1169.6" y="436.15" width="292.45" height="219.3"/>
+        <Item name="monster7" x="1372.05" y="57.15" width="358.15" height="268.6"/>
+    </Screen>
+    <Screen name="missionDlg">
+        <Item name="dailyMissionBtn" x="69.75" y="101.45" width="213.95" height="57.95"/>
+        <Item name="activeMissionBtn" x="290.2" y="103.7" width="213.95" height="57.95"/>
+        <Item name="bg1" x="24" y="50" width="945.95" height="690"/>
+        <Item name="bg2" x="33.05" y="140.7" width="935.85" height="595.9"/>
+        <Item name="mission" x="459.95" y="28" width="74" height="38"/>
+        <Item name="topbar" x="0" y="-1.05" width="995" height="87"/>
+        <Item name="submitBtn" x="509.55" y="639.25" width="202.95" height="66.95"/>
+        <Item name="item0" x="342.5" y="535.9" width="93.95" height="89.95"/>
+        <Item name="item1" x="461.25" y="535.9" width="93.95" height="89.95"/>
+        <Item name="item2" x="580" y="535.9" width="93.95" height="89.95"/>
+        <Item name="item3" x="698.75" y="535.9" width="93.95" height="89.95"/>
+        <Item name="item4" x="817.55" y="535.9" width="93.95" height="89.95"/>
+        <Item name="text1" x="365.6" y="225.15" width="547.8" height="87"/>
+        <Item name="text2" x="364.6" y="375" width="547.8" height="87"/>
+        <Item name="closeBtn" x="921.45" y="12.95" width="60" height="60"/>
+        <Item name="list" x="64" y="173" width="218" height="530"/>
+        <Item name="textPos" x="14" y="13.6" width="174" height="41"/>
+        <Item name="bottomBar" x="-16" y="730.9" width="1024" height="39"/>
+    </Screen>
+    <Screen name="friendListItem">
+        <Item name="btnSkin" x="0" y="0" width="648" height="73"/>
+        <Item name="nickName" x="150" y="21.5" width="187" height="30"/>
+        <Item name="antId" x="24.35" y="21.5" width="98" height="30"/>
+        <Item name="fightPower" x="372.3" y="21.5" width="98" height="30"/>
+        <Item name="title0" x="16" y="-38.95" width="109.35" height="34"/>
+        <Item name="title2" x="367.95" y="-38.95" width="108" height="34"/>
+        <Item name="title1" x="199.95" y="-38.95" width="80" height="34"/>
+        <Item name="title3" x="529.95" y="-38.95" width="108" height="34"/>
+        <Item name="marryState" x="519.95" y="21.5" width="108" height="30"/>
+    </Screen>
+    <Screen name="hallWinter">
+        <Item name="headBg" x="163.75" y="5.6" width="315" height="121"/>
+        <Item name="btnRecharge" x="179" y="288.95" width="100" height="93"/>
+        <Item name="hdzx" x="163.75" y="177.6" width="171" height="111.05"/>
+        <Item name="headImg" x="184.05" y="25.7" width="81.95" height="80.95"/>
+        <Item name="gameGoldIcon" x="266" y="20.55" width="30.95" height="30.95"/>
+        <Item name="boyaaCoinIcon" x="265" y="51.7" width="34.95" height="33.95"/>
+        <Item name="boyaaCoin" x="306.9" y="55.55" width="90" height="22"/>
+        <Item name="gameGold" x="306.9" y="23.7" width="126" height="22"/>
+        <Item name="exp_bar" x="275.5" y="90.45" width="85" height="14"/>
+        <Item name="levelBg" x="252.95" y="79.55" width="42" height="40"/>
+        <Item name="level_txt" x="261.95" y="89.45" width="25" height="24"/>
+        <Item name="btn_sign" x="179" y="403.95" width="118" height="95"/>
+        <Item name="btn_bind" x="179" y="615.95" width="103" height="99"/>
+        <Item name="mwsl" x="920.75" y="460.05" width="256" height="234"/>
+        <Item name="sc" x="978.95" y="232.4" width="244" height="218"/>
+        <Item name="jh" x="905.5" y="96.6" width="211" height="180"/>
+        <Item name="wqgf" x="374.7" y="365.2" width="250" height="219"/>
+        <Item name="wjt" x="263.2" y="458.05" width="151" height="229"/>
+        <Item name="mrt" x="390.2" y="117.45" width="205" height="216"/>
+        <Item name="gh" x="629.05" y="69.55" width="206" height="184"/>
+        <Item name="yxdt" x="599.5" y="240.65" width="321" height="300"/>
+        <Item name="btn_rank" x="184.5" y="517.15" width="90" height="90"/>
+        <Item name="fightAniPos" x="637.1" y="306.05" width="44.95" height="42.95"/>
+        <Item name="forgeSmokePos" x="461" y="331.55" width="50" height="33"/>
+        <Item name="shopLightPos" x="1014.5" y="282.55" width="35" height="33"/>
+        <Item name="copyEyePos" x="978.3" y="566.95" width="43.3" height="32.7"/>
+        <Item name="copySmokePos" x="778.45" y="549.25" width="228" height="193.4"/>
+        <Item name="hdzxani" x="179" y="165.55" width="95" height="95"/>
+        <Item name="signani" x="184.5" y="388.25" width="100" height="100"/>
+        <Item name="vipButton" x="174" y="124.3" width="100" height="41.25"/>
+    </Screen>
+    <Screen name="hall">
+        <Item name="headBg" x="163.75" y="5.6" width="315" height="121"/>
+        <Item name="btnRecharge" x="179" y="288.95" width="100" height="93"/>
+        <Item name="hdzx" x="163.75" y="177.6" width="171" height="111.05"/>
+        <Item name="headImg" x="184.05" y="25.7" width="81.95" height="80.95"/>
+        <Item name="gameGoldIcon" x="266" y="20.55" width="30.95" height="30.95"/>
+        <Item name="boyaaCoinIcon" x="265" y="51.7" width="34.95" height="33.95"/>
+        <Item name="boyaaCoin" x="306.9" y="55.55" width="90" height="22"/>
+        <Item name="gameGold" x="306.9" y="23.7" width="126" height="22"/>
+        <Item name="exp_bar" x="275.5" y="90.45" width="85" height="14"/>
+        <Item name="levelBg" x="252.95" y="79.55" width="42" height="40"/>
+        <Item name="level_txt" x="261.95" y="89.45" width="25" height="24"/>
+        <Item name="btn_sign" x="179" y="403.95" width="118" height="95"/>
+        <Item name="btn_bind" x="179" y="615.95" width="103" height="99"/>
+        <Item name="mwsl" x="957.25" y="405.3" width="227.8" height="223.2"/>
+        <Item name="sc" x="1007.95" y="231.55" width="196" height="180"/>
+        <Item name="jh" x="764.2" y="64.3" width="173" height="164.5"/>
+        <Item name="wqgf" x="254.35" y="278.5" width="188" height="170.15"/>
+        <Item name="wjt" x="365.25" y="422.2" width="142" height="215.65"/>
+        <Item name="mrt" x="491.6" y="55.55" width="190" height="203.7"/>
+        <Item name="gh" x="931.75" y="89.45" width="183" height="162.7"/>
+        <Item name="yxdt" x="592.2" y="209.15" width="294" height="267.25"/>
+        <Item name="btn_rank" x="184.5" y="517.15" width="90" height="90"/>
+        <Item name="fightAniPos" x="637.1" y="306.05" width="44.95" height="42.95"/>
+        <Item name="forgeSmokePos" x="317.25" y="266.9" width="38.55" height="25.45"/>
+        <Item name="shopLightPos" x="1038.3" y="278.8" width="27.85" height="26.3"/>
+        <Item name="copyEyePos" x="1007.95" y="513.7" width="36" height="27.15"/>
+        <Item name="hdzxani" x="179" y="165.55" width="95" height="95"/>
+        <Item name="signani" x="184.5" y="388.25" width="100" height="100"/>
+        <Item name="copySmokePos" x="826" y="496.4" width="207.75" height="176.15"/>
+        <Item name="vipButton" x="174" y="124.3" width="100" height="41.25"/>
+    </Screen>
+</Antwars>

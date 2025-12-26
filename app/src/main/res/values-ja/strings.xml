@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Perjuangan semut</string>
+    <string name="flash_browser_plugin">Flash プラグイン</string>
+    <string name="audio_files">オーディオファイル</string>
+    <string name="image_files">イメージファイル</string>
+    <string name="video_files">ビデオファイル</string>
+    <string name="empty_file_list">ファイルが見つかりませんでした。</string>
+    <string name="button_ok">OK</string>
+    <string name="button_cancel">キャンセル</string>
+    <string name="button_continue">続行</string>
+    <string name="file_save_as">名前を付けて保存 :</string>
+    <string name="file_download">ダウンロード</string>
+    <string name="file_upload">アップロード</string>
+    <string name="button_yes">はい</string>
+    <string name="button_no">いいえ</string>
+    <string name="IDA_CURL_SSL_SECURITY_WARNING">セキュリティの警告</string>
+    <string name="IDA_CURL_INTERFACE_THISSESS">セッションを信用</string>
+    <string name="IDA_CURL_INTERFACE_NOSESS">キャンセル</string>
+    <string name="IDA_CURL_INTERFACE_OK">Ok</string>
+    <string name="IDA_CURL_INTERFACE_UNVERSER_2">アプリケーションが接続しているサーバーは 未証明です。</string>
+    <string name="IDA_CURL_INTERFACE_ALLSESS">常に信頼する</string>
+    <string name="IDA_CURL_INTERFACE_SERVER">サーバー :</string>
+    <string name="IDA_CURL_INTERFACE_TRUSTSER">このサーバーを信用して接続を実行しますか？</string>
+    <string name="IDA_CURL_INTERFACE_CNAME_MSG">サーバーの名前 (%1$s) が、証明書上の名前 (%2$s) と一致しません。このサーバーを信頼して続行しますか？</string>
+    <string name="IDA_CURL_INTERFACE_VIEW_CERT">証明書を表示</string>
+    <string name="IDA_CURL_INTERFACE_CERTIFICATE_DETAILS_TITLE">証明書詳細</string>
+    <string name="IDA_CERTIFICATE_DETAILS">証明書 :\n \n 発行先 :\n 共通名 :\n %1$s\n \n 所属 :\n %2$s\n \n 部署名 :\n %3$s\n \n 発行元 :\n 共通名 :\n %4$s\n \n 所属 :\n %5$s\n \n 部署名 :\n %6$s\n \n 有効性 :\n 発行日 :\n %7$s\n \n 有効期限 :\n %8$s </string>
+    <string name="IDA_APP_WAITING_DEBUGGER_TITLE">Adobe AIR : 接続されるのを待っています</string>
+    <string name="IDA_APP_UNABLE_LISTEN_ERROR">Adobe AIR : ポートをリッスンしています</string>
+    <string name="IDA_APP_WAITING_DEBUGGER_WARNING">AIR アプリケーションはデバッガーによって接続されるのを待っています。最長で %d 秒かかる場合があります。</string>
+    <string name="IDA_APP_DEBUGGER_TIMEOUT_INFO">デバッガーに接続できません。</string>
+    <string name="app_version">APP_VERSION</string>
+    <string name="button_install">インストール</string>
+    <string name="button_exit">終了</string>
+    <string name="title_adobe_air">Adobe® AIR®</string>
+    <string name="text_runtime_required">このアプリケーションを実行するには、Adobe AIR が必要です。\n\n</string>
+    <string name="text_install_runtime">続行するには、このデバイスに Adobe AIR をインストールします。</string>
+    <string name="text_runtime_on_external_storage">続行するには、このデバイス上に Adobe AIR をインストールするか、このアプリケーションを終了して Adobe AIR が含まれている SD カードをマウントしてから再起動します。</string>
+    <string name="text_gamepreview_loading">ロード中...</string>
+    <string name="text_gamepreview_loading_error">ゲームをロードできませんでした。</string>
+    <string name="text_install_gamepreview_app">今すぐインストール</string>
+    <string name="text_air_missing_header">Adobe AIR が必要です</string>
+    <string name="text_air_missing_text">ゲームのプレビューを行うには、Adobe AIR をインストールする必要があります。</string>
+    <string name="button_install_air_from_playstore">Play Store からインストールします。</string>
+    <string name="text_dont_show_again">今後このメッセージを表示しない。</string>
+</resources>

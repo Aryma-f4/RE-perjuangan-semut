@@ -1,0 +1,36 @@
+<TextureAtlas name="LeienSkillEffect" >
+  <SubTexture name="莱恩普通攻击资源/baozha 478" x="706" y="63" width="165" height="96"/>
+  <SubTexture name="莱恩普通攻击资源/baozha 476" x="391" y="358" width="167" height="74"/>
+  <SubTexture name="莱恩普通攻击资源/baozha 474" x="391" y="0" width="154" height="122"/>
+  <SubTexture name="莱恩普通攻击资源/baozha 484" x="893" y="63" width="14" height="83"/>
+  <SubTexture name="莱恩普通攻击资源/baozha 482" x="873" y="63" width="18" height="115"/>
+  <SubTexture name="莱恩普通攻击资源/baozha 480" x="547" y="0" width="157" height="109"/>
+  <SubTexture name="莱恩普通攻击资源/baozha 472" x="666" y="111" width="18" height="20"/>
+  <SubTexture name="莱恩普通攻击资源/baozha 470" x="686" y="111" width="18" height="13"/>
+  <SubTexture name="流星雨资源/SD 105" x="260" y="0" width="69" height="405"/>
+  <SubTexture name="流星雨资源/SD 486" x="172" y="0" width="86" height="400"/>
+  <SubTexture name="流星雨资源/SD 485" x="86" y="0" width="84" height="403"/>
+  <SubTexture name="流星雨资源/SD 484" x="0" y="0" width="84" height="403"/>
+  <SubTexture name="流星雨资源/SD 96" x="331" y="0" width="58" height="404"/>
+  <SubTexture name="流星雨资源/wy7" x="642" y="345" width="190" height="57"/>
+  <SubTexture name="流星雨资源/wy6" x="834" y="345" width="187" height="57"/>
+  <SubTexture name="流星雨资源/wy5" x="445" y="297" width="195" height="59"/>
+  <SubTexture name="流星雨资源/wy4" x="706" y="0" width="203" height="61"/>
+  <SubTexture name="流星雨资源/wy3" x="665" y="223" width="197" height="59"/>
+  <SubTexture name="流星雨资源/wy2" x="666" y="161" width="199" height="60"/>
+  <SubTexture name="流星雨资源/wy1" x="665" y="284" width="195" height="59"/>
+  <SubTexture name="龙卷风资源/ljf13" x="976" y="91" width="39" height="83"/>
+  <SubTexture name="龙卷风资源/ljf12" x="558" y="204" width="53" height="88"/>
+  <SubTexture name="龙卷风资源/ljf11" x="547" y="111" width="58" height="90"/>
+  <SubTexture name="龙卷风资源/ljf10" x="613" y="204" width="50" height="91"/>
+  <SubTexture name="龙卷风资源/ljf9" x="867" y="200" width="50" height="93"/>
+  <SubTexture name="龙卷风资源/ljf8" x="506" y="203" width="50" height="92"/>
+  <SubTexture name="龙卷风资源/ljf7" x="607" y="111" width="57" height="91"/>
+  <SubTexture name="龙卷风资源/ljf6" x="962" y="176" width="55" height="91"/>
+  <SubTexture name="龙卷风资源/ljf5" x="391" y="124" width="57" height="91"/>
+  <SubTexture name="龙卷风资源/ljf4" x="911" y="0" width="63" height="96"/>
+  <SubTexture name="龙卷风资源/ljf3" x="450" y="124" width="54" height="94"/>
+  <SubTexture name="龙卷风资源/ljf2" x="909" y="98" width="51" height="100"/>
+  <SubTexture name="龙卷风资源/ljf1" x="976" y="0" width="45" height="89"/>
+  <SubTexture name="龙卷风资源/ljf" x="391" y="217" width="52" height="80"/>
+</TextureAtlas>

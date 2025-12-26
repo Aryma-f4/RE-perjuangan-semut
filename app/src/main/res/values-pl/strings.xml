@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Perjuangan semut</string>
+    <string name="flash_browser_plugin">Wtyczka Flash</string>
+    <string name="audio_files">Pliki audio</string>
+    <string name="image_files">Pliki obrazów</string>
+    <string name="video_files">Pliki wideo</string>
+    <string name="empty_file_list">Nie znaleziono żadnych plików.</string>
+    <string name="button_ok">OK</string>
+    <string name="button_cancel">Anuluj</string>
+    <string name="button_continue">Kontynuuj</string>
+    <string name="file_save_as">Zapisz jako:</string>
+    <string name="file_download">Pobierz</string>
+    <string name="file_upload">Wyślij</string>
+    <string name="button_yes">Tak</string>
+    <string name="button_no">Nie</string>
+    <string name="IDA_CURL_SSL_SECURITY_WARNING">Ostrzeżenie dotyczące bezpieczeństwa</string>
+    <string name="IDA_CURL_INTERFACE_THISSESS">Zaufaj sesji</string>
+    <string name="IDA_CURL_INTERFACE_NOSESS">Anuluj</string>
+    <string name="IDA_CURL_INTERFACE_OK">OK</string>
+    <string name="IDA_CURL_INTERFACE_UNVERSER_2">Serwer, z którym aplikacja nawiązuje połączenie, jest niezweryfikowany.</string>
+    <string name="IDA_CURL_INTERFACE_ALLSESS">Ufaj zawsze</string>
+    <string name="IDA_CURL_INTERFACE_SERVER">Serwer:</string>
+    <string name="IDA_CURL_INTERFACE_TRUSTSER">Czy chcesz zaufać temu serwerowi i nawiązać połączenie?</string>
+    <string name="IDA_CURL_INTERFACE_CNAME_MSG">Nazwa serwera (%1$s) jest inna niż nazwa podana w certyfikacje (%2$s). Czy zaufać temu serwerowi i kontynuować?</string>
+    <string name="IDA_CURL_INTERFACE_VIEW_CERT">Wyświetl certyfikat</string>
+    <string name="IDA_CURL_INTERFACE_CERTIFICATE_DETAILS_TITLE">Szczegóły certyfikatu</string>
+    <string name="IDA_CERTIFICATE_DETAILS">Certyfikat:\n \n Wystawiono dla:\n Nazwa ogólna:\n %1$s\n \n Organizacja:\n %2$s\n \n Jednostka organizacyjna:\n %3$s\n \n Wystawiony przez:\n Nazwa ogólna:\n %4$s\n \n Organizacja:\n %5$s\n \n Jednostka organizacyjna:\n %6$s\n \n Ważność:\n Data wystawienia:\n %7$s\n \n Termin ważności:\n %8$s </string>
+    <string name="IDA_APP_WAITING_DEBUGGER_TITLE">Adobe AIR: oczekiwanie na połączenie</string>
+    <string name="IDA_APP_UNABLE_LISTEN_ERROR">Adobe AIR: nasłuch na porcie</string>
+    <string name="IDA_APP_WAITING_DEBUGGER_WARNING">Aplikacja AIR oczekuje na ustanowienie połączenia przez debugger. Może to potrwać do %d s.</string>
+    <string name="IDA_APP_DEBUGGER_TIMEOUT_INFO">Nie można nawiązać połączenia z debuggerem.</string>
+    <string name="app_version">APP_VERSION</string>
+    <string name="button_install">Zainstaluj</string>
+    <string name="button_exit">Zakończ</string>
+    <string name="title_adobe_air">Adobe® AIR®</string>
+    <string name="text_runtime_required">Ta aplikacja wymaga środowiska Adobe AIR.\n\n</string>
+    <string name="text_install_runtime">Aby kontynuować, zainstaluj środowisko AIR na tym urządzeniu.</string>
+    <string name="text_runtime_on_external_storage">Aby kontynuować, albo zainstaluj środowisko Adobe AIR na tym urządzeniu, albo zamknij tę aplikację i przed ponownym uruchomieniem podłącz kartę SD zawierającą środowisko Adobe AIR.</string>
+    <string name="text_gamepreview_loading">Wczytywanie...</string>
+    <string name="text_gamepreview_loading_error">Nie można wczytać gry.</string>
+    <string name="text_install_gamepreview_app">Zainstaluj teraz</string>
+    <string name="text_air_missing_header">Wymagana aplikacja Adobe AIR</string>
+    <string name="text_air_missing_text">Do korzystania z podglądu gry wymagane jest zainstalowanie aplikacji Adobe AIR.</string>
+    <string name="button_install_air_from_playstore">Zainstaluj z Play Store.</string>
+    <string name="text_dont_show_again">Nie pokazuj ponownie tego komunikatu.</string>
+</resources>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://texturepacker.com-->
+<!-- $TexturePacker:SmartUpdate:1b12d9b1214ed6341a80c4f82bc5feef$ -->
+<TextureAtlas imagePath="MainUI.png">
+    <SubTexture name="gh" x="939" y="554" width="82" height="73" frameX="-11" frameY="-10" frameWidth="104" frameHeight="93"/>
+    <SubTexture name="gh1" x="665" y="581" width="104" height="93"/>
+    <SubTexture name="hallbg1" x="2" y="388" width="661" height="384" frameX="-7" frameY="0" frameWidth="683" frameHeight="384"/>
+    <SubTexture name="hallbg2" x="2" y="2" width="683" height="384"/>
+    <SubTexture name="jh" x="873" y="728" width="86" height="87" frameX="-7" frameY="0" frameWidth="102" frameHeight="97"/>
+    <SubTexture name="jh1" x="880" y="629" width="102" height="97"/>
+    <SubTexture name="mrt" x="939" y="460" width="82" height="92" frameX="-11" frameY="-10" frameWidth="104" frameHeight="112"/>
+    <SubTexture name="mrt1" x="774" y="575" width="104" height="112"/>
+    <SubTexture name="mwsl" x="665" y="676" width="103" height="113" frameX="-11" frameY="0" frameWidth="125" frameHeight="123"/>
+    <SubTexture name="mwsl1" x="687" y="360" width="125" height="123"/>
+    <SubTexture name="sc" x="770" y="689" width="101" height="91" frameX="-11" frameY="-11" frameWidth="123" frameHeight="113"/>
+    <SubTexture name="sc1" x="814" y="460" width="123" height="113"/>
+    <SubTexture name="wjt" x="2" y="903" width="64" height="97" frameX="-10" frameY="-11" frameWidth="78" frameHeight="119"/>
+    <SubTexture name="wjt1" x="770" y="782" width="78" height="119"/>
+    <SubTexture name="wqgf" x="665" y="485" width="107" height="94" frameX="-9" frameY="-11" frameWidth="127" frameHeight="116"/>
+    <SubTexture name="wqgf1" x="854" y="342" width="127" height="116"/>
+    <SubTexture name="yun1" x="687" y="2" width="291" height="204" frameX="-4" frameY="0" frameWidth="305" frameHeight="204"/>
+    <SubTexture name="yxdt" x="854" y="208" width="147" height="132" frameX="-8" frameY="-9" frameWidth="165" frameHeight="150"/>
+    <SubTexture name="yxdt1" x="687" y="208" width="165" height="150"/>
+</TextureAtlas>
+

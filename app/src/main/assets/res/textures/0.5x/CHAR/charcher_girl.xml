@@ -1,0 +1,33 @@
+<TextureAtlas name="charcher_girl" >
+  <SubTexture name="pf/pf6" x="127" y="114" width="160" height="55"/>
+  <SubTexture name="pf/pf5" x="289" y="0" width="160" height="55"/>
+  <SubTexture name="pf/pf4" x="127" y="0" width="160" height="55"/>
+  <SubTexture name="pf/pf3" x="127" y="57" width="160" height="55"/>
+  <SubTexture name="pf/pf2" x="289" y="114" width="160" height="55"/>
+  <SubTexture name="pf/pf1" x="289" y="57" width="160" height="55"/>
+  <SubTexture name="part/xscb1" x="0" y="0" width="125" height="125"/>
+  <SubTexture name="part/mouth2" x="276" y="223" width="83" height="44"/>
+  <SubTexture name="part/stone" x="238" y="246" width="26" height="26"/>
+  <SubTexture name="part/gun" x="104" y="171" width="135" height="54"/>
+  <SubTexture name="part/leftglove" x="397" y="248" width="39" height="27"/>
+  <SubTexture name="part/lefthand2" x="451" y="54" width="52" height="51"/>
+  <SubTexture name="part/lefthand" x="451" y="155" width="42" height="39"/>
+  <SubTexture name="part/eyebrow2" x="361" y="258" width="28" height="10"/>
+  <SubTexture name="part/eyebrow" x="0" y="270" width="22" height="7"/>
+  <SubTexture name="part/hat" x="0" y="215" width="90" height="53"/>
+  <SubTexture name="part/eyeclose" x="92" y="227" width="73" height="41"/>
+  <SubTexture name="part/eye3" x="167" y="227" width="69" height="43"/>
+  <SubTexture name="part/eye" x="439" y="196" width="69" height="52"/>
+  <SubTexture name="part/eye2" x="289" y="171" width="113" height="50"/>
+  <SubTexture name="part/mouth" x="266" y="269" width="40" height="22"/>
+  <SubTexture name="part/head" x="0" y="127" width="102" height="86"/>
+  <SubTexture name="part/clothes" x="451" y="0" width="54" height="52"/>
+  <SubTexture name="part/body" x="404" y="171" width="33" height="39"/>
+  <SubTexture name="part/tail" x="438" y="250" width="61" height="50"/>
+  <SubTexture name="part/rightglove" x="241" y="207" width="33" height="37"/>
+  <SubTexture name="part/righthand" x="404" y="212" width="30" height="34"/>
+  <SubTexture name="part/shoe" x="241" y="171" width="46" height="34"/>
+  <SubTexture name="part/leg" x="361" y="223" width="34" height="33"/>
+  <SubTexture name="part/antenna" x="451" y="107" width="37" height="46"/>
+  <SubTexture name="part/shadow" x="308" y="269" width="36" height="12"/>
+</TextureAtlas>

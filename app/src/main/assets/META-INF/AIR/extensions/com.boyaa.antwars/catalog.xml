@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding ="utf-8"?>
+<swc xmlns="http://www.adobe.com/flash/swccatalog/9">
+  <versions>
+    <swc version="1.2" />
+    <flex version="4.6.0" build="23201" minimumSupportedVersion="3.0.0" />
+  </versions>
+  <features>
+    <feature-script-deps />
+    <feature-files />
+  </features>
+  <libraries>
+    <library path="library.swf">
+      <script name="_789a5a6d88faca582a03bcc3a6f5e4ad2b12eb122e70e2305f9f5ff33d5b6951_flash_display_Sprite" mod="1416379799646" signatureChecksum="1682930595" >
+        <def id="_789a5a6d88faca582a03bcc3a6f5e4ad2b12eb122e70e2305f9f5ff33d5b6951_flash_display_Sprite" /> 
+        <dep id="flash.system:Security" type="e" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="flash.display:Sprite" type="i" /> 
+      </script>
+      <script name="com/boyaa/AntwarsMobileId/PaymentConstants" mod="1410508428227" signatureChecksum="3346347220" >
+        <def id="com.boyaa.AntwarsMobileId:PaymentConstants" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <script name="com/boyaa/AntwarsMobileId/AntwarsMobileIdTool" mod="1416379799088" signatureChecksum="1863247744" >
+        <def id="com.boyaa.AntwarsMobileId:AntwarsMobileIdTool" /> 
+        <dep id="flash.events:EventDispatcher" type="e" /> 
+        <dep id="trace" type="e" /> 
+        <dep id="flash.events:StatusEvent" type="e" /> 
+        <dep id="flash.external:ExtensionContext" type="e" /> 
+        <dep id="flash.events:EventDispatcher" type="s" /> 
+        <dep id="flash.events:StatusEvent" type="s" /> 
+        <dep id="flash.external:ExtensionContext" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <digests>
+        <digest type="SHA-256" signed="false" value="7bb9ffefab63c9a51cca2571ad67578f15b4c86bdb796baf4c02d0bbd6eb35dd"   />
+      </digests>
+    </library>
+  </libraries>
+  <files>
+  </files>
+</swc>
+

@@ -1,0 +1,994 @@
+Manifest-Version: 1.0
+Created-By: 1.0 (Android)
+
+Name: assets/res/asset/union.info
+SHA1-Digest: ELovnIsMCZSD9mRs5+CrFJWmDMU=
+
+Name: assets/res/textures/0.5x/COPYGAME/monsterskill2.xml
+SHA1-Digest: dvE0MlJP1BzYPxldtE6pK1Ad/gc=
+
+Name: assets/res/textures/0.5x/Union/UnionStore.png
+SHA1-Digest: NeCRTUBeFH/tMiltneub5DtHz5k=
+
+Name: res/drawable-hdpi/com_facebook_button_blue_pressed.9.png
+SHA1-Digest: s11gcQnxG2CBh+07EhR73hIWugc=
+
+Name: assets/res/textures/0.5x/OTHER/unionBossFight.xml
+SHA1-Digest: 6nqPY8KGxAudxb27jP/Mp8hT/F8=
+
+Name: assets/res/textures/0.5x/COPYGAME/spritebg.xml
+SHA1-Digest: jQM0UDi76nqgmYAEOVkDqWlhhT4=
+
+Name: assets/res/textures/0.5x/BT/BattlefieldUI.png
+SHA1-Digest: LBZbYOrfv2TSdr+4hNJTRfvcVQw=
+
+Name: res/drawable-xhdpi/ouya_icon.png
+SHA1-Digest: y62uKwx0nSHQDZPh95c4IX0VyX8=
+
+Name: assets/res/textures/0.5x/COPYCHAR/spider.png
+SHA1-Digest: /3FJn+bnGDdlygn6u98htkPuqXA=
+
+Name: assets/res/lan.xml
+SHA1-Digest: ZOJmYR/ogO2sew5cnSo5NbAUcdo=
+
+Name: assets/META-INF/AIR/extensions/com.freshplanet.ane.AirDeviceId/M
+ ETA-INF/ANE/extension.xml
+SHA1-Digest: jxAqpITRPyx3wYHz4vL1cVoNAkI=
+
+Name: res/drawable-hdpi/com_facebook_button_grey_focused.9.png
+SHA1-Digest: xw3C3hxhbAqRc7fZEiHwllptNuM=
+
+Name: assets/res/textures/0.5x/Union/UnionStore.xml
+SHA1-Digest: Oz340Ykgu30YTrUnprNhmxNEy0o=
+
+Name: assets/res/textures/0.5x/COPYCHAR/worm.png
+SHA1-Digest: d9HH+8aoiqG++drPTwGJy7ujTc4=
+
+Name: assets/res/textures/0.5x/COPYGAME/spritebg.png
+SHA1-Digest: Gq10BwpaZcTRCuOaAobJyi2XtFs=
+
+Name: assets/res/textures/0.5x/COPYCHAR/spider.xml
+SHA1-Digest: mJfN+/KwAuM/KbXOGFt0uQ2MLzQ=
+
+Name: assets/res/textures/0.5x/UI/MainUI.png
+SHA1-Digest: mo6ibjPQNvjeF7wC6ccJgoGGPiI=
+
+Name: assets/icons/icon_512.png
+SHA1-Digest: ZFRrkZR9jpSGTPvG7NZloijy0c0=
+
+Name: res/layout/com_facebook_picker_list_section_header.xml
+SHA1-Digest: kzgXUibQ7uoQz+4A1wTXt3Bps8I=
+
+Name: assets/res/asset/teamRoom.info
+SHA1-Digest: o0EPGSnhr79NXmgqfzflqZVBqcI=
+
+Name: res/drawable-xhdpi/ic_launcher.png
+SHA1-Digest: UCzYT6RE8m1+z99KNVBkhnl38jY=
+
+Name: assets/res/textures/0.5x/COPYGAME/monsterskill2.png
+SHA1-Digest: VCBzGJqMcEbaOb1iBV9Wd7Fb3UY=
+
+Name: assets/res/textures/0.5x/Union/UnionWorship.png
+SHA1-Digest: lSYvvIVvuOT0fe0kdpgTLuel5E0=
+
+Name: assets/res/textures/0.5x/COPYGAME/energyLight.png
+SHA1-Digest: Nq+2+pZnUpJiTmoJDqxJoqDavLw=
+
+Name: res/drawable-mdpi/icon.png
+SHA1-Digest: YZi9R7/aRq7p8As+LRcBp6dYZrM=
+
+Name: assets/res/asset/publicComponent.info
+SHA1-Digest: pYKPlw3Fwsl4pyD2c6lbXJZ4qIM=
+
+Name: assets/res/textures/0.5x/COPYCHAR/worm.xml
+SHA1-Digest: 0HxL1TDSlEa9v7yA3DHFMUY6qIw=
+
+Name: res/drawable-ldpi/icon.png
+SHA1-Digest: YFpovqEaSEC6D2uJYyVr+J/ytw4=
+
+Name: assets/res/textures/0.5x/CHAR/prop.png
+SHA1-Digest: TsQNTHpl7pn6xNYZ0qQOyEATUmI=
+
+Name: assets/res/textures/0.5x/OTHER/jhman3.png
+SHA1-Digest: IHDqKVACdLRm/GDLZb1Kp3qwhIE=
+
+Name: assets/META-INF/AIR/application.xml
+SHA1-Digest: TwNwlfd7HZgt2uUBuwGzhFR3Jp4=
+
+Name: resources.arsc
+SHA1-Digest: 7vU4lFXhkvuzl1oJ7/cwxWIDJVQ=
+
+Name: assets/res/textures/0.5x/BT/BattlefieldUI.xml
+SHA1-Digest: ecEPZ2IIV3m3vQsyH27TXwV2HBU=
+
+Name: assets/res/textures/0.5x/Union/UnionWorship.xml
+SHA1-Digest: wxX3gSH7XdznwYIgCZdbC8+1afU=
+
+Name: res/drawable/com_facebook_usersettingsfragment_background_gradie
+ nt.xml
+SHA1-Digest: UudkMujfDbVwQrl+1pBZ2WIJ8ro=
+
+Name: res/layout/com_facebook_picker_activity_circle_row.xml
+SHA1-Digest: qDPKHiBdKPRyhbH8yfODHSxBw6E=
+
+Name: assets/res/textures/0.5x/CHAR/prop.xml
+SHA1-Digest: aOC4qSfhjOvGBaXhVYq/lgJJJSI=
+
+Name: AndroidManifest.xml
+SHA1-Digest: Pl2GBa/GoejLGwzzRNUT93RuLR0=
+
+Name: assets/res/textures/0.5x/COPYCHAR/scorpionKind.png
+SHA1-Digest: gRFJtHvTdTuv9LDqDsgJMdXC+7c=
+
+Name: assets/res/textures/0.5x/OTHER/jh2.png
+SHA1-Digest: 3N6km0PFbA6KQkdxwun65lYahqo=
+
+Name: assets/res/textures/0.5x/UI/MainUI.xml
+SHA1-Digest: MYEh/mOWsm8KlWRGbylyTvvg0GI=
+
+Name: res/drawable/com_facebook_top_button.xml
+SHA1-Digest: P8Fd8oSOz5JLNdsGrTkRJfX3las=
+
+Name: res/drawable-xhdpi/com_facebook_logo.png
+SHA1-Digest: 94ZTspodsrcPndjRFwq4Cqz6Wc4=
+
+Name: res/drawable/com_facebook_list_divider.9.png
+SHA1-Digest: 45BAgKtOkC0fHYqIunSXrQ8YubM=
+
+Name: assets/res/textures/0.5x/COPYCHAR/skeleton_scorpionKind.xml
+SHA1-Digest: iVpEwFSHwMBNYioEpRGBB0kJ1vo=
+
+Name: assets/res/textures/0.5x/COPYCHAR/zhunhuang.png
+SHA1-Digest: gf6FLNnHhKICXKO7T2KP3M+3fCw=
+
+Name: res/raw/startga.html
+SHA1-Digest: 0Gq1U1c1hFbPzb+UHZ8RaIpUnts=
+
+Name: res/drawable-hdpi/icon.png
+SHA1-Digest: KN6XqFkQYJy5UyoR0+jz3BfuXfk=
+
+Name: assets/res/textures/0.5x/GAME/wqSpritesheet.xml
+SHA1-Digest: KqhXGOFA4VYpAGQuLsEgdUsYWCk=
+
+Name: assets/META-INF/AIR/extensions/com.freshplanet.ane.AirDeviceId/l
+ ibrary.swf
+SHA1-Digest: Z4qqXbGAim0p63IqP3q9kP/relg=
+
+Name: res/layout/com_facebook_login_activity_layout.xml
+SHA1-Digest: e+LSGCe832LwSYj9z2S77G/QUi0=
+
+Name: assets/res/MAP_SMALL/map_1003_bg.png
+SHA1-Digest: Qi8fP3hRBtIrvGLtYDxXtuImLOc=
+
+Name: assets/META-INF/AIR/extensions/com.freshplanet.ane.AirDeviceId/c
+ atalog.xml
+SHA1-Digest: s8qSrmAPill2SW07SBM0JMw1qAc=
+
+Name: assets/res/textures/0.5x/COPYCHAR/zhunhuang.xml
+SHA1-Digest: nzQX2WJ17pJsOw7go/x48Zs7r/E=
+
+Name: assets/res/asset/spritecity.info
+SHA1-Digest: q0ImVZqcqLWixAPlAv2xW9y2Lmc=
+
+Name: res/drawable/com_facebook_profile_picture_blank_square.png
+SHA1-Digest: ii3g4mqHjQXtghNZE1cibJA1Jbs=
+
+Name: assets/res/textures/0.5x/COPYGAME/spide.xml
+SHA1-Digest: VEk7kqkOkLtFJbMbFvZReGD+wPM=
+
+Name: res/drawable/com_facebook_picker_item_background.xml
+SHA1-Digest: 4hOY46Sq20ae3wFhM/a0jMrwEl8=
+
+Name: res/drawable-hdpi/com_facebook_picker_magnifier.png
+SHA1-Digest: IRytpOlTJ0L0tqrpIfR65gTRRSo=
+
+Name: assets/res/textures/0.5x/COPYCHAR/skeleton_spider.xml
+SHA1-Digest: mxW5hRFs8Yi4ChZIb6NSbfVG2PQ=
+
+Name: assets/res/MAP_SMALL/map_1003.png
+SHA1-Digest: isPdZgZ2PLRV6AiAyS0xUhfJzkU=
+
+Name: res/drawable/com_facebook_button_check.xml
+SHA1-Digest: 43CFSZrA4bH7N3aQHkhCueTKX6M=
+
+Name: assets/res/textures/0.5x/COPYGAME/spide.png
+SHA1-Digest: 2ekocBYzKN0xnFROJeXP5Ncn2AA=
+
+Name: res/drawable/com_facebook_button_blue_pressed.9.png
+SHA1-Digest: +tjTExmZ1lk9Ox0aZm5rNcUPoFY=
+
+Name: assets/res/asset/UnionStore.info
+SHA1-Digest: /mdPQxqCzeEsQld4DoO2F6DoNRE=
+
+Name: res/drawable-xhdpi/com_facebook_button_blue_pressed.9.png
+SHA1-Digest: q04LLz2eNuM6e8D8RaRhm1e3WbQ=
+
+Name: assets/res/asset/btSkillDlg.info
+SHA1-Digest: rOtzqE7lMaJZxPy50GH+YlWrW7A=
+
+Name: assets/res/textures/0.5x/CHAR/charcher_girl.xml
+SHA1-Digest: MjjcZP0lWmMUdo4Npt8WSVpT/eU=
+
+Name: assets/res/textures/0.5x/OTHER/paymentDlg.png
+SHA1-Digest: aoSSIHYwKwNUz94SHCQqVUJMFMM=
+
+Name: res/drawable-mdpi/com_facebook_inverse_icon.png
+SHA1-Digest: F87dFjM8iCRCeWSfrxkG/jcMtZY=
+
+Name: assets/res/asset/wedding.info
+SHA1-Digest: T7Zx1MKtAezenXk1cuArjQj8KJU=
+
+Name: assets/res/textures/0.5x/COPYCHAR/skeleton_sprite.xml
+SHA1-Digest: ysgs9bRA4bxVF/5cJDC9/Ers/Mw=
+
+Name: assets/res/textures/0.5x/COPYGAME/badstate.png
+SHA1-Digest: 2Hh5+g8YhyI7Otm1VeuKB+dVLqQ=
+
+Name: res/drawable/com_facebook_picker_list_pressed.9.png
+SHA1-Digest: ughAWBlhb5fxIgHli8NgEiGGjGY=
+
+Name: assets/res/textures/0.5x/Union/unionBg.xml
+SHA1-Digest: DsUF0LMxaTzX5HRNNJcglgcZhnA=
+
+Name: res/drawable/com_facebook_place_default_icon.png
+SHA1-Digest: T6PfkzvzoTErI9HPUHhPTzYuaOw=
+
+Name: res/drawable-xxhdpi/icon.png
+SHA1-Digest: y62uKwx0nSHQDZPh95c4IX0VyX8=
+
+Name: res/drawable/com_facebook_picker_list_selector_background_transi
+ tion.xml
+SHA1-Digest: U2RKQeMUym8uRDPLqKy9LVCCoko=
+
+Name: assets/res/textures/0.5x/COPYCHAR/sprite.xml
+SHA1-Digest: m8XLmCT0h4Z6sGZn+QMsjkuT6wY=
+
+Name: res/layout/com_facebook_picker_title_bar_stub.xml
+SHA1-Digest: rUK8E8s6v6SUeFFCEGddobibrmk=
+
+Name: assets/res/textures/0.5x/OTHER/skeleton_firework.xml
+SHA1-Digest: jm5OkZ7gDU1qekgCBqHI1Wq8A1I=
+
+Name: res/drawable-mdpi/com_facebook_button_blue_focused.9.png
+SHA1-Digest: rZf/vriiPguZZUS/3ww/w7LJ8fo=
+
+Name: assets/res/textures/0.5x/OTHER/vipView.xml
+SHA1-Digest: OFt/yyLRqQUEqt6sNbCQPVLpuYs=
+
+Name: assets/res/textures/0.5x/Union/unionBg.png
+SHA1-Digest: oiCpwXTcYpUpPIJQ9mrH8ThIpy0=
+
+Name: lib/armeabi-v7a/libCore.so
+SHA1-Digest: xi7D6mQtKDaat+RIJ0Rt3xyinWI=
+
+Name: assets/res/textures/0.5x/COPYGAME/badstate.xml
+SHA1-Digest: 4WP4DMG+OfXBEZODlNePTbC9F18=
+
+Name: assets/res/ChangerLog.xml
+SHA1-Digest: znefkFoB/kiKiEPCC+PvsrdDOtY=
+
+Name: res/drawable-xhdpi/com_facebook_inverse_icon.png
+SHA1-Digest: JlToIy/BS1SwLA3JoedKEQBE76E=
+
+Name: res/raw/adobelogo.gif
+SHA1-Digest: cp6EzjLDVdzLOD69uttcA3OnzH8=
+
+Name: assets/res/asset/exchange.info
+SHA1-Digest: MF03OWhm3+woqhC4qT3v6+R3d64=
+
+Name: assets/res/textures/0.5x/COPYCHAR/sprite.png
+SHA1-Digest: DZnfvVt3VpPcmYgKjwzNly2MmXM=
+
+Name: assets/META-INF/AIR/extensions/com.freshplanet.AirAlert/library.
+ swf
+SHA1-Digest: 2VuDAqVuMj4rQEBSzqk6JX2NyvU=
+
+Name: assets/res/textures/0.5x/OTHER/weddingInfo.png
+SHA1-Digest: XnBv+amozorrXmKiSAUa2+KCX9s=
+
+Name: res/drawable-xxxhdpi/icon.png
+SHA1-Digest: y62uKwx0nSHQDZPh95c4IX0VyX8=
+
+Name: assets/res/textures/0.5x/COPYCHAR/skeleton_dragon.xml
+SHA1-Digest: kQYesFRg4vlOTnRgEV37zmzvsIA=
+
+Name: res/layout/com_facebook_picker_title_bar.xml
+SHA1-Digest: mK0HZu/hMqugzErXexatsToF6Ik=
+
+Name: res/drawable/com_facebook_logo.png
+SHA1-Digest: COOFdQDqXjvNdi+5TMPa3bPhaEQ=
+
+Name: res/drawable/com_facebook_button_blue_normal.9.png
+SHA1-Digest: plzlqLb7elFLaBIIHG8jVWFUnfU=
+
+Name: assets/icons/icon_72.png
+SHA1-Digest: KN6XqFkQYJy5UyoR0+jz3BfuXfk=
+
+Name: assets/res/asset/mailBox.info
+SHA1-Digest: 2y1GxK3PXxZV6PFI79/eH6FRV4w=
+
+Name: assets/res/textures/0.5x/COPYCHAR/skeleton_zhunhuang.xml
+SHA1-Digest: wogilDjlt6Lz5lhMlFjiU/YBz0U=
+
+Name: res/drawable/com_facebook_button_grey_normal.9.png
+SHA1-Digest: kZ9314YgSZHYcEuP+vXCuujxd48=
+
+Name: assets/res/MAP_SMALL/map_201.png
+SHA1-Digest: Zqa4FVd1G8fa0PfHUIYppoqbBog=
+
+Name: assets/icons/icon_48.png
+SHA1-Digest: YZi9R7/aRq7p8As+LRcBp6dYZrM=
+
+Name: assets/res/textures/0.5x/COPYGAME/copygame.png
+SHA1-Digest: sSfvDYtrsytBYu9/byLrqfw2PcM=
+
+Name: assets/adobeair.vch
+SHA1-Digest: j6ENIoX3wDyND+mGtKjJcZeYwnk=
+
+Name: assets/res/textures/0.5x/COPYGAME/copygame.xml
+SHA1-Digest: WCxtJ+ZGM0r1joCRdBQaZ6R5E10=
+
+Name: assets/res/asset/UnionOffice.info
+SHA1-Digest: f9Xms+aSH3BPwiCoXDHoU+JXSQI=
+
+Name: assets/res/textures/0.5x/COPYCHAR/scorpionKind.xml
+SHA1-Digest: uTNgTgD8et5GfU9IDjM1OUTmJCk=
+
+Name: assets/res/textures/0.5x/GAME/wqSpritesheet.png
+SHA1-Digest: VIlVq68eDpnb9SDDWSaPmrROSgQ=
+
+Name: res/drawable/com_facebook_top_background.xml
+SHA1-Digest: 2jGeRfgb5Xm7OmXOYRKQWRbaaUw=
+
+Name: assets/res/textures/0.5x/OTHER/paymentDlg.xml
+SHA1-Digest: LOppxcAHHTn6pV5rW1LMaxeEBuQ=
+
+Name: res/drawable/com_facebook_button_check_on.png
+SHA1-Digest: ObcSDxnphDDTROHTniwThtnJVWk=
+
+Name: res/drawable/com_facebook_picker_top_button.xml
+SHA1-Digest: FpCN68q2eV+3WjoqLCPZ0C/7pGQ=
+
+Name: assets/META-INF/AIR/extensions/com.boyaa.antwars/catalog.xml
+SHA1-Digest: 1zY6ktXPYF6XmRNTADaKgLuhIzc=
+
+Name: assets/icons/icon_114.png
+SHA1-Digest: e29OGmHw2ucb5WBhHBr1le6rA7U=
+
+Name: assets/res/textures/0.5x/GAME/fightgoods.xml
+SHA1-Digest: pSTtv+u+noSJBoHMRB9SFSD0XdY=
+
+Name: assets/res/textures/0.5x/COPYCHAR/Leien.xml
+SHA1-Digest: u9ShVSmHEmczitnqqNrOjdm16sA=
+
+Name: assets/res/asset/vipView.info
+SHA1-Digest: 5zueydtLOk/FtExktAdVhrgtNps=
+
+Name: assets/res/textures/0.5x/COPYCHAR/LeienSkillEffect.xml
+SHA1-Digest: DuylzvKcOxk8azfDsppYYWnXKic=
+
+Name: assets/res/textures/0.5x/GAME/hallAni.xml
+SHA1-Digest: wY5ZzOZFCaByOFu5R+XUKHAZSEQ=
+
+Name: assets/res/textures/0.5x/CHAR/charcher_boy.xml
+SHA1-Digest: pbv1ZFzJWkTWpA7PhhWnNuDlRfw=
+
+Name: lib/armeabi-v7a/libstlport_shared.so
+SHA1-Digest: Hn8JAWcqVq0cTbkvFmVt2JLFmlw=
+
+Name: assets/res/textures/0.5x/BT/btdlg.png
+SHA1-Digest: NNOoNA3sBWu7dqQ4rwzf8LTrkyQ=
+
+Name: assets/res/textures/0.5x/COPYGAME/copygameui.xml
+SHA1-Digest: 1Wt0FxfR/gt98xP+wYLg8vuupxc=
+
+Name: assets/res/textures/0.5x/COPYCHAR/Leien.png
+SHA1-Digest: xMviaRgPhYcIyNrLsLryMrBQ7pY=
+
+Name: assets/res/textures/0.5x/GAME/fightgoods.png
+SHA1-Digest: hYOEm5YxNm9HmvD5NVClODYpzoI=
+
+Name: res/layout/com_facebook_picker_search_box.xml
+SHA1-Digest: NiNYsjcD/yWhGnY4SM28IB+xO2c=
+
+Name: assets/res/textures/0.5x/OTHER/signIn.xml
+SHA1-Digest: HkQC81aQ7dWNFmgkLlF2mNv6MZE=
+
+Name: assets/res/textures/0.5x/COPYCHAR/LeienSkillEffect.png
+SHA1-Digest: neRiX50pOuRi5aEhhTNZV8yEidI=
+
+Name: assets/res/textures/0.5x/GAME/hallAni.png
+SHA1-Digest: IobhjpnYIQTS3cwNfmljhu4nPPs=
+
+Name: assets/res/asset/btRoom.info
+SHA1-Digest: 77jUNDfmKj25VIvam5NbNndnsps=
+
+Name: assets/res/textures/0.5x/Union/UnionMain.xml
+SHA1-Digest: 9JJ4KEo9y3Wro0L3wTb1zGQz/MU=
+
+Name: res/layout/com_facebook_friendpickerfragment.xml
+SHA1-Digest: QC1K5hIMK8g3TtuHo0IQRRup8j0=
+
+Name: assets/res/textures/0.5x/COPYCHAR/skeleton_worm.xml
+SHA1-Digest: oyH371tQgkFsTLYjiK5l0VeEro8=
+
+Name: assets/res/textures/0.5x/CHAR/skeleton_girl.xml
+SHA1-Digest: b7dgxpKCWHKSYBavgLvWJjUejqw=
+
+Name: assets/META-INF/AIR/extensions/com.freshplanet.AirAlert/catalog.
+ xml
+SHA1-Digest: PJk/KAVgVTChQ/tJAN3i9voUelA=
+
+Name: assets/res/textures/0.5x/CHAR/charcher_boy.png
+SHA1-Digest: Ys1OT/BqQ+FgQU5a+WcqyOdrTCA=
+
+Name: assets/res/textures/0.5x/ACTIVITY/rankActivity.png
+SHA1-Digest: DVzUaFd8XIaU7uMs+FjAOYnlnuI=
+
+Name: assets/res/textures/0.5x/BT/btdlg.xml
+SHA1-Digest: aIl1g+W803cdeZPYNGPohWo8u40=
+
+Name: assets/res/textures/0.5x/OTHER/weddingBegin.png
+SHA1-Digest: NjVwVuX6kdmMap6/O7elUPlwPDE=
+
+Name: assets/res/asset/buyDlg.info
+SHA1-Digest: 9BnDrpCgs1enMz6UdTz/HZlIyxg=
+
+Name: assets/res/asset/shop.info
+SHA1-Digest: 4pstV989WjkX1uRluUUIonMLhGg=
+
+Name: assets/res/textures/0.5x/BT/emoticon.png
+SHA1-Digest: fJhVydoYQ4rW3gf63RyyXi86yk8=
+
+Name: assets/res/asset/endlessTower.info
+SHA1-Digest: 1B7tbMH2VBXWp0i6PZn+IrAZ8c8=
+
+Name: assets/res/MAP_SMALL/map_2_bg.png
+SHA1-Digest: qHHIu2I2jEpMNo2e88SY4erX16I=
+
+Name: assets/res/textures/0.5x/CHAR/skeleton_boy.xml
+SHA1-Digest: 5nXeD2RBYyz0/EsC/+FaGl7/puo=
+
+Name: assets/res/textures/0.5x/OTHER/firework.png
+SHA1-Digest: WhRpVNKxeRKVEzp27qI5ovR/cOY=
+
+Name: assets/META-INF/AIR/extensions/com.boyaa.antwars/META-INF/ANE/ex
+ tension.xml
+SHA1-Digest: hwm3oQD/99UtWbFQAwlQIOM9L2U=
+
+Name: res/layout/main.xml
+SHA1-Digest: hRPURxsmQfelZRWjhiVGa7KHia0=
+
+Name: res/drawable/com_facebook_close.png
+SHA1-Digest: FDOOYcRoxfXB5QdY1YikzqT7kx8=
+
+Name: res/drawable/com_facebook_picker_list_selector.xml
+SHA1-Digest: w/awfZeucwp5r5kmJEwZuoch3MQ=
+
+Name: assets/res/MAP_SMALL/map_2.png
+SHA1-Digest: Hb8Ls6GbyvvEbkqftCXFQkPbCpk=
+
+Name: assets/res/textures/0.5x/OTHER/weddingInfo.xml
+SHA1-Digest: GvN8biSkYFFNaGiFVGQ/AahMa3Q=
+
+Name: assets/res/textures/0.5x/BT/emoticon.xml
+SHA1-Digest: POfM1Z3H0UWONkjwQcDCn+4exXY=
+
+Name: assets/res/textures/0.5x/OTHER/unionBossFight.png
+SHA1-Digest: ALLmx7Dkw50jZLicY+n5Mm0GOQg=
+
+Name: res/drawable-hdpi/home.png
+SHA1-Digest: GyLGj1YcCIaWAZsyCr5gmUFMyxg=
+
+Name: assets/res/asset/BindAccount.info
+SHA1-Digest: 4Sgg8E6RkPyAvmrg3CD+YhicWNs=
+
+Name: assets/res/textures/0.5x/ACTIVITY/rankActivity.xml
+SHA1-Digest: tS7XDX7zOvLw0VMCH+fJxPIn0xY=
+
+Name: res/drawable-hdpi/com_facebook_button_grey_pressed.9.png
+SHA1-Digest: tWUWjtTo3HxE/8a02qZ5QsaeyfM=
+
+Name: assets/res/textures/0.5x/CHAR/charcher_girl.png
+SHA1-Digest: 5G7gP/JdD6qnK3tq7vlJHiJWCXc=
+
+Name: assets/META-INF/AIR/extensions/com.boyaa.antwars/library.swf
+SHA1-Digest: ETgovhRlx+aeY3XzABE3RWzuKv0=
+
+Name: res/layout/com_facebook_picker_image.xml
+SHA1-Digest: hQHlWVfm6MHlFv8mV69SntGYceI=
+
+Name: assets/res/textures/0.5x/OTHER/firework.xml
+SHA1-Digest: wORkO010k2siE6AHvG3sG6ZKmHI=
+
+Name: res/layout/com_facebook_placepickerfragment_list_row.xml
+SHA1-Digest: sagrB0RPWOvy3reesUymMs6z5CA=
+
+Name: assets/icons/icon_1024.png
+SHA1-Digest: QvJCzHamnpbUrXtWTci/Q8Yquns=
+
+Name: res/drawable-hdpi/com_facebook_close.png
+SHA1-Digest: vzoVwUXnEtJQCL4582EeDreqvIA=
+
+Name: res/drawable/com_facebook_loginbutton_silver.xml
+SHA1-Digest: yMpYfZuFJGNFQXKhGmoMqOwj1Vw=
+
+Name: assets/res/asset/unionApply.info
+SHA1-Digest: /b4lvCU9nscf/uRZkc6mAIOZU/g=
+
+Name: res/layout/com_facebook_usersettingsfragment.xml
+SHA1-Digest: ud4xec0sgH0GH0uq7X/bv9UI3l0=
+
+Name: res/drawable-xhdpi/com_facebook_close.png
+SHA1-Digest: 0IaTuYpHdwNgyn8PrCfM4P1LSUM=
+
+Name: assets/res/textures/0.5x/COPYGAME/copygameui.png
+SHA1-Digest: 1Xk5RqgOtIFRm8ZgMyMvx7TpqOY=
+
+Name: assets/res/textures/0.5x/Union/UnionMain.png
+SHA1-Digest: nZtLiO6NeT4DrQQOzqYMLp+2Lcc=
+
+Name: assets/res/textures/0.5x/OTHER/signIn.png
+SHA1-Digest: /mvaK0HxrfqoS4uCgWwcphpz4KE=
+
+Name: assets/res/textures/0.5x/OTHER/jh3.png
+SHA1-Digest: sEmFoX3a1oYaicSQtZsiosXAAq8=
+
+Name: assets/res/asset/chatFriends.info
+SHA1-Digest: fcud8fAJ38Lx5wgxtAr47Xaad6U=
+
+Name: assets/res/asset/UnionMessage.info
+SHA1-Digest: atxDIGJh5NyxigoKfrA2qy8ESYI=
+
+Name: res/layout/com_facebook_picker_checkbox.xml
+SHA1-Digest: pMG+uKQshrsOpwsJ/b2WVeWhjLM=
+
+Name: res/drawable-hdpi/com_facebook_button_blue_focused.9.png
+SHA1-Digest: f6ffxUARnD4OE2WatPT59yDgeJ8=
+
+Name: res/drawable/com_facebook_picker_list_selector_disabled.9.png
+SHA1-Digest: cKGQg8jgT0IkOi1RPo5Y+TSnQb4=
+
+Name: assets/res/textures/0.5x/COPYCHAR/skeleton_LeienSkillEffect.xml
+SHA1-Digest: Nds+DMx5ymqQt+Esa48aj7TVpWo=
+
+Name: assets/res/textures/0.5x/OTHER/chatFriends.xml
+SHA1-Digest: mkueCJC36BdLfdoohsIIk23Cwpg=
+
+Name: assets/icons/icon_96.png
+SHA1-Digest: umovP+N1fsGN1IeAgbGokQGS7TY=
+
+Name: res/layout/com_facebook_placepickerfragment.xml
+SHA1-Digest: AQdFG46yT+32orFdKHsb8Mj2UVc=
+
+Name: assets/res/asset/FriendDlg.info
+SHA1-Digest: nz9fiJTwWVZ/ov0pTRIJQD08CXo=
+
+Name: res/raw/rgba8888
+SHA1-Digest: 2jmj7l5rSw0yVb/vlWAYkK/YBwk=
+
+Name: assets/res/guideData.xml
+SHA1-Digest: 9iS+xxtuf9wopF8zcFLAHuCKQsg=
+
+Name: res/raw/debuginfo
+SHA1-Digest: 2jmj7l5rSw0yVb/vlWAYkK/YBwk=
+
+Name: res/drawable-xhdpi/com_facebook_button_blue_normal.9.png
+SHA1-Digest: nqGHiPOhSaIXmMVgJ9Ux7JqUxEk=
+
+Name: assets/res/MAP_SMALL/map_210_bg.png
+SHA1-Digest: IEuuHTzeLoVg0nikGEX9lOM/1ow=
+
+Name: lib/armeabi-v7a/libstagefright_froyo.so
+SHA1-Digest: EUXLvjWSqWdOtEeNogZ6B3XXEO0=
+
+Name: res/drawable/com_facebook_picker_list_longpressed.9.png
+SHA1-Digest: /uU9+qqC9MjC0cwR3L+DskCy9xM=
+
+Name: assets/res/textures/0.5x/OTHER/jhman1.png
+SHA1-Digest: 5PSUwd9K4vpIolUgt9CUqmscfuM=
+
+Name: assets/META-INF/AIR/extensions/com.freshplanet.AirFacebook/META-
+ INF/ANE/Android-ARM/library.swf
+SHA1-Digest: F1FN8BPvJbDQXBew1vyXGsiTCWI=
+
+Name: assets/res/textures/0.5x/COPYGAME/spriteMonsterSkill.png
+SHA1-Digest: 26M3a9bMx2SGNNkpF2acF1E3wlg=
+
+Name: assets/res/textures/0.5x/OTHER/exchange.png
+SHA1-Digest: UoqUtPzdBPQZb7Oet/UNwKe8KFA=
+
+Name: assets/res/textures/0.5x/OTHER/wedding.xml
+SHA1-Digest: vQk7KgnC35fG2B7mF8oDliDv+oY=
+
+Name: res/drawable-mdpi/com_facebook_picker_magnifier.png
+SHA1-Digest: yotnhVn7HzOwvsA1iVxnQdW+R6Y=
+
+Name: assets/res/textures/0.5x/COPYGAME/skycity.png
+SHA1-Digest: acLZ9V7cnOehO0da3dV7Jm+Mz84=
+
+Name: res/drawable-mdpi/com_facebook_button_blue_normal.9.png
+SHA1-Digest: plzlqLb7elFLaBIIHG8jVWFUnfU=
+
+Name: assets/res/textures/0.5x/shop/shop.png
+SHA1-Digest: ZpTvGNJy0QJfsA6W5/ufD23KOvs=
+
+Name: assets/res/ScreensPos.xml
+SHA1-Digest: X7HLb/9sE+pvevB8QolMpbJ2wEU=
+
+Name: assets/res/textures/0.5x/COPYGAME/spriteMonsterSkill.xml
+SHA1-Digest: PE571B9YRdnGNV+c1ahm4Zo9q5w=
+
+Name: assets/META-INF/AIR/extensions/com.freshplanet.AirFacebook/libra
+ ry.swf
+SHA1-Digest: F1FN8BPvJbDQXBew1vyXGsiTCWI=
+
+Name: assets/res/asset/UnionMain.info
+SHA1-Digest: +/KcaSMIty0Nx63fZrLn3Z7+niM=
+
+Name: assets/res/textures/0.5x/GAME/skeleton_hallAni.xml
+SHA1-Digest: ahMT/bvP4qHYomQ4IjrYWt9Pu1U=
+
+Name: assets/res/textures/0.5x/shop/shop.xml
+SHA1-Digest: sUcThMJuQaJxEN9ouipx413scvU=
+
+Name: assets/res/xml.data
+SHA1-Digest: 3PLRua0YwanMBm+SD5TcX2O3SW4=
+
+Name: assets/res/textures/0.5x/OTHER/wedding.png
+SHA1-Digest: nITcl+JPrKa2iTMn3eKn2P9UjAU=
+
+Name: res/drawable-ldpi/com_facebook_close.png
+SHA1-Digest: lg0izCnB1flsd2QqLisbxkcuGyU=
+
+Name: assets/res/textures/0.5x/BT/smallmap.png
+SHA1-Digest: +w+qtXNTBghqpMIlVMBrdJ/0fyo=
+
+Name: res/drawable-xhdpi/com_facebook_picker_magnifier.png
+SHA1-Digest: VqEt89wuwGEqEtvuU36zIvHS4VY=
+
+Name: res/layout/multiple_file_selection_panel.xml
+SHA1-Digest: 4iESvPTk+WdZUW1iw/IVEzuSKA8=
+
+Name: assets/res/asset/spidercity.info
+SHA1-Digest: pw4mdB0KfI1FzHY9SbwTyZsRFYc=
+
+Name: res/drawable/com_facebook_profile_picture_blank_portrait.png
+SHA1-Digest: 9kGOeq/tVClWE7Lz9AgjtukRZnQ=
+
+Name: assets/res/asset/rankActivity.info
+SHA1-Digest: Qa4tBPuLiVseZTkQ2DgDVVX2U0U=
+
+Name: assets/res/textures/0.5x/BT/endlessTower.xml
+SHA1-Digest: kyG8aFRXGxcwMir8U7lxk4in2ps=
+
+Name: assets/res/textures/0.5x/UI/mailBox.xml
+SHA1-Digest: 801+LAltyz6xSTvS8QJxBk4/lr4=
+
+Name: assets/res/textures/0.5x/CHAR/hats.png
+SHA1-Digest: Q0B2VmOE6K6Nic4Rkvn0CQcEuLU=
+
+Name: assets/res/textures/0.5x/COPYGAME/skycity.xml
+SHA1-Digest: 4ZPtAUSQwZx/nDdi2iyFBy3+YRk=
+
+Name: assets/res/textures/0.5x/Union/unionApply.png
+SHA1-Digest: mqLpwVNZDQ2Oq2snXB8UbWCIyA8=
+
+Name: res/drawable-xhdpi/icon.png
+SHA1-Digest: y62uKwx0nSHQDZPh95c4IX0VyX8=
+
+Name: assets/res/textures/0.5x/BT/smallmap.xml
+SHA1-Digest: p1fBHn4diSu3vFl0wnhvZcEvOmE=
+
+Name: assets/res/textures/0.5x/OTHER/exchange.xml
+SHA1-Digest: LOP9Cnkjtiq2ouR8qBEx2PpncD0=
+
+Name: assets/res/textures/0.5x/BT/endlessTower.png
+SHA1-Digest: ykeObAktcomxAz8JlWa6zOjKiSU=
+
+Name: lib/armeabi-v7a/libstagefright_honeycomb.so
+SHA1-Digest: qPns6HP60VRhSzOQHoV2FXg2q/A=
+
+Name: assets/res/MAP_SMALL/map_209.png
+SHA1-Digest: FpFbN2LSu2gzLmlcCgu081WAhTw=
+
+Name: assets/res/textures/0.5x/OTHER/skeleton_weddingOpen.xml
+SHA1-Digest: t3UUwBrnvCM5ZJCrPhyQCO0mt84=
+
+Name: assets/res/textures/0.5x/CHAR/hats.xml
+SHA1-Digest: H5QdCWQg8Q90etBCqewIil3Xwbw=
+
+Name: assets/res/MAP_SMALL/map_1001.png
+SHA1-Digest: 3SFe/LOxLON1jOVltmglCjBcuNE=
+
+Name: assets/META-INF/AIR/extensions/com.freshplanet.AirFacebook/META-
+ INF/ANE/extension.xml
+SHA1-Digest: fkFiqDr7KlHj6OKzymUkDwphWCg=
+
+Name: assets/res/textures/0.5x/UI/publicComponent.xml
+SHA1-Digest: qbRiuCccR7MePSSfSQaS0esjh90=
+
+Name: assets/res/textures/0.5x/Union/warehouse.png
+SHA1-Digest: qn43tSOCmfBJoyPoBcq6iT6PGC8=
+
+Name: assets/res/textures/0.5x/BT/battlefieldSpritesheet.png
+SHA1-Digest: MmvndXj8UwpFN26vCnYa+3bDl3E=
+
+Name: assets/res/textures/0.5x/Union/UnionOffice.png
+SHA1-Digest: VgDQ4rTTYFoJIMPK8Za86MG3v+o=
+
+Name: assets/res/textures/0.5x/Union/warehouse.xml
+SHA1-Digest: qKs0J3u3ZQFLg6gC+zzr33PIzwM=
+
+Name: res/drawable/air_72px_mobile_eula.png
+SHA1-Digest: 6eX1WzhcZDSgS30DdiYKnHz0h1w=
+
+Name: assets/res/textures/0.5x/BT/battlefieldSpritesheet.xml
+SHA1-Digest: uXJnxi26hKgcd8pa5g1VHsRsBEI=
+
+Name: assets/res/textures/0.5x/Union/UnionOffice.xml
+SHA1-Digest: uFDSDUSGD5G/IFJ+c5EXdtdU7dM=
+
+Name: assets/res/textures/0.5x/CHAR/skeleton_prop.xml
+SHA1-Digest: RZVAP4wXTF+znaP12X+aaky2cfA=
+
+Name: assets/res/textures/0.5x/OTHER/chatFriends.png
+SHA1-Digest: mSqc+5DB/121L/uJmZnfD1HKaT4=
+
+Name: res/drawable-hdpi/com_facebook_logo.png
+SHA1-Digest: +F9i6TennSQx3Unl/q4mPr3itE8=
+
+Name: assets/res/textures/0.5x/OTHER/vipView.png
+SHA1-Digest: mPiNVqx0VP9ycCmq8EO9W53fQWY=
+
+Name: assets/res/textures/0.5x/Union/unionApply.xml
+SHA1-Digest: +pLKPvzEc1WA+zgS8eguMDSpv/U=
+
+Name: res/drawable/com_facebook_inverse_icon.png
+SHA1-Digest: F87dFjM8iCRCeWSfrxkG/jcMtZY=
+
+Name: res/drawable-hdpi/com_facebook_inverse_icon.png
+SHA1-Digest: 2IKuzG1QMycYYLdEWoHnQDoZ07E=
+
+Name: res/drawable-mdpi/com_facebook_button_blue_pressed.9.png
+SHA1-Digest: +tjTExmZ1lk9Ox0aZm5rNcUPoFY=
+
+Name: res/drawable-hdpi/com_facebook_button_blue_normal.9.png
+SHA1-Digest: t/q1ll8cIcWlFuKff/cUYYaKKw0=
+
+Name: assets/META-INF/AIR/extensions/com.freshplanet.AirAlert/META-INF
+ /ANE/Android-ARM/library.swf
+SHA1-Digest: 2VuDAqVuMj4rQEBSzqk6JX2NyvU=
+
+Name: assets/res/textures/0.5x/BT/rankList.png
+SHA1-Digest: y9ec9QNyBBWQ64ZMuiJDo9RycDg=
+
+Name: assets/res/textures/0.5x/BT/btRoom.png
+SHA1-Digest: 35tJ7UEDh8V985Zew5KHBfEfe7o=
+
+Name: assets/META-INF/AIR/extensions/com.freshplanet.AirFacebook/catal
+ og.xml
+SHA1-Digest: 1PWzG17M6i6pvAZMJI5jkZB8HXo=
+
+Name: res/layout/expandable_chooser_row.xml
+SHA1-Digest: bnsGDBEvENinD4Y+qDWWPkRS1m8=
+
+Name: assets/res/asset/unionBossFight.info
+SHA1-Digest: 9AVj3mBQxlMveXR95p6Ri/074K4=
+
+Name: assets/res/textures/0.5x/Union/UnionMessage.xml
+SHA1-Digest: ov1Jhjtcm3kPiLm27oy1PsrDstY=
+
+Name: assets/META-INF/AIR/extensions/com.boyaa.antwars/META-INF/ANE/An
+ droid-ARM/library.swf
+SHA1-Digest: ETgovhRlx+aeY3XzABE3RWzuKv0=
+
+Name: assets/res/textures/0.5x/BT/btRoom.xml
+SHA1-Digest: OFsUDdHrJw4oG95VNuIdGUmu6OY=
+
+Name: res/drawable/com_facebook_button_grey_pressed.9.png
+SHA1-Digest: P0wPjAW7g0+CwVv4YccsLFHlsh0=
+
+Name: res/drawable/com_facebook_picker_list_focused.9.png
+SHA1-Digest: wq1XBihYEP7fT9hT55vx2S7+KDQ=
+
+Name: res/layout/com_facebook_picker_list_row.xml
+SHA1-Digest: rfhOkaUqjVmlH0wKJ91d4XoVtfw=
+
+Name: assets/res/asset/warehouse.info
+SHA1-Digest: vbQ/CiEF7nMUWKIJNT1bTj4YT9U=
+
+Name: assets/res/textures/0.5x/COPYCHAR/dragon.png
+SHA1-Digest: 4f55OBPmsccwLWIlxsRwVR6M8AE=
+
+Name: res/raw/icon.jpg
+SHA1-Digest: 7g9A72BHtvf1hEWBNZiKzoe56gw=
+
+Name: lib/armeabi-v7a/libysshared.so
+SHA1-Digest: TB891nh0tUUz+nsrHzpoSik8nMA=
+
+Name: res/layout/expandable_multiple_chooser_row.xml
+SHA1-Digest: o88JLvEV8o+0/yAn/jsqLF+eO44=
+
+Name: assets/res/textures/0.5x/GAME/aboutMe.png
+SHA1-Digest: HbnttRdHA9egETbnTaFyWTnAjq0=
+
+Name: res/drawable-mdpi/ic_launcher.png
+SHA1-Digest: I3MP0NXnINH3Gb4a/IxI+nMF2mw=
+
+Name: assets/res/textures/0.5x/OTHER/jhman2.png
+SHA1-Digest: xnwD+ONFR+iD595xBuEXkSy6ybg=
+
+Name: assets/res/textures/0.5x/Union/UnionMessage.png
+SHA1-Digest: 8aA6erBsKDn6m9DtIfQyqua+UZU=
+
+Name: res/drawable-xhdpi/com_facebook_button_grey_focused.9.png
+SHA1-Digest: wx0FTcs+RGcIb3fC9wYKpWawDgI=
+
+Name: res/drawable/com_facebook_button_grey_focused.9.png
+SHA1-Digest: oegkN07TNc6Ko8z3qqCgUGgnvRw=
+
+Name: res/drawable-xhdpi/com_facebook_button_blue_focused.9.png
+SHA1-Digest: 0mL9bvBnguGGZdnft4TaGoEw08Q=
+
+Name: assets/res/textures/0.5x/UI/publicComponent.png
+SHA1-Digest: WjJr50ELTnxbZAqYCg7Eqx93g4w=
+
+Name: res/drawable/com_facebook_button_blue_focused.9.png
+SHA1-Digest: rZf/vriiPguZZUS/3ww/w7LJ8fo=
+
+Name: assets/res/textures/0.5x/CHAR/skeleton_hats.xml
+SHA1-Digest: BW+Rc3ifV9fuaajwYav8cdh5R7c=
+
+Name: assets/res/textures/0.5x/COPYGAME/stone.png
+SHA1-Digest: OBpQVjMjJ6cOteh2zIUMSRYe9Kw=
+
+Name: res/drawable/com_facebook_button_blue.xml
+SHA1-Digest: Rl315sqwRuX40T8MsVcwGQcs5kA=
+
+Name: assets/res/asset/rankList.info
+SHA1-Digest: DHxHcYgYV05wqDrwc0A88qs9WRA=
+
+Name: assets/icons/icon_128.png
+SHA1-Digest: 5SbUURwehEqTzuiat+1TX2qHBTw=
+
+Name: assets/res/textures/0.5x/COPYCHAR/dragon.xml
+SHA1-Digest: S42iJNvQDL4tVbSTiH20htmw5pg=
+
+Name: assets/res/textures/0.5x/GAME/aboutMe.xml
+SHA1-Digest: qB1V2a6Wi0702JMTozDqygScP+c=
+
+Name: res/drawable/com_facebook_profile_default_icon.png
+SHA1-Digest: hnc7R7K+VpzIWKki/iGEw6AlfPw=
+
+Name: assets/icons/icon_144.png
+SHA1-Digest: y62uKwx0nSHQDZPh95c4IX0VyX8=
+
+Name: assets/res/textures/0.5x/UI/mailBox.png
+SHA1-Digest: O8MAh8QSLx3kwDQAP6jzW1eQ52E=
+
+Name: assets/icons/icon_36.png
+SHA1-Digest: YFpovqEaSEC6D2uJYyVr+J/ytw4=
+
+Name: assets/META-INF/AIR/extensions/com.freshplanet.AirAlert/META-INF
+ /ANE/extension.xml
+SHA1-Digest: qsNebum9zfsKuOV8Kv4FsqopirY=
+
+Name: assets/META-INF/AIR/extensions/com.freshplanet.ane.AirDeviceId/M
+ ETA-INF/ANE/Android-ARM/library.swf
+SHA1-Digest: Z4qqXbGAim0p63IqP3q9kP/relg=
+
+Name: assets/res/textures/0.5x/COPYCHAR/skeleton_Leien.xml
+SHA1-Digest: 6fjQTNSDVH9aJ09WA6G16s/x3Iw=
+
+Name: assets/res/asset/UnionWorship.info
+SHA1-Digest: YNG9m4ZW3oZjqlZnydzBcTr1FCs=
+
+Name: assets/res/asset/weddingInfo.info
+SHA1-Digest: pAAXmblT0bBCS5SmrNMgcaZzhWQ=
+
+Name: assets/res/textures/0.5x/FORGE/forge.png
+SHA1-Digest: RCGJ8OFZwURPAD4p/KLjG8FH3GU=
+
+Name: assets/antwarsmobilestarling.swf
+SHA1-Digest: H80Utoo5SxrDntDfp2iW4CVgoto=
+
+Name: assets/res/MAP_SMALL/map_209_bg.png
+SHA1-Digest: J3r85Gs9Q0/9SyMVN38KJMJPhRY=
+
+Name: assets/res/textures/0.5x/COPYGAME/monsterskill.png
+SHA1-Digest: FZbVL8zd2yfwNz1Sx1E32nHDO0A=
+
+Name: res/drawable-hdpi/com_facebook_button_grey_normal.9.png
+SHA1-Digest: BvNuj0JM4dW1M5X/qZOU04aa9aQ=
+
+Name: assets/res/textures/0.5x/OTHER/weddingOpen.png
+SHA1-Digest: /fCq5PExMKR/bITRIxlLM5EVqeA=
+
+Name: assets/res/asset/signIn.info
+SHA1-Digest: aMc31W6lur7X29sAQ2ft7Psb25Q=
+
+Name: res/drawable-xhdpi/com_facebook_button_grey_normal.9.png
+SHA1-Digest: ObpXSA4NH1YwVj8ZgzYz74kaDfE=
+
+Name: res/layout/com_facebook_search_bar_layout.xml
+SHA1-Digest: /wdhhx0AEgqEZi/vpy4z8ZnCE34=
+
+Name: assets/res/MAP_SMALL/map_201_bg.png
+SHA1-Digest: YSGiYx9gPDTzQeJZnLgsA8D6qAQ=
+
+Name: res/drawable/com_facebook_button_check_off.png
+SHA1-Digest: NDLFyRfWjBjm9xCkOlx9fqTCMug=
+
+Name: assets/res/textures/0.5x/UI/ui_3.png
+SHA1-Digest: yTjpOZ+1TaLJgFhaTNx0Kwy8frQ=
+
+Name: assets/res/textures/0.5x/OTHER/jh1.png
+SHA1-Digest: o6SqN7GnYPNjlm8uUYXsfT+o9FE=
+
+Name: res/drawable-xhdpi/com_facebook_button_grey_pressed.9.png
+SHA1-Digest: CKFnDef2GfRTaRgjuT6+/5YzUk4=
+
+Name: res/drawable-hdpi/ic_launcher.png
+SHA1-Digest: RQ09RDJf3yWYEKYOavo2ED4Yaz0=
+
+Name: res/layout/ssl_certificate_warning.xml
+SHA1-Digest: 8vk62ZcdZF21I+knRsUKF4+DfZI=
+
+Name: assets/res/textures/0.5x/UI/UI_1.png
+SHA1-Digest: 5KLsIuJcnvDTU1tYEF2J6p6ueU8=
+
+Name: assets/res/MAP_SMALL/map_1001_bg.png
+SHA1-Digest: xh1vDkoKYvNOWh8D0D3MmzfWvfE=
+
+Name: assets/res/textures/0.5x/UI/ui_3.xml
+SHA1-Digest: KLragYsKBEx3x6VhVUzaG7rrZF0=
+
+Name: assets/res/asset/aboutMe.info
+SHA1-Digest: sULjOkL3X4i9rTlA4WPRtStlHvQ=
+
+Name: assets/res/textures/0.5x/BT/rankList.xml
+SHA1-Digest: tHAVHO75Mozh6YZQmnYHOEs5A8Y=
+
+Name: assets/res/asset/BattlefieldUI.info
+SHA1-Digest: YDEmK8qapNyoSzRLaDsqi3/xlIg=
+
+Name: assets/res/asset/paymentDlg.info
+SHA1-Digest: j+PWmvtyT51/urEXFHj9+A2Wt9A=
+
+Name: assets/res/textures/0.5x/UI/UI_1.xml
+SHA1-Digest: qbX/ztFCSt9Un68zqVVpXxhpK+Q=
+
+Name: res/drawable/mp_warning_32x32_n.png
+SHA1-Digest: eCFwTk+zmvIeM+w4WQEnsknkfNI=
+
+Name: res/drawable/com_facebook_list_section_header_background.9.png
+SHA1-Digest: UlppTzQMf0S8p04nUqt4qCBKRF0=
+
+Name: assets/res/textures/0.5x/GAME/buyDlg.xml
+SHA1-Digest: OAtl16J7pTvuO4iHGbWYRp20OA8=
+
+Name: assets/icons/icon_57.png
+SHA1-Digest: VOewkf/onMj6g7rxcFmreJeAiq8=
+
+Name: assets/res/asset/synthesisView.info
+SHA1-Digest: o8GaGs1b1zkNHKXvBIGdJKNiEIs=
+
+Name: assets/res/MAP_SMALL/map_210.png
+SHA1-Digest: dTAOfE/UMd506bvYfueTmSu+Du0=
+
+Name: assets/res/textures/0.5x/OTHER/weddingOpen.xml
+SHA1-Digest: VDhhQm6jmMncO/RQwI6XgfS3mLk=
+
+Name: assets/res/textures/0.5x/COPYGAME/monsterskill.xml
+SHA1-Digest: qBretOlz1v+liKPi6lRrwABZIVg=
+
+Name: classes.dex
+SHA1-Digest: IKIXEah6VgUEM7nVc+qrqudPoM0=
+
+Name: assets/res/textures/0.5x/FORGE/forge.xml
+SHA1-Digest: wp3PKH/ct4ucna+DrOGRfXrIgXg=
+
+Name: assets/res/textures/0.5x/GAME/buyDlg.png
+SHA1-Digest: RpDNFsuHmh8ror4MMk3KR4LTxMI=
+

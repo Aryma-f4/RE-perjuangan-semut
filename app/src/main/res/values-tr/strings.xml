@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Perjuangan semut</string>
+    <string name="flash_browser_plugin">Flash Eklentisi</string>
+    <string name="audio_files">Ses Dosyaları</string>
+    <string name="image_files">Görüntü Dosyaları</string>
+    <string name="video_files">Video Dosyaları</string>
+    <string name="empty_file_list">Hiçbir dosya bulunamadı.</string>
+    <string name="button_ok">Tamam</string>
+    <string name="button_cancel">İptal</string>
+    <string name="button_continue">Devam Et</string>
+    <string name="file_save_as">Farklı Kaydet:</string>
+    <string name="file_download">İndir</string>
+    <string name="file_upload">Yükle</string>
+    <string name="button_yes">Evet</string>
+    <string name="button_no">Hayır</string>
+    <string name="IDA_CURL_SSL_SECURITY_WARNING">Güvenlik Uyarısı</string>
+    <string name="IDA_CURL_INTERFACE_THISSESS">Oturum için Güven</string>
+    <string name="IDA_CURL_INTERFACE_NOSESS">İptal</string>
+    <string name="IDA_CURL_INTERFACE_OK">Tamam</string>
+    <string name="IDA_CURL_INTERFACE_UNVERSER_2">Uygulamanın bağlandığı sunucu doğrulanmamış.</string>
+    <string name="IDA_CURL_INTERFACE_ALLSESS">Her Zaman Güven</string>
+    <string name="IDA_CURL_INTERFACE_SERVER">Sunucu:</string>
+    <string name="IDA_CURL_INTERFACE_TRUSTSER">Bu sunucuya güvenmek ve bağlantı kurmak istiyor musunuz?</string>
+    <string name="IDA_CURL_INTERFACE_CNAME_MSG">Sunucunun adı (%1$s) sertifikanın üzerindeki adla (%2$s) eşleşmiyor. Bu sunucuya güvenilip devam edilsin mi?</string>
+    <string name="IDA_CURL_INTERFACE_VIEW_CERT">Sertifikayı Görüntüle</string>
+    <string name="IDA_CURL_INTERFACE_CERTIFICATE_DETAILS_TITLE">Sertifika Ayrıntıları</string>
+    <string name="IDA_CERTIFICATE_DETAILS">Sertifika:\n \n Alan:\n Yaygın Ad:\n %1$s\n \n Kuruluş:\n %2$s\n \n Kuruluş Birimi:\n %3$s\n \n Veren:\n Yaygın Ad:\n %4$s\n \n Kuruluş:\n %5$s\n \n Kuruluş Birimi:\n %6$s\n \n Geçerlilik:\n Verilme Tarihi:\n %7$s\n \n Sona Erme Tarihi:\n %8$s </string>
+    <string name="IDA_APP_WAITING_DEBUGGER_TITLE">Adobe AIR: Bağlantı Bekleniyor</string>
+    <string name="IDA_APP_UNABLE_LISTEN_ERROR">Adobe AIR: Bağlantı Noktası Dinleniyor</string>
+    <string name="IDA_APP_WAITING_DEBUGGER_WARNING">AIR uygulaması hata ayıklayıcının bir bağlantı kurmasını bekliyor. Bu %d saniye kadar sürebilir.</string>
+    <string name="IDA_APP_DEBUGGER_TIMEOUT_INFO">Hata ayıklayıcıya bağlanılamıyor.</string>
+    <string name="app_version">APP_VERSION</string>
+    <string name="button_install">Yükle</string>
+    <string name="button_exit">Çıkış</string>
+    <string name="title_adobe_air">Adobe® AIR®</string>
+    <string name="text_runtime_required">Bu uygulama Adobe AIR gerektiriyor.\n\n</string>
+    <string name="text_install_runtime">Devam etmek için bu aygıta Adobe AIR uygulamasını yükleyin.</string>
+    <string name="text_runtime_on_external_storage">Devam etmek için bu aygıta Adobe AIR yükleyin veya yeniden başlatmadan önce bu uygulamadan çıkın ve Adobe AIR\'yi içeren SD kartını takın.</string>
+    <string name="text_gamepreview_loading">Yükleniyor...</string>
+    <string name="text_gamepreview_loading_error">Oyun yüklenemedi.</string>
+    <string name="text_install_gamepreview_app">Şimdi Yükle</string>
+    <string name="text_air_missing_header">Adobe AIR gerekli</string>
+    <string name="text_air_missing_text">Oyun önizlemesinin çalışması için Adobe AIR yüklemeniz gerekir.</string>
+    <string name="button_install_air_from_playstore">Play Store\'dan yükleyin.</string>
+    <string name="text_dont_show_again">Bunu tekrar gösterme.</string>
+</resources>

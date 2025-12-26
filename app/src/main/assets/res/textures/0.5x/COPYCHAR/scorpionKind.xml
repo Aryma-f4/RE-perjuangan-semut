@@ -1,0 +1,67 @@
+<TextureAtlas name="scorpionKind">
+ <SubTexture name="assets/xxv 657" x="0" y="138" width="78" height="12"/>
+ <SubTexture name="assets/xxv 656" x="0" y="123" width="78" height="14"/>
+ <SubTexture name="assets/xxv 655" x="0" y="183" width="90" height="18"/>
+ <SubTexture name="assets/xxv 654" x="356" y="165" width="91" height="23"/>
+ <SubTexture name="assets/xxv 653" x="305" y="189" width="86" height="21"/>
+ <SubTexture name="assets/xxv 652" x="0" y="151" width="72" height="13"/>
+ <SubTexture name="assets/xxv 647" x="226" y="135" width="74" height="17"/>
+ <SubTexture name="assets/xxv 646" x="0" y="104" width="77" height="18"/>
+ <SubTexture name="assets/xxv 645" x="373" y="125" width="80" height="11"/>
+ <SubTexture name="assets/xxv 644" x="118" y="179" width="89" height="21"/>
+ <SubTexture name="assets/xxv 643" x="361" y="137" width="90" height="27"/>
+ <SubTexture name="assets/xxv 642" x="208" y="179" width="96" height="24"/>
+ <SubTexture name="assets/xxv 641" x="229" y="116" width="79" height="18"/>
+ <SubTexture name="assets/补间 4" x="0" y="74" width="67" height="29"/>
+ <SubTexture name="assets/补间 2" x="310" y="76" width="65" height="25"/>
+ <SubTexture name="assets/xz89" x="329" y="164" width="26" height="12"/>
+ <SubTexture name="assets/xz88" x="195" y="128" width="30" height="27"/>
+ <SubTexture name="xz27" x="482" y="123" width="24" height="31"/>
+ <SubTexture name="xz28" x="491" y="36" width="19" height="24"/>
+ <SubTexture name="xz29" x="482" y="86" width="22" height="36"/>
+ <SubTexture name="xz1" x="310" y="102" width="50" height="35"/>
+ <SubTexture name="xz2" x="157" y="128" width="37" height="24"/>
+ <SubTexture name="xz3" x="335" y="138" width="23" height="25"/>
+ <SubTexture name="xz4" x="141" y="96" width="13" height="19"/>
+ <SubTexture name="xz5" x="141" y="72" width="11" height="23"/>
+ <SubTexture name="xz6" x="254" y="153" width="21" height="25"/>
+ <SubTexture name="xz7" x="361" y="102" width="14" height="14"/>
+ <SubTexture name="xz8" x="216" y="69" width="12" height="30"/>
+ <SubTexture name="xz9" x="459" y="100" width="22" height="26"/>
+ <SubTexture name="assets/xz12a" x="491" y="0" width="14" height="35"/>
+ <SubTexture name="xz10" x="138" y="146" width="18" height="19"/>
+ <SubTexture name="xz11" x="68" y="74" width="9" height="16"/>
+ <SubTexture name="assets/xz15d" x="376" y="90" width="82" height="34"/>
+ <SubTexture name="assets/xz15c" x="380" y="47" width="78" height="42"/>
+ <SubTexture name="assets/xz14c" x="190" y="156" width="22" height="22"/>
+ <SubTexture name="assets/xz14b" x="479" y="155" width="22" height="22"/>
+ <SubTexture name="xz12" x="300" y="155" width="28" height="16"/>
+ <SubTexture name="assets/xz15b" x="229" y="72" width="80" height="43"/>
+ <SubTexture name="assets/xz14a" x="452" y="159" width="22" height="21"/>
+ <SubTexture name="xz14" x="276" y="153" width="23" height="22"/>
+ <SubTexture name="assets/xz15a" x="158" y="69" width="57" height="58"/>
+ <SubTexture name="xz15" x="380" y="0" width="79" height="46"/>
+ <SubTexture name="xz17" x="123" y="126" width="17" height="13"/>
+ <SubTexture name="xz18" x="123" y="140" width="14" height="12"/>
+ <SubTexture name="xz19" x="118" y="160" width="18" height="12"/>
+ <SubTexture name="xz21" x="226" y="153" width="27" height="20"/>
+ <SubTexture name="xz22" x="79" y="126" width="43" height="33"/>
+ <SubTexture name="xz20" x="157" y="153" width="32" height="16"/>
+ <SubTexture name="xz24" x="141" y="116" width="15" height="15"/>
+ <SubTexture name="xz25" x="216" y="100" width="12" height="20"/>
+ <SubTexture name="assets/xz30" x="459" y="62" width="22" height="37"/>
+ <SubTexture name="xz23" x="361" y="117" width="11" height="17"/>
+ <SubTexture name="xzqq1" x="95" y="160" width="22" height="20"/>
+ <SubTexture name="xz26" x="141" y="132" width="14" height="13"/>
+ <SubTexture name="xzqq" x="73" y="160" width="21" height="22"/>
+ <SubTexture name="assets/sprite 3" x="301" y="138" width="33" height="16"/>
+ <SubTexture name="assets/shape 798" x="460" y="0" width="30" height="61"/>
+ <SubTexture name="assets/shape 796" x="158" y="0" width="77" height="68"/>
+ <SubTexture name="assets/shape 794" x="79" y="0" width="78" height="71"/>
+ <SubTexture name="assets/shape 792" x="0" y="0" width="78" height="73"/>
+ <SubTexture name="assets/shape 790" x="236" y="0" width="73" height="71"/>
+ <SubTexture name="assets/shape 788" x="310" y="0" width="69" height="75"/>
+ <SubTexture name="assets/shape 767" x="79" y="72" width="61" height="53"/>
+ <SubTexture name="assets/xz270" x="454" y="127" width="24" height="31"/>
+ <SubTexture name="assets/xz280" x="491" y="61" width="19" height="24"/>
+</TextureAtlas>

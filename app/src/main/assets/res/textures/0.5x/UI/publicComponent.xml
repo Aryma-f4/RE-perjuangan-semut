@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://texturepacker.com-->
+<!-- $TexturePacker:SmartUpdate:ec52707398be62c61095d84fc90c57ec$ -->
+<TextureAtlas imagePath="publicComponent.png">
+    <SubTexture name="VIPText" x="732" y="454" width="56" height="25"/>
+    <SubTexture name="VipButtonInHall0001" x="600" y="709" width="121" height="50" frameX="0" frameY="0" frameWidth="123" frameHeight="52"/>
+    <SubTexture name="VipButtonInHall0002" x="600" y="657" width="121" height="50" frameX="0" frameY="0" frameWidth="123" frameHeight="52"/>
+    <SubTexture name="btSkillDlg_title" x="788" y="565" width="229" height="22"/>
+    <SubTexture name="btnS_FriendAdd1" x="488" y="841" width="96" height="42"/>
+    <SubTexture name="btnS_FriendAdd2" x="348" y="666" width="96" height="42"/>
+    <SubTexture name="btnS_FriendBtn1" x="929" y="320" width="91" height="30"/>
+    <SubTexture name="btnS_FriendBtn2" x="929" y="383" width="91" height="29"/>
+    <SubTexture name="btnS_FriendChat1" x="390" y="841" width="96" height="42"/>
+    <SubTexture name="btnS_FriendChat2" x="292" y="841" width="96" height="42"/>
+    <SubTexture name="btnS_FriendData1" x="296" y="776" width="96" height="42"/>
+    <SubTexture name="btnS_FriendData2" x="194" y="841" width="96" height="42"/>
+    <SubTexture name="btnS_FriendDelete1" x="198" y="776" width="96" height="42"/>
+    <SubTexture name="btnS_FriendDelete2" x="100" y="776" width="96" height="42"/>
+    <SubTexture name="btnS_FriendItemBg1" x="2" y="392" width="358" height="41"/>
+    <SubTexture name="btnS_FriendItemBg2" x="2" y="349" width="358" height="41"/>
+    <SubTexture name="btnS_agreeBtn1" x="586" y="841" width="88" height="41"/>
+    <SubTexture name="btnS_agreeBtn2" x="929" y="459" width="89" height="43"/>
+    <SubTexture name="btnS_btSkillDlgPropButton1" x="330" y="533" width="76" height="28" frameX="0" frameY="0" frameWidth="76" frameHeight="30"/>
+    <SubTexture name="btnS_btSkillDlgPropButton2" x="946" y="153" width="76" height="30"/>
+    <SubTexture name="btnS_btSkillDlgWeaponButton1" x="945" y="185" width="76" height="28" frameX="0" frameY="0" frameWidth="76" frameHeight="30"/>
+    <SubTexture name="btnS_btSkillDlgWeaponButton2" x="946" y="121" width="76" height="30"/>
+    <SubTexture name="btnS_chooseFriend1" x="110" y="435" width="128" height="33"/>
+    <SubTexture name="btnS_chooseFriend2" x="788" y="530" width="128" height="33"/>
+    <SubTexture name="btnS_closeBtn1" x="362" y="625" width="39" height="39"/>
+    <SubTexture name="btnS_closeBtn2" x="362" y="584" width="39" height="39"/>
+    <SubTexture name="btnS_menuActivityCenterButton1" x="2" y="821" width="38" height="48"/>
+    <SubTexture name="btnS_menuActivityCenterButton2" x="412" y="974" width="38" height="48"/>
+    <SubTexture name="btnS_menuBackpackButton1" x="600" y="891" width="52" height="56"/>
+    <SubTexture name="btnS_menuBackpackButton2" x="556" y="950" width="52" height="56"/>
+    <SubTexture name="btnS_menuEmailButton1" x="546" y="891" width="52" height="57"/>
+    <SubTexture name="btnS_menuEmailButton2" x="502" y="950" width="52" height="57"/>
+    <SubTexture name="btnS_menuEmotionButton1" x="309" y="709" width="35" height="35"/>
+    <SubTexture name="btnS_menuEmotionButton2" x="309" y="672" width="35" height="35"/>
+    <SubTexture name="btnS_menuExchangeButton1" x="492" y="891" width="52" height="57"/>
+    <SubTexture name="btnS_menuExchangeButton2" x="438" y="891" width="52" height="57"/>
+    <SubTexture name="btnS_menuFriendButton1" x="732" y="540" width="54" height="57"/>
+    <SubTexture name="btnS_menuFriendButton2" x="732" y="481" width="54" height="57"/>
+    <SubTexture name="btnS_menuMessageButton1" x="346" y="710" width="50" height="38"/>
+    <SubTexture name="btnS_menuMessageButton2" x="676" y="841" width="50" height="38"/>
+    <SubTexture name="btnS_menuMissionButton1" x="56" y="435" width="52" height="60"/>
+    <SubTexture name="btnS_menuMissionButton2" x="2" y="435" width="52" height="60"/>
+    <SubTexture name="btnS_menuPaymentButton1" x="100" y="977" width="54" height="43"/>
+    <SubTexture name="btnS_menuPaymentButton2" x="44" y="977" width="54" height="43"/>
+    <SubTexture name="btnS_menuScaleButton1" x="394" y="761" width="52" height="52"/>
+    <SubTexture name="btnS_menuScaleButton2" x="42" y="820" width="52" height="52"/>
+    <SubTexture name="btnS_menuSetButton1" x="384" y="891" width="52" height="57"/>
+    <SubTexture name="btnS_menuSetButton2" x="330" y="891" width="52" height="57"/>
+    <SubTexture name="btnS_menuSignInButton1" x="210" y="977" width="52" height="43"/>
+    <SubTexture name="btnS_menuSignInButton2" x="156" y="977" width="52" height="43"/>
+    <SubTexture name="btnS_menuVipCenterButton1" x="2" y="977" width="40" height="45"/>
+    <SubTexture name="btnS_menuVipCenterButton2" x="979" y="74" width="40" height="45"/>
+    <SubTexture name="btnS_onlinePlayerBtn1" x="929" y="288" width="91" height="30"/>
+    <SubTexture name="btnS_onlinePlayerBtn2" x="929" y="352" width="91" height="29"/>
+    <SubTexture name="btnS_playerInfoGoldButton1" x="988" y="833" width="25" height="25"/>
+    <SubTexture name="btnS_playerInfoGoldButton2" x="988" y="806" width="25" height="25"/>
+    <SubTexture name="btnS_refuseBtn1" x="929" y="504" width="88" height="41"/>
+    <SubTexture name="btnS_refuseBtn2" x="929" y="414" width="89" height="43"/>
+    <SubTexture name="btnS_sendPop1" x="795" y="161" width="148" height="41"/>
+    <SubTexture name="btnS_sendPop2" x="795" y="116" width="149" height="43"/>
+    <SubTexture name="img_FirendSmallTitle" x="411" y="328" width="365" height="31"/>
+    <SubTexture name="img_bigTitle" x="330" y="563" width="76" height="19"/>
+    <SubTexture name="img_btSkillDlgBg" x="2" y="2" width="407" height="345"/>
+    <SubTexture name="img_btSkillDlgBg1" x="732" y="599" width="254" height="273"/>
+    <SubTexture name="img_btSkillDlgItemBg" x="2" y="891" width="237" height="84"/>
+    <SubTexture name="img_btSkillDlgSmallTitle1" x="918" y="547" width="74" height="16"/>
+    <SubTexture name="img_btSkillDlgSmallTitle2" x="2" y="874" width="53" height="13"/>
+    <SubTexture name="img_btSkillSmallBg2" x="795" y="238" width="132" height="290"/>
+    <SubTexture name="img_divorceBg" x="2" y="505" width="305" height="269"/>
+    <SubTexture name="img_friendBigBg" x="411" y="2" width="382" height="324"/>
+    <SubTexture name="img_friendMarryState1" x="330" y="507" width="78" height="24" frameX="0" frameY="-1" frameWidth="78" frameHeight="26"/>
+    <SubTexture name="img_friendMarryState2" x="330" y="479" width="78" height="26"/>
+    <SubTexture name="img_friendMarryState3" x="732" y="436" width="58" height="16" frameX="-10" frameY="-5" frameWidth="78" frameHeight="26"/>
+    <SubTexture name="img_friendMarryState4" x="262" y="479" width="62" height="24" frameX="-8" frameY="-1" frameWidth="78" frameHeight="26"/>
+    <SubTexture name="img_friendNameBg" x="795" y="204" width="142" height="32"/>
+    <SubTexture name="img_lihunTitle" x="488" y="657" width="107" height="20"/>
+    <SubTexture name="img_marryTitle" x="330" y="950" width="115" height="22"/>
+    <SubTexture name="img_monster1" x="939" y="215" width="80" height="71" frameX="-4" frameY="-1" frameWidth="90" frameHeight="75"/>
+    <SubTexture name="img_monster2" x="732" y="361" width="60" height="73" frameX="-11" frameY="0" frameWidth="90" frameHeight="75"/>
+    <SubTexture name="img_playerInfoBg" x="795" y="43" width="182" height="71"/>
+    <SubTexture name="img_playerInfoLevelBg" x="241" y="435" width="21" height="21"/>
+    <SubTexture name="img_playerInfoLight" x="110" y="470" width="49" height="31"/>
+    <SubTexture name="img_popInputBg" x="411" y="361" width="319" height="294"/>
+    <SubTexture name="img_publicCancelBtn1" x="96" y="841" width="96" height="42"/>
+    <SubTexture name="img_publicCancelBtn2" x="2" y="776" width="96" height="42"/>
+    <SubTexture name="img_publicNum1" x="778" y="328" width="12" height="20" frameX="-2" frameY="0" frameWidth="16" frameHeight="20"/>
+    <SubTexture name="img_publicNum10" x="309" y="549" width="16" height="20"/>
+    <SubTexture name="img_publicNum2" x="309" y="527" width="16" height="20"/>
+    <SubTexture name="img_publicNum3" x="309" y="505" width="16" height="20"/>
+    <SubTexture name="img_publicNum4" x="330" y="650" width="16" height="20"/>
+    <SubTexture name="img_publicNum5" x="330" y="628" width="16" height="20"/>
+    <SubTexture name="img_publicNum6" x="330" y="606" width="16" height="20"/>
+    <SubTexture name="img_publicNum7" x="330" y="584" width="16" height="20"/>
+    <SubTexture name="img_publicNum8" x="380" y="449" width="16" height="20"/>
+    <SubTexture name="img_publicNum9" x="362" y="449" width="16" height="20"/>
+    <SubTexture name="img_publicSureBtn1" x="264" y="975" width="96" height="42"/>
+    <SubTexture name="img_publicSureBtn2" x="264" y="435" width="96" height="42"/>
+    <SubTexture name="img_public_vipIcon" x="448" y="657" width="36" height="16"/>
+    <SubTexture name="pComponentSelectItem1" x="362" y="399" width="47" height="48"/>
+    <SubTexture name="pComponentSelectItem2" x="362" y="349" width="47" height="48"/>
+    <SubTexture name="pComponentSelectItem3" x="452" y="973" width="48" height="49"/>
+    <SubTexture name="q135" x="795" y="2" width="227" height="39"/>
+    <SubTexture name="q136" x="447" y="950" width="53" height="21"/>
+    <SubTexture name="q137" x="362" y="974" width="48" height="48"/>
+    <SubTexture name="tip_dlg_image" x="241" y="891" width="87" height="82"/>
+    <SubTexture name="vipLevelNum0001" x="241" y="458" width="19" height="29" frameX="-7" frameY="0" frameWidth="43" frameHeight="29"/>
+    <SubTexture name="vipLevelNum00010" x="979" y="43" width="41" height="29" frameX="-2" frameY="0" frameWidth="43" frameHeight="29"/>
+    <SubTexture name="vipLevelNum0002" x="988" y="775" width="25" height="29" frameX="-3" frameY="0" frameWidth="43" frameHeight="29"/>
+    <SubTexture name="vipLevelNum0003" x="988" y="744" width="25" height="29" frameX="-3" frameY="0" frameWidth="43" frameHeight="29"/>
+    <SubTexture name="vipLevelNum0004" x="988" y="713" width="25" height="29" frameX="-3" frameY="0" frameWidth="43" frameHeight="29"/>
+    <SubTexture name="vipLevelNum0005" x="988" y="682" width="25" height="29" frameX="-3" frameY="0" frameWidth="43" frameHeight="29"/>
+    <SubTexture name="vipLevelNum0006" x="988" y="651" width="25" height="29" frameX="-3" frameY="0" frameWidth="43" frameHeight="29"/>
+    <SubTexture name="vipLevelNum0007" x="988" y="860" width="23" height="29" frameX="-5" frameY="0" frameWidth="43" frameHeight="29"/>
+    <SubTexture name="vipLevelNum0008" x="988" y="620" width="25" height="29" frameX="-3" frameY="0" frameWidth="43" frameHeight="29"/>
+    <SubTexture name="vipLevelNum0009" x="988" y="589" width="25" height="29" frameX="-3" frameY="0" frameWidth="43" frameHeight="29"/>
+    <SubTexture name="vipLevelTitle1" x="372" y="820" width="67" height="18"/>
+    <SubTexture name="vipLevelTitle10" x="303" y="820" width="67" height="18"/>
+    <SubTexture name="vipLevelTitle2" x="234" y="820" width="67" height="18"/>
+    <SubTexture name="vipLevelTitle3" x="165" y="820" width="67" height="18"/>
+    <SubTexture name="vipLevelTitle4" x="96" y="820" width="67" height="18"/>
+    <SubTexture name="vipLevelTitle5" x="654" y="821" width="67" height="18"/>
+    <SubTexture name="vipLevelTitle6" x="654" y="801" width="67" height="18"/>
+    <SubTexture name="vipLevelTitle7" x="654" y="781" width="67" height="18"/>
+    <SubTexture name="vipLevelTitle8" x="654" y="761" width="67" height="18"/>
+    <SubTexture name="vipLevelTitle9" x="161" y="470" width="68" height="18"/>
+</TextureAtlas>
+

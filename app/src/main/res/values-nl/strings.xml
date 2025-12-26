@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Perjuangan semut</string>
+    <string name="flash_browser_plugin">Flash-plug-in</string>
+    <string name="audio_files">Audiobestanden</string>
+    <string name="image_files">Afbeeldingsbestanden</string>
+    <string name="video_files">Videobestanden</string>
+    <string name="empty_file_list">Er zijn geen bestanden gevonden.</string>
+    <string name="button_ok">OK</string>
+    <string name="button_cancel">Annuleren</string>
+    <string name="button_continue">Doorgaan</string>
+    <string name="file_save_as">Opslaan als:</string>
+    <string name="file_download">Downloaden</string>
+    <string name="file_upload">Uploaden</string>
+    <string name="button_yes">Ja</string>
+    <string name="button_no">Nee</string>
+    <string name="IDA_CURL_SSL_SECURITY_WARNING">Beveiligingswaarschuwing</string>
+    <string name="IDA_CURL_INTERFACE_THISSESS">Vertrouwen voor sessie</string>
+    <string name="IDA_CURL_INTERFACE_NOSESS">Annuleren</string>
+    <string name="IDA_CURL_INTERFACE_OK">OK</string>
+    <string name="IDA_CURL_INTERFACE_UNVERSER_2">De server waarmee de toepassing een verbinding probeert te maken, is niet geverifieerd.</string>
+    <string name="IDA_CURL_INTERFACE_ALLSESS">Altijd vertrouwen</string>
+    <string name="IDA_CURL_INTERFACE_SERVER">Server:</string>
+    <string name="IDA_CURL_INTERFACE_TRUSTSER">Deze server vertrouwen en verbinding maken?</string>
+    <string name="IDA_CURL_INTERFACE_CNAME_MSG">De naam van de server (%1$s) komt niet overeen met de naam op het certificaat (%2$s). Vertrouwt u deze server en wilt u doorgaan?</string>
+    <string name="IDA_CURL_INTERFACE_VIEW_CERT">Certificaat weergeven</string>
+    <string name="IDA_CURL_INTERFACE_CERTIFICATE_DETAILS_TITLE">Certificaatdetails</string>
+    <string name="IDA_CERTIFICATE_DETAILS">Certificaat:\n \n Verleend aan:\n Algemene naam:\n %1$s\n \n Organisatie:\n %2$s\n \n Organisatie-eenheid:\n %3$s\n \n Verleend door:\n Algemene naam:\n %4$s\n \n Organisatie:\n %5$s\n \n Organisatie-eenheid:\n %6$s\n \n Geldigheid:\n Verleend op:\n %7$s\n \n Vervalt op:\n %8$s </string>
+    <string name="IDA_APP_WAITING_DEBUGGER_TITLE">Adobe AIR: wachten op verbinding</string>
+    <string name="IDA_APP_UNABLE_LISTEN_ERROR">Adobe AIR: luisteren naar poort</string>
+    <string name="IDA_APP_WAITING_DEBUGGER_WARNING">De AIR-toepassing wacht op een verbinding van de debugger. Dit kan %d seconden duren.</string>
+    <string name="IDA_APP_DEBUGGER_TIMEOUT_INFO">Kan geen verbinding maken met de debugger.</string>
+    <string name="app_version">APP_VERSION</string>
+    <string name="button_install">Installeren</string>
+    <string name="button_exit">Afsluiten</string>
+    <string name="title_adobe_air">Adobe® AIR®</string>
+    <string name="text_runtime_required">Voor deze toepassing is Adobe AIR vereist.\n\n</string>
+    <string name="text_install_runtime">Installeer Adobe AIR op dit apparaat om door te gaan.</string>
+    <string name="text_runtime_on_external_storage">Om door te gaan moet u ofwel Adobe AIR op dit apparaat installeren, of deze toepassing afsluiten en de SD-kaart met Adobe AIR plaatsen voordat u de toepassing opnieuw start.</string>
+    <string name="text_gamepreview_loading">Bezig met laden...</string>
+    <string name="text_gamepreview_loading_error">Kan de game niet laden.</string>
+    <string name="text_install_gamepreview_app">Nu installeren</string>
+    <string name="text_air_missing_header">Adobe AIR vereist</string>
+    <string name="text_air_missing_text">U moet Adobe AIR installeren om de voorvertoning van de game te kunnen bekijken.</string>
+    <string name="button_install_air_from_playstore">Installeer vanaf de Play Store.</string>
+    <string name="text_dont_show_again">Dit bericht niet nogmaals weergeven.</string>
+</resources>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://texturepacker.com-->
+<!-- $TexturePacker:SmartUpdate:75b0f0fa5aa470e37f3308826ed9b88d$ -->
+<TextureAtlas imagePath="spriteMonsterSkill.png">
+    <SubTexture name="投石车子弹0001" x="2" y="630" width="85" height="58" frameX="-3" frameY="0" frameWidth="91" frameHeight="58"/>
+    <SubTexture name="投石车子弹0002" x="264" y="487" width="87" height="58" frameX="-1" frameY="0" frameWidth="91" frameHeight="58"/>
+    <SubTexture name="投石车子弹0003" x="393" y="293" width="91" height="58"/>
+    <SubTexture name="投石车子弹0004" x="393" y="233" width="91" height="58"/>
+    <SubTexture name="投石车子弹0005" x="2" y="510" width="89" height="58" frameX="0" frameY="0" frameWidth="91" frameHeight="58"/>
+    <SubTexture name="投石车子弹0006" x="2" y="570" width="87" height="58" frameX="-2" frameY="0" frameWidth="91" frameHeight="58"/>
+    <SubTexture name="投石车子弹0007" x="93" y="452" width="89" height="58" frameX="-1" frameY="0" frameWidth="91" frameHeight="58"/>
+    <SubTexture name="投石车子弹0008" x="93" y="512" width="87" height="58" frameX="-3" frameY="0" frameWidth="91" frameHeight="58"/>
+    <SubTexture name="投石车子弹0009" x="2" y="450" width="89" height="58" frameX="-1" frameY="0" frameWidth="91" frameHeight="58"/>
+    <SubTexture name="投石车子弹0010" x="397" y="173" width="91" height="58"/>
+    <SubTexture name="投石车子弹0011" x="2" y="392" width="91" height="56" frameX="0" frameY="-1" frameWidth="91" frameHeight="58"/>
+    <SubTexture name="投石车子弹0012" x="95" y="392" width="89" height="58" frameX="-2" frameY="0" frameWidth="91" frameHeight="58"/>
+    <SubTexture name="投石车子弹燃烧0001" x="2" y="2" width="261" height="98" frameX="-4" frameY="0" frameWidth="269" frameHeight="100"/>
+    <SubTexture name="投石车子弹燃烧0002" x="2" y="2" width="261" height="98" frameX="-4" frameY="0" frameWidth="269" frameHeight="100"/>
+    <SubTexture name="投石车子弹燃烧0003" x="2" y="298" width="261" height="92" frameX="-4" frameY="-5" frameWidth="269" frameHeight="100"/>
+    <SubTexture name="投石车子弹燃烧0004" x="2" y="298" width="261" height="92" frameX="-4" frameY="-5" frameWidth="269" frameHeight="100"/>
+    <SubTexture name="投石车子弹燃烧0005" x="2" y="200" width="261" height="96" frameX="-4" frameY="-1" frameWidth="269" frameHeight="100"/>
+    <SubTexture name="投石车子弹燃烧0006" x="2" y="200" width="261" height="96" frameX="-4" frameY="-1" frameWidth="269" frameHeight="100"/>
+    <SubTexture name="投石车子弹燃烧0007" x="2" y="102" width="261" height="96" frameX="-4" frameY="-1" frameWidth="269" frameHeight="100"/>
+    <SubTexture name="投石车子弹燃烧0008" x="2" y="102" width="261" height="96" frameX="-4" frameY="-1" frameWidth="269" frameHeight="100"/>
+    <SubTexture name="投石车子弹爆炸0001" x="263" y="547" width="60" height="53" frameX="-31" frameY="-122" frameWidth="130" frameHeight="177"/>
+    <SubTexture name="投石车子弹爆炸0002" x="186" y="392" width="76" height="141" frameX="-25" frameY="-34" frameWidth="130" frameHeight="177"/>
+    <SubTexture name="投石车子弹爆炸0003" x="186" y="392" width="76" height="141" frameX="-25" frameY="-34" frameWidth="130" frameHeight="177"/>
+    <SubTexture name="投石车子弹爆炸0004" x="91" y="572" width="86" height="149" frameX="-23" frameY="-26" frameWidth="130" frameHeight="177"/>
+    <SubTexture name="投石车子弹爆炸0005" x="91" y="572" width="86" height="149" frameX="-23" frameY="-26" frameWidth="130" frameHeight="177"/>
+    <SubTexture name="投石车子弹爆炸0006" x="397" y="2" width="106" height="169" frameX="-12" frameY="-6" frameWidth="130" frameHeight="177"/>
+    <SubTexture name="投石车子弹爆炸0007" x="397" y="2" width="106" height="169" frameX="-12" frameY="-6" frameWidth="130" frameHeight="177"/>
+    <SubTexture name="投石车子弹爆炸0008" x="389" y="353" width="118" height="173" frameX="-9" frameY="-2" frameWidth="130" frameHeight="177"/>
+    <SubTexture name="投石车子弹爆炸0009" x="389" y="353" width="118" height="173" frameX="-9" frameY="-2" frameWidth="130" frameHeight="177"/>
+    <SubTexture name="投石车子弹爆炸0010" x="265" y="179" width="126" height="151" frameX="-3" frameY="-24" frameWidth="130" frameHeight="177"/>
+    <SubTexture name="投石车子弹爆炸0011" x="265" y="179" width="126" height="151" frameX="-3" frameY="-24" frameWidth="130" frameHeight="177"/>
+    <SubTexture name="投石车子弹爆炸0012" x="265" y="2" width="130" height="175" frameX="0" frameY="0" frameWidth="130" frameHeight="177"/>
+    <SubTexture name="投石车子弹爆炸0013" x="265" y="332" width="122" height="153" frameX="0" frameY="-22" frameWidth="130" frameHeight="177"/>
+    <SubTexture name="投石车子弹爆炸0014" x="263" y="602" width="56" height="21" frameX="-35" frameY="-154" frameWidth="130" frameHeight="177"/>
+    <SubTexture name="精灵巫师火球0001" x="367" y="627" width="45" height="26" frameX="-1" frameY="0" frameWidth="47" frameHeight="26"/>
+    <SubTexture name="精灵巫师火球0002" x="318" y="627" width="47" height="26"/>
+    <SubTexture name="精灵巫师火球爆炸0001" x="428" y="623" width="69" height="93" frameX="-9" frameY="-8" frameWidth="85" frameHeight="113"/>
+    <SubTexture name="精灵巫师火球爆炸0002" x="428" y="623" width="69" height="93" frameX="-9" frameY="-8" frameWidth="85" frameHeight="113"/>
+    <SubTexture name="精灵巫师火球爆炸0003" x="428" y="528" width="73" height="93" frameX="-6" frameY="-7" frameWidth="85" frameHeight="113"/>
+    <SubTexture name="精灵巫师火球爆炸0004" x="428" y="528" width="73" height="93" frameX="-6" frameY="-7" frameWidth="85" frameHeight="113"/>
+    <SubTexture name="精灵巫师火球爆炸0005" x="2" y="690" width="75" height="101" frameX="-6" frameY="-4" frameWidth="85" frameHeight="113"/>
+    <SubTexture name="精灵巫师火球爆炸0006" x="2" y="690" width="75" height="101" frameX="-6" frameY="-4" frameWidth="85" frameHeight="113"/>
+    <SubTexture name="精灵巫师火球爆炸0007" x="353" y="528" width="73" height="97" frameX="-6" frameY="-8" frameWidth="85" frameHeight="113"/>
+    <SubTexture name="精灵巫师火球爆炸0008" x="353" y="528" width="73" height="97" frameX="-6" frameY="-8" frameWidth="85" frameHeight="113"/>
+    <SubTexture name="精灵巫师火球爆炸0009" x="182" y="535" width="79" height="103" frameX="-1" frameY="-9" frameWidth="85" frameHeight="113"/>
+    <SubTexture name="精灵巫师火球爆炸0010" x="182" y="535" width="79" height="103" frameX="-1" frameY="-9" frameWidth="85" frameHeight="113"/>
+    <SubTexture name="血精灵巫师子弹爆炸0001" x="486" y="255" width="21" height="10" frameX="-17" frameY="-94" frameWidth="59" frameHeight="106"/>
+    <SubTexture name="血精灵巫师子弹爆炸0002" x="486" y="241" width="21" height="12" frameX="-18" frameY="-92" frameWidth="59" frameHeight="106"/>
+    <SubTexture name="血精灵巫师子弹爆炸0003" x="490" y="189" width="19" height="12" frameX="-19" frameY="-92" frameWidth="59" frameHeight="106"/>
+    <SubTexture name="血精灵巫师子弹爆炸0004" x="490" y="173" width="19" height="14" frameX="-19" frameY="-90" frameWidth="59" frameHeight="106"/>
+    <SubTexture name="血精灵巫师子弹爆炸0005" x="228" y="673" width="39" height="98" frameX="-10" frameY="-6" frameWidth="59" frameHeight="106"/>
+    <SubTexture name="血精灵巫师子弹爆炸0006" x="179" y="684" width="37" height="82" frameX="-10" frameY="-23" frameWidth="59" frameHeight="106"/>
+    <SubTexture name="血精灵巫师子弹爆炸0007" x="363" y="655" width="41" height="58" frameX="-7" frameY="-46" frameWidth="59" frameHeight="106"/>
+    <SubTexture name="血精灵巫师子弹爆炸0008" x="318" y="655" width="43" height="38" frameX="-6" frameY="-66" frameWidth="59" frameHeight="106"/>
+    <SubTexture name="血精灵巫师子弹爆炸0009" x="179" y="640" width="47" height="42" frameX="-4" frameY="-61" frameWidth="59" frameHeight="106"/>
+    <SubTexture name="血精灵巫师子弹爆炸0010" x="263" y="625" width="53" height="46" frameX="0" frameY="-57" frameWidth="59" frameHeight="106"/>
+    <SubTexture name="血精灵巫师子弹爆炸0011" x="486" y="233" width="23" height="6" frameX="-17" frameY="-98" frameWidth="59" frameHeight="106"/>
+</TextureAtlas>
+

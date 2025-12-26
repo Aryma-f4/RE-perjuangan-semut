@@ -1,0 +1,36 @@
+<TextureAtlas name="prop">
+  <SubTexture name="part/Crystal_40_101" x="363" y="242" width="120" height="120"/>
+  <SubTexture name="part/Energy_42_103" x="242" y="127" width="120" height="120"/>
+  <SubTexture name="part/Energy_42_102" x="242" y="248" width="120" height="120"/>
+  <SubTexture name="part/Energy_42_101" x="484" y="121" width="120" height="120"/>
+  <SubTexture name="part/GiftBag_25_102" x="847" y="242" width="120" height="120"/>
+  <SubTexture name="part/GiftBag_25_101" x="726" y="0" width="120" height="120"/>
+  <SubTexture name="part/GiftBag_25_108" x="121" y="381" width="106" height="95"/>
+  <SubTexture name="part/GiftBag_25_107" x="121" y="273" width="115" height="107"/>
+  <SubTexture name="part/GiftBag_25_106" x="479" y="363" width="115" height="107"/>
+  <SubTexture name="part/GiftBag_25_105" x="595" y="363" width="115" height="107"/>
+  <SubTexture name="part/GiftBag_25_104" x="363" y="363" width="115" height="107"/>
+  <SubTexture name="part/GiftBag_25_111" x="819" y="363" width="104" height="112"/>
+  <SubTexture name="part/GiftBag_25_110" x="237" y="369" width="102" height="102"/>
+  <SubTexture name="part/GiftBag_25_109" x="924" y="363" width="68" height="73"/>
+  <SubTexture name="part/GiftBag_25_103" x="1021" y="0" width="0" height="0"/>
+  <SubTexture name="part/GiftBag_25_112" x="711" y="363" width="107" height="110"/>
+  <SubTexture name="part/MissionGoods_34_105" x="726" y="121" width="120" height="120"/>
+  <SubTexture name="part/MissionGoods_34_104" x="847" y="0" width="120" height="120"/>
+  <SubTexture name="part/MissionGoods_34_103" x="0" y="273" width="120" height="120"/>
+  <SubTexture name="part/MissionGoods_34_102" x="726" y="242" width="120" height="120"/>
+  <SubTexture name="part/MissionGoods_34_101" x="121" y="152" width="120" height="120"/>
+  <SubTexture name="part/MissionGoods_34_106" x="605" y="242" width="120" height="120"/>
+  <SubTexture name="part/MissionGoods_34_109" x="242" y="0" width="120" height="126"/>
+  <SubTexture name="part/MissionGoods_34_108" x="968" y="0" width="52" height="66"/>
+  <SubTexture name="part/MissionGoods_34_107" x="363" y="121" width="120" height="120"/>
+  <SubTexture name="part/Stone_15_101" x="847" y="121" width="120" height="120"/>
+  <SubTexture name="part/SuitCard_36_108" x="0" y="0" width="120" height="151"/>
+  <SubTexture name="part/SuitCard_36_107" x="121" y="0" width="120" height="151"/>
+  <SubTexture name="part/SuitCard_36_105" x="363" y="0" width="120" height="120"/>
+  <SubTexture name="part/SuitCard_36_104" x="0" y="152" width="120" height="120"/>
+  <SubTexture name="part/SuitCard_36_106" x="484" y="242" width="120" height="120"/>
+  <SubTexture name="part/TreasureChests_26_103" x="605" y="0" width="120" height="120"/>
+  <SubTexture name="part/TreasureChests_26_102" x="605" y="121" width="120" height="120"/>
+  <SubTexture name="part/TreasureChests_26_101" x="484" y="0" width="120" height="120"/>
+</TextureAtlas>

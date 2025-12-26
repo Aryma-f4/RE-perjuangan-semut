@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://texturepacker.com-->
+<!-- $TexturePacker:SmartUpdate:923761a5eabc5e7035302af8891f1771$ -->
+<TextureAtlas imagePath="wedding.png">
+    <SubTexture name="btnS_buyPopCardBtn1" x="786" y="407" width="71" height="29"/>
+    <SubTexture name="btnS_buyPopCardBtn2" x="786" y="376" width="71" height="29"/>
+    <SubTexture name="btnS_closeBtn1" x="977" y="198" width="27" height="27"/>
+    <SubTexture name="btnS_closeBtn2" x="977" y="169" width="27" height="27"/>
+    <SubTexture name="btnS_divorceBtn1" x="549" y="584" width="198" height="69"/>
+    <SubTexture name="btnS_divorceBtn2" x="786" y="580" width="198" height="69"/>
+    <SubTexture name="btnS_divorceBtnInInfo1" x="891" y="301" width="76" height="29"/>
+    <SubTexture name="btnS_divorceBtnInInfo2" x="891" y="270" width="76" height="29"/>
+    <SubTexture name="btnS_divorceBtnInLeft1" x="258" y="453" width="74" height="30"/>
+    <SubTexture name="btnS_divorceBtnInLeft2" x="258" y="421" width="74" height="30"/>
+    <SubTexture name="btnS_exchangeBtn1" x="258" y="389" width="74" height="30"/>
+    <SubTexture name="btnS_exchangeBtn2" x="258" y="357" width="74" height="30"/>
+    <SubTexture name="btnS_exchangeRingBtn1" x="891" y="239" width="76" height="29"/>
+    <SubTexture name="btnS_exchangeRingBtn2" x="891" y="208" width="76" height="29"/>
+    <SubTexture name="btnS_forceDivorceBtn1" x="786" y="509" width="198" height="69"/>
+    <SubTexture name="btnS_forceDivorceBtn2" x="786" y="438" width="198" height="69"/>
+    <SubTexture name="btnS_helpBtn1" x="977" y="140" width="27" height="27"/>
+    <SubTexture name="btnS_helpBtn2" x="977" y="111" width="27" height="27"/>
+    <SubTexture name="btnS_leftBtnInWedding1" x="994" y="227" width="23" height="35"/>
+    <SubTexture name="btnS_leftBtnInWedding2" x="969" y="227" width="23" height="35"/>
+    <SubTexture name="btnS_popBtn1" x="258" y="325" width="74" height="30"/>
+    <SubTexture name="btnS_popBtn2" x="258" y="293" width="74" height="30"/>
+    <SubTexture name="btnS_rightBtnInWedding1" x="997" y="39" width="24" height="35"/>
+    <SubTexture name="btnS_rightBtnInWedding2" x="997" y="2" width="24" height="35"/>
+    <SubTexture name="btnS_startWeddingBtn1" x="891" y="34" width="104" height="29"/>
+    <SubTexture name="btnS_startWeddingBtn2" x="891" y="2" width="104" height="30"/>
+    <SubTexture name="btnS_weddingBtn1" x="891" y="364" width="74" height="30"/>
+    <SubTexture name="btnS_weddingBtn2" x="891" y="332" width="74" height="30"/>
+    <SubTexture name="img_congratulaText" x="859" y="396" width="149" height="17"/>
+    <SubTexture name="img_exchangeSmallBg" x="891" y="65" width="84" height="141"/>
+    <SubTexture name="img_popBg" x="334" y="403" width="213" height="188"/>
+    <SubTexture name="img_popRedBg" x="561" y="376" width="223" height="206"/>
+    <SubTexture name="img_ringExchangeBg" x="627" y="189" width="262" height="185"/>
+    <SubTexture name="img_ringTwo" x="977" y="76" width="39" height="33"/>
+    <SubTexture name="img_weddingBigBg" x="2" y="2" width="359" height="289"/>
+    <SubTexture name="img_weddingRedBg" x="2" y="293" width="254" height="180"/>
+    <SubTexture name="img_weddingText" x="334" y="376" width="225" height="25"/>
+    <SubTexture name="mov_weddingChange1" x="363" y="189" width="262" height="185"/>
+    <SubTexture name="mov_weddingChange2" x="627" y="2" width="262" height="185"/>
+    <SubTexture name="mov_weddingChange3" x="363" y="2" width="262" height="185"/>
+</TextureAtlas>
+

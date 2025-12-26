@@ -1,0 +1,159 @@
+<TextureAtlas name="sprite" width="1024" height="1024">
+ <SubTexture name="精灵法师资源/a16" x="920" y="367" width="45" height="28"/>
+ <SubTexture name="精灵法师资源/a15" x="607" y="371" width="44" height="28"/>
+ <SubTexture name="精灵法师资源/a14" x="257" y="289" width="39" height="29"/>
+ <SubTexture name="精灵法师资源/a13" x="781" y="320" width="41" height="32"/>
+ <SubTexture name="精灵法师资源/a12" x="984" y="278" width="39" height="31"/>
+ <SubTexture name="精灵法师资源/a11" x="983" y="310" width="37" height="30"/>
+ <SubTexture name="精灵法师资源/b17" x="781" y="353" width="38" height="27"/>
+ <SubTexture name="精灵法师资源/b15" x="983" y="341" width="38" height="27"/>
+ <SubTexture name="精灵法师资源/b13" x="776" y="381" width="38" height="26"/>
+ <SubTexture name="精灵法师资源/b14" x="440" y="378" width="8" height="6"/>
+ <SubTexture name="精灵法师资源/b16" x="601" y="400" width="48" height="15"/>
+ <SubTexture name="精灵法师资源/fg 114" x="451" y="201" width="37" height="38"/>
+ <SubTexture name="精灵法师资源/fg 111" x="985" y="240" width="35" height="37"/>
+ <SubTexture name="精灵法师资源/fg 108" x="416" y="278" width="34" height="35"/>
+ <SubTexture name="精灵法师资源/fg 105" x="737" y="270" width="43" height="43"/>
+ <SubTexture name="精灵法师资源/fg 102" x="909" y="396" width="54" height="51"/>
+ <SubTexture name="精灵法师资源/fg 99" x="240" y="483" width="65" height="57"/>
+ <SubTexture name="精灵法师资源/fg 96" x="251" y="422" width="72" height="60"/>
+ <SubTexture name="精灵法师资源/fg 93" x="324" y="476" width="75" height="61"/>
+ <SubTexture name="精灵法师资源/fg 90" x="480" y="475" width="77" height="63"/>
+ <SubTexture name="精灵法师资源/fg 87" x="781" y="282" width="42" height="37"/>
+ <SubTexture name="精灵法师资源/fg 84" x="257" y="319" width="35" height="31"/>
+ <SubTexture name="精灵法师资源/b23" x="990" y="0" width="30" height="54"/>
+ <SubTexture name="精灵法师资源/b21" x="990" y="55" width="28" height="52"/>
+ <SubTexture name="精灵法师资源/b18" x="257" y="252" width="39" height="36"/>
+ <SubTexture name="精灵法师资源/b12" x="449" y="320" width="34" height="25"/>
+ <SubTexture name="精灵法师资源/b22" x="974" y="192" width="10" height="12"/>
+ <SubTexture name="精灵法师资源/b19" x="974" y="177" width="10" height="14"/>
+ <SubTexture name="精灵法师资源/b24" x="159" y="262" width="8" height="13"/>
+ <SubTexture name="精灵法师资源/b20" x="97" y="329" width="7" height="13"/>
+ <SubTexture name="精灵法师资源/b1" x="885" y="480" width="107" height="84"/>
+ <SubTexture name="精灵法师资源/b2" x="449" y="346" width="33" height="26"/>
+ <SubTexture name="精灵法师资源/b3" x="583" y="416" width="64" height="60"/>
+ <SubTexture name="精灵法师资源/b7" x="974" y="219" width="8" height="14"/>
+ <SubTexture name="精灵法师资源/b4" x="966" y="287" width="16" height="23"/>
+ <SubTexture name="精灵法师资源/b5" x="584" y="367" width="22" height="27"/>
+ <SubTexture name="精灵法师资源/b6" x="730" y="406" width="22" height="14"/>
+ <SubTexture name="精灵法师资源/b11" x="974" y="146" width="10" height="30"/>
+ <SubTexture name="精灵法师资源/b8" x="974" y="205" width="9" height="13"/>
+ <SubTexture name="精灵巫师动作元件/投影" x="312" y="385" width="13" height="6"/>
+ <SubTexture name="血精灵法师资源/xb23" x="781" y="197" width="42" height="42"/>
+ <SubTexture name="血精灵法师资源/xb22" x="781" y="146" width="42" height="50"/>
+ <SubTexture name="血精灵法师资源/xb20" x="781" y="240" width="41" height="41"/>
+ <SubTexture name="血精灵法师资源/x26" x="172" y="163" width="126" height="88"/>
+ <SubTexture name="血精灵法师资源/x25" x="824" y="146" width="95" height="145"/>
+ <SubTexture name="血精灵法师资源/x24" x="656" y="270" width="80" height="126"/>
+ <SubTexture name="血精灵法师资源/x23" x="964" y="420" width="59" height="59"/>
+ <SubTexture name="血精灵法师资源/x22" x="84" y="438" width="76" height="76"/>
+ <SubTexture name="血精灵法师资源/x21" x="326" y="386" width="89" height="89"/>
+ <SubTexture name="血精灵法师资源/x20" x="824" y="292" width="95" height="96"/>
+ <SubTexture name="血精灵法师资源/x19" x="0" y="329" width="96" height="95"/>
+ <SubTexture name="血精灵法师资源/x18 副本" x="487" y="379" width="95" height="95"/>
+ <SubTexture name="血精灵法师资源/xb15" x="416" y="347" width="32" height="20"/>
+ <SubTexture name="血精灵法师资源/xb14" x="297" y="283" width="27" height="25"/>
+ <SubTexture name="血精灵法师资源/xb16" x="558" y="477" width="89" height="43"/>
+ <SubTexture name="血精灵法师资源/补间 9" x="737" y="358" width="38" height="27"/>
+ <SubTexture name="血精灵法师资源/补间 5" x="982" y="369" width="38" height="27"/>
+ <SubTexture name="血精灵法师资源/补间 10" x="156" y="345" width="14" height="11"/>
+ <SubTexture name="血精灵法师资源/补间 7" x="966" y="373" width="15" height="11"/>
+ <SubTexture name="血精灵法师资源/xb1" x="737" y="314" width="43" height="43"/>
+ <SubTexture name="血精灵法师资源/xb2" x="326" y="146" width="124" height="131"/>
+ <SubTexture name="血精灵法师资源/xb3" x="400" y="483" width="66" height="55"/>
+ <SubTexture name="血精灵法师资源/xb4" x="451" y="240" width="35" height="40"/>
+ <SubTexture name="血精灵法师资源/xb5" x="584" y="342" width="29" height="24"/>
+ <SubTexture name="血精灵法师资源/xb8" x="648" y="498" width="61" height="56"/>
+ <SubTexture name="血精灵法师资源/xb9" x="416" y="393" width="20" height="19"/>
+ <SubTexture name="血精灵法师资源/xb10" x="297" y="408" width="20" height="13"/>
+ <SubTexture name="血精灵法师资源/xb19" x="156" y="304" width="14" height="12"/>
+ <SubTexture name="血精灵法师资源/xb12" x="966" y="347" width="15" height="12"/>
+ <SubTexture name="血精灵法师资源/xb13" x="966" y="311" width="16" height="20"/>
+ <SubTexture name="血精灵法师资源/xb7" x="171" y="252" width="85" height="124"/>
+ <SubTexture name="血精灵法师资源/xb6" x="152" y="357" width="18" height="20"/>
+ <SubTexture name="血精灵法师动作元件/投影" x="966" y="392" width="11" height="6"/>
+ <SubTexture name="血精灵战士资源/sprite 68" x="920" y="146" width="53" height="81"/>
+ <SubTexture name="血精灵战士资源/sprite 64" x="105" y="222" width="53" height="81"/>
+ <SubTexture name="血精灵战士资源/xa25" x="299" y="163" width="26" height="30"/>
+ <SubTexture name="血精灵战士资源/df 64" x="251" y="396" width="24" height="17"/>
+ <SubTexture name="血精灵战士资源/df 60" x="558" y="521" width="57" height="27"/>
+ <SubTexture name="血精灵战士资源/df 58" x="58" y="515" width="89" height="27"/>
+ <SubTexture name="血精灵战士资源/xa22" x="293" y="336" width="31" height="27"/>
+ <SubTexture name="血精灵战士资源/xa18" x="737" y="386" width="38" height="19"/>
+ <SubTexture name="血精灵战士资源/xa20" x="257" y="372" width="22" height="23"/>
+ <SubTexture name="血精灵战士资源/xa19" x="583" y="395" width="17" height="20"/>
+ <SubTexture name="血精灵战士资源/df 53" x="710" y="520" width="86" height="27"/>
+ <SubTexture name="血精灵战士资源/xa21" x="97" y="386" width="54" height="51"/>
+ <SubTexture name="血精灵战士资源/xa23" x="920" y="333" width="45" height="33"/>
+ <SubTexture name="血精灵战士资源/xa17" x="920" y="228" width="48" height="57"/>
+ <SubTexture name="血精灵战士资源/xa27" x="584" y="314" width="31" height="27"/>
+ <SubTexture name="血精灵战士资源/xa26" x="0" y="222" width="104" height="106"/>
+ <SubTexture name="血精灵战士资源/xa28" x="920" y="286" width="45" height="46"/>
+ <SubTexture name="血精灵战士资源/xa1" x="297" y="252" width="28" height="30"/>
+ <SubTexture name="血精灵战士资源/xa2" x="616" y="273" width="33" height="38"/>
+ <SubTexture name="血精灵战士资源/xa7" x="803" y="480" width="81" height="41"/>
+ <SubTexture name="血精灵战士资源/xa3" x="449" y="373" width="37" height="18"/>
+ <SubTexture name="血精灵战士资源/xa4" x="416" y="414" width="63" height="68"/>
+ <SubTexture name="血精灵战士资源/xa5" x="451" y="146" width="37" height="54"/>
+ <SubTexture name="血精灵战士资源/xa6" x="616" y="146" width="39" height="44"/>
+ <SubTexture name="血精灵战士资源/xa8" x="753" y="406" width="21" height="14"/>
+ <SubTexture name="血精灵战士资源/xa9" x="152" y="378" width="17" height="21"/>
+ <SubTexture name="血精灵战士资源/xa10" x="985" y="157" width="38" height="40"/>
+ <SubTexture name="血精灵战士资源/xa11" x="289" y="385" width="22" height="22"/>
+ <SubTexture name="血精灵战士资源/xa12" x="276" y="408" width="20" height="13"/>
+ <SubTexture name="血精灵战士资源/xa13" x="969" y="234" width="15" height="19"/>
+ <SubTexture name="血精灵战士资源/xa14" x="416" y="368" width="23" height="24"/>
+ <SubTexture name="血精灵战士资源/xa15" x="297" y="309" width="24" height="26"/>
+ <SubTexture name="血精灵战士资源/xa16" x="161" y="480" width="78" height="48"/>
+ <SubTexture name="血精灵战士动作元件/投影" x="966" y="385" width="11" height="6"/>
+ <SubTexture name="精灵先锋资源/c35" x="0" y="509" width="57" height="37"/>
+ <SubTexture name="精灵先锋资源/c33" x="171" y="377" width="79" height="102"/>
+ <SubTexture name="精灵先锋资源/c32" x="299" y="194" width="23" height="30"/>
+ <SubTexture name="精灵先锋资源/c25" x="614" y="343" width="41" height="27"/>
+ <SubTexture name="精灵先锋资源/c27" x="97" y="343" width="7" height="9"/>
+ <SubTexture name="精灵先锋资源/c29" x="966" y="360" width="15" height="12"/>
+ <SubTexture name="精灵先锋资源/元件 1" x="257" y="351" width="31" height="20"/>
+ <SubTexture name="精灵先锋资源/c28" x="289" y="364" width="36" height="20"/>
+ <SubTexture name="精灵先锋资源/c30" x="159" y="237" width="12" height="12"/>
+ <SubTexture name="精灵先锋资源/c39" x="487" y="272" width="96" height="106"/>
+ <SubTexture name="精灵先锋资源/c38" x="440" y="368" width="8" height="9"/>
+ <SubTexture name="精灵先锋资源/c37" x="156" y="317" width="13" height="13"/>
+ <SubTexture name="精灵先锋资源/补间 48" x="616" y="191" width="39" height="40"/>
+ <SubTexture name="精灵先锋资源/补间 23" x="616" y="232" width="39" height="40"/>
+ <SubTexture name="精灵先锋资源/c36" x="159" y="276" width="8" height="13"/>
+ <SubTexture name="精灵先锋资源/剑影1" x="492" y="0" width="165" height="145"/>
+ <SubTexture name="精灵先锋资源/c16" x="969" y="254" width="15" height="16"/>
+ <SubTexture name="精灵先锋资源/c23" x="616" y="312" width="37" height="30"/>
+ <SubTexture name="精灵先锋资源/c21" x="416" y="314" width="32" height="32"/>
+ <SubTexture name="精灵先锋资源/c15" x="440" y="392" width="41" height="21"/>
+ <SubTexture name="精灵先锋资源/c20" x="966" y="332" width="16" height="14"/>
+ <SubTexture name="精灵先锋资源/c19" x="156" y="331" width="13" height="13"/>
+ <SubTexture name="精灵先锋资源/c22" x="105" y="350" width="46" height="35"/>
+ <SubTexture name="精灵先锋资源/c17" x="990" y="108" width="30" height="48"/>
+ <SubTexture name="精灵先锋资源/补间 4" x="489" y="146" width="126" height="125"/>
+ <SubTexture name="精灵先锋资源/补间 3" x="656" y="146" width="124" height="123"/>
+ <SubTexture name="精灵先锋资源/b26" x="658" y="0" width="165" height="145"/>
+ <SubTexture name="精灵先锋资源/b25" x="326" y="0" width="165" height="145"/>
+ <SubTexture name="精灵先锋资源/b24" x="824" y="0" width="165" height="145"/>
+ <SubTexture name="精灵先锋资源/c18" x="969" y="271" width="14" height="15"/>
+ <SubTexture name="精灵先锋资源/c13" x="978" y="397" width="40" height="22"/>
+ <SubTexture name="精灵先锋资源/c1" x="326" y="278" width="89" height="107"/>
+ <SubTexture name="精灵先锋资源/c2" x="105" y="304" width="50" height="45"/>
+ <SubTexture name="精灵先锋资源/c3" x="584" y="272" width="31" height="41"/>
+ <SubTexture name="精灵先锋资源/c4" x="451" y="281" width="30" height="38"/>
+ <SubTexture name="精灵先锋资源/c8" x="97" y="353" width="7" height="6"/>
+ <SubTexture name="精灵先锋资源/c7" x="159" y="222" width="11" height="14"/>
+ <SubTexture name="精灵先锋资源/c9" x="280" y="372" width="8" height="8"/>
+ <SubTexture name="精灵先锋资源/c5" x="985" y="198" width="37" height="41"/>
+ <SubTexture name="精灵先锋资源/c11" x="280" y="381" width="8" height="6"/>
+ <SubTexture name="精灵先锋资源/c6" x="299" y="225" width="25" height="26"/>
+ <SubTexture name="精灵先锋资源/c14" x="815" y="389" width="93" height="90"/>
+ <SubTexture name="精灵先锋资源/c10" x="159" y="290" width="8" height="13"/>
+ <SubTexture name="精灵先锋资源/c12" x="159" y="250" width="11" height="11"/>
+ <SubTexture name="精灵先锋动作元件/投影" x="312" y="392" width="11" height="6"/>
+ <SubTexture name="投石车资源/st 2" x="730" y="421" width="72" height="98"/>
+ <SubTexture name="投石车资源/tsc3" x="652" y="397" width="77" height="100"/>
+ <SubTexture name="投石车资源/tsc2" x="0" y="163" width="171" height="58"/>
+ <SubTexture name="投石车资源/tsc" x="0" y="0" width="325" height="162"/>
+ <SubTexture name="投石车资源/lz" x="0" y="425" width="83" height="83"/>
+</TextureAtlas>

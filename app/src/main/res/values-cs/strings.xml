@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Perjuangan semut</string>
+    <string name="flash_browser_plugin">Zásuvný modul Flash</string>
+    <string name="audio_files">Zvukové soubory</string>
+    <string name="image_files">Obrazové soubory</string>
+    <string name="video_files">Soubory videa</string>
+    <string name="empty_file_list">Nebyly nalezeny žádné soubory.</string>
+    <string name="button_ok">OK</string>
+    <string name="button_cancel">Storno</string>
+    <string name="button_continue">Pokračovat</string>
+    <string name="file_save_as">Uložit jako:</string>
+    <string name="file_download">Stáhnout</string>
+    <string name="file_upload">Odeslat na server</string>
+    <string name="button_yes">Ano</string>
+    <string name="button_no">Ne</string>
+    <string name="IDA_CURL_SSL_SECURITY_WARNING">Upozornění zabezpečení</string>
+    <string name="IDA_CURL_INTERFACE_THISSESS">Důvěřovat pro tuto relaci</string>
+    <string name="IDA_CURL_INTERFACE_NOSESS">Storno</string>
+    <string name="IDA_CURL_INTERFACE_OK">OK</string>
+    <string name="IDA_CURL_INTERFACE_UNVERSER_2">Server, k němuž se aplikace připojuje, není ověřen.</string>
+    <string name="IDA_CURL_INTERFACE_ALLSESS">Vždy důvěřovat</string>
+    <string name="IDA_CURL_INTERFACE_SERVER">Server:</string>
+    <string name="IDA_CURL_INTERFACE_TRUSTSER">Chcete tomuto serveru důvěřovat a připojit se k němu?</string>
+    <string name="IDA_CURL_INTERFACE_CNAME_MSG">Název serveru (%1$s) neodpovídá názvu na certifikátu (%2$s). Chcete důvěřovat tomuto serveru a pokračovat?</string>
+    <string name="IDA_CURL_INTERFACE_VIEW_CERT">Zobrazit certifikát</string>
+    <string name="IDA_CURL_INTERFACE_CERTIFICATE_DETAILS_TITLE">Podrobnosti certifikátu</string>
+    <string name="IDA_CERTIFICATE_DETAILS">Certifikát:\n \n Vydán pro:\n Obvyklý název:\n %1$s\n \n Organizace:\n %2$s\n \n Organizační jednotka:\n %3$s\n \n Vydal(a):\n Obvyklý název:\n %4$s\n \n Organizace:\n %5$s\n \n Organizační jednotka:\n %6$s\n \n Platnost:\n Vydáno:\n %7$s\n \n Platnost vyprší dne:\n %8$s </string>
+    <string name="IDA_APP_WAITING_DEBUGGER_TITLE">Adobe AIR: Čekání na připojení</string>
+    <string name="IDA_APP_UNABLE_LISTEN_ERROR">Adobe AIR: Naslouchání na portu</string>
+    <string name="IDA_APP_WAITING_DEBUGGER_WARNING">Aplikace AIR čeká na debugger, aby mohla navázat připojení. To může trvat až %d sekund.</string>
+    <string name="IDA_APP_DEBUGGER_TIMEOUT_INFO">Nelze se připojit k debuggeru.</string>
+    <string name="app_version">APP_VERSION</string>
+    <string name="button_install">Instalovat</string>
+    <string name="button_exit">Konec</string>
+    <string name="title_adobe_air">Adobe® AIR®</string>
+    <string name="text_runtime_required">Tato aplikace vyžaduje prostředí Adobe AIR.\n\n</string>
+    <string name="text_install_runtime">Chcete-li pokračovat, nainstalujte do tohoto zařízení prostředí Adobe AIR.</string>
+    <string name="text_runtime_on_external_storage">Chcete-li pokračovat, buď nainstalujte prostředí Adobe AIR do tohoto zařízení, nebo tuto aplikaci ukončete a před opakovaným spuštěním připojte kartu SD obsahující prostředí Adobe AIR.</string>
+    <string name="text_gamepreview_loading">Probíhá načítání...</string>
+    <string name="text_gamepreview_loading_error">Hru nelze načíst.</string>
+    <string name="text_install_gamepreview_app">Instalovat</string>
+    <string name="text_air_missing_header">Vyžadováno prostředí Adobe AIR</string>
+    <string name="text_air_missing_text">Náhled hry nebude fungovat, dokud nenainstalujete běhové prostředí Adobe AIR.</string>
+    <string name="button_install_air_from_playstore">Nainstalovat z webu Play Store.</string>
+    <string name="text_dont_show_again">Tuto zprávu již nezobrazovat.</string>
+</resources>

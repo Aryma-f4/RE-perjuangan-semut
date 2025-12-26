@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://texturepacker.com-->
+<!-- $TexturePacker:SmartUpdate:aa4522c7ed7ea2779d376d216eae72a9$ -->
+<TextureAtlas imagePath="warehouse.png">
+    <SubTexture name="3hour" x="974" y="486" width="36" height="12"/>
+    <SubTexture name="7hour" x="974" y="472" width="36" height="12"/>
+    <SubTexture name="btnS_cancelRent1" x="179" y="1120" width="89" height="35"/>
+    <SubTexture name="btnS_cancelRent2" x="783" y="1159" width="87" height="34"/>
+    <SubTexture name="btnS_grid1" x="468" y="1151" width="73" height="69"/>
+    <SubTexture name="btnS_grid2" x="365" y="914" width="73" height="69"/>
+    <SubTexture name="btnS_intoMyware1" x="288" y="1114" width="89" height="35"/>
+    <SubTexture name="btnS_intoMyware2" x="694" y="1143" width="87" height="34"/>
+    <SubTexture name="btnS_itemA1" x="789" y="1086" width="89" height="35"/>
+    <SubTexture name="btnS_itemA2" x="605" y="1143" width="87" height="34"/>
+    <SubTexture name="btnS_itemB1" x="698" y="1070" width="89" height="35"/>
+    <SubTexture name="btnS_itemB2" x="874" y="1136" width="87" height="34"/>
+    <SubTexture name="btnS_itemC1" x="425" y="1101" width="89" height="35"/>
+    <SubTexture name="btnS_itemC2" x="179" y="1157" width="87" height="34"/>
+    <SubTexture name="btnS_itemD1" x="516" y="1078" width="89" height="35"/>
+    <SubTexture name="btnS_itemD2" x="270" y="1151" width="87" height="34"/>
+    <SubTexture name="btnS_itemE1" x="607" y="1070" width="89" height="35"/>
+    <SubTexture name="btnS_itemE2" x="379" y="1138" width="87" height="34"/>
+    <SubTexture name="btnS_itemF1" x="425" y="1064" width="89" height="35"/>
+    <SubTexture name="btnS_itemF2" x="785" y="1123" width="87" height="34"/>
+    <SubTexture name="btnS_itemG1" x="516" y="1041" width="89" height="35"/>
+    <SubTexture name="btnS_itemG2" x="696" y="1107" width="87" height="34"/>
+    <SubTexture name="btnS_itemH1" x="425" y="1027" width="89" height="35"/>
+    <SubTexture name="btnS_itemH2" x="516" y="1115" width="87" height="34"/>
+    <SubTexture name="btnS_itemI1" x="657" y="1033" width="89" height="35"/>
+    <SubTexture name="btnS_itemI2" x="607" y="1107" width="87" height="34"/>
+    <SubTexture name="btnS_myRent1" x="566" y="1004" width="89" height="35"/>
+    <SubTexture name="btnS_myRent2" x="709" y="997" width="87" height="34"/>
+    <SubTexture name="btnS_myrentgoods1" x="180" y="1059" width="107" height="29"/>
+    <SubTexture name="btnS_myrentgoods2" x="2" y="1106" width="106" height="28"/>
+    <SubTexture name="btnS_myware1" x="452" y="682" width="181" height="203"/>
+    <SubTexture name="btnS_myware2" x="2" y="655" width="181" height="203"/>
+    <SubTexture name="btnS_ok1" x="2" y="1003" width="107" height="39"/>
+    <SubTexture name="btnS_ok2" x="2" y="940" width="111" height="43"/>
+    <SubTexture name="btnS_rent1" x="734" y="489" width="222" height="191"/>
+    <SubTexture name="btnS_rent2" x="510" y="489" width="222" height="191"/>
+    <SubTexture name="btnS_rentGoods_bg1" x="635" y="682" width="174" height="75"/>
+    <SubTexture name="btnS_rentGoods_bg2" x="2" y="860" width="177" height="78"/>
+    <SubTexture name="btnS_rentInto1" x="892" y="1083" width="89" height="35"/>
+    <SubTexture name="btnS_rentInto2" x="709" y="961" width="87" height="34"/>
+    <SubTexture name="btnS_rentgoods1" x="180" y="1028" width="107" height="29"/>
+    <SubTexture name="btnS_rentgoods2" x="180" y="1090" width="106" height="28"/>
+    <SubTexture name="btnS_search1" x="958" y="500" width="64" height="31"/>
+    <SubTexture name="btnS_search2" x="958" y="533" width="62" height="29"/>
+    <SubTexture name="btnS_select1" x="996" y="580" width="25" height="25"/>
+    <SubTexture name="btnS_select2" x="958" y="593" width="31" height="30"/>
+    <SubTexture name="btnS_toBag1" x="892" y="1046" width="89" height="35"/>
+    <SubTexture name="btnS_toBag2" x="709" y="925" width="87" height="34"/>
+    <SubTexture name="btnS_unionBack1" x="268" y="1187" width="72" height="19" frameX="-1" frameY="-1" frameWidth="74" frameHeight="21"/>
+    <SubTexture name="btnS_unionBack2" x="359" y="1174" width="72" height="19" frameX="-1" frameY="-1" frameWidth="74" frameHeight="21"/>
+    <SubTexture name="btnS_unionBook1" x="798" y="991" width="92" height="93" frameX="-6" frameY="-11" frameWidth="98" frameHeight="107"/>
+    <SubTexture name="btnS_unionBook2" x="896" y="902" width="92" height="105" frameX="-2" frameY="-1" frameWidth="98" frameHeight="107"/>
+    <SubTexture name="btnS_unionCopy1" x="811" y="682" width="167" height="100" frameX="0" frameY="-9" frameWidth="177" frameHeight="120"/>
+    <SubTexture name="btnS_unionCopy2" x="798" y="784" width="157" height="116" frameX="-20" frameY="0" frameWidth="177" frameHeight="120"/>
+    <SubTexture name="btnS_unionLevelBtn1" x="111" y="1098" width="66" height="86"/>
+    <SubTexture name="btnS_unionLevelBtn2" x="111" y="1003" width="67" height="93"/>
+    <SubTexture name="btnS_unionLevelBtn3" x="957" y="784" width="65" height="86"/>
+    <SubTexture name="btnS_unionNotice1" x="2" y="388" width="268" height="231" frameX="0" frameY="-16" frameWidth="276" frameHeight="251"/>
+    <SubTexture name="btnS_unionNotice2" x="272" y="388" width="236" height="237" frameX="-32" frameY="-5" frameWidth="276" frameHeight="251"/>
+    <SubTexture name="btnS_unionOffice1" x="2" y="1136" width="102" height="71" frameX="0" frameY="-10" frameWidth="104" frameHeight="87"/>
+    <SubTexture name="btnS_unionOffice2" x="798" y="902" width="96" height="87" frameX="-8" frameY="0" frameWidth="104" frameHeight="87"/>
+    <SubTexture name="btnS_unionStorage1" x="575" y="889" width="132" height="113" frameX="0" frameY="-4" frameWidth="134" frameHeight="117"/>
+    <SubTexture name="btnS_unionStorage2" x="440" y="908" width="124" height="117" frameX="-10" frameY="0" frameWidth="134" frameHeight="117"/>
+    <SubTexture name="btnS_unionStore1" x="304" y="1019" width="119" height="93" frameX="0" frameY="-10" frameWidth="127" frameHeight="111"/>
+    <SubTexture name="btnS_unionStore2" x="181" y="915" width="121" height="111" frameX="-6" frameY="0" frameWidth="127" frameHeight="111"/>
+    <SubTexture name="btnS_unionWorship1" x="250" y="627" width="200" height="137" frameX="0" frameY="-10" frameWidth="200" frameHeight="147"/>
+    <SubTexture name="btnS_unionWorship2" x="185" y="766" width="178" height="147" frameX="-19" frameY="0" frameWidth="200" frameHeight="147"/>
+    <SubTexture name="btnS_wantRent1" x="892" y="1009" width="89" height="35"/>
+    <SubTexture name="btnS_wantRent2" x="709" y="889" width="87" height="34"/>
+    <SubTexture name="dlg_name3" x="2" y="985" width="111" height="16"/>
+    <SubTexture name="goods_frame_bg" x="365" y="842" width="73" height="70"/>
+    <SubTexture name="img_publishbg" x="516" y="2" width="482" height="450" frameX="-129" frameY="0" frameWidth="750" frameHeight="500"/>
+    <SubTexture name="lock" x="991" y="607" width="27" height="32"/>
+    <SubTexture name="myware_title" x="440" y="887" width="133" height="19"/>
+    <SubTexture name="price_bg" x="304" y="985" width="121" height="32"/>
+    <SubTexture name="renting" x="365" y="784" width="79" height="56"/>
+    <SubTexture name="renting_2" x="365" y="784" width="79" height="56"/>
+    <SubTexture name="s9_GreenBtn" x="1000" y="68" width="20" height="20"/>
+    <SubTexture name="s9_GreenOverBtn" x="1000" y="46" width="20" height="20"/>
+    <SubTexture name="s9_YellowBtn" x="1000" y="24" width="20" height="20"/>
+    <SubTexture name="s9_YellowOverBtn" x="1000" y="2" width="20" height="20"/>
+    <SubTexture name="s9_commonGreyBg" x="1000" y="103" width="6" height="6"/>
+    <SubTexture name="textBg0" x="635" y="759" width="161" height="24"/>
+    <SubTexture name="textBg1" x="2" y="621" width="246" height="32"/>
+    <SubTexture name="text_0" x="958" y="564" width="59" height="14"/>
+    <SubTexture name="text_1" x="365" y="766" width="84" height="16"/>
+    <SubTexture name="text_2" x="958" y="580" width="36" height="11"/>
+    <SubTexture name="text_3" x="880" y="1120" width="89" height="14"/>
+    <SubTexture name="text_4" x="974" y="454" width="45" height="16"/>
+    <SubTexture name="text_title0" x="510" y="454" width="236" height="33"/>
+    <SubTexture name="text_title1" x="748" y="454" width="224" height="33"/>
+    <SubTexture name="title_5" x="635" y="868" width="133" height="19"/>
+    <SubTexture name="title_rent_goods" x="635" y="826" width="144" height="19"/>
+    <SubTexture name="type0" x="2" y="1075" width="107" height="29"/>
+    <SubTexture name="type1" x="2" y="1044" width="107" height="29"/>
+    <SubTexture name="unionMainTitleBg" x="635" y="785" width="151" height="39"/>
+    <SubTexture name="unionMainTitleLevelIcon" x="1000" y="90" width="17" height="11"/>
+    <SubTexture name="union_ware_title" x="635" y="847" width="135" height="19"/>
+    <SubTexture name="warehouse_bg" x="2" y="2" width="512" height="384"/>
+</TextureAtlas>
+

@@ -1,0 +1,65 @@
+<TextureAtlas name="worm"  width="512" height="256">>
+  <SubTexture name="大毛毛虫/zb1" x="409" y="112" width="64" height="48"/>
+  <SubTexture name="大毛毛虫/补间 3" x="75" y="169" width="51" height="26"/>
+  <SubTexture name="大毛毛虫/yan zhuan" x="328" y="180" width="43" height="23"/>
+  <SubTexture name="大毛毛虫/yanzhuA" x="40" y="207" width="25" height="19"/>
+  <SubTexture name="大毛毛虫/眼珠" x="191" y="220" width="22" height="17"/>
+  <SubTexture name="大毛毛虫/dmcchujiao2" x="102" y="197" width="20" height="33"/>
+  <SubTexture name="Duplicate Items Folder/元件 1 copy" x="328" y="93" width="79" height="85"/>
+  <SubTexture name="Duplicate Items Folder/元件 3 copy" x="155" y="169" width="45" height="22"/>
+  <SubTexture name="大毛毛虫/眼睛" x="471" y="201" width="38" height="17"/>
+  <SubTexture name="Duplicate Items Folder/元件 2" x="81" y="102" width="79" height="65"/>
+  <SubTexture name="Duplicate Items Folder/元件 4 copy" x="215" y="220" width="13" height="16"/>
+  <SubTexture name="大毛毛虫/dmctou" x="328" y="0" width="87" height="91"/>
+  <SubTexture name="大毛毛虫/dmcchujiao1" x="155" y="213" width="17" height="26"/>
+  <SubTexture name="大毛毛虫/dmcshenti1" x="0" y="169" width="38" height="53"/>
+  <SubTexture name="大毛毛虫/dmcjiao1" x="278" y="184" width="7" height="13"/>
+  <SubTexture name="大毛毛虫/dmc脚2" x="311" y="220" width="9" height="12"/>
+  <SubTexture name="大毛毛虫/dmc脚3" x="277" y="213" width="8" height="10"/>
+  <SubTexture name="大毛毛虫/dmcshenti2" x="202" y="169" width="33" height="34"/>
+  <SubTexture name="大毛毛虫/dmc脚4" x="287" y="220" width="10" height="13"/>
+  <SubTexture name="大毛毛虫/dmcshenti3" x="481" y="36" width="28" height="31"/>
+  <SubTexture name="大毛毛虫/dmcshenti4" x="481" y="0" width="28" height="34"/>
+  <SubTexture name="小毛毛虫/x舌头" x="369" y="211" width="18" height="26"/>
+  <SubTexture name="元件 1" x="471" y="170" width="34" height="29"/>
+  <SubTexture name="小毛毛虫/x眼珠" x="409" y="218" width="22" height="17"/>
+  <SubTexture name="tx3" x="243" y="102" width="42" height="80"/>
+  <SubTexture name="tx1" x="450" y="162" width="19" height="35"/>
+  <SubTexture name="小毛毛虫/xmcchujiao2" x="450" y="199" width="19" height="32"/>
+  <SubTexture name="小毛虫帽" x="166" y="0" width="79" height="100"/>
+  <SubTexture name="元件 3" x="237" y="205" width="38" height="13"/>
+  <SubTexture name="元件 2" x="155" y="193" width="39" height="18"/>
+  <SubTexture name="元件 4" x="0" y="102" width="79" height="65"/>
+  <SubTexture name="元件 5" x="433" y="218" width="15" height="22"/>
+  <SubTexture name="小毛毛虫/xmctou" x="0" y="0" width="81" height="100"/>
+  <SubTexture name="小毛毛虫/xmcchujiao1" x="328" y="205" width="19" height="28"/>
+  <SubTexture name="小毛毛虫/xmcshenti1" x="287" y="164" width="39" height="54"/>
+  <SubTexture name="小毛毛虫/xmcjiao1" x="254" y="220" width="10" height="13"/>
+  <SubTexture name="小毛毛虫/xmc脚2" x="266" y="220" width="9" height="13"/>
+  <SubTexture name="小毛毛虫/xmc脚3" x="482" y="220" width="8" height="10"/>
+  <SubTexture name="小毛毛虫/xmcshenti2" x="475" y="131" width="33" height="37"/>
+  <SubTexture name="小毛毛虫/xmc脚4" x="299" y="220" width="10" height="12"/>
+  <SubTexture name="小毛毛虫/xmcshenti3" x="481" y="69" width="28" height="29"/>
+  <SubTexture name="小毛毛虫/xmcshenti4" x="128" y="169" width="25" height="31"/>
+  <SubTexture name="中毛毛虫/舌头" x="389" y="211" width="18" height="26"/>
+  <SubTexture name="Duplicate Items Folder/元件 1" x="373" y="180" width="34" height="29"/>
+  <SubTexture name="中毛毛虫/眼珠" x="230" y="220" width="22" height="17"/>
+  <SubTexture name="中毛毛虫/tx3" x="417" y="0" width="62" height="110"/>
+  <SubTexture name="中毛毛虫/tx1" x="287" y="102" width="39" height="60"/>
+  <SubTexture name="中毛毛虫/chujiao2" x="124" y="202" width="19" height="32"/>
+  <SubTexture name="中毛毛虫/小毛虫帽" x="247" y="0" width="79" height="100"/>
+  <SubTexture name="Duplicate Items Folder/元件 4" x="196" y="205" width="39" height="13"/>
+  <SubTexture name="Duplicate Items Folder/元件 3" x="237" y="184" width="39" height="19"/>
+  <SubTexture name="Duplicate Items Folder/元件 5" x="162" y="102" width="79" height="65"/>
+  <SubTexture name="元件 6" x="174" y="213" width="15" height="22"/>
+  <SubTexture name="中毛毛虫/tou" x="83" y="0" width="81" height="100"/>
+  <SubTexture name="中毛毛虫/chujiao1" x="349" y="205" width="18" height="27"/>
+  <SubTexture name="中毛毛虫/shenti1" x="409" y="162" width="39" height="54"/>
+  <SubTexture name="中毛毛虫/jiao1" x="278" y="199" width="7" height="12"/>
+  <SubTexture name="中毛毛虫/脚2" x="145" y="202" width="8" height="11"/>
+  <SubTexture name="中毛毛虫/脚3" x="145" y="215" width="8" height="10"/>
+  <SubTexture name="中毛毛虫/shenti2" x="40" y="169" width="33" height="36"/>
+  <SubTexture name="中毛毛虫/脚4" x="471" y="220" width="9" height="11"/>
+  <SubTexture name="中毛毛虫/shenti3" x="481" y="100" width="28" height="29"/>
+  <SubTexture name="中毛毛虫/shenti4" x="75" y="197" width="25" height="31"/>
+</TextureAtlas>

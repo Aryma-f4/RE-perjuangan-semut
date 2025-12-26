@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="com_facebook_loginview_default_style" parent="@android:style/Widget.Button">
+        <item name="android:textSize">@dimen/com_facebook_loginview_text_size</item>
+        <item name="android:textStyle">0x1</item>
+        <item name="android:textColor">@color/com_facebook_loginview_text_color</item>
+        <item name="android:gravity">0x11</item>
+        <item name="android:background">@drawable/com_facebook_button_blue</item>
+        <item name="android:paddingLeft">@dimen/com_facebook_loginview_padding_left</item>
+        <item name="android:layout_width">-2</item>
+        <item name="android:layout_height">-2</item>
+    </style>
+    <style name="com_facebook_loginview_silver_style" parent="@android:style/Widget.Button">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">0x1</item>
+        <item name="android:textColor">#4b5164</item>
+        <item name="android:gravity">0x11</item>
+        <item name="android:background">@drawable/com_facebook_loginbutton_silver</item>
+        <item name="android:height">44dp</item>
+        <item name="android:width">205dp</item>
+    </style>
+    <style name="AppBaseTheme" parent="@android:style/Theme.Light">
+    </style>
+    <style name="AppTheme" parent="@style/AppBaseTheme">
+    </style>
+    <style name="Theme.NoShadow" parent="@android:style/Theme.NoTitleBar">
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+</resources>

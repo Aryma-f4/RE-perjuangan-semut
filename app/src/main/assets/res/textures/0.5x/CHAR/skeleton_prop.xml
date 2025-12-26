@@ -1,0 +1,486 @@
+<dragonBones name="prop" frameRate="24" version="2.3">
+  <armature name="TreasureChests">
+    <bone name="Layer 3">
+      <transform x="60" y="60" skX="0" skY="0" scX="1" scY="1"/>
+    </bone>
+    <bone name="Layer 2">
+      <transform x="60" y="60" skX="0" skY="0" scX="1" scY="1"/>
+    </bone>
+    <bone name="Layer 1">
+      <transform x="60" y="60" skX="0" skY="0" scX="1" scY="1"/>
+    </bone>
+    <skin name="">
+      <slot name="Layer 1" parent="Layer 1" z="0">
+        <display name="part/TreasureChests_26_101" type="image">
+          <transform x="-60" y="-60" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+        </display>
+      </slot>
+      <slot name="Layer 2" parent="Layer 2" z="1">
+        <display name="part/TreasureChests_26_102" type="image">
+          <transform x="-60" y="-60" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+        </display>
+      </slot>
+      <slot name="Layer 3" parent="Layer 3" z="2">
+        <display name="part/TreasureChests_26_103" type="image">
+          <transform x="-60" y="-60" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+        </display>
+      </slot>
+    </skin>
+    <animation name="tmp" fadeInTime="0.3" duration="1" scale="1" loop="1" tweenEasing="NaN">
+      <timeline name="Layer 1" scale="1" offset="0">
+        <frame z="0" duration="1">
+          <transform x="60" y="60" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+        </frame>
+      </timeline>
+      <timeline name="Layer 2" scale="1" offset="0">
+        <frame z="1" duration="1">
+          <transform x="60" y="60" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+        </frame>
+      </timeline>
+      <timeline name="Layer 3" scale="1" offset="0">
+        <frame z="2" duration="1">
+          <transform x="60" y="60" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+        </frame>
+      </timeline>
+    </animation>
+  </armature>
+  <armature name="SuitCard">
+    <bone name="Layer 6">
+      <transform x="60" y="75.5" skX="0" skY="0" scX="1" scY="1"/>
+    </bone>
+    <bone name="Layer 5">
+      <transform x="60" y="75.5" skX="0" skY="0" scX="1" scY="1"/>
+    </bone>
+    <bone name="Layer 2">
+      <transform x="60" y="60" skX="0" skY="0" scX="1" scY="1"/>
+    </bone>
+    <bone name="Layer 1">
+      <transform x="60" y="60" skX="0" skY="0" scX="1" scY="1"/>
+    </bone>
+    <bone name="Layer 4">
+      <transform x="60" y="60" skX="0" skY="0" scX="1" scY="1"/>
+    </bone>
+    <skin name="">
+      <slot name="Layer 4" parent="Layer 4" z="0">
+        <display name="part/SuitCard_36_106" type="image">
+          <transform x="-60" y="-60" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+        </display>
+      </slot>
+      <slot name="Layer 1" parent="Layer 1" z="1">
+        <display name="part/SuitCard_36_104" type="image">
+          <transform x="-60" y="-60" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+        </display>
+      </slot>
+      <slot name="Layer 2" parent="Layer 2" z="2">
+        <display name="part/SuitCard_36_105" type="image">
+          <transform x="-60" y="-60" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+        </display>
+      </slot>
+      <slot name="Layer 5" parent="Layer 5" z="3">
+        <display name="part/SuitCard_36_107" type="image">
+          <transform x="-60" y="-75.5" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+        </display>
+      </slot>
+      <slot name="Layer 6" parent="Layer 6" z="4">
+        <display name="part/SuitCard_36_108" type="image">
+          <transform x="-60" y="-75.5" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+        </display>
+      </slot>
+    </skin>
+    <animation name="tmp" fadeInTime="0.3" duration="1" scale="1" loop="1" tweenEasing="NaN">
+      <timeline name="Layer 4" scale="1" offset="0">
+        <frame z="0" duration="1">
+          <transform x="60" y="60" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+        </frame>
+      </timeline>
+      <timeline name="Layer 1" scale="1" offset="0">
+        <frame z="1" duration="1">
+          <transform x="60" y="60" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+        </frame>
+      </timeline>
+      <timeline name="Layer 2" scale="1" offset="0">
+        <frame z="2" duration="1">
+          <transform x="60" y="60" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+        </frame>
+      </timeline>
+      <timeline name="Layer 5" scale="1" offset="0">
+        <frame z="3" duration="1">
+          <transform x="60" y="75.5" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+        </frame>
+      </timeline>
+      <timeline name="Layer 6" scale="1" offset="0">
+        <frame z="4" duration="1">
+          <transform x="60" y="75.5" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+        </frame>
+      </timeline>
+    </animation>
+  </armature>
+  <armature name="Stone">
+    <bone name="Layer 2">
+      <transform x="60" y="60" skX="0" skY="0" scX="1" scY="1"/>
+    </bone>
+    <skin name="">
+      <slot name="Layer 2" parent="Layer 2" z="0">
+        <display name="part/Stone_15_101" type="image">
+          <transform x="-60" y="-60" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+        </display>
+      </slot>
+    </skin>
+    <animation name="tmp" fadeInTime="0.3" duration="1" scale="1" loop="1" tweenEasing="NaN">
+      <timeline name="Layer 2" scale="1" offset="0">
+        <frame z="0" duration="1">
+          <transform x="60" y="60" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+        </frame>
+      </timeline>
+    </animation>
+  </armature>
+  <armature name="MissionGoods">
+    <bone name="Layer 5">
+      <transform x="60" y="60" skX="0" skY="0" scX="1" scY="1"/>
+    </bone>
+    <bone name="Layer 4">
+      <transform x="60" y="60" skX="0" skY="0" scX="1" scY="1"/>
+    </bone>
+    <bone name="Layer 3">
+      <transform x="60" y="60" skX="0" skY="0" scX="1" scY="1"/>
+    </bone>
+    <bone name="Layer 2">
+      <transform x="60" y="60" skX="0" skY="0" scX="1" scY="1"/>
+    </bone>
+    <bone name="Layer 1">
+      <transform x="60" y="60" skX="0" skY="0" scX="1" scY="1"/>
+    </bone>
+    <bone name="Layer 7">
+      <transform x="60" y="60" skX="0" skY="0" scX="1" scY="1"/>
+    </bone>
+    <bone name="图层 2">
+      <transform x="60" y="63" skX="0" skY="0" scX="1" scY="1"/>
+    </bone>
+    <bone name="Layer 9">
+      <transform x="26" y="33" skX="0" skY="0" scX="1" scY="1"/>
+    </bone>
+    <bone name="Layer 8">
+      <transform x="62" y="62" skX="0" skY="0" scX="1" scY="1"/>
+    </bone>
+    <skin name="">
+      <slot name="Layer 8" parent="Layer 8" z="0">
+        <display name="part/MissionGoods_34_107" type="image">
+          <transform x="-60" y="-60" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+        </display>
+      </slot>
+      <slot name="Layer 9" parent="Layer 9" z="1">
+        <display name="part/MissionGoods_34_108" type="image">
+          <transform x="-26" y="-33" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+        </display>
+      </slot>
+      <slot name="图层 2" parent="图层 2" z="2">
+        <display name="part/MissionGoods_34_109" type="image">
+          <transform x="-60" y="-63" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+        </display>
+      </slot>
+      <slot name="Layer 7" parent="Layer 7" z="3">
+        <display name="part/MissionGoods_34_106" type="image">
+          <transform x="-60" y="-60" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+        </display>
+      </slot>
+      <slot name="Layer 1" parent="Layer 1" z="4">
+        <display name="part/MissionGoods_34_101" type="image">
+          <transform x="-60" y="-60" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+        </display>
+      </slot>
+      <slot name="Layer 2" parent="Layer 2" z="5">
+        <display name="part/MissionGoods_34_102" type="image">
+          <transform x="-60" y="-60" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+        </display>
+      </slot>
+      <slot name="Layer 3" parent="Layer 3" z="6">
+        <display name="part/MissionGoods_34_103" type="image">
+          <transform x="-60" y="-60" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+        </display>
+      </slot>
+      <slot name="Layer 4" parent="Layer 4" z="7">
+        <display name="part/MissionGoods_34_104" type="image">
+          <transform x="-60" y="-60" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+        </display>
+      </slot>
+      <slot name="Layer 5" parent="Layer 5" z="8">
+        <display name="part/MissionGoods_34_105" type="image">
+          <transform x="-60" y="-60" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+        </display>
+      </slot>
+    </skin>
+    <animation name="tmp" fadeInTime="0.3" duration="1" scale="1" loop="1" tweenEasing="NaN">
+      <timeline name="Layer 8" scale="1" offset="0">
+        <frame z="0" duration="1">
+          <transform x="62" y="62" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+        </frame>
+      </timeline>
+      <timeline name="Layer 9" scale="1" offset="0">
+        <frame z="1" duration="1">
+          <transform x="26" y="33" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+        </frame>
+      </timeline>
+      <timeline name="图层 2" scale="1" offset="0">
+        <frame z="2" duration="1">
+          <transform x="60" y="63" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+        </frame>
+      </timeline>
+      <timeline name="Layer 7" scale="1" offset="0">
+        <frame z="3" duration="1">
+          <transform x="60" y="60" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+        </frame>
+      </timeline>
+      <timeline name="Layer 1" scale="1" offset="0">
+        <frame z="4" duration="1">
+          <transform x="60" y="60" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+        </frame>
+      </timeline>
+      <timeline name="Layer 2" scale="1" offset="0">
+        <frame z="5" duration="1">
+          <transform x="60" y="60" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+        </frame>
+      </timeline>
+      <timeline name="Layer 3" scale="1" offset="0">
+        <frame z="6" duration="1">
+          <transform x="60" y="60" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+        </frame>
+      </timeline>
+      <timeline name="Layer 4" scale="1" offset="0">
+        <frame z="7" duration="1">
+          <transform x="60" y="60" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+        </frame>
+      </timeline>
+      <timeline name="Layer 5" scale="1" offset="0">
+        <frame z="8" duration="1">
+          <transform x="60" y="60" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+        </frame>
+      </timeline>
+    </animation>
+  </armature>
+  <armature name="GiftBag">
+    <bone name="Layer 2">
+      <transform x="60" y="60" skX="0" skY="0" scX="1" scY="1"/>
+    </bone>
+    <bone name="Layer 1">
+      <transform x="60" y="60" skX="0" skY="0" scX="1" scY="1"/>
+    </bone>
+    <bone name="Layer 9">
+      <transform x="53" y="47.5" skX="0" skY="0" scX="1" scY="1"/>
+    </bone>
+    <bone name="Layer 8">
+      <transform x="57.5" y="53.5" skX="0" skY="0" scX="1" scY="1"/>
+    </bone>
+    <bone name="Layer 7">
+      <transform x="57.5" y="53.5" skX="0" skY="0" scX="1" scY="1"/>
+    </bone>
+    <bone name="Layer 6">
+      <transform x="57.5" y="53.5" skX="0" skY="0" scX="1" scY="1"/>
+    </bone>
+    <bone name="Layer 5">
+      <transform x="57.5" y="53.5" skX="0" skY="0" scX="1" scY="1"/>
+    </bone>
+    <bone name="Layer 12">
+      <transform x="52" y="56" skX="0" skY="0" scX="1" scY="1"/>
+    </bone>
+    <bone name="Layer 11">
+      <transform x="51" y="51" skX="0" skY="0" scX="1" scY="1"/>
+    </bone>
+    <bone name="Layer 10">
+      <transform x="34" y="36.5" skX="0" skY="0" scX="1" scY="1"/>
+    </bone>
+    <bone name="Layer 4">
+      <transform x="60" y="60" skX="0" skY="0" scX="1" scY="1"/>
+    </bone>
+    <bone name="图层 2">
+      <transform x="53.5" y="55" skX="0" skY="0" scX="1" scY="1"/>
+    </bone>
+    <skin name="">
+      <slot name="图层 2" parent="图层 2" z="0">
+        <display name="part/GiftBag_25_112" type="image">
+          <transform x="-53.5" y="-55" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+        </display>
+      </slot>
+      <slot name="Layer 4" parent="Layer 4" z="1">
+        <display name="part/GiftBag_25_103" type="image">
+          <transform x="-60" y="-60" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+        </display>
+      </slot>
+      <slot name="Layer 10" parent="Layer 10" z="2">
+        <display name="part/GiftBag_25_109" type="image">
+          <transform x="-34" y="-36.5" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+        </display>
+      </slot>
+      <slot name="Layer 11" parent="Layer 11" z="3">
+        <display name="part/GiftBag_25_110" type="image">
+          <transform x="-51" y="-51" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+        </display>
+      </slot>
+      <slot name="Layer 12" parent="Layer 12" z="4">
+        <display name="part/GiftBag_25_111" type="image">
+          <transform x="-52" y="-56" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+        </display>
+      </slot>
+      <slot name="Layer 5" parent="Layer 5" z="5">
+        <display name="part/GiftBag_25_104" type="image">
+          <transform x="-57.5" y="-53.5" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+        </display>
+      </slot>
+      <slot name="Layer 6" parent="Layer 6" z="6">
+        <display name="part/GiftBag_25_105" type="image">
+          <transform x="-57.5" y="-53.5" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+        </display>
+      </slot>
+      <slot name="Layer 7" parent="Layer 7" z="7">
+        <display name="part/GiftBag_25_106" type="image">
+          <transform x="-57.5" y="-53.5" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+        </display>
+      </slot>
+      <slot name="Layer 8" parent="Layer 8" z="8">
+        <display name="part/GiftBag_25_107" type="image">
+          <transform x="-57.5" y="-53.5" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+        </display>
+      </slot>
+      <slot name="Layer 9" parent="Layer 9" z="9">
+        <display name="part/GiftBag_25_108" type="image">
+          <transform x="-53" y="-47.5" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+        </display>
+      </slot>
+      <slot name="Layer 1" parent="Layer 1" z="10">
+        <display name="part/GiftBag_25_101" type="image">
+          <transform x="-60" y="-60" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+        </display>
+      </slot>
+      <slot name="Layer 2" parent="Layer 2" z="11">
+        <display name="part/GiftBag_25_102" type="image">
+          <transform x="-60" y="-60" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+        </display>
+      </slot>
+    </skin>
+    <animation name="tmp" fadeInTime="0.3" duration="1" scale="1" loop="1" tweenEasing="NaN">
+      <timeline name="图层 2" scale="1" offset="0">
+        <frame z="0" duration="1">
+          <transform x="53.5" y="55" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+        </frame>
+      </timeline>
+      <timeline name="Layer 4" scale="1" offset="0">
+        <frame z="1" duration="1">
+          <transform x="60" y="60" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+        </frame>
+      </timeline>
+      <timeline name="Layer 10" scale="1" offset="0">
+        <frame z="2" duration="1">
+          <transform x="34" y="36.5" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+        </frame>
+      </timeline>
+      <timeline name="Layer 11" scale="1" offset="0">
+        <frame z="3" duration="1">
+          <transform x="51" y="51" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+        </frame>
+      </timeline>
+      <timeline name="Layer 12" scale="1" offset="0">
+        <frame z="4" duration="1">
+          <transform x="52" y="56" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+        </frame>
+      </timeline>
+      <timeline name="Layer 5" scale="1" offset="0">
+        <frame z="5" duration="1">
+          <transform x="57.5" y="53.5" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+        </frame>
+      </timeline>
+      <timeline name="Layer 6" scale="1" offset="0">
+        <frame z="6" duration="1">
+          <transform x="57.5" y="53.5" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+        </frame>
+      </timeline>
+      <timeline name="Layer 7" scale="1" offset="0">
+        <frame z="7" duration="1">
+          <transform x="57.5" y="53.5" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+        </frame>
+      </timeline>
+      <timeline name="Layer 8" scale="1" offset="0">
+        <frame z="8" duration="1">
+          <transform x="57.5" y="53.5" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+        </frame>
+      </timeline>
+      <timeline name="Layer 9" scale="1" offset="0">
+        <frame z="9" duration="1">
+          <transform x="53" y="47.5" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+        </frame>
+      </timeline>
+      <timeline name="Layer 1" scale="1" offset="0">
+        <frame z="10" duration="1">
+          <transform x="60" y="60" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+        </frame>
+      </timeline>
+      <timeline name="Layer 2" scale="1" offset="0">
+        <frame z="11" duration="1">
+          <transform x="60" y="60" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+        </frame>
+      </timeline>
+    </animation>
+  </armature>
+  <armature name="Energy">
+    <bone name="Layer 3">
+      <transform x="60" y="60" skX="0" skY="0" scX="1" scY="1"/>
+    </bone>
+    <bone name="Layer 2">
+      <transform x="60" y="60" skX="0" skY="0" scX="1" scY="1"/>
+    </bone>
+    <bone name="Layer 1">
+      <transform x="60" y="60" skX="0" skY="0" scX="1" scY="1"/>
+    </bone>
+    <skin name="">
+      <slot name="Layer 1" parent="Layer 1" z="0">
+        <display name="part/Energy_42_101" type="image">
+          <transform x="-60" y="-60" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+        </display>
+      </slot>
+      <slot name="Layer 2" parent="Layer 2" z="1">
+        <display name="part/Energy_42_102" type="image">
+          <transform x="-60" y="-60" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+        </display>
+      </slot>
+      <slot name="Layer 3" parent="Layer 3" z="2">
+        <display name="part/Energy_42_103" type="image">
+          <transform x="-60" y="-60" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+        </display>
+      </slot>
+    </skin>
+    <animation name="tmp" fadeInTime="0.3" duration="1" scale="1" loop="1" tweenEasing="NaN">
+      <timeline name="Layer 1" scale="1" offset="0">
+        <frame z="0" duration="1">
+          <transform x="60" y="60" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+        </frame>
+      </timeline>
+      <timeline name="Layer 2" scale="1" offset="0">
+        <frame z="1" duration="1">
+          <transform x="60" y="60" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+        </frame>
+      </timeline>
+      <timeline name="Layer 3" scale="1" offset="0">
+        <frame z="2" duration="1">
+          <transform x="60" y="60" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+        </frame>
+      </timeline>
+    </animation>
+  </armature>
+  <armature name="Crystal">
+    <bone name="Layer 1">
+      <transform x="61" y="59.95" skX="0" skY="0" scX="1" scY="1"/>
+    </bone>
+    <skin name="">
+      <slot name="Layer 1" parent="Layer 1" z="0">
+        <display name="part/Crystal_40_101" type="image">
+          <transform x="-60" y="-60" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+        </display>
+      </slot>
+    </skin>
+    <animation name="tmp" fadeInTime="0.3" duration="1" scale="1" loop="1" tweenEasing="NaN">
+      <timeline name="Layer 1" scale="1" offset="0">
+        <frame z="0" duration="1">
+          <transform x="61" y="59.95" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+        </frame>
+      </timeline>
+    </animation>
+  </armature>
+</dragonBones>

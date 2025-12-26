@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://texturepacker.com-->
+<!-- $TexturePacker:SmartUpdate:b453ca544f358cecfe722c4e9c6bc5d3$ -->
+<TextureAtlas imagePath="UnionMessage.png">
+    <SubTexture name="btnS_unionMessageBtn1" x="2" y="426" width="102" height="34"/>
+    <SubTexture name="btnS_unionMessageBtn2" x="2" y="388" width="104" height="36"/>
+    <SubTexture name="btnS_unionSendMessageBtn1" x="2" y="426" width="102" height="34"/>
+    <SubTexture name="btnS_unionSendMessageBtn2" x="2" y="388" width="104" height="36"/>
+    <SubTexture name="unionMessageBg" x="2" y="2" width="512" height="384"/>
+    <SubTexture name="unionMessageItemBg" x="106" y="426" width="483" height="32"/>
+    <SubTexture name="unionMessageItemBg2" x="2" y="462" width="483" height="33"/>
+    <SubTexture name="unionSendMessageBg" x="516" y="2" width="498" height="384"/>
+</TextureAtlas>
+

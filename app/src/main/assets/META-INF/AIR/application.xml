@@ -1,0 +1,188 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<application xmlns="http://ns.adobe.com/air/application/16.0">
+  <id>com.boyaa.WARSFACEBOOKID</id>
+  <versionNumber>1.14.85</versionNumber>
+  <supportedProfiles>mobileDevice</supportedProfiles>
+  <filename>antwars</filename>
+  <name>Perjuangan semut</name>
+  <android>
+    <manifestAdditions><![CDATA[
+	<manifest android:installLocation="preferExternal">		
+				<uses-permission android:name="android.permission.INTERNET"/>
+			    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>			   
+			    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>			 
+			    <uses-permission android:name="android.permission.DISABLE_KEYGUARD"/>
+			    <uses-permission android:name="android.permission.WAKE_LOCK"/>			    
+			    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>			  
+			    <uses-permission android:name="android.permission.READ_LOGS"/>
+				<uses-permission android:name="android.permission.GET_TASKS"/>
+				<uses-permission android:name="android.permission.GET_ACCOUNTS" />
+				<uses-permission android:name="android.permission.USE_CREDENTIALS" />
+				<!-- Google和MIMOPAY支付需要用到的权限 -->
+				<uses-permission android:name="android.permission.SEND_SMS"/>
+				<uses-permission android:name="android.permission.READ_SMS" />
+				<uses-permission android:name="android.permission.READ_OWNER_DATA"/>
+				<uses-permission android:name="android.permission.WRITE_OWNER_DATA"/>
+				<uses-permission android:name="com.android.vending.BILLING"/>
+				
+				<!-- codaPayment -->
+				<uses-permission android:name="android.permission.RECEIVE_SMS"/>
+				<uses-permission android:name="android.permission.WRITE_SMS" />
+				
+				<application android:enabled="true">
+				    <meta-data android:value="536c920d56240b0a7906fe5d" android:name="UMENG_APPKEY"></meta-data>
+					<meta-data android:value="slb-cc-Android" android:name="UMENG_CHANNEL"/>
+					<meta-data android:name="sandbox" android:value="false" />
+					<activity android:name="com.facebook.LoginActivity"/>
+					<activity android:name="com.freshplanet.ane.AirFacebook.LoginActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar"></activity>
+					<activity android:name="com.freshplanet.ane.AirFacebook.ShareDialogActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar"></activity>
+					<activity android:name="com.freshplanet.ane.AirFacebook.ShareOGActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar"></activity>
+					<activity android:name="com.freshplanet.ane.AirFacebook.WebDialogActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar"></activity> 	 
+					
+					<!-- Add below to allow Mimopay activity -->
+					<activity
+						android:name="com.mimopay.MimopayActivity"
+						android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen"
+						android:windowSoftInputMode="stateUnspecified|adjustPan"
+						>
+					</activity>
+					<!-- Add below to allow GooglePlay activity -->
+					<activity
+						android:name="com.boyaa.antwarsId.GooglePlayPaymentActivity" 
+						android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen"
+						android:windowSoftInputMode="stateUnspecified|adjustPan"
+						/>
+						
+					<!-- Add below to allow CodaPayment -->
+					<activity 
+						android:name="com.codapayments.sdk.pay.CodaWeb"
+						android:configChanges="orientation|screenSize"
+						android:alwaysRetainTaskState="true"
+						android:screenOrientation="unspecified">
+					</activity>
+					<receiver android:name="com.codapayments.sdk.message.PendingTxnReceiver" android:enabled="true"></receiver>
+				</application>			   
+			    
+				
+				<uses-feature android:required="true" android:name="android.hardware.touchscreen.multitouch" />
+			</manifest>]]></manifestAdditions>
+  </android>
+  <iPhone>
+    <InfoAdditions><![CDATA[
+	<key>UIStatusBarStyle</key>
+	<string>UIStatusBarStyleBlackOpaque</string>	
+	<key>UIRequiresPersistentWiFi</key>
+	<string>NO</string>	
+	<key>UIPrerenderedIcon</key>
+	<true />	
+<!--<key>UIApplicationExitsOnSuspend</key>
+<true />-->
+
+	<key>UIDeviceFamily</key>
+	<array>
+	<!-- iPhone support -->
+		<string>1</string>
+	<!-- iPad support -->
+		<string>2</string>
+	</array>	
+	<key>CFBundleURLTypes</key>        
+	<array>
+		<dict>
+			<key>CFBundleTypeRole</key>
+			<string>Viewer</string>
+			<key>CFBundleURLIconFile</key>
+			<string></string>                     
+			<key>CFBundleURLName</key>
+			<string>appota</string>
+			<key>CFBundleURLSchemes</key>
+			<!-- Bản iOS trên Appota -->
+			<array>
+				<string>appotabe1dbe9e4fff476358239f4e1954751a053a102f1</string>
+				<string>fb562033603912414</string>
+			</array>
+			<!-- Bản iOS trên iTunes
+			<array><string>appota9012be26944f022a13eefca52a91e7fa053a1033f</string></array>
+			-->			
+		</dict>
+	</array>
+
+]]></InfoAdditions>
+    <requestedDisplayResolution>high</requestedDisplayResolution>
+  </iPhone>
+  <initialWindow>
+    <title>Perjuangan semut</title>
+    <content>antwarsmobilestarling.swf</content>
+    <visible>true</visible>
+    <fullScreen>true</fullScreen>
+    <!--<autoOrients>false</autoOrients>-->
+    <!--<aspectRatio>landscape</aspectRatio>-->
+    <renderMode>direct</renderMode>
+    <systemChrome>none</systemChrome>    
+    <transparent>false</transparent>
+    <autoOrients>true</autoOrients>
+    <aspectRatio>landscape</aspectRatio>
+  </initialWindow>
+  
+  <!-- android -->
+<icon>
+	<image36x36>icons/icon_36.png</image36x36>
+    <image48x48>icons/icon_48.png</image48x48>  
+    <image72x72>icons/icon_72.png</image72x72>
+	<!-- <image96x96>icons/icon_96.png</image96x96> -->
+	<image144x144>icons/icon_144.png</image144x144>
+ </icon>
+  
+
+  <!-- 
+	AIR options:
+	http://livedocs.adobe.com/flex/3/html/File_formats_1.html#1043413
+	
+	AIR mobile options:
+	http://help.adobe.com/en_US/air/build/WSfffb011ac560372f-5d0f4f25128cc9cd0cb-7ffe.html
+	
+	Android manifest documentation:
+	http://developer.android.com/guide/topics/manifest/manifest-intro.html
+  	-->
+
+
+<extensions>
+   <extensionID>com.freshplanet.AirAlert</extensionID>
+   <extensionID>com.freshplanet.ane.AirDeviceId</extensionID>
+   <extensionID>com.freshplanet.AirFacebook</extensionID>   
+   <extensionID>com.boyaa.antwars</extensionID>
+</extensions>     
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+  
+
+
+
+ 
+
+
+
+  
+ 
+	 
+
+
+
+	
+
+
+
+</application>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://texturepacker.com-->
+<!-- $TexturePacker:SmartUpdate:06d7c9181e0a9b219c6c95369ccece74$ -->
+<TextureAtlas imagePath="UnionOffice.png">
+    <SubTexture name="btnS_unionManagerAllBtn1" x="954" y="460" width="64" height="31"/>
+    <SubTexture name="btnS_unionManagerAllBtn2" x="900" y="134" width="62" height="29"/>
+    <SubTexture name="btnS_unionManagerApplyBtn1" x="495" y="430" width="62" height="26"/>
+    <SubTexture name="btnS_unionManagerApplyBtn2" x="900" y="213" width="64" height="28"/>
+    <SubTexture name="btnS_unionManagerApplyListDel1" x="900" y="101" width="78" height="31"/>
+    <SubTexture name="btnS_unionManagerApplyListDel2" x="733" y="383" width="80" height="33"/>
+    <SubTexture name="btnS_unionManagerApplyListOk1" x="900" y="68" width="78" height="31"/>
+    <SubTexture name="btnS_unionManagerApplyListOk2" x="733" y="348" width="80" height="33"/>
+    <SubTexture name="btnS_unionManagerAskBtn1" x="980" y="54" width="23" height="23"/>
+    <SubTexture name="btnS_unionManagerAskBtn2" x="980" y="29" width="23" height="23"/>
+    <SubTexture name="btnS_unionManagerDetailBtn1" x="348" y="417" width="62" height="26"/>
+    <SubTexture name="btnS_unionManagerDetailBtn2" x="367" y="388" width="62" height="27"/>
+    <SubTexture name="btnS_unionManagerDisposeBtn1" x="431" y="416" width="62" height="26"/>
+    <SubTexture name="btnS_unionManagerDisposeBtn2" x="302" y="388" width="63" height="26"/>
+    <SubTexture name="btnS_unionManagerDonateBtn1" x="302" y="416" width="44" height="28"/>
+    <SubTexture name="btnS_unionManagerDonateBtn2" x="559" y="430" width="43" height="26"/>
+    <SubTexture name="btnS_unionManagerExitBtn1" x="954" y="426" width="58" height="32"/>
+    <SubTexture name="btnS_unionManagerExitBtn2" x="954" y="426" width="58" height="32"/>
+    <SubTexture name="btnS_unionManagerInviteBtn1" x="966" y="214" width="44" height="28"/>
+    <SubTexture name="btnS_unionManagerInviteBtn2" x="348" y="445" width="43" height="26"/>
+    <SubTexture name="btnS_unionManagerInviteLayoutInviteBtn1" x="900" y="35" width="78" height="31"/>
+    <SubTexture name="btnS_unionManagerInviteLayoutInviteBtn2" x="733" y="313" width="80" height="33"/>
+    <SubTexture name="btnS_unionManagerManageBtn1" x="966" y="152" width="44" height="28"/>
+    <SubTexture name="btnS_unionManagerManageBtn2" x="412" y="444" width="43" height="26"/>
+    <SubTexture name="btnS_unionManagerStepDownBtn1" x="431" y="388" width="62" height="26"/>
+    <SubTexture name="btnS_unionManagerStepDownBtn2" x="900" y="165" width="64" height="28"/>
+    <SubTexture name="btnS_unionManagerSubmitBtn1" x="900" y="2" width="78" height="31"/>
+    <SubTexture name="btnS_unionManagerSubmitBtn2" x="872" y="426" width="80" height="33"/>
+    <SubTexture name="unionManagerApplyInfoBg" x="816" y="279" width="201" height="145"/>
+    <SubTexture name="unionManagerApplyListBg" x="866" y="245" width="152" height="17"/>
+    <SubTexture name="unionManagerApplyListItemBg" x="516" y="245" width="348" height="32"/>
+    <SubTexture name="unionManagerBg" x="2" y="2" width="512" height="384"/>
+    <SubTexture name="unionManagerCheckBoxSelectAllBg" x="980" y="2" width="25" height="25"/>
+    <SubTexture name="unionManagerCheckBoxSelectAllselectIcon" x="982" y="182" width="30" height="30"/>
+    <SubTexture name="unionManagerDetailBg" x="964" y="134" width="50" height="16"/>
+    <SubTexture name="unionManagerDetailItemBgNulll" x="1014" y="426" width="0" height="0" frameX="0" frameY="0" frameWidth="348" frameHeight="32"/>
+    <SubTexture name="unionManagerDonateBg" x="516" y="313" width="215" height="115"/>
+    <SubTexture name="unionManagerFireBg" x="900" y="195" width="80" height="16"/>
+    <SubTexture name="unionManagerInviteBg" x="733" y="426" width="137" height="19"/>
+    <SubTexture name="unionManagerLittlePanelBg" x="516" y="2" width="382" height="241"/>
+    <SubTexture name="unionManagerPlayerListItemBg" x="2" y="388" width="298" height="32"/>
+    <SubTexture name="unionManagerPlayerListItemNullBg" x="516" y="279" width="298" height="32"/>
+</TextureAtlas>
+

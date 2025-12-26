@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://texturepacker.com-->
+<!-- $TexturePacker:SmartUpdate:4c60a5f8f1630ccc037682cadcfcc45f$ -->
+<TextureAtlas imagePath="unionBg.png">
+    <SubTexture name="unionBg" x="2" y="2" width="683" height="384"/>
+</TextureAtlas>
+

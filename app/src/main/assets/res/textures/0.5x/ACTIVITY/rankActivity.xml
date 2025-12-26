@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://texturepacker.com-->
+<!-- $TexturePacker:SmartUpdate:f61c190211cc5849c6d0fc14f8706842$ -->
+<TextureAtlas imagePath="rankActivity.png">
+    <SubTexture name="btnS_fightNum1" x="372" y="376" width="107" height="29"/>
+    <SubTexture name="btnS_fightNum2" x="110" y="482" width="106" height="28"/>
+    <SubTexture name="btnS_level1" x="372" y="345" width="107" height="29"/>
+    <SubTexture name="btnS_level2" x="2" y="482" width="106" height="28"/>
+    <SubTexture name="img_bg_1000" x="2" y="2" width="418" height="341"/>
+    <SubTexture name="img_smallbg_1000" x="2" y="345" width="363" height="135"/>
+    <SubTexture name="img_title" x="218" y="482" width="152" height="19"/>
+</TextureAtlas>
+

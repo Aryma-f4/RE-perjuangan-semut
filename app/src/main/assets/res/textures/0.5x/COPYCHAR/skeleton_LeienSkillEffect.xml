@@ -1,0 +1,471 @@
+<dragonBones name="LeienSkillEffect" frameRate="24" version="2.3">
+  <armature name="tornado">
+    <bone name="图层 1">
+      <transform x="-13.32" y="-38.3" skX="0" skY="0" scX="1" scY="1"/>
+    </bone>
+    <skin name="">
+      <slot name="图层 1" parent="图层 1" z="0">
+        <display name="龙卷风资源/ljf" type="image">
+          <transform x="-26" y="-40" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+        </display>
+        <display name="龙卷风资源/ljf1" type="image">
+          <transform x="-22.5" y="-44.25" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+        </display>
+        <display name="龙卷风资源/ljf2" type="image">
+          <transform x="-25.5" y="-49.75" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+        </display>
+        <display name="龙卷风资源/ljf3" type="image">
+          <transform x="-26.75" y="-47" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+        </display>
+        <display name="龙卷风资源/ljf4" type="image">
+          <transform x="-31.5" y="-47.75" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+        </display>
+        <display name="龙卷风资源/ljf5" type="image">
+          <transform x="-28.5" y="-45.5" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+        </display>
+        <display name="龙卷风资源/ljf6" type="image">
+          <transform x="-27.5" y="-45.5" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+        </display>
+        <display name="龙卷风资源/ljf7" type="image">
+          <transform x="-28.25" y="-45.5" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+        </display>
+        <display name="龙卷风资源/ljf8" type="image">
+          <transform x="-24.75" y="-46" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+        </display>
+        <display name="龙卷风资源/ljf9" type="image">
+          <transform x="-24.75" y="-46.25" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+        </display>
+        <display name="龙卷风资源/ljf10" type="image">
+          <transform x="-24.75" y="-45.25" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+        </display>
+        <display name="龙卷风资源/ljf11" type="image">
+          <transform x="-28.75" y="-45" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+        </display>
+        <display name="龙卷风资源/ljf12" type="image">
+          <transform x="-26.5" y="-44" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+        </display>
+        <display name="龙卷风资源/ljf13" type="image">
+          <transform x="-19.25" y="-41.5" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+        </display>
+      </slot>
+    </skin>
+    <animation name="attack" fadeInTime="0" duration="28" scale="1" loop="1" tweenEasing="NaN">
+      <timeline name="图层 1" scale="1" offset="0">
+        <frame z="0" duration="2">
+          <transform x="-13.32" y="-38.3" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+        </frame>
+        <frame z="0" displayIndex="1" duration="2">
+          <transform x="-25.7" y="-42.9" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+        </frame>
+        <frame z="0" displayIndex="2" duration="2">
+          <transform x="-30.45" y="-44.9" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+        </frame>
+        <frame z="0" displayIndex="3" duration="2">
+          <transform x="-31.95" y="-44.77" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+        </frame>
+        <frame z="0" displayIndex="4" duration="2">
+          <transform x="-40.2" y="-45.52" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+        </frame>
+        <frame z="0" displayIndex="5" duration="2">
+          <transform x="-44.95" y="-44.27" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+        </frame>
+        <frame z="0" displayIndex="6" duration="2">
+          <transform x="-47.95" y="-44.77" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+        </frame>
+        <frame z="0" displayIndex="7" duration="2">
+          <transform x="-51.95" y="-43.52" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+        </frame>
+        <frame z="0" displayIndex="8" duration="2">
+          <transform x="-55.2" y="-46.27" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+        </frame>
+        <frame z="0" displayIndex="9" duration="2">
+          <transform x="-55.95" y="-46.02" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+        </frame>
+        <frame z="0" displayIndex="10" duration="2">
+          <transform x="-55.45" y="-46.52" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+        </frame>
+        <frame z="0" displayIndex="11" duration="2">
+          <transform x="-55.45" y="-45.52" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+        </frame>
+        <frame z="0" displayIndex="12" duration="2">
+          <transform x="-56.95" y="-45.52" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+        </frame>
+        <frame z="0" displayIndex="13" duration="2">
+          <transform x="-60.95" y="-49.27" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+        </frame>
+      </timeline>
+    </animation>
+  </armature>
+  <armature name="starRain">
+    <bone name="图层 13">
+      <transform x="8.55" y="-195.57" skX="0" skY="0" scX="1" scY="1"/>
+    </bone>
+    <bone name="图层 1">
+      <transform x="-1.23" y="-201.57" skX="0" skY="0" scX="1" scY="1"/>
+    </bone>
+    <bone name="图层 9">
+      <transform x="-43.97" y="0.2" skX="0" skY="0" scX="1" scY="0.54"/>
+    </bone>
+    <bone name="图层 5">
+      <transform x="10.03" y="0.2" skX="0" skY="180" scX="1" scY="0.54"/>
+    </bone>
+    <bone name="图层 6">
+      <transform x="-45.8" y="0.2" skX="0" skY="180" scX="1" scY="0.54"/>
+    </bone>
+    <bone name="图层 7">
+      <transform x="1.53" y="0.2" skX="0" skY="0" scX="1" scY="0.54"/>
+    </bone>
+    <bone name="图层 8">
+      <transform x="52.53" y="0.2" skX="0" skY="180" scX="1" scY="0.54"/>
+    </bone>
+    <skin name="">
+      <slot name="图层 8" parent="图层 8" z="0">
+        <display name="流星雨资源/SD 487" type="armature">
+          <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1"/>
+        </display>
+      </slot>
+      <slot name="图层 7" parent="图层 7" z="1">
+        <display name="流星雨资源/SD 487" type="armature">
+          <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1"/>
+        </display>
+      </slot>
+      <slot name="图层 6" parent="图层 6" z="2">
+        <display name="流星雨资源/SD 487" type="armature">
+          <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1"/>
+        </display>
+      </slot>
+      <slot name="图层 5" parent="图层 5" z="3">
+        <display name="流星雨资源/SD 487" type="armature">
+          <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1"/>
+        </display>
+      </slot>
+      <slot name="图层 9" parent="图层 9" z="4">
+        <display name="流星雨资源/SD 487" type="armature">
+          <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1"/>
+        </display>
+      </slot>
+      <slot name="图层 1" parent="图层 1" z="5">
+        <display name="流星雨资源/wy1" type="image">
+          <transform x="-83.75" y="-18.5" skX="0" skY="0" scX="1" scY="1" pX="4.22" pY="4.25"/>
+        </display>
+        <display name="流星雨资源/wy2" type="image">
+          <transform x="-88.87" y="-21.15" skX="0" skY="0" scX="1" scY="1" pX="6.18" pY="3.75"/>
+        </display>
+        <display name="流星雨资源/wy3" type="image">
+          <transform x="-88.77" y="-23.77" skX="0" skY="0" scX="1" scY="1" pX="4.63" pY="3.93"/>
+        </display>
+        <display name="流星雨资源/wy4" type="image">
+          <transform x="-90.9" y="-25.6" skX="0" skY="0" scX="1" scY="1" pX="7.48" pY="3.75"/>
+        </display>
+        <display name="流星雨资源/wy5" type="image">
+          <transform x="-93.02" y="-24.45" skX="0" skY="0" scX="1" scY="1" pX="3.4" pY="2.95"/>
+        </display>
+        <display name="流星雨资源/wy6" type="image">
+          <transform x="-86.1" y="-20.35" skX="0" skY="0" scX="1" scY="1" pX="5.23" pY="6.8"/>
+        </display>
+        <display name="流星雨资源/wy7" type="image">
+          <transform x="-86.55" y="-20.25" skX="0" skY="0" scX="1" scY="1" pX="7.13" pY="6.53"/>
+        </display>
+      </slot>
+      <slot name="图层 13" parent="图层 13" z="6">
+        <display name="流星雨资源/wy5" type="image">
+          <transform x="-93.02" y="-24.45" skX="0" skY="0" scX="1" scY="1" pX="3.4" pY="2.95"/>
+        </display>
+        <display name="流星雨资源/wy4" type="image">
+          <transform x="-90.9" y="-25.6" skX="0" skY="0" scX="1" scY="1" pX="7.48" pY="3.75"/>
+        </display>
+        <display name="流星雨资源/wy3" type="image">
+          <transform x="-88.77" y="-23.77" skX="0" skY="0" scX="1" scY="1" pX="4.63" pY="3.93"/>
+        </display>
+        <display name="流星雨资源/wy2" type="image">
+          <transform x="-88.87" y="-21.15" skX="0" skY="0" scX="1" scY="1" pX="6.18" pY="3.75"/>
+        </display>
+        <display name="流星雨资源/wy1" type="image">
+          <transform x="-83.75" y="-18.5" skX="0" skY="0" scX="1" scY="1" pX="4.22" pY="4.25"/>
+        </display>
+      </slot>
+    </skin>
+    <animation name="attack" fadeInTime="0" duration="99" scale="1" loop="1" tweenEasing="NaN">
+      <timeline name="图层 8" scale="1" offset="0">
+        <frame duration="32" displayIndex="-1"/>
+        <frame z="0" duration="10">
+          <transform x="52.53" y="0.2" skX="0" skY="180" scX="1" scY="0.54" pX="0" pY="0"/>
+        </frame>
+        <frame duration="9" displayIndex="-1"/>
+        <frame z="0" duration="10">
+          <transform x="52.53" y="0.2" skX="0" skY="180" scX="1" scY="0.54" pX="0" pY="0"/>
+        </frame>
+        <frame duration="38" displayIndex="-1"/>
+      </timeline>
+      <timeline name="图层 7" scale="1" offset="0">
+        <frame duration="32" displayIndex="-1"/>
+        <frame z="1" duration="10">
+          <transform x="1.53" y="0.2" skX="0" skY="0" scX="1" scY="0.54" pX="0" pY="0"/>
+        </frame>
+        <frame duration="9" displayIndex="-1"/>
+        <frame z="1" duration="10">
+          <transform x="-45.8" y="0.2" skX="0" skY="180" scX="1" scY="0.54" pX="0" pY="0"/>
+        </frame>
+        <frame duration="38" displayIndex="-1"/>
+      </timeline>
+      <timeline name="图层 6" scale="1" offset="0">
+        <frame duration="35" displayIndex="-1"/>
+        <frame z="2" duration="10">
+          <transform x="-45.8" y="0.2" skX="0" skY="180" scX="1" scY="0.54" pX="0" pY="0"/>
+        </frame>
+        <frame duration="13" displayIndex="-1"/>
+        <frame z="2" duration="10">
+          <transform x="1.7" y="0.2" skX="0" skY="180" scX="1" scY="0.54" pX="0" pY="0"/>
+        </frame>
+        <frame duration="10" displayIndex="-1"/>
+        <frame z="2" duration="10">
+          <transform x="1.53" y="0.2" skX="0" skY="0" scX="1" scY="0.54" pX="0" pY="0"/>
+        </frame>
+        <frame duration="11" displayIndex="-1"/>
+      </timeline>
+      <timeline name="图层 5" scale="1" offset="0">
+        <frame duration="43" displayIndex="-1"/>
+        <frame z="3" duration="10">
+          <transform x="10.03" y="0.2" skX="0" skY="180" scX="1" scY="0.54" pX="0" pY="0"/>
+        </frame>
+        <frame duration="7" displayIndex="-1"/>
+        <frame z="3" duration="10">
+          <transform x="52.2" y="0.2" skX="0" skY="180" scX="1" scY="0.54" pX="0" pY="0"/>
+        </frame>
+        <frame duration="3" displayIndex="-1"/>
+        <frame z="3" duration="10">
+          <transform x="56.03" y="0.2" skX="0" skY="180" scX="1" scY="0.54" pX="0" pY="0"/>
+        </frame>
+        <frame duration="16" displayIndex="-1"/>
+      </timeline>
+      <timeline name="图层 9" scale="1" offset="0">
+        <frame duration="68" displayIndex="-1"/>
+        <frame z="4" duration="10">
+          <transform x="-43.97" y="0.2" skX="0" skY="0" scX="1" scY="0.54" pX="0" pY="0"/>
+        </frame>
+        <frame duration="21" displayIndex="-1"/>
+      </timeline>
+      <timeline name="图层 1" scale="1" offset="0">
+        <frame z="5" duration="3">
+          <transform x="-1.23" y="-201.57" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+        </frame>
+        <frame z="5" displayIndex="1" duration="3">
+          <transform x="4" y="-199.1" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+        </frame>
+        <frame z="5" displayIndex="2" duration="3">
+          <transform x="4.1" y="-196.1" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+        </frame>
+        <frame z="5" displayIndex="3" duration="3">
+          <transform x="6.23" y="-194.92" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+        </frame>
+        <frame z="5" displayIndex="4" duration="3">
+          <transform x="8.55" y="-195.57" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+        </frame>
+        <frame z="5" displayIndex="5" duration="4">
+          <transform x="0.28" y="-200.77" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+        </frame>
+        <frame z="5" displayIndex="5" tweenEasing="0" duration="2">
+          <transform x="0.28" y="-200.77" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+        </frame>
+        <frame z="5" displayIndex="6" tweenEasing="0" duration="2">
+          <transform x="0.3" y="-200.62" skX="0" skY="0" scX="1.19" scY="1.19" pX="0" pY="0"/>
+          <colorTransform aO="0" rO="200" gO="200" bO="200" aM="100" rM="100" gM="100" bM="100"/>
+        </frame>
+        <frame z="5" displayIndex="5" tweenEasing="0" duration="2">
+          <transform x="0.28" y="-200.77" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+        </frame>
+        <frame z="5" displayIndex="6" tweenEasing="0" duration="2">
+          <transform x="0.3" y="-200.62" skX="0" skY="0" scX="1.19" scY="1.19" pX="0" pY="0"/>
+          <colorTransform aO="0" rO="200" gO="200" bO="200" aM="100" rM="100" gM="100" bM="100"/>
+        </frame>
+        <frame z="5" displayIndex="5" tweenEasing="0" duration="2">
+          <transform x="0.28" y="-200.77" skX="0" skY="0" scX="0.83" scY="0.83" pX="0" pY="0.03"/>
+        </frame>
+        <frame z="5" displayIndex="5" duration="1">
+          <transform x="0.28" y="-200.77" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+        </frame>
+        <frame z="5" displayIndex="5" duration="59">
+          <transform x="0.28" y="-200.77" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+        </frame>
+        <frame duration="10" displayIndex="-1"/>
+      </timeline>
+      <timeline name="图层 13" scale="1" offset="0">
+        <frame duration="89" displayIndex="-1"/>
+        <frame z="6" duration="2">
+          <transform x="8.55" y="-195.57" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+        </frame>
+        <frame z="6" displayIndex="1" duration="2">
+          <transform x="6.23" y="-194.92" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+        </frame>
+        <frame z="6" displayIndex="2" duration="2">
+          <transform x="4.1" y="-196.1" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+        </frame>
+        <frame z="6" displayIndex="3" duration="2">
+          <transform x="4" y="-199.1" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+        </frame>
+        <frame z="6" displayIndex="4" duration="2">
+          <transform x="-1.23" y="-201.57" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+        </frame>
+      </timeline>
+    </animation>
+  </armature>
+  <armature name="流星雨资源/SD 487">
+    <bone name="图层 6">
+      <transform x="69.5" y="0" skX="0" skY="0" scX="1" scY="1"/>
+    </bone>
+    <bone name="图层 5">
+      <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1"/>
+    </bone>
+    <bone name="图层 4">
+      <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1"/>
+    </bone>
+    <bone name="图层 3">
+      <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1"/>
+    </bone>
+    <bone name="Layer 1">
+      <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1"/>
+    </bone>
+    <skin name="">
+      <slot name="Layer 1" parent="Layer 1" z="0">
+        <display name="流星雨资源/SD 96" type="image">
+          <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="28.98" pY="390.95"/>
+        </display>
+      </slot>
+      <slot name="图层 3" parent="图层 3" z="1">
+        <display name="流星雨资源/SD 484" type="image">
+          <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="44.1" pY="391.5"/>
+        </display>
+      </slot>
+      <slot name="图层 4" parent="图层 4" z="2">
+        <display name="流星雨资源/SD 485" type="image">
+          <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="45.03" pY="389.35"/>
+        </display>
+      </slot>
+      <slot name="图层 5" parent="图层 5" z="3">
+        <display name="流星雨资源/SD 486" type="image">
+          <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="44.88" pY="388.85"/>
+        </display>
+      </slot>
+      <slot name="图层 6" parent="图层 6" z="4">
+        <display name="流星雨资源/SD 105" type="image">
+          <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="100" pY="385.53"/>
+        </display>
+      </slot>
+    </skin>
+    <animation name="unnamed" fadeInTime="0" duration="10" scale="1" loop="0" tweenEasing="NaN">
+      <timeline name="Layer 1" scale="1" offset="0">
+        <frame z="0" duration="2">
+          <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+        </frame>
+        <frame duration="8" displayIndex="-1"/>
+      </timeline>
+      <timeline name="图层 3" scale="1" offset="0">
+        <frame duration="2" displayIndex="-1"/>
+        <frame z="1" duration="2">
+          <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+        </frame>
+        <frame duration="6" displayIndex="-1"/>
+      </timeline>
+      <timeline name="图层 4" scale="1" offset="0">
+        <frame duration="4" displayIndex="-1"/>
+        <frame z="2" duration="2">
+          <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+        </frame>
+        <frame duration="4" displayIndex="-1"/>
+      </timeline>
+      <timeline name="图层 5" scale="1" offset="0">
+        <frame duration="6" displayIndex="-1"/>
+        <frame z="3" duration="2">
+          <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+        </frame>
+        <frame duration="2" displayIndex="-1"/>
+      </timeline>
+      <timeline name="图层 6" scale="1" offset="0">
+        <frame duration="8" displayIndex="-1"/>
+        <frame z="4" duration="2">
+          <transform x="69.5" y="0" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+        </frame>
+      </timeline>
+    </animation>
+  </armature>
+  <armature name="LeienBullet">
+    <bone name="图层 3">
+      <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1"/>
+    </bone>
+    <bone name="图层 4">
+      <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1"/>
+    </bone>
+    <bone name="Layer 1">
+      <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1"/>
+    </bone>
+    <skin name="">
+      <slot name="Layer 1" parent="Layer 1" z="0">
+        <display name="莱恩普通攻击资源/baozha 470" type="image">
+          <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="8.13" pY="12.8"/>
+        </display>
+        <display name="莱恩普通攻击资源/baozha 472" type="image">
+          <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="8.13" pY="19.33"/>
+        </display>
+        <display name="莱恩普通攻击资源/baozha 480" type="image">
+          <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="80.38" pY="100.38"/>
+        </display>
+        <display name="莱恩普通攻击资源/baozha 482" type="image">
+          <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="9.35" pY="114.28"/>
+        </display>
+        <display name="莱恩普通攻击资源/baozha 484" type="image">
+          <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="7.7" pY="84.23"/>
+        </display>
+      </slot>
+      <slot name="图层 4" parent="图层 4" z="1">
+        <display name="莱恩普通攻击资源/baozha 474" type="image">
+          <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="63.05" pY="116.05"/>
+        </display>
+      </slot>
+      <slot name="图层 3" parent="图层 3" z="2">
+        <display name="莱恩普通攻击资源/baozha 476" type="image">
+          <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="82.73" pY="67.53"/>
+        </display>
+        <display name="莱恩普通攻击资源/baozha 478" type="image">
+          <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="83.2" pY="85"/>
+        </display>
+      </slot>
+    </skin>
+    <animation name="attack" fadeInTime="0" duration="36" scale="1" loop="1" tweenEasing="NaN">
+      <timeline name="Layer 1" scale="1" offset="0">
+        <frame z="0" duration="3">
+          <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+        </frame>
+        <frame z="0" displayIndex="1" duration="15">
+          <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+        </frame>
+        <frame duration="9" displayIndex="-1"/>
+        <frame z="0" displayIndex="2" duration="3">
+          <transform x="1" y="0.5" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+        </frame>
+        <frame z="0" displayIndex="3" duration="3">
+          <transform x="0" y="1" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+        </frame>
+        <frame z="0" displayIndex="4" duration="3">
+          <transform x="0.5" y="-5.5" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+        </frame>
+      </timeline>
+      <timeline name="图层 4" scale="1" offset="0">
+        <frame duration="18" displayIndex="-1"/>
+        <frame z="1" duration="3">
+          <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+        </frame>
+        <frame duration="15" displayIndex="-1"/>
+      </timeline>
+      <timeline name="图层 3" scale="1" offset="0">
+        <frame duration="21" displayIndex="-1"/>
+        <frame z="2" duration="3">
+          <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+        </frame>
+        <frame z="2" displayIndex="1" duration="3">
+          <transform x="0.5" y="0.5" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+        </frame>
+        <frame duration="9" displayIndex="-1"/>
+      </timeline>
+    </animation>
+  </armature>
+</dragonBones>

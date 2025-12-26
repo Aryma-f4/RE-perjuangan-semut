@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="show_pictures" format="boolean">
+    </attr>
+    <attr name="extra_fields" format="string">
+    </attr>
+    <attr name="show_title_bar" format="boolean">
+    </attr>
+    <attr name="title_text" format="string">
+    </attr>
+    <attr name="done_button_text" format="string">
+    </attr>
+    <attr name="title_bar_background" format="reference">
+    </attr>
+    <attr name="done_button_background" format="reference">
+    </attr>
+    <attr name="multi_select" format="boolean">
+    </attr>
+    <attr name="radius_in_meters" format="integer">
+    </attr>
+    <attr name="results_limit" format="integer">
+    </attr>
+    <attr name="search_text" format="string">
+    </attr>
+    <attr name="show_search_box" format="boolean">
+    </attr>
+    <attr name="confirm_logout" format="boolean">
+    </attr>
+    <attr name="fetch_user_info" format="boolean">
+    </attr>
+    <attr name="login_text" format="string">
+    </attr>
+    <attr name="logout_text" format="string">
+    </attr>
+    <attr name="preset_size">
+        <enum name="small" value="-2" />
+        <enum name="normal" value="-3" />
+        <enum name="large" value="-4" />
+    </attr>
+    <attr name="is_cropped" format="boolean">
+    </attr>
+</resources>

@@ -1,0 +1,24 @@
+<TextureAtlas name="weddingOpen">
+  <SubTexture name="越语文字" x="0" y="1117" width="380" height="44"/>
+  <SubTexture name="kc 206" x="0" y="0" width="580" height="32"/>
+  <SubTexture name="元件 2" x="845" y="219" width="175" height="143"/>
+  <SubTexture name="hnkc18" x="0" y="876" width="300" height="240"/>
+  <SubTexture name="hnkc17" x="301" y="756" width="300" height="264"/>
+  <SubTexture name="hnkc16" x="0" y="605" width="300" height="270"/>
+  <SubTexture name="hnkc15" x="0" y="33" width="300" height="288"/>
+  <SubTexture name="hnkc14" x="433" y="479" width="300" height="276"/>
+  <SubTexture name="hnkc13" x="0" y="322" width="300" height="282"/>
+  <SubTexture name="hnkc12" x="517" y="219" width="327" height="259"/>
+  <SubTexture name="hnkc11" x="581" y="0" width="383" height="218"/>
+  <SubTexture name="hnkc10" x="602" y="761" width="362" height="184"/>
+  <SubTexture name="hnkc9" x="734" y="584" width="285" height="176"/>
+  <SubTexture name="hnkc8" x="301" y="33" width="252" height="124"/>
+  <SubTexture name="hnkc7" x="301" y="158" width="215" height="105"/>
+  <SubTexture name="hnkc6" x="301" y="1021" width="143" height="77"/>
+  <SubTexture name="hnkc5" x="301" y="264" width="164" height="75"/>
+  <SubTexture name="hnkc4" x="301" y="453" width="131" height="93"/>
+  <SubTexture name="hnkc3" x="845" y="473" width="114" height="110"/>
+  <SubTexture name="hnkc2" x="845" y="363" width="116" height="109"/>
+  <SubTexture name="hnkc1" x="301" y="340" width="124" height="112"/>
+  <SubTexture name="元件 1" x="602" y="946" width="300" height="240"/>
+</TextureAtlas>

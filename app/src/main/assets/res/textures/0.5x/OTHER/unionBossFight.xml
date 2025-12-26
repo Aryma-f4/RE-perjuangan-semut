@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://texturepacker.com-->
+<!-- $TexturePacker:SmartUpdate:6b263552c62a411f2e6215a6cc5a671d$ -->
+<TextureAtlas imagePath="unionBossFight.png">
+    <SubTexture name="btnS_enterUnionBossFight1" x="2" y="931" width="92" height="36"/>
+    <SubTexture name="btnS_enterUnionBossFight2" x="2" y="969" width="91" height="35"/>
+    <SubTexture name="btnS_normalRank1" x="163" y="963" width="122" height="29"/>
+    <SubTexture name="btnS_normalRank2" x="232" y="994" width="121" height="28"/>
+    <SubTexture name="btnS_rankHelp1" x="472" y="411" width="23" height="23"/>
+    <SubTexture name="btnS_rankHelp2" x="472" y="386" width="23" height="23"/>
+    <SubTexture name="btnS_unionBossRankBtn1" x="96" y="931" width="66" height="30"/>
+    <SubTexture name="btnS_unionBossRankBtn2" x="95" y="969" width="66" height="30"/>
+    <SubTexture name="image_bossBg0" x="172" y="733" width="168" height="196"/>
+    <SubTexture name="img_bg0" x="2" y="2" width="498" height="382"/>
+    <SubTexture name="img_bossBg1" x="2" y="733" width="168" height="196"/>
+    <SubTexture name="img_bossLock" x="355" y="733" width="148" height="118"/>
+    <SubTexture name="img_combindbg0" x="2" y="489" width="464" height="242"/>
+    <SubTexture name="img_combindbg1" x="2" y="452" width="467" height="35"/>
+    <SubTexture name="img_combindbg2" x="2" y="386" width="468" height="64"/>
+    <SubTexture name="img_unionBosstitle" x="95" y="1001" width="135" height="19"/>
+    <SubTexture name="img_unionrankTitle" x="164" y="931" width="197" height="17"/>
+</TextureAtlas>
+

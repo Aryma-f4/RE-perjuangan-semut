@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://texturepacker.com-->
+<!-- $TexturePacker:SmartUpdate:31bcc85cab66b23a6d13a39e84b0b849$ -->
+<TextureAtlas imagePath="copygameui.png">
+    <SubTexture name="btnS_creatTeam1" x="636" y="546" width="94" height="38"/>
+    <SubTexture name="btnS_creatTeam2" x="750" y="437" width="95" height="40"/>
+    <SubTexture name="btnS_fight1" x="748" y="479" width="96" height="46"/>
+    <SubTexture name="btnS_fight2" x="476" y="501" width="106" height="44"/>
+    <SubTexture name="btnS_findRoom1" x="918" y="569" width="94" height="38"/>
+    <SubTexture name="btnS_findRoom2" x="750" y="395" width="95" height="40"/>
+    <SubTexture name="btnS_invite1" x="926" y="441" width="96" height="46"/>
+    <SubTexture name="btnS_invite2" x="742" y="527" width="96" height="44"/>
+    <SubTexture name="btnS_outRoom1" x="847" y="304" width="79" height="31"/>
+    <SubTexture name="btnS_outRoom2" x="847" y="419" width="77" height="29"/>
+    <SubTexture name="btnS_quickPlay1" x="928" y="311" width="94" height="38"/>
+    <SubTexture name="btnS_quickPlay2" x="927" y="351" width="95" height="40"/>
+    <SubTexture name="btnS_stopFight1" x="926" y="393" width="96" height="46"/>
+    <SubTexture name="btnS_stopFight2" x="644" y="500" width="96" height="44"/>
+    <SubTexture name="btn_close" x="847" y="450" width="76" height="82"/>
+    <SubTexture name="btn_open" x="750" y="254" width="95" height="139"/>
+    <SubTexture name="fb10" x="375" y="122" width="43" height="12"/>
+    <SubTexture name="fb101" x="2" y="105" width="371" height="347"/>
+    <SubTexture name="fb102" x="375" y="174" width="118" height="19"/>
+    <SubTexture name="fb103" x="503" y="148" width="361" height="35"/>
+    <SubTexture name="fb104" x="584" y="501" width="51" height="30"/>
+    <SubTexture name="fb105" x="495" y="220" width="350" height="32"/>
+    <SubTexture name="fb106" x="495" y="185" width="350" height="33"/>
+    <SubTexture name="fb108" x="958" y="45" width="64" height="31"/>
+    <SubTexture name="fb109" x="377" y="91" width="62" height="29"/>
+    <SubTexture name="fb11" x="937" y="70" width="18" height="17"/>
+    <SubTexture name="fb110" x="280" y="527" width="76" height="63" frameX="-5" frameY="-5" frameWidth="86" frameHeight="71"/>
+    <SubTexture name="fb111" x="368" y="519" width="86" height="71"/>
+    <SubTexture name="fb21" x="486" y="254" width="262" height="208"/>
+    <SubTexture name="fb22" x="847" y="337" width="78" height="31"/>
+    <SubTexture name="fb23" x="847" y="388" width="77" height="29"/>
+    <SubTexture name="fb24" x="926" y="441" width="96" height="46"/>
+    <SubTexture name="fb25" x="742" y="527" width="96" height="44"/>
+    <SubTexture name="fb26" x="142" y="454" width="136" height="46"/>
+    <SubTexture name="fb27" x="142" y="502" width="136" height="44"/>
+    <SubTexture name="fb31" x="375" y="257" width="109" height="41"/>
+    <SubTexture name="fb32" x="375" y="382" width="107" height="39"/>
+    <SubTexture name="fb33" x="375" y="214" width="109" height="41"/>
+    <SubTexture name="fb34" x="375" y="341" width="107" height="39"/>
+    <SubTexture name="fb35" x="375" y="300" width="107" height="39"/>
+    <SubTexture name="fb36" x="644" y="464" width="102" height="34"/>
+    <SubTexture name="fb37" x="509" y="109" width="424" height="37"/>
+    <SubTexture name="fb38" x="510" y="70" width="425" height="37"/>
+    <SubTexture name="fb39" x="444" y="56" width="69" height="11"/>
+    <SubTexture name="fb40" x="866" y="165" width="60" height="17"/>
+    <SubTexture name="fb41" x="2" y="91" width="373" height="12"/>
+    <SubTexture name="fb47" x="840" y="534" width="76" height="63" frameX="-5" frameY="-5" frameWidth="86" frameHeight="71"/>
+    <SubTexture name="fb48" x="280" y="454" width="86" height="71"/>
+    <SubTexture name="fb49" x="937" y="89" width="83" height="66" frameX="-7" frameY="-8" frameWidth="97" frameHeight="78"/>
+    <SubTexture name="fb50" x="925" y="489" width="97" height="78"/>
+    <SubTexture name="fb61" x="483" y="464" width="159" height="35"/>
+    <SubTexture name="fb62" x="375" y="195" width="117" height="17"/>
+    <SubTexture name="fb65" x="866" y="184" width="52" height="53"/>
+    <SubTexture name="fb66" x="584" y="533" width="50" height="51" frameX="-1" frameY="0" frameWidth="52" frameHeight="53"/>
+    <SubTexture name="fb67" x="375" y="158" width="119" height="14"/>
+    <SubTexture name="fb68" x="375" y="137" width="126" height="19"/>
+    <SubTexture name="fb8" x="444" y="86" width="63" height="49" frameX="-8" frameY="-7" frameWidth="79" frameHeight="63"/>
+    <SubTexture name="fb83" x="486" y="214" width="7" height="16"/>
+    <SubTexture name="fb84" x="456" y="547" width="49" height="8"/>
+    <SubTexture name="fb85" x="444" y="69" width="64" height="15"/>
+    <SubTexture name="fb86" x="2" y="56" width="440" height="33"/>
+    <SubTexture name="fb87" x="516" y="35" width="440" height="33"/>
+    <SubTexture name="fb9" x="847" y="239" width="79" height="63"/>
+    <SubTexture name="fb91" x="957" y="78" width="56" height="9"/>
+    <SubTexture name="fb92" x="866" y="148" width="61" height="15"/>
+    <SubTexture name="iamge_ready" x="965" y="2" width="57" height="41"/>
+    <SubTexture name="image_bottle" x="110" y="531" width="20" height="20"/>
+    <SubTexture name="image_disFight" x="2" y="454" width="138" height="48"/>
+    <SubTexture name="image_owner" x="505" y="578" width="34" height="7"/>
+    <SubTexture name="image_playerBg" x="928" y="171" width="94" height="138"/>
+    <SubTexture name="image_title" x="847" y="370" width="78" height="16"/>
+    <SubTexture name="image_titleBar" x="516" y="2" width="447" height="31"/>
+    <SubTexture name="image_topBar" x="2" y="2" width="512" height="52"/>
+    <SubTexture name="nlz1" x="929" y="157" width="88" height="12"/>
+    <SubTexture name="nlz2" x="732" y="573" width="94" height="18"/>
+    <SubTexture name="refresh0" x="456" y="557" width="47" height="29"/>
+    <SubTexture name="refresh1" x="507" y="547" width="47" height="29"/>
+    <SubTexture name="zdpp30" x="368" y="471" width="106" height="46"/>
+    <SubTexture name="zdpp31" x="2" y="550" width="106" height="44"/>
+    <SubTexture name="zdpp32" x="375" y="423" width="106" height="46"/>
+    <SubTexture name="zdpp33" x="2" y="504" width="106" height="44"/>
+    <SubTexture name="锁头" x="110" y="504" width="22" height="25"/>
+</TextureAtlas>
+

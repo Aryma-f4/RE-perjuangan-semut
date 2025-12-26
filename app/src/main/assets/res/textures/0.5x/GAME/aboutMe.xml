@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://texturepacker.com-->
+<!-- $TexturePacker:SmartUpdate:34ce9839c60a4b0e46c1cfa87d2a4224$ -->
+<TextureAtlas imagePath="aboutMe.png">
+    <SubTexture name="btnS_addFriend1" x="386" y="90" width="96" height="42"/>
+    <SubTexture name="btnS_addFriend2" x="386" y="46" width="96" height="42"/>
+    <SubTexture name="btnS_shop1" x="386" y="2" width="96" height="42"/>
+    <SubTexture name="btnS_shop2" x="231" y="282" width="96" height="42"/>
+    <SubTexture name="btnS_switchID1" x="386" y="160" width="72" height="24"/>
+    <SubTexture name="btnS_switchID2" x="386" y="134" width="72" height="24"/>
+    <SubTexture name="exp_bar_bg" x="2" y="494" width="176" height="15"/>
+    <SubTexture name="exp_bar_progress" x="180" y="494" width="171" height="11"/>
+    <SubTexture name="text_bg_myinfo" x="2" y="282" width="227" height="210"/>
+    <SubTexture name="tipBg_about_me" x="2" y="2" width="382" height="278"/>
+    <SubTexture name="title_myinfo" x="353" y="282" width="144" height="19"/>
+</TextureAtlas>
+

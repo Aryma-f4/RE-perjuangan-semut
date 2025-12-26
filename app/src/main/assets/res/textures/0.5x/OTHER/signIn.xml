@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://texturepacker.com-->
+<!-- $TexturePacker:SmartUpdate:d10450a10cfacfdc50b2cce1e7e477bd$ -->
+<TextureAtlas imagePath="signIn.png">
+    <SubTexture name="boyaa_coin" x="400" y="211" width="67" height="53" frameX="-4" frameY="-10" frameWidth="75" frameHeight="69"/>
+    <SubTexture name="btnS_sure1" x="400" y="117" width="71" height="32"/>
+    <SubTexture name="btnS_sure2" x="400" y="83" width="71" height="32"/>
+    <SubTexture name="canSignState" x="343" y="333" width="55" height="54"/>
+    <SubTexture name="goldCoin" x="400" y="266" width="60" height="52" frameX="-4" frameY="-4" frameWidth="66" frameHeight="60"/>
+    <SubTexture name="img_title" x="286" y="389" width="114" height="20"/>
+    <SubTexture name="itemBg" x="400" y="320" width="56" height="54"/>
+    <SubTexture name="item_bg1" x="400" y="181" width="69" height="28"/>
+    <SubTexture name="item_bg2" x="400" y="151" width="69" height="28"/>
+    <SubTexture name="nonVipBg" x="2" y="639" width="282" height="234"/>
+    <SubTexture name="pencil" x="481" y="2" width="21" height="42"/>
+    <SubTexture name="signAni" x="400" y="2" width="79" height="79" frameX="0" frameY="0" frameWidth="81" frameHeight="81"/>
+    <SubTexture name="signBg" x="2" y="2" width="396" height="329"/>
+    <SubTexture name="signed" x="473" y="116" width="32" height="31"/>
+    <SubTexture name="signedState" x="286" y="333" width="55" height="54"/>
+    <SubTexture name="vipBg" x="2" y="333" width="282" height="304"/>
+    <SubTexture name="vipSymbol" x="473" y="83" width="36" height="31"/>
+</TextureAtlas>
+

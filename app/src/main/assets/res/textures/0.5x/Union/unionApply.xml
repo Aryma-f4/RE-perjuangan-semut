@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://texturepacker.com-->
+<!-- $TexturePacker:SmartUpdate:e83fd58df14a82bb6ccdfe2dda943088$ -->
+<TextureAtlas imagePath="unionApply.png">
+    <SubTexture name="btnS_acceptInviteBtn1" x="900" y="421" width="78" height="31"/>
+    <SubTexture name="btnS_acceptInviteBtn2" x="900" y="353" width="80" height="33"/>
+    <SubTexture name="btnS_applyUnionBtn1" x="900" y="486" width="64" height="30"/>
+    <SubTexture name="btnS_applyUnionBtn2" x="900" y="518" width="62" height="29"/>
+    <SubTexture name="btnS_applyUnionBtn3" x="900" y="454" width="64" height="30"/>
+    <SubTexture name="btnS_createByBYCoinBtn1" x="906" y="45" width="114" height="41"/>
+    <SubTexture name="btnS_createByBYCoinBtn2" x="906" y="129" width="112" height="39"/>
+    <SubTexture name="btnS_createByCoinBtn1" x="906" y="2" width="114" height="41"/>
+    <SubTexture name="btnS_createByCoinBtn2" x="906" y="88" width="112" height="39"/>
+    <SubTexture name="btnS_createUnionBtn1" x="906" y="282" width="102" height="34"/>
+    <SubTexture name="btnS_createUnionBtn2" x="906" y="208" width="104" height="36"/>
+    <SubTexture name="btnS_inviteInfoButton1" x="906" y="246" width="102" height="34"/>
+    <SubTexture name="btnS_inviteInfoButton2" x="906" y="170" width="104" height="36"/>
+    <SubTexture name="btnS_inviteItemBtn1" x="2" y="457" width="348" height="32"/>
+    <SubTexture name="btnS_inviteItemBtn2" x="2" y="422" width="350" height="33"/>
+    <SubTexture name="btnS_refuseInviteBtn1" x="900" y="388" width="78" height="31"/>
+    <SubTexture name="btnS_refuseInviteBtn2" x="900" y="318" width="80" height="33"/>
+    <SubTexture name="commandTipBg" x="516" y="285" width="382" height="241"/>
+    <SubTexture name="createUnionBg" x="516" y="2" width="388" height="281"/>
+    <SubTexture name="inviteTitleImg" x="369" y="388" width="137" height="19"/>
+    <SubTexture name="unionApplyListItemNullBg" x="369" y="409" width="125" height="21"/>
+    <SubTexture name="unionListBg" x="2" y="2" width="512" height="384"/>
+    <SubTexture name="unionListItemBg" x="2" y="491" width="296" height="32"/>
+    <SubTexture name="unionListItemNullBg" x="2" y="388" width="365" height="32"/>
+    <SubTexture name="unionListTitle" x="2" y="525" width="272" height="11"/>
+</TextureAtlas>
+

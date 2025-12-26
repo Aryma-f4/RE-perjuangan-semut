@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://texturepacker.com-->
+<!-- $TexturePacker:SmartUpdate:c12f50d3e3f6f7f8bda5e140eec247a2$ -->
+<TextureAtlas imagePath="vipView.png">
+    <SubTexture name="btnS_PreVip1" x="410" y="176" width="30" height="34"/>
+    <SubTexture name="btnS_PreVip2" x="458" y="151" width="30" height="34"/>
+    <SubTexture name="btnS_nextVip1" x="410" y="212" width="30" height="34"/>
+    <SubTexture name="btnS_nextVip2" x="442" y="187" width="30" height="34"/>
+    <SubTexture name="btnS_vipCharge1" x="410" y="100" width="69" height="28"/>
+    <SubTexture name="btnS_vipCharge2" x="410" y="70" width="69" height="28"/>
+    <SubTexture name="btnS_vipRewardBtn1" x="410" y="36" width="71" height="32"/>
+    <SubTexture name="btnS_vipRewardBtn2" x="410" y="2" width="71" height="32"/>
+    <SubTexture name="img_vipTitle" x="458" y="130" width="39" height="19"/>
+    <SubTexture name="vipInfoViewBg" x="2" y="338" width="380" height="242"/>
+    <SubTexture name="vipItemBox" x="410" y="130" width="46" height="44"/>
+    <SubTexture name="vipLoadingBack" x="180" y="643" width="176" height="15"/>
+    <SubTexture name="vipLoadingFront" x="2" y="643" width="176" height="15"/>
+    <SubTexture name="vipRewardViewBg" x="2" y="582" width="374" height="59"/>
+    <SubTexture name="vipViewBigBg" x="2" y="2" width="406" height="334"/>
+</TextureAtlas>
+

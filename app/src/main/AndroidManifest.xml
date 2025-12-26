@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    android:versionCode="1014085"
+    android:versionName="1.14.85"
+    android:installLocation="preferExternal"
+    package="air.com.boyaa.WARSFACEBOOKID">
+    <application
+        android:label="@string/app_name"
+        android:icon="@drawable/icon"
+        android:enabled="true"
+        android:hardwareAccelerated="false">
+        <activity
+            android:theme="@style/Theme.NoShadow"
+            android:label="@string/app_name"
+            android:name="air.com.boyaa.WARSFACEBOOKID.AppEntry"
+            android:launchMode="singleTask"
+            android:screenOrientation="user"
+            android:configChanges="screenSize|orientation|keyboardHidden"
+            android:windowSoftInputMode="adjustResize|stateHidden">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+            <meta-data
+                android:name="namespaceVersion"
+                android:value="16"/>
+            <meta-data
+                android:name="aspectRatio"
+                android:value="landscape"/>
+            <meta-data
+                android:name="autoOrients"
+                android:value="true"/>
+            <meta-data
+                android:name="fullScreen"
+                android:value="true"/>
+            <meta-data
+                android:name="uniqueappversionid"
+                android:value="0b32a53a-c30c-450b-85eb-d3c6e943ac9c"/>
+            <meta-data
+                android:name="initialcontent"
+                android:value="antwarsmobilestarling.swf"/>
+            <meta-data
+                android:name="containsVideo"
+                android:value="false"/>
+        </activity>
+        <meta-data
+            android:name="UMENG_APPKEY"
+            android:value="536c920d56240b0a7906fe5d"/>
+        <meta-data
+            android:name="UMENG_CHANNEL"
+            android:value="slb-cc-Android"/>
+        <meta-data
+            android:name="sandbox"
+            android:value="false"/>
+        <activity android:name="com.facebook.LoginActivity"/>
+        <activity
+            android:theme="@android:style/Theme.Translucent.NoTitleBar"
+            android:name="com.freshplanet.ane.AirFacebook.LoginActivity"/>
+        <activity
+            android:theme="@android:style/Theme.Translucent.NoTitleBar"
+            android:name="com.freshplanet.ane.AirFacebook.ShareDialogActivity"/>
+        <activity
+            android:theme="@android:style/Theme.Translucent.NoTitleBar"
+            android:name="com.freshplanet.ane.AirFacebook.ShareOGActivity"/>
+        <activity
+            android:theme="@android:style/Theme.Translucent.NoTitleBar"
+            android:name="com.freshplanet.ane.AirFacebook.WebDialogActivity"/>
+        <activity
+            android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen"
+            android:name="com.mimopay.MimopayActivity"
+            android:windowSoftInputMode="adjustPan"/>
+        <activity
+            android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen"
+            android:name="com.boyaa.antwarsId.GooglePlayPaymentActivity"
+            android:windowSoftInputMode="adjustPan"/>
+        <activity
+            android:name="com.codapayments.sdk.pay.CodaWeb"
+            android:screenOrientation="unspecified"
+            android:configChanges="screenSize|orientation"
+            android:alwaysRetainTaskState="true"/>
+        <receiver
+            android:name="com.codapayments.sdk.message.PendingTxnReceiver"
+            android:enabled="true"/>
+    </application>
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="17"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.DISABLE_KEYGUARD"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.READ_LOGS"/>
+    <uses-permission android:name="android.permission.GET_TASKS"/>
+    <uses-permission android:name="android.permission.GET_ACCOUNTS"/>
+    <uses-permission android:name="android.permission.USE_CREDENTIALS"/>
+    <uses-permission android:name="android.permission.SEND_SMS"/>
+    <uses-permission android:name="android.permission.READ_SMS"/>
+    <uses-permission android:name="android.permission.READ_OWNER_DATA"/>
+    <uses-permission android:name="android.permission.WRITE_OWNER_DATA"/>
+    <uses-permission android:name="com.android.vending.BILLING"/>
+    <uses-permission android:name="android.permission.RECEIVE_SMS"/>
+    <uses-permission android:name="android.permission.WRITE_SMS"/>
+    <uses-feature
+        android:name="android.hardware.touchscreen.multitouch"
+        android:required="true"/>
+</manifest>

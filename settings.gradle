@@ -1,0 +1,3 @@
+rootProject.name = 'Perjuangan semut'
+
+include 'app'

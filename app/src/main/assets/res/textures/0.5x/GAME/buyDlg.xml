@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://texturepacker.com-->
+<!-- $TexturePacker:SmartUpdate:970a9d21b80a38d7b73faf99e5d06f8e$ -->
+<TextureAtlas imagePath="buyDlg.png">
+    <SubTexture name="btnS_Buy1" x="379" y="47" width="98" height="43"/>
+    <SubTexture name="btnS_Buy2" x="379" y="2" width="98" height="43"/>
+    <SubTexture name="btnS_Close1" x="458" y="153" width="38" height="38"/>
+    <SubTexture name="btnS_Close2" x="458" y="113" width="38" height="38"/>
+    <SubTexture name="btnS_left1" x="479" y="45" width="25" height="41"/>
+    <SubTexture name="btnS_left2" x="479" y="2" width="25" height="41"/>
+    <SubTexture name="btnS_next" x="479" y="45" width="25" height="41"/>
+    <SubTexture name="buy_text_bg" x="2" y="302" width="201" height="34"/>
+    <SubTexture name="buy_title" x="458" y="92" width="41" height="19"/>
+    <SubTexture name="goods_bg" x="379" y="92" width="77" height="74"/>
+    <SubTexture name="text_bg" x="2" y="302" width="201" height="34"/>
+    <SubTexture name="tipBg_ShopBuy" x="2" y="2" width="375" height="298"/>
+</TextureAtlas>
+

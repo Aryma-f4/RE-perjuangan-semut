@@ -1,0 +1,85 @@
+<TextureAtlas name="zhunhuang" width="1024" height="1024">
+  <SubTexture name="breath11" x="796" y="440" width="108" height="196"/>
+  <SubTexture name="breath10" x="334" y="423" width="116" height="200"/>
+  <SubTexture name="breath9" x="334" y="201" width="163" height="222"/>
+  <SubTexture name="breath8" x="798" y="222" width="161" height="218"/>
+  <SubTexture name="breath7" x="615" y="0" width="183" height="232"/>
+  <SubTexture name="breath6" x="798" y="0" width="167" height="222"/>
+  <SubTexture name="breath5" x="0" y="244" width="158" height="221"/>
+  <SubTexture name="breath4" x="792" y="636" width="111" height="151"/>
+  <SubTexture name="breath3" x="256" y="886" width="88" height="118"/>
+  <SubTexture name="breath2" x="904" y="440" width="53" height="68"/>
+  <SubTexture name="breath1" x="300" y="428" width="31" height="37"/>
+  <SubTexture name="元件 1" x="610" y="232" width="184" height="197"/>
+  <SubTexture name="元件 7" x="959" y="433" width="50" height="94"/>
+  <SubTexture name="元件 6" x="450" y="423" width="47" height="98"/>
+  <SubTexture name="元件 5" x="965" y="162" width="46" height="155"/>
+  <SubTexture name="元件 4" x="497" y="406" width="83" height="227"/>
+  <SubTexture name="元件 3" x="471" y="633" width="69" height="191"/>
+  <SubTexture name="zzw 66" x="965" y="0" width="58" height="162"/>
+  <SubTexture name="zzwsy2" x="649" y="892" width="93" height="66"/>
+  <SubTexture name="zzwsy1" x="133" y="749" width="134" height="124"/>
+  <SubTexture name="zzwsy3" x="326" y="762" width="132" height="124"/>
+  <SubTexture name="bf 8" x="904" y="508" width="54" height="60"/>
+  <SubTexture name="bf 7" x="958" y="661" width="54" height="60"/>
+  <SubTexture name="bf 6" x="904" y="568" width="54" height="60"/>
+  <SubTexture name="bf 5" x="904" y="628" width="54" height="60"/>
+  <SubTexture name="bf 4" x="903" y="688" width="54" height="60"/>
+  <SubTexture name="补间 1" x="580" y="595" width="212" height="111"/>
+  <SubTexture name="bf 2" x="284" y="594" width="49" height="59"/>
+  <SubTexture name="zzwsy4" x="0" y="878" width="114" height="107"/>
+  <SubTexture name="sw 57" x="1020" y="183" width="3" height="5"/>
+  <SubTexture name="sw 55" x="1016" y="176" width="4" height="8"/>
+  <SubTexture name="sprite 4" x="751" y="543" width="27" height="24"/>
+  <SubTexture name="sw 53" x="1020" y="176" width="3" height="7"/>
+  <SubTexture name="sw 51" x="1011" y="176" width="5" height="8"/>
+  <SubTexture name="bf 3" x="537" y="830" width="112" height="113"/>
+  <SubTexture name="ht" x="334" y="0" width="281" height="201"/>
+  <SubTexture name="元件 18" x="958" y="527" width="61" height="67"/>
+  <SubTexture name="元件 17" x="458" y="824" width="79" height="91"/>
+  <SubTexture name="元件 16" x="902" y="792" width="82" height="148"/>
+  <SubTexture name="元件 15" x="742" y="935" width="115" height="66"/>
+  <SubTexture name="元件 13" x="959" y="317" width="60" height="116"/>
+  <SubTexture name="元件 11" x="129" y="873" width="127" height="97"/>
+  <SubTexture name="元件 9" x="681" y="706" width="70" height="185"/>
+  <SubTexture name="血4" x="958" y="594" width="61" height="67"/>
+  <SubTexture name="血3" x="344" y="886" width="79" height="91"/>
+  <SubTexture name="血2" x="751" y="787" width="82" height="148"/>
+  <SubTexture name="血1" x="497" y="201" width="113" height="205"/>
+  <SubTexture name="zzw 60" x="470" y="554" width="23" height="16"/>
+  <SubTexture name="zzw 43" x="267" y="749" width="59" height="49"/>
+  <SubTexture name="sw 43" x="1009" y="469" width="14" height="14"/>
+  <SubTexture name="元件 22" x="0" y="465" width="147" height="154"/>
+  <SubTexture name="元件 21" x="609" y="429" width="142" height="166"/>
+  <SubTexture name="元件 20" x="158" y="244" width="176" height="184"/>
+  <SubTexture name="ht2" x="0" y="0" width="334" height="244"/>
+  <SubTexture name="元件 19" x="158" y="428" width="142" height="166"/>
+  <SubTexture name="zzw 50" x="751" y="429" width="45" height="70"/>
+  <SubTexture name="gq 100" x="857" y="940" width="79" height="37"/>
+  <SubTexture name="zzw15" x="833" y="858" width="68" height="28"/>
+  <SubTexture name="zzw 41" x="300" y="520" width="18" height="36"/>
+  <SubTexture name="zzw 40" x="1011" y="162" width="12" height="14"/>
+  <SubTexture name="zzw 39" x="580" y="406" width="29" height="40"/>
+  <SubTexture name="zzw 33" x="300" y="466" width="32" height="30"/>
+  <SubTexture name="zzwdm 4" x="833" y="787" width="69" height="71"/>
+  <SubTexture name="zzw 16" x="450" y="521" width="22" height="31"/>
+  <SubTexture name="zzwdm 1" x="423" y="915" width="81" height="74"/>
+  <SubTexture name="zzw 15" x="300" y="496" width="32" height="24"/>
+  <SubTexture name="kbt3" x="147" y="594" width="137" height="155"/>
+  <SubTexture name="kbt2" x="0" y="619" width="133" height="155"/>
+  <SubTexture name="kbt1" x="333" y="623" width="138" height="138"/>
+  <SubTexture name="zzwdm 2" x="0" y="774" width="129" height="104"/>
+  <SubTexture name="zzw 12" x="751" y="499" width="36" height="44"/>
+  <SubTexture name="zzwdm 3" x="540" y="706" width="141" height="124"/>
+  <SubTexture name="zzw 11" x="903" y="748" width="50" height="43"/>
+  <SubTexture name="zzwdm5" x="957" y="721" width="67" height="71"/>
+  <SubTexture name="zzw 13" x="450" y="552" width="20" height="30"/>
+  <SubTexture name="zzwdm 41" x="1009" y="433" width="14" height="36"/>
+  <SubTexture name="zzw 31" x="580" y="480" width="26" height="31"/>
+  <SubTexture name="zzwdm 29" x="580" y="542" width="26" height="26"/>
+  <SubTexture name="zzw 30" x="580" y="446" width="29" height="34"/>
+  <SubTexture name="zzwdm 30" x="472" y="521" width="19" height="33"/>
+  <SubTexture name="zzw 29" x="580" y="511" width="26" height="31"/>
+  <SubTexture name="zzw 2" x="300" y="556" width="30" height="15"/>
+  <SubTexture name="zzw 3" x="751" y="567" width="30" height="15"/>
+</TextureAtlas>

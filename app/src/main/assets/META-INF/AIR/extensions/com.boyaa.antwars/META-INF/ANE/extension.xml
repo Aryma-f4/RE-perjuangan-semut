@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extension xmlns="http://ns.adobe.com/air/extension/3.9">
+  <id>com.boyaa.antwars</id>
+  <versionNumber>1</versionNumber>
+  <platforms>
+    <platform name="Android-ARM">
+      <applicationDeployment>
+        <nativeLibrary>ant.jar</nativeLibrary>
+        <initializer>com.boyaa.antwarsId.AntExtension</initializer>
+        <finalizer>com.boyaa.antwarsId.AntExtension</finalizer>
+      </applicationDeployment>
+    </platform>
+  </platforms>
+</extension>
+
+

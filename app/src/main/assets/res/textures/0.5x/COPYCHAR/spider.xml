@@ -1,0 +1,51 @@
+<TextureAtlas name="spider" width="1024" height="1024">
+  <SubTexture name="蜘蛛刺客资源/qp2" x="1007" y="40" width="8" height="9"/>
+  <SubTexture name="元件 5" x="136" y="570" width="102" height="69"/>
+  <SubTexture name="元件 4" x="136" y="546" width="40" height="22"/>
+  <SubTexture name="蜘蛛刺客资源/TT" x="441" y="534" width="115" height="106"/>
+  <SubTexture name="蜘蛛刺客资源/zzc2" x="445" y="192" width="222" height="177"/>
+  <SubTexture name="蜘蛛刺客资源/zzc5" x="620" y="371" width="43" height="93"/>
+  <SubTexture name="蜘蛛刺客资源/zzc4" x="883" y="529" width="35" height="41"/>
+  <SubTexture name="zzcyy 2" x="1007" y="20" width="15" height="8"/>
+  <SubTexture name="元件 3" x="385" y="508" width="54" height="47"/>
+  <SubTexture name="元件 2" x="934" y="277" width="87" height="113"/>
+  <SubTexture name="元件 1" x="294" y="187" width="92" height="152"/>
+  <SubTexture name="shape 103" x="999" y="145" width="22" height="68"/>
+  <SubTexture name="shape 102" x="837" y="396" width="26" height="65"/>
+  <SubTexture name="shape 101" x="620" y="466" width="31" height="61"/>
+  <SubTexture name="sprite 100" x="178" y="549" width="28" height="13"/>
+  <SubTexture name="jj" x="0" y="0" width="450" height="185"/>
+  <SubTexture name="sprite 40" x="657" y="552" width="103" height="77"/>
+  <SubTexture name="sprite 38" x="199" y="356" width="90" height="70"/>
+  <SubTexture name="shape 36" x="934" y="392" width="79" height="71"/>
+  <SubTexture name="shape 35" x="558" y="534" width="44" height="42"/>
+  <SubTexture name="zza3" x="266" y="527" width="111" height="113"/>
+  <SubTexture name="zza6" x="386" y="387" width="52" height="57"/>
+  <SubTexture name="zza4" x="874" y="0" width="131" height="143"/>
+  <SubTexture name="zza5" x="0" y="356" width="197" height="188"/>
+  <SubTexture name="zza7" x="388" y="298" width="51" height="87"/>
+  <SubTexture name="zzayy 2" x="1007" y="10" width="15" height="8"/>
+  <SubTexture name="蜘蛛射手资源/补间 7" x="924" y="465" width="97" height="96"/>
+  <SubTexture name="蜘蛛射手资源/补间 8" x="669" y="192" width="196" height="202"/>
+  <SubTexture name="蜘蛛射手资源/st2" x="920" y="563" width="96" height="84"/>
+  <SubTexture name="蜘蛛射手资源/st3" x="620" y="529" width="35" height="51"/>
+  <SubTexture name="蜘蛛射手资源/st5" x="385" y="446" width="44" height="60"/>
+  <SubTexture name="蜘蛛射手资源/st1" x="103" y="546" width="31" height="36"/>
+  <SubTexture name="蜘蛛射手资源/补间 1" x="441" y="371" width="177" height="161"/>
+  <SubTexture name="蜘蛛射手资源/zzb3" x="0" y="546" width="101" height="96"/>
+  <SubTexture name="蜘蛛射手资源/zzb8" x="762" y="579" width="113" height="42"/>
+  <SubTexture name="蜘蛛射手资源/zzb6" x="867" y="277" width="65" height="176"/>
+  <SubTexture name="蜘蛛射手资源/zzb4" x="665" y="396" width="170" height="154"/>
+  <SubTexture name="蜘蛛射手资源/zzb5" x="865" y="455" width="57" height="72"/>
+  <SubTexture name="蜘蛛射手资源/zzb7" x="874" y="145" width="123" height="130"/>
+  <SubTexture name="zzbyy 2" x="1007" y="0" width="15" height="8"/>
+  <SubTexture name="zzsw12" x="452" y="0" width="420" height="190"/>
+  <SubTexture name="zzsw11" x="281" y="429" width="102" height="96"/>
+  <SubTexture name="{2BEDC019-548F-400A-BEC3-7BE3D715E987}.png" x="294" y="341" width="90" height="86"/>
+  <SubTexture name="zzsw10" x="0" y="187" width="292" height="167"/>
+  <SubTexture name="zzsw5" x="199" y="488" width="65" height="59"/>
+  <SubTexture name="zzsw4" x="199" y="428" width="80" height="58"/>
+  <SubTexture name="zzsw7" x="388" y="187" width="55" height="109"/>
+  <SubTexture name="zzsw6" x="837" y="529" width="44" height="48"/>
+  <SubTexture name="zzswyy 2" x="1007" y="30" width="15" height="8"/>
+</TextureAtlas>

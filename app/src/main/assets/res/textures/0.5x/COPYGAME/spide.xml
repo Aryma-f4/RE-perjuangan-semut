@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://texturepacker.com-->
+<!-- $TexturePacker:SmartUpdate:24abcc93c0269cdf5704d8992392b565$ -->
+<TextureAtlas imagePath="spide.png">
+    <SubTexture name="fbbg3" x="2" y="2" width="683" height="384"/>
+</TextureAtlas>
+

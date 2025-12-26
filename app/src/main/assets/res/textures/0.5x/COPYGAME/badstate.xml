@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://texturepacker.com-->
+<!-- $TexturePacker:SmartUpdate:f8a370ffe47119380d8493e6acfb2d54$ -->
+<TextureAtlas imagePath="badstate.png">
+    <SubTexture name="枷锁" x="2" y="58" width="42" height="54" frameX="-9" frameY="-3" frameWidth="60" frameHeight="60"/>
+    <SubTexture name="麻痹" x="2" y="2" width="54" height="54" frameX="-2" frameY="-3" frameWidth="60" frameHeight="60"/>
+</TextureAtlas>
+

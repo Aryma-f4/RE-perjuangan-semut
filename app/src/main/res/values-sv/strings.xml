@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Perjuangan semut</string>
+    <string name="flash_browser_plugin">Flash plugin-program</string>
+    <string name="audio_files">Ljudfiler</string>
+    <string name="image_files">Bildfiler</string>
+    <string name="video_files">Videofiler</string>
+    <string name="empty_file_list">Inga filer hittades.</string>
+    <string name="button_ok">OK</string>
+    <string name="button_cancel">Avbryt</string>
+    <string name="button_continue">Fortsätt</string>
+    <string name="file_save_as">Spara som:</string>
+    <string name="file_download">Hämta</string>
+    <string name="file_upload">Skicka</string>
+    <string name="button_yes">Ja</string>
+    <string name="button_no">Nej</string>
+    <string name="IDA_CURL_SSL_SECURITY_WARNING">Skyddsvarning</string>
+    <string name="IDA_CURL_INTERFACE_THISSESS">Pålitlighet för session</string>
+    <string name="IDA_CURL_INTERFACE_NOSESS">Avbryt</string>
+    <string name="IDA_CURL_INTERFACE_OK">OK</string>
+    <string name="IDA_CURL_INTERFACE_UNVERSER_2">Den server som programmet ansluter till har inte verifierats.</string>
+    <string name="IDA_CURL_INTERFACE_ALLSESS">Lita alltid på</string>
+    <string name="IDA_CURL_INTERFACE_SERVER">Server:</string>
+    <string name="IDA_CURL_INTERFACE_TRUSTSER">Vill du lita på den här servern och ansluta?</string>
+    <string name="IDA_CURL_INTERFACE_CNAME_MSG">Namnet på servern (%1$s) stämmer inte överens med namnet på certifikatet (%2$s). Vill du lita på servern och fortsätta?</string>
+    <string name="IDA_CURL_INTERFACE_VIEW_CERT">Visa certifikat</string>
+    <string name="IDA_CURL_INTERFACE_CERTIFICATE_DETAILS_TITLE">Certifikatinformation</string>
+    <string name="IDA_CERTIFICATE_DETAILS">Certifikat:\n \n Utfärdat till:\n Allmänt namn:\n %1$s\n \n Organisation:\n %2$s\n \n Organisationsenhet:\n %3$s\n \n Utfärdat av:\n Allmänt namn:\n %4$s\n \n Organisation:\n %5$s\n \n Organisationsenhet:\n %6$s\n \n Giltighet:\n Utfärdat den:\n %7$s\n \n Förfaller den:\n %8$s </string>
+    <string name="IDA_APP_WAITING_DEBUGGER_TITLE">Adobe AIR: Väntar på anslutning</string>
+    <string name="IDA_APP_UNABLE_LISTEN_ERROR">Adobe AIR: Lyssnar om det finns en port</string>
+    <string name="IDA_APP_WAITING_DEBUGGER_WARNING">AIR-programmet väntar på att en anslutning sker med felsökningsprogrammet. Detta kan ta upp till %d sekunder.</string>
+    <string name="IDA_APP_DEBUGGER_TIMEOUT_INFO">Det går inte att ansluta till felsökningsprogrammet.</string>
+    <string name="app_version">APP_VERSION</string>
+    <string name="button_install">Installera</string>
+    <string name="button_exit">Avsluta</string>
+    <string name="title_adobe_air">Adobe® AIR®</string>
+    <string name="text_runtime_required">För det här programmet krävs Adobe AIR.\n\n</string>
+    <string name="text_install_runtime">Installera Adobe AIR på den här enheten om du vill fortsätta.</string>
+    <string name="text_runtime_on_external_storage">Om du vill fortsätta ska du antingen installera Adobe AIR på den här enheten eller stänga programmet och sätta in SD-kortet med Adobe AIR innan du startar om.</string>
+    <string name="text_gamepreview_loading">Läser in...</string>
+    <string name="text_gamepreview_loading_error">Det gick inte att läsa in spelet.</string>
+    <string name="text_install_gamepreview_app">Installera nu</string>
+    <string name="text_air_missing_header">Adobe AIR krävs</string>
+    <string name="text_air_missing_text">Du måste installera Adobe AIR för att spelförhandsvisningen ska fungera.</string>
+    <string name="button_install_air_from_playstore">Installera från Play Store.</string>
+    <string name="text_dont_show_again">Visa inte detta igen.</string>
+</resources>

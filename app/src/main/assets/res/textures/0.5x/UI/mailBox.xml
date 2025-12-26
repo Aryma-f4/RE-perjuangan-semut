@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://texturepacker.com-->
+<!-- $TexturePacker:SmartUpdate:22ba0fd568e88c3bb7de413edca03369$ -->
+<TextureAtlas imagePath="mailBox.png">
+    <SubTexture name="bagItemViewBg" x="822" y="597" width="174" height="75"/>
+    <SubTexture name="bagPannelBg" x="502" y="345" width="381" height="214"/>
+    <SubTexture name="btnS_back1" x="969" y="87" width="49" height="29"/>
+    <SubTexture name="btnS_back2" x="969" y="167" width="47" height="29"/>
+    <SubTexture name="btnS_delete1" x="969" y="56" width="49" height="29"/>
+    <SubTexture name="btnS_delete2" x="969" y="136" width="47" height="29"/>
+    <SubTexture name="btnS_file1" x="380" y="426" width="74" height="36"/>
+    <SubTexture name="btnS_file2" x="380" y="500" width="72" height="34"/>
+    <SubTexture name="btnS_friendList1" x="380" y="388" width="74" height="36"/>
+    <SubTexture name="btnS_friendList2" x="380" y="464" width="72" height="34"/>
+    <SubTexture name="btnS_oneKeyReceive1" x="885" y="472" width="89" height="41"/>
+    <SubTexture name="btnS_oneKeyReceive2" x="885" y="556" width="87" height="39"/>
+    <SubTexture name="btnS_receive1" x="885" y="381" width="107" height="29"/>
+    <SubTexture name="btnS_receive2" x="885" y="442" width="106" height="28"/>
+    <SubTexture name="btnS_send1" x="885" y="350" width="107" height="29"/>
+    <SubTexture name="btnS_send2" x="885" y="412" width="106" height="28"/>
+    <SubTexture name="btnS_sendMail1" x="885" y="515" width="87" height="39"/>
+    <SubTexture name="btnS_sendMail2" x="928" y="307" width="89" height="41"/>
+    <SubTexture name="contentBg" x="502" y="2" width="465" height="303"/>
+    <SubTexture name="fileIcon" x="1001" y="198" width="17" height="31"/>
+    <SubTexture name="fileItem" x="969" y="2" width="52" height="52"/>
+    <SubTexture name="friendListItemViewBg1" x="496" y="615" width="324" height="36"/>
+    <SubTexture name="friendListItemViewBg2" x="496" y="577" width="324" height="36"/>
+    <SubTexture name="friendListViewBg" x="2" y="532" width="363" height="248"/>
+    <SubTexture name="mailListViewTitle" x="496" y="561" width="343" height="14"/>
+    <SubTexture name="mainViewBg" x="2" y="2" width="498" height="384"/>
+    <SubTexture name="mainViewTitle" x="969" y="118" width="48" height="16"/>
+    <SubTexture name="messageViewBg" x="502" y="307" width="424" height="36"/>
+    <SubTexture name="messgeReadViewBg" x="2" y="388" width="376" height="142"/>
+    <SubTexture name="messgeReadViewTitle" x="367" y="536" width="69" height="100"/>
+    <SubTexture name="selectIcon" x="969" y="198" width="30" height="30"/>
+    <SubTexture name="selectIconBg" x="969" y="230" width="25" height="25"/>
+    <SubTexture name="sendMailViewBg" x="2" y="388" width="376" height="142"/>
+    <SubTexture name="sendMailViewTitle" x="438" y="536" width="56" height="84"/>
+</TextureAtlas>
+

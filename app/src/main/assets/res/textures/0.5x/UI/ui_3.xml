@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://texturepacker.com-->
+<!-- $TexturePacker:SmartUpdate:009badd1cee17da9c17216d7d4e1bcb9$ -->
+<TextureAtlas imagePath="ui_3.png">
+    <SubTexture name="55" x="549" y="54" width="398" height="35"/>
+    <SubTexture name="back0" x="731" y="940" width="36" height="21"/>
+    <SubTexture name="back1" x="610" y="979" width="38" height="23"/>
+    <SubTexture name="bag" x="437" y="553" width="26" height="12"/>
+    <SubTexture name="bb-10" x="828" y="804" width="52" height="21"/>
+    <SubTexture name="bb-11" x="630" y="923" width="54" height="23"/>
+    <SubTexture name="bb-13" x="792" y="830" width="52" height="21"/>
+    <SubTexture name="bb-14" x="609" y="954" width="54" height="23"/>
+    <SubTexture name="bb-15" x="792" y="830" width="52" height="21"/>
+    <SubTexture name="bb-16" x="609" y="954" width="54" height="23"/>
+    <SubTexture name="bb-17" x="410" y="902" width="28" height="28"/>
+    <SubTexture name="bb-5" x="947" y="211" width="75" height="26"/>
+    <SubTexture name="bb-6" x="858" y="475" width="77" height="28"/>
+    <SubTexture name="bb-7" x="943" y="352" width="78" height="23"/>
+    <SubTexture name="bb-8" x="858" y="559" width="76" height="22"/>
+    <SubTexture name="bb-9" x="943" y="327" width="78" height="23"/>
+    <SubTexture name="bb14" x="922" y="356" width="16" height="85" frameX="-24" frameY="0" frameWidth="40" frameHeight="85"/>
+    <SubTexture name="bb15" x="925" y="269" width="16" height="85" frameX="-24" frameY="0" frameWidth="40" frameHeight="85"/>
+    <SubTexture name="bb17" x="204" y="842" width="64" height="64"/>
+    <SubTexture name="bb2" x="437" y="553" width="26" height="12"/>
+    <SubTexture name="bb24-2" x="760" y="853" width="52" height="21"/>
+    <SubTexture name="bb26" x="731" y="878" width="52" height="21"/>
+    <SubTexture name="bb27" x="554" y="985" width="54" height="23"/>
+    <SubTexture name="bb38" x="774" y="807" width="52" height="21"/>
+    <SubTexture name="bb39" x="683" y="830" width="53" height="23"/>
+    <SubTexture name="bb45" x="550" y="2" width="410" height="32"/>
+    <SubTexture name="bb46" x="550" y="36" width="410" height="16"/>
+    <SubTexture name="bb5" x="947" y="239" width="75" height="26"/>
+    <SubTexture name="bb50" x="389" y="936" width="28" height="28"/>
+    <SubTexture name="bb6" x="858" y="505" width="77" height="28"/>
+    <SubTexture name="bb7" x="947" y="183" width="75" height="26"/>
+    <SubTexture name="bb8" x="945" y="267" width="77" height="28"/>
+    <SubTexture name="bb_bg" x="2" y="48" width="406" height="292"/>
+    <SubTexture name="bb_check_0" x="720" y="995" width="52" height="21"/>
+    <SubTexture name="bb_check_1" x="650" y="855" width="54" height="23"/>
+    <SubTexture name="bb_shop_0" x="316" y="874" width="43" height="30"/>
+    <SubTexture name="bb_shop_1" x="858" y="412" width="42" height="29"/>
+    <SubTexture name="bb_takeoff_0" x="720" y="972" width="52" height="21"/>
+    <SubTexture name="bb_takeoff_1" x="639" y="891" width="54" height="23"/>
+    <SubTexture name="bbother" x="858" y="535" width="77" height="22"/>
+    <SubTexture name="bg18" x="276" y="963" width="66" height="16"/>
+    <SubTexture name="bg2" x="536" y="752" width="183" height="28"/>
+    <SubTexture name="bg3" x="2" y="589" width="310" height="193"/>
+    <SubTexture name="bg6" x="410" y="164" width="102" height="260"/>
+    <SubTexture name="bg_item" x="259" y="908" width="56" height="53"/>
+    <SubTexture name="bigboyaaicon" x="514" y="357" width="30" height="30"/>
+    <SubTexture name="boyaaCoinIcon" x="361" y="962" width="15" height="15"/>
+    <SubTexture name="btn_choose_friend0" x="949" y="90" width="72" height="23"/>
+    <SubTexture name="btn_choose_friend1" x="949" y="65" width="72" height="23"/>
+    <SubTexture name="but1" x="314" y="486" width="83" height="32"/>
+    <SubTexture name="but2" x="938" y="464" width="83" height="32"/>
+    <SubTexture name="but3-2" x="721" y="752" width="71" height="29"/>
+    <SubTexture name="but3" x="410" y="131" width="105" height="31"/>
+    <SubTexture name="but4" x="207" y="784" width="101" height="27"/>
+    <SubTexture name="but5" x="857" y="630" width="71" height="32"/>
+    <SubTexture name="but6" x="316" y="842" width="69" height="30"/>
+    <SubTexture name="but7" x="410" y="63" width="111" height="36"/>
+    <SubTexture name="buy0" x="738" y="830" width="52" height="21"/>
+    <SubTexture name="buy1" x="627" y="830" width="54" height="23"/>
+    <SubTexture name="buybig0" x="304" y="981" width="65" height="31"/>
+    <SubTexture name="buybig1" x="236" y="982" width="66" height="32"/>
+    <SubTexture name="buydlgtextbg" x="410" y="101" width="107" height="28"/>
+    <SubTexture name="chat_tab_0_down" x="523" y="900" width="58" height="27"/>
+    <SubTexture name="chat_tab_0_up" x="502" y="931" width="58" height="27"/>
+    <SubTexture name="chat_tab_1_down" x="481" y="961" width="58" height="27"/>
+    <SubTexture name="chat_tab_1_up" x="422" y="990" width="58" height="27"/>
+    <SubTexture name="chat_tab_2_down" x="421" y="961" width="58" height="27"/>
+    <SubTexture name="chat_tab_2_up" x="467" y="841" width="58" height="27"/>
+    <SubTexture name="chat_tab_3_down" x="464" y="871" width="58" height="27"/>
+    <SubTexture name="chat_tab_3_up" x="797" y="661" width="58" height="27"/>
+    <SubTexture name="chat_tab_4_down" x="797" y="632" width="58" height="27"/>
+    <SubTexture name="chat_tab_4_up" x="797" y="603" width="58" height="27"/>
+    <SubTexture name="chat_text_bg0" x="546" y="331" width="324" height="23"/>
+    <SubTexture name="chat_text_bg1" x="536" y="727" width="248" height="23"/>
+    <SubTexture name="check0" x="706" y="855" width="52" height="21"/>
+    <SubTexture name="check1" x="594" y="866" width="54" height="23"/>
+    <SubTexture name="chenmi" x="949" y="132" width="72" height="15"/>
+    <SubTexture name="chenmi2" x="949" y="115" width="72" height="15"/>
+    <SubTexture name="clear0" x="524" y="870" width="68" height="26"/>
+    <SubTexture name="clear1" x="392" y="872" width="70" height="28"/>
+    <SubTexture name="close" x="514" y="325" width="30" height="30"/>
+    <SubTexture name="close0" x="514" y="325" width="30" height="30"/>
+    <SubTexture name="close1" x="514" y="293" width="30" height="30"/>
+    <SubTexture name="content_scale9" x="2" y="986" width="36" height="36"/>
+    <SubTexture name="dj" x="858" y="378" width="62" height="11"/>
+    <SubTexture name="dx0" x="514" y="261" width="30" height="30"/>
+    <SubTexture name="dx1" x="96" y="986" width="34" height="34"/>
+    <SubTexture name="fansBtn01" x="858" y="596" width="71" height="32"/>
+    <SubTexture name="fansBtn02" x="949" y="149" width="71" height="32"/>
+    <SubTexture name="fb45" x="943" y="297" width="78" height="28"/>
+    <SubTexture name="fj" x="858" y="460" width="78" height="13"/>
+    <SubTexture name="focusFinger" x="132" y="986" width="26" height="34"/>
+    <SubTexture name="forgebg3" x="204" y="964" width="70" height="16"/>
+    <SubTexture name="forgebg4" x="490" y="804" width="64" height="10"/>
+    <SubTexture name="gameGoldIcon" x="344" y="962" width="15" height="15"/>
+    <SubTexture name="gift0" x="858" y="443" width="80" height="15"/>
+    <SubTexture name="gift1" x="797" y="690" width="220" height="112"/>
+    <SubTexture name="gift2" x="314" y="567" width="220" height="189"/>
+    <SubTexture name="gift3" x="410" y="48" width="117" height="13"/>
+    <SubTexture name="gift4" x="314" y="342" width="92" height="13"/>
+    <SubTexture name="gift5" x="931" y="614" width="91" height="9"/>
+    <SubTexture name="gift6" x="270" y="842" width="44" height="43"/>
+    <SubTexture name="go0" x="207" y="982" width="27" height="38"/>
+    <SubTexture name="go1" x="519" y="122" width="28" height="39"/>
+    <SubTexture name="grzl1-2" x="937" y="498" width="85" height="31"/>
+    <SubTexture name="grzl1" x="937" y="531" width="85" height="31"/>
+    <SubTexture name="grzl2" x="931" y="625" width="90" height="36"/>
+    <SubTexture name="hall_title" x="858" y="583" width="76" height="11"/>
+    <SubTexture name="hy10" x="665" y="948" width="64" height="22"/>
+    <SubTexture name="hy11" x="536" y="696" width="259" height="29"/>
+    <SubTexture name="hy12" x="536" y="665" width="259" height="29"/>
+    <SubTexture name="hy3" x="562" y="929" width="66" height="23"/>
+    <SubTexture name="hy4" x="686" y="916" width="64" height="22"/>
+    <SubTexture name="hy9" x="541" y="960" width="66" height="23"/>
+    <SubTexture name="icon0" x="387" y="841" width="28" height="29"/>
+    <SubTexture name="img_ready" x="160" y="986" width="45" height="33"/>
+    <SubTexture name="item0" x="399" y="491" width="139" height="60"/>
+    <SubTexture name="item1" x="401" y="429" width="139" height="60"/>
+    <SubTexture name="leave1" x="720" y="807" width="52" height="21"/>
+    <SubTexture name="leave2" x="583" y="898" width="54" height="23"/>
+    <SubTexture name="mission" x="270" y="887" width="44" height="15"/>
+    <SubTexture name="numCircleBg" x="925" y="187" width="20" height="20"/>
+    <SubTexture name="recharge7" x="925" y="249" width="18" height="18" frameX="-5" frameY="-5" frameWidth="28" frameHeight="28"/>
+    <SubTexture name="recharge8" x="902" y="412" width="16" height="16" frameX="-6" frameY="-6" frameWidth="28" frameHeight="28"/>
+    <SubTexture name="resultbg" x="494" y="758" width="40" height="30"/>
+    <SubTexture name="rw12-2" x="419" y="932" width="81" height="27"/>
+    <SubTexture name="rw12" x="440" y="902" width="81" height="27"/>
+    <SubTexture name="rw13" x="314" y="382" width="85" height="30"/>
+    <SubTexture name="rw16" x="314" y="520" width="83" height="28"/>
+    <SubTexture name="rw17" x="940" y="435" width="82" height="27"/>
+    <SubTexture name="rw18" x="207" y="813" width="81" height="27"/>
+    <SubTexture name="rw19" x="993" y="663" width="28" height="20"/>
+    <SubTexture name="rw2" x="549" y="91" width="374" height="238"/>
+    <SubTexture name="rw20" x="940" y="406" width="82" height="27"/>
+    <SubTexture name="rw21" x="940" y="377" width="82" height="27"/>
+    <SubTexture name="rw22" x="936" y="589" width="86" height="23"/>
+    <SubTexture name="rw23" x="314" y="438" width="85" height="22"/>
+    <SubTexture name="rw24" x="936" y="564" width="86" height="23"/>
+    <SubTexture name="rw25" x="314" y="414" width="85" height="22"/>
+    <SubTexture name="rw7" x="397" y="1009" width="23" height="13"/>
+    <SubTexture name="rw8" x="314" y="357" width="86" height="23"/>
+    <SubTexture name="rw9" x="314" y="462" width="85" height="22"/>
+    <SubTexture name="rwCoin" x="204" y="908" width="53" height="54"/>
+    <SubTexture name="rwExp" x="371" y="979" width="48" height="28" frameX="0" frameY="-7" frameWidth="48" frameHeight="48"/>
+    <SubTexture name="sc_title" x="399" y="553" width="36" height="12"/>
+    <SubTexture name="scale9_chat_bg0" x="379" y="905" width="29" height="29"/>
+    <SubTexture name="scale9_chat_bg1" x="361" y="874" width="29" height="29"/>
+    <SubTexture name="scale9_chat_bg2" x="348" y="906" width="29" height="29"/>
+    <SubTexture name="set_title" x="371" y="1009" width="24" height="13"/>
+    <SubTexture name="shop_top_bar" x="2" y="2" width="546" height="44"/>
+    <SubTexture name="skill" x="314" y="550" width="83" height="15"/>
+    <SubTexture name="snow" x="912" y="430" width="5" height="5"/>
+    <SubTexture name="sp" x="308" y="816" width="40" height="11"/>
+    <SubTexture name="star" x="902" y="430" width="8" height="8"/>
+    <SubTexture name="star2" x="949" y="54" width="8" height="8"/>
+    <SubTexture name="start20001" x="536" y="783" width="14" height="14" frameX="-14" frameY="-1" frameWidth="40" frameHeight="40"/>
+    <SubTexture name="start20002" x="290" y="813" width="16" height="14" frameX="-17" frameY="-3" frameWidth="40" frameHeight="40"/>
+    <SubTexture name="start20003" x="925" y="231" width="20" height="16" frameX="-17" frameY="-4" frameWidth="40" frameHeight="40"/>
+    <SubTexture name="start20004" x="925" y="209" width="20" height="20" frameX="-18" frameY="-4" frameWidth="40" frameHeight="40"/>
+    <SubTexture name="start20005" x="925" y="131" width="22" height="24" frameX="-17" frameY="-4" frameWidth="40" frameHeight="40"/>
+    <SubTexture name="start20006" x="925" y="157" width="20" height="28" frameX="-18" frameY="-4" frameWidth="40" frameHeight="40"/>
+    <SubTexture name="start20007" x="529" y="48" width="18" height="34" frameX="-18" frameY="-3" frameWidth="40" frameHeight="40"/>
+    <SubTexture name="start20008" x="523" y="84" width="24" height="36" frameX="-14" frameY="-4" frameWidth="40" frameHeight="40"/>
+    <SubTexture name="start20009" x="517" y="163" width="30" height="32" frameX="-8" frameY="-7" frameWidth="40" frameHeight="40"/>
+    <SubTexture name="start20010" x="857" y="664" width="36" height="24" frameX="-3" frameY="-11" frameWidth="40" frameHeight="40"/>
+    <SubTexture name="start20011" x="695" y="880" width="34" height="22" frameX="0" frameY="-14" frameWidth="40" frameHeight="40"/>
+    <SubTexture name="start20012" x="514" y="231" width="32" height="28" frameX="0" frameY="-10" frameWidth="40" frameHeight="40"/>
+    <SubTexture name="start20013" x="68" y="986" width="26" height="36" frameX="-4" frameY="-3" frameWidth="40" frameHeight="40"/>
+    <SubTexture name="start20014" x="925" y="91" width="22" height="38" frameX="-3" frameY="-2" frameWidth="40" frameHeight="40"/>
+    <SubTexture name="start20015" x="40" y="986" width="26" height="36" frameX="-1" frameY="0" frameWidth="40" frameHeight="40"/>
+    <SubTexture name="sz10" x="2" y="342" width="310" height="245"/>
+    <SubTexture name="sz11" x="546" y="356" width="310" height="245"/>
+    <SubTexture name="talk10" x="576" y="798" width="68" height="22"/>
+    <SubTexture name="talk11" x="317" y="937" width="70" height="23"/>
+    <SubTexture name="talk12" x="650" y="782" width="68" height="22"/>
+    <SubTexture name="talk13" x="417" y="841" width="48" height="28"/>
+    <SubTexture name="talk14" x="872" y="348" width="48" height="28"/>
+    <SubTexture name="talk17" x="895" y="664" width="24" height="24"/>
+    <SubTexture name="talk18" x="527" y="841" width="26" height="26"/>
+    <SubTexture name="talk2" x="514" y="197" width="32" height="32"/>
+    <SubTexture name="talk23" x="310" y="787" width="178" height="27"/>
+    <SubTexture name="talk24" x="314" y="758" width="178" height="27"/>
+    <SubTexture name="talk27" x="962" y="44" width="60" height="19"/>
+    <SubTexture name="talk28" x="962" y="23" width="60" height="19"/>
+    <SubTexture name="talk29" x="962" y="2" width="60" height="19"/>
+    <SubTexture name="talk3" x="482" y="990" width="70" height="23"/>
+    <SubTexture name="talk31" x="290" y="829" width="40" height="11" frameX="-9" frameY="-4" frameWidth="60" frameHeight="19"/>
+    <SubTexture name="talk32" x="514" y="416" width="30" height="11" frameX="-15" frameY="-4" frameWidth="60" frameHeight="19"/>
+    <SubTexture name="talk33" x="332" y="829" width="26" height="11" frameX="-17" frameY="-4" frameWidth="60" frameHeight="19"/>
+    <SubTexture name="talk38" x="536" y="634" width="259" height="29"/>
+    <SubTexture name="talk39" x="536" y="603" width="259" height="29"/>
+    <SubTexture name="talk4" x="650" y="979" width="68" height="22"/>
+    <SubTexture name="talk40" x="360" y="816" width="70" height="23"/>
+    <SubTexture name="talk41" x="921" y="664" width="70" height="23"/>
+    <SubTexture name="talk44" x="465" y="553" width="41" height="11" frameX="-9" frameY="-4" frameWidth="61" frameHeight="19"/>
+    <SubTexture name="talk45" x="858" y="391" width="61" height="19"/>
+    <SubTexture name="talk5" x="555" y="841" width="70" height="23"/>
+    <SubTexture name="talk6" x="650" y="806" width="68" height="22"/>
+    <SubTexture name="talk7" x="504" y="816" width="70" height="23"/>
+    <SubTexture name="talk8" x="720" y="783" width="68" height="22"/>
+    <SubTexture name="talk9" x="432" y="816" width="70" height="23"/>
+    <SubTexture name="testboyaaCoinIcon" x="361" y="962" width="15" height="15"/>
+    <SubTexture name="tips_scale9" x="317" y="906" width="29" height="29"/>
+    <SubTexture name="title_renew" x="872" y="331" width="50" height="15"/>
+    <SubTexture name="tuijian" x="508" y="553" width="29" height="11"/>
+    <SubTexture name="unionDevoteIcon" x="514" y="389" width="30" height="25"/>
+    <SubTexture name="wuqi" x="552" y="783" width="44" height="13"/>
+    <SubTexture name="yfn2" x="2" y="784" width="200" height="200"/>
+</TextureAtlas>
+

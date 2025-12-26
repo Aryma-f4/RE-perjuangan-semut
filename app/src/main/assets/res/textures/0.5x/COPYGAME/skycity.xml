@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://texturepacker.com-->
+<!-- $TexturePacker:SmartUpdate:60ee71d953fa7b132455af95f3e9b736$ -->
+<TextureAtlas imagePath="skycity.png">
+    <SubTexture name="fbbg2" x="2" y="2" width="679" height="383" frameX="-2" frameY="0" frameWidth="683" frameHeight="383"/>
+    <SubTexture name="skycityfb29" x="683" y="192" width="243" height="188"/>
+    <SubTexture name="spritefb" x="683" y="2" width="243" height="188"/>
+</TextureAtlas>
+

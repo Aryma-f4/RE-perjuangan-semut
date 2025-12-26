@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://texturepacker.com-->
+<!-- $TexturePacker:SmartUpdate:9a157006d7c28084a3f1a0a7292b319a$ -->
+<TextureAtlas imagePath="UnionWorship.png">
+    <SubTexture name="UnionWorshipBg" x="2" y="2" width="498" height="384"/>
+    <SubTexture name="UnionWorshipItemBg" x="2" y="388" width="128" height="241"/>
+    <SubTexture name="UnionWorshipItemBgNull" x="502" y="2" width="0" height="0" frameX="0" frameY="0" frameWidth="128" frameHeight="235"/>
+    <SubTexture name="btnS_UnionWorshipInfoBtn1" x="484" y="388" width="23" height="23"/>
+    <SubTexture name="btnS_UnionWorshipInfoBtn2" x="459" y="388" width="23" height="23"/>
+    <SubTexture name="btnS_UnionWorshipItemBtn1" x="290" y="429" width="77" height="34"/>
+    <SubTexture name="btnS_UnionWorshipItemBtn2" x="211" y="429" width="77" height="34"/>
+    <SubTexture name="btnS_UnionWorshipItemBtn3" x="132" y="429" width="77" height="34"/>
+    <SubTexture name="btnS_UnionWorshipRewardBtn1" x="350" y="388" width="107" height="39"/>
+    <SubTexture name="btnS_UnionWorshipRewardBtn2" x="241" y="388" width="107" height="39"/>
+    <SubTexture name="btnS_UnionWorshipRewardBtn3" x="132" y="388" width="107" height="39"/>
+</TextureAtlas>
+
