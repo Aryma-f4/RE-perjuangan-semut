@@ -1,100 +1,91 @@
 # Panduan Lengkap Pengembangan (The Savior Guide)
 
-Ini adalah panduan **"Zero to Hero"** untuk membangun kembali game Ant Wars menggunakan teknologi modern (Rust & Tauri), karena Android Emulator KitKat sudah tidak bisa diandalkan.
+Ini adalah panduan **"Zero to Hero"** untuk membangun kembali game Ant Wars menggunakan teknologi modern (Rust & Tauri) dengan Emulasi Flash.
 
-Kita akan menggunakan strategi **"Rewrite Client"**:
+Strategi kita adalah:
 1.  **Server**: Backend Rust yang meniru logika server asli.
-2.  **Klien**: Aplikasi Desktop (Tauri) yang meniru tampilan dan logika APK asli.
+2.  **Klien**: Aplikasi Desktop (Tauri) yang menjalankan **Ruffle** (Flash Emulator) untuk memutar file `.swf` asli tanpa butuh Android Emulator.
 
 ---
 
 ## BAGIAN 1: Persiapan Lingkungan (Setup)
 
-Anda perlu menginstal tools berikut di komputer Anda (Windows/Mac/Linux):
+Anda perlu menginstal tools berikut di komputer Anda:
 
-1.  **Rust**: Bahasa pemrograman utama.
-    *   Download di [rustup.rs](https://rustup.rs).
-2.  **Node.js**: Diperlukan untuk build sistem Tauri.
-    *   Download di [nodejs.org](https://nodejs.org).
-3.  **Tauri CLI**:
-    *   Buka terminal dan jalankan: `cargo install tauri-cli`.
+1.  **Rust**: [rustup.rs](https://rustup.rs).
+2.  **Node.js**: [nodejs.org](https://nodejs.org).
+3.  **Tauri CLI**: Buka terminal dan jalankan `cargo install tauri-cli`.
 
 ---
 
-## BAGIAN 2: Menjalankan Server (Backend)
+## BAGIAN 2: Download Ruffle (Flash Emulator)
 
-Server ini bertugas menyimpan data akun dan logika game.
+Karena kita menjalankan file SWF, kita butuh engine emulator.
 
-1.  Buka terminal di folder root proyek ini.
-2.  Masuk ke folder server:
-    ```bash
-    cd server_emulator
-    ```
-3.  Jalankan server:
+1.  Buka website [Ruffle Releases](https://github.com/ruffle-rs/ruffle/releases).
+2.  Cari rilis terbaru (misal `nightly`).
+3.  Download file yang bernama **self-hosted** (contoh: `ruffle_nightly_2023_xx_xx_selfhosted.zip`).
+4.  Ekstrak file zip tersebut.
+5.  Ambil file `ruffle.js` dan file `core.ruffle.wasm` (atau folder core-nya).
+6.  Copy file-file tersebut ke folder: `antwars-client/ui/`.
+    *   Pastikan `antwars-client/ui/ruffle.js` ada.
+
+---
+
+## BAGIAN 3: Menjalankan Server (Backend)
+
+**PENTING: Port 80**
+Game asli mencoba menghubungi server di port HTTP standar (80). Server kita perlu berjalan di port 80 agar metode DNS Spoofing berhasil. Ini membutuhkan akses Administrator/Root.
+
+1.  Buka file `server_emulator/src/main.rs`.
+2.  Ubah baris `.bind(("127.0.0.1", 8080))?` menjadi `.bind(("127.0.0.1", 80))?`.
+3.  Buka terminal sebagai **Administrator** (Windows) atau gunakan `sudo` (Linux/Mac).
+4.  Masuk ke folder server dan jalankan:
     ```bash
     cargo run
     ```
-4.  Tunggu hingga muncul: `Server running at http://127.0.0.1:8080`.
-    *   **Biarkan terminal ini terbuka.**
+5.  Tunggu hingga muncul: `Server running at http://127.0.0.1:80`.
 
 ---
 
-## BAGIAN 3: Menjalankan Klien (Frontend)
+## BAGIAN 4: Menjalankan Klien (Game)
 
-Ini adalah pengganti APK lama. Aplikasi ini berjalan native di PC Anda.
-
-1.  Buka terminal **baru** (terminal server jangan ditutup).
-2.  Masuk ke folder klien:
+1.  Pastikan file game asli sudah ada di folder klien. Copy file `app/src/main/assets/antwarsmobilestarling.swf` ke `antwars-client/ui/antwars.swf`.
+2.  Buka terminal **baru**.
+3.  Masuk ke folder klien:
     ```bash
     cd antwars-client
     ```
-3.  Jalankan mode development:
+4.  Jalankan aplikasi:
     ```bash
     cargo tauri dev
     ```
-4.  Akan muncul jendela aplikasi dengan tombol **"Login (GameMember.load)"**.
-5.  Klik tombol tersebut.
-    *   Jika sukses, akan muncul Popup: "Login Success! Welcome DevUser".
-    *   Di terminal Server, Anda akan melihat log request yang masuk.
+5.  Aplikasi akan terbuka dan Ruffle akan memuat game.
 
 ---
 
-## BAGIAN 4: Cara Debugging (PENTING)
+## BAGIAN 5: Mengatasi Koneksi Server (PENTING)
 
-Karena Anda membangun ulang, debugging adalah kunci.
+Agar SWF mau berbicara dengan server lokal (`127.0.0.1`), Anda punya 2 pilihan:
 
-1.  **Debug Klien (Frontend)**:
-    *   Di jendela aplikasi Tauri, klik kanan -> **Inspect Element**.
-    *   Ini membuka "Developer Tools" (sama seperti Chrome).
-    *   Tab **Console**: Melihat log error atau `console.log`.
-    *   Tab **Network**: Melihat request yang dikirim ke server.
+**Pilihan A: DNS Spoofing (Mudah)**
+1.  Edit file `hosts` di komputer Anda (`C:\Windows\System32\drivers\etc\hosts` atau `/etc/hosts`) sebagai Administrator.
+2.  Tambahkan:
+    ```
+    127.0.0.1 mvlpidat01.boyaagame.com
+    127.0.0.1 pclpidat01.boyaagame.com
+    ```
+3.  Simpan file. Sekarang game akan mengira komputer Anda adalah server resmi.
 
-2.  **Debug Server (Backend)**:
-    *   Lihat terminal tempat Anda menjalankan `cargo run`.
-    *   Gunakan `println!("Variable: {:?}", variable);` di kode Rust untuk melihat isi data saat development.
-
----
-
-## BAGIAN 5: Menggunakan Aset Game Asli
-
-Agar klien Tauri terlihat seperti game asli, kita perlu mengambil gambar (tekstur) dari APK.
-
-1.  Aset asli ada di folder repo: `app/src/main/assets/res/`.
-2.  Copy folder `res` tersebut ke dalam folder UI klien: `antwars-client/ui/assets/`.
-3.  Di kode HTML/JS (`antwars-client/ui/index.html`), Anda bisa memuat gambar tersebut.
-    *   Contoh: `<img src="assets/res/textures/0.5x/UI/login_bg.png">`
+**Pilihan B: Modifikasi SWF (Susah)**
+1.  Anda perlu recompile SWF menggunakan Flex SDK seperti dijelaskan di panduan sebelumnya, mengubah IP di `Constants.as`.
+2.  Lalu ganti file `antwars-client/ui/antwars.swf` dengan hasil compile baru Anda.
 
 ---
 
-## BAGIAN 6: Roadmap Pengembangan Selanjutnya
+## BAGIAN 6: Debugging
 
-Anda sekarang punya fondasi yang **berjalan 100%**. Langkah selanjutnya adalah memindahkan logika game satu per satu.
+1.  **Lihat Log Server**: Perhatikan terminal `server_emulator`. Jika ada tulisan "Request: ...", berarti game berhasil menghubungi server Anda!
+2.  **Inspect Element**: Di jendela game, Klik Kanan -> Inspect. Lihat tab **Network** untuk melihat apakah file `.swf` atau request API gagal (merah).
 
-1.  **Lobby**: Buat tampilan HTML/Canvas yang menampilkan karakter.
-2.  **Inventory**:
-    *   Klien: Kirim request `GameMember.getNewWeapon`.
-    *   Server: Tambahkan handler di `server_emulator/src/main.rs`.
-3.  **Battle**:
-    *   Gunakan library game engine JS (seperti **Phaser.js** atau **Bevy** di Rust) untuk membuat logika tembak-tembakan semut di dalam Tauri.
-
-**Selamat! Anda tidak lagi butuh Android Emulator jadul.**
+Selamat mencoba membangkitkan kembali Ant Wars!

@@ -46,7 +46,7 @@ async fn main() -> std::io::Result<()> {
     let db_url = "sqlite::memory:";
     let pool = SqlitePool::connect(db_url).await.unwrap();
 
-    println!("Server running at http://127.0.0.1:8080");
+    println!("Server running at http://127.0.0.1:80");
 
     HttpServer::new(move || {
         // Setup CORS to allow Tauri client (or browser) to connect
@@ -63,7 +63,7 @@ async fn main() -> std::io::Result<()> {
             .route("/antwarsmobile/api/flashapi.php", web::post().to(gateway))
             .route("/api/flashapi.php", web::post().to(gateway))
     })
-    .bind(("127.0.0.1", 8080))?
+    .bind(("127.0.0.1", 80))? // Port 80 for DNS Spoofing compatibility
     .run()
     .await
 }

@@ -1,28 +1,14 @@
 {
+  "productName": "AntWarsClient",
+  "version": "0.1.0",
+  "identifier": "com.boyaa.antwars.remake",
   "build": {
     "beforeDevCommand": "",
     "beforeBuildCommand": "",
-    "devPath": "../ui",
-    "distDir": "../ui",
-    "withGlobalTauri": true
+    "devUrl": "../ui",
+    "frontendDist": "../ui"
   },
-  "package": {
-    "productName": "AntWarsClient",
-    "version": "0.1.0"
-  },
-  "tauri": {
-    "allowlist": {
-      "all": false,
-      "shell": {
-        "all": false,
-        "open": true
-      },
-      "http": {
-        "all": true,
-        "request": true,
-        "scope": ["http://127.0.0.1:8080/*"]
-      }
-    },
+  "app": {
     "windows": [
       {
         "title": "Ant Wars Remake",
@@ -32,15 +18,14 @@
     ],
     "security": {
       "csp": null
-    },
-    "bundle": {
-      "active": true,
-      "targets": "all",
-      "identifier": "com.boyaa.antwars.remake",
-      "icon": [
-        "icons/32x32.png",
-        "icons/128x128.png"
-      ]
     }
+  },
+  "bundle": {
+    "active": true,
+    "targets": "all",
+    "icon": [
+      "icons/32x32.png",
+      "icons/128x128.png"
+    ]
   }
 }
