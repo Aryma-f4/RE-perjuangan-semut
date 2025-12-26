@@ -1,30 +1,7 @@
 # System Design & Conceptual Data Model (Tauri/Rust Client)
 
-## 1. System Architecture
 
-This design envisions a **Tauri** application serving as the game client. Tauri allows us to write the frontend logic in Rust (or web technologies) while interfacing with the native OS.
-
-### High-Level Architecture
-
-```mermaid
-graph TD
-    User[Player] -->|Interacts| Client[Tauri Client (Rust/Web)]
-
-    subgraph "Client Side (Tauri)"
-        UI[User Interface] -->|Events| GameLogic[Game Logic Core (Rust)]
-        GameLogic -->|State Update| State[Local State Management]
-        GameLogic -->|HTTP/WebSocket| Net[Network Layer]
-        Net -->|Cache/Config| LocalDB[Local Storage / SQLite]
-    end
-
-    subgraph "Server Side"
-        Net <-->|API Calls| API[Game Server API]
-        API -->|Read/Write| DB[(Central Database)]
-        API -->|Auth| Auth[Auth Service]
-    end
-```
-
-## 2. Business Processes & Logic
+## 1. Business Processes & Logic
 
 Based on the reverse engineering of the original Flash game, here are the core processes adapted for a modern Rust architecture:
 
@@ -66,7 +43,7 @@ Based on the reverse engineering of the original Flash game, here are the core p
     2.  Server verifies inputs match the recipe.
     3.  Server consumes inputs and grants the output item.
 
-## 3. Conceptual Data Model (CDM)
+## 2. Conceptual Data Model (CDM)
 
 This model abstracts away specific database types (SQL vs NoSQL), focusing on Entities and Relationships.
 
@@ -323,7 +300,7 @@ erDiagram
 *   **Skill**: Abilities used by players or monsters.
     *   **Sub Skill**: Represents the specific effect (Buff, Damage, Heal) triggered by a skill, often with conditions.
 
-## 4. Tauri/Rust Implementation Notes
+## 3. Tauri/Rust Implementation Notes
 
 ### Shared Data Types
 To ensure consistency, create a Rust library crate (e.g., `antwars-common`) shared by both the Tauri client and the Server.
