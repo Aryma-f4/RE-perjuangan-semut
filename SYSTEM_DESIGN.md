@@ -2,7 +2,7 @@
 
 ## 1. System Architecture
 
-This design envisions a **Tauri** application serving as the game client. Tauri allows us to write the frontend logic in Rust (or web technologies) while interfacing with the native OS. Since you mentioned "Tauri Rust", we assume a heavy use of Rust for the client-side game logic.
+This design envisions a **Tauri** application serving as the game client. Tauri allows us to write the frontend logic in Rust (or web technologies) while interfacing with the native OS.
 
 ### High-Level Architecture
 
@@ -24,17 +24,6 @@ graph TD
     end
 ```
 
-### Components
-
-1.  **Tauri Client**:
-    *   **Frontend**: Renders the game. Could be HTML/Canvas/WebGL or a Rust UI framework (like Slint or Dioxus) running inside the webview.
-    *   **Core Logic (Rust)**: Handles calculations (stats, battles) to ensure performance and type safety.
-    *   **Network Layer**: Manages secure communication with the server. Since it's a private server, you might use standard HTTP/JSON or gRPC for efficiency.
-
-2.  **Server API**:
-    *   Central authority for critical data (inventory, currency, battle verification).
-    *   Prevents cheating by validating actions sent by the client.
-
 ## 2. Business Processes & Logic
 
 Based on the reverse engineering of the original Flash game, here are the core processes adapted for a modern Rust architecture:
@@ -51,10 +40,10 @@ Based on the reverse engineering of the original Flash game, here are the core p
 *   **Process**:
     1.  **Load**: Client fetches `items` list on login.
     2.  **Equip**: User drags item to slot -> Client sends `equip_item(id, slot)` -> Server validates class/level reqs -> Updates DB -> Returns success.
-    3.  **Stats**: Client calculates stats locally for display (Attack = Base + Equip + Buffs), but Server re-calculates for battle verification.
+    3.  **Rental**: Items can be rented to/from the Guild. The server must track ownership vs. possession and expiration times.
 
 ### C. Missions (Quests)
-*   **Structure**: Missions have sub-tasks (kill X, collect Y).
+*   **Structure**: Missions have sub-tasks (kill X, collect Y) and rewards.
 *   **Process**:
     1.  Client tracks progress locally for UI feedback (e.g., "Ants killed: 4/10").
     2.  Upon completion, Client sends `complete_mission(id)`.
@@ -65,101 +54,243 @@ Based on the reverse engineering of the original Flash game, here are the core p
 *   **Implementation**:
     *   **Client**: Calculates trajectory, collision, and animation.
     *   **Server**: Receives "Shot Data" (Angle, Power, Weapon) or "Turn Result".
-    *   **Verification**: Server checks if the damage is plausible given the player's stats to prevent "One Hit Kill" hacks.
+    *   **Verification**: Server checks if the damage is plausible given the player's stats.
+
+### E. Crafting (Smelting/RLGS)
+*   **Logic**: Players combine items based on formulas (Recipes) to create new items (Suits, etc.).
+*   **Process**:
+    1.  Client sends `smelt_item(recipe_id, [input_item_ids])`.
+    2.  Server verifies inputs match the recipe.
+    3.  Server consumes inputs and grants the output item.
 
 ## 3. Conceptual Data Model (CDM)
 
-This model focuses on the *entities* and their *relationships*, abstracting away specific database types.
+This model abstracts away specific database types (SQL vs NoSQL), focusing on Entities and Relationships.
 
 ```mermaid
 erDiagram
     USER ||--|| PLAYER_PROFILE : "has"
     USER ||--|| CURRENCY : "owns"
     USER ||--|{ ITEM : "possesses"
-    USER ||--|{ FRIEND : "friends with"
+    USER ||--|{ FRIENDSHIP : "connected to"
+    USER ||--o| MARRIAGE : "participates in"
     USER ||--o{ GUILD_MEMBER : "belongs to"
+    USER ||--|{ USER_MISSION : "tracks"
 
     GUILD ||--|{ GUILD_MEMBER : "contains"
-    GUILD ||--|{ GUILD_SHOP : "unlocks"
+    GUILD ||--|{ GUILD_SHOP_ITEM : "unlocks"
 
     ITEM }|--|| ITEM_TEMPLATE : "instance of"
 
-    USER ||--|{ MISSION_PROGRESS : "tracks"
-    MISSION_PROGRESS }|--|| MISSION_TEMPLATE : "instance of"
+    USER_MISSION }|--|| MISSION_TEMPLATE : "instance of"
+    MISSION_TEMPLATE ||--|{ SUB_MISSION_TEMPLATE : "has tasks"
+    MISSION_TEMPLATE ||--|{ MISSION_REWARD : "gives"
+
+    RECIPE ||--|{ RECIPE_INPUT : "requires"
+    RECIPE ||--|| ITEM_TEMPLATE : "produces"
 
     PLAYER_PROFILE {
+        int mid "Member ID"
         string name
         int level
         int exp
         int vip_level
         string gender
         string appearance_string
+        int energy
+        int win_count
+        int loss_count
+        int rank
+        int endless_high_level
+        int endless_fight_time
+        string signature
     }
 
     CURRENCY {
-        int game_gold "Standard Currency"
-        int boyaa_coin "Premium Currency"
-        int free_coin "Exchange/Event Currency"
+        int game_gold "Standard"
+        int boyaa_coin "Premium"
+        int free_coin "Exchange"
+        int auction_coin
     }
 
     ITEM {
-        int instance_id "Unique ID"
-        int template_id "Ref to Static Data"
+        int instance_id
+        int template_id
         int quantity
-        enum location "Bag, Equipped, Storage"
+        enum location "Bag, Equipped, Storage, Rent"
         int strengthen_level
-        string dynamic_stats "Random rolls/Attributes"
+        string dynamic_attributes "Attack|Defense|..."
         datetime expiration
+        int owner_mid "Original Owner (for Rental)"
+        int rent_price
+        datetime rent_expire_time
     }
 
     ITEM_TEMPLATE {
         int id
         string name
         string type "Weapon, Hat, Consumable"
-        int base_attack
-        int base_defense
-        int required_level
+        int base_stats
+        int quality
     }
 
     GUILD {
         int id
         string name
-        int level
-        int smithy_level
-        int shop_level
+        string intro
+        int leader_mid
+        int level "Guild Level"
+        int smithy_level "Tech Level"
+        int shop_level "Tech Level"
+        int store_level "Tech Level"
+        int statue_level "Tech Level"
+        int wealth "cdevote"
+        int honor
+        int construction_value
+        datetime created_at
     }
 
-    MISSION_PROGRESS {
+    GUILD_MEMBER {
+        int guild_id
+        int user_id
+        enum position "Leader, Vice, Member"
+        int contribution "mdevote"
+        int honor "mhonour"
+        datetime join_time
+    }
+
+    GUILD_SHOP_ITEM {
+        int id
+        int item_template_id
+        int required_shop_level
+        int price_contribution
+    }
+
+    FRIENDSHIP {
+        int user_id_1
+        int user_id_2
+        int intimacy_level
+        enum status "Pending, Accepted, Blocked"
+    }
+
+    MARRIAGE {
+        int husband_mid
+        int wife_mid
+        datetime marry_time
+        enum type "Common, Luxury"
+        enum state "Proposing, Married, Divorced"
+    }
+
+    MISSION_TEMPLATE {
+        int id
+        enum type "Main, Daily, Guild, Active"
+        string name
+        string description
+        int required_level
+    }
+
+    SUB_MISSION_TEMPLATE {
+        int mission_id
+        int action_code "Kill, Collect, etc."
+        string target_params "Target ID/Name"
+        int required_count
+    }
+
+    MISSION_REWARD {
+        int mission_id
+        int item_template_id
+        int quantity
+    }
+
+    USER_MISSION {
         int user_id
         int mission_id
-        int current_count
-        bool is_completed
-        bool is_rewarded
+        enum status "New, InProgress, Completed, Rewarded"
+        json progress_data "{sub_mission_id: count}"
+    }
+
+    RECIPE {
+        int id
+        string name
+        int output_item_id
     }
 ```
 
 ### Entity Descriptions
 
-1.  **User / Account**: The overarching entity for authentication (Username, Password, Auth Provider info).
-2.  **Player Profile**: Game-specific character data.
-    *   *Attributes*: Name, Sex, Level, VIP Status, Ranking, Win/Loss Record.
-    *   *Logic*: Level is derived from EXP.
-3.  **Currency**: Separated to track economy easier.
-    *   *Types*: Gold (F2P), Coins (Premium/Paid), Vouchers.
-4.  **Item (Instance)**: A specific item owned by a player.
-    *   *Dynamic Attributes*: Unlike static games, items here have "strengthening" (+1 to +12) and "synthesis" (combining attributes).
-    *   *Storage*: `location` field determines if it's on the character (active stats) or in the bag.
-5.  **Item Template (Static)**: The definition of items (e.g., "Super Ant Cannon"). Usually stored in JSON/XML or a reference table.
-6.  **Guild (Union)**: Social groups.
-    *   *Progression*: Guilds have their own levels (Smithy, Shop) which unlock features for members.
-7.  **Mission Progress**: Tracks the state of quests.
-    *   *State*: New -> In Progress -> Completed -> Rewarded.
+#### 1. User & Profile
+*   **Player Profile**: Stores the core stats. Added `endless_high_level` and `endless_fight_time` for the PvE mode. `appearance_string` stores the avatar configuration ("1|1|1|1").
 
-## 4. Considerations for Tauri Client
+#### 2. Economy & Items
+*   **Item (Instance)**: Expanded to support the **Rental System**.
+    *   `owner_mid`: Tracks who actually owns the item if it is currently rented out.
+    *   `rent_expire_time`: When the rental period ends.
+    *   `dynamic_attributes`: The pipe-separated string stores RNG stats or synthesis results (`synthesisLevel`).
 
-Since you are using Tauri (Rust), you can share data structures between the Client and Server if the Server is also written in Rust.
+#### 3. Social Structures
+*   **Guild (Union)**: A complex entity with multiple progression tracks (`smithy_level`, `shop_level`, etc.).
+    *   *Guild Shop*: Unlocks items based on `shop_level`.
+*   **Guild Member**: Tracks individual `contribution` (used as currency in Guild Shop) and `honor`.
+*   **Friendship**: Basic graph, but includes `intimacy_level` (derived from `familiarity` in source).
+*   **Marriage**: Tracks the relationship state and type.
 
-*   **Shared Models**: Create a `common` crate (library) containing the `structs` for `Item`, `Player`, `Mission`.
-    *   *Benefit*: If you update the Item definition, both Client and Server update automatically.
-*   **State Management**: Use a library like `tauri-plugin-store` or standard Rust `State` management (Redux-like pattern) to keep the local CDM in sync with the UI.
-*   **Security**: Never trust the client. Even though it's a native app, users can manipulate memory. Always validate critical actions (spending money, dealing damage, crafting items) on the backend.
+#### 4. Missions (Quest System)
+*   **Mission Template**: Defines the static data (Name, Description).
+*   **Sub Mission**: Defines the actual logic. `action_code` maps to game events (e.g., Code 101 = Win Battle, Code 102 = Use Item).
+*   **User Mission**: Tracks the specific progress of a user. The `progress_data` JSON field is flexible enough to store counts for multiple sub-missions.
+
+#### 5. Crafting (Smelting)
+*   **Recipe**: Represents the `RLGS` (Role Login Gift/Smelt) data. Maps input items to an output item.
+
+## 4. Tauri/Rust Implementation Notes
+
+### Shared Data Types
+To ensure consistency, create a Rust library crate (e.g., `antwars-common`) shared by both the Tauri client and the Server.
+
+```rust
+// antwars-common/src/models.rs
+
+#[derive(Serialize, Deserialize, Clone)]
+pub struct Item {
+    pub id: i64,
+    pub template_id: i32,
+    pub quantity: i32,
+    pub location: ItemLocation, // Enum: Bag, Equipped...
+    pub attributes: String,     // "100|20|..."
+    pub rental_info: Option<RentalInfo>,
+}
+
+#[derive(Serialize, Deserialize, Clone)]
+pub struct RentalInfo {
+    pub owner_mid: i64,
+    pub expire_time: i64, // Unix timestamp
+    pub price: i32,
+}
+
+#[derive(Serialize, Deserialize, Clone)]
+pub struct Guild {
+    pub id: i64,
+    pub name: String,
+    pub levels: GuildTechLevels,
+}
+
+#[derive(Serialize, Deserialize, Clone)]
+pub struct GuildTechLevels {
+    pub shop: i32,
+    pub smithy: i32,
+    pub store: i32,
+    pub statue: i32,
+}
+```
+
+### State Management (Client)
+In the Tauri app, use a centralized Store (like `Redux` or `useReducer` if using React/Yew, or a `RwLock<GameState>` in pure Rust) to hold:
+1.  `inventory`: `Vec<Item>`
+2.  `active_missions`: `HashMap<MissionId, Progress>`
+3.  `guild_info`: `Option<Guild>`
+
+### Network Sync
+1.  **Poll**: Client requests `get_player_state` every X seconds (or after battle).
+2.  **Push**: Server pushes updates (e.g., "Guild Level Up", "Friend Request") via WebSocket if real-time features are implemented.
+
+This design covers the missing entities found in the source code analysis (`Guild Levels`, `Rental System`, `Mission Structure`, `Smelting Formulas`).
