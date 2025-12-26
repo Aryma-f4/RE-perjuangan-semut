@@ -55,6 +55,9 @@ Based on the reverse engineering of the original Flash game, here are the core p
     *   **Client**: Calculates trajectory, collision, and animation.
     *   **Server**: Receives "Shot Data" (Angle, Power, Weapon) or "Turn Result".
     *   **Verification**: Server checks if the damage is plausible given the player's stats.
+*   **Dungeons (Copies)**: Players enter stages populated by monsters.
+    *   **Spawn Logic**: Server sends spawn points and monster types (`CopyMonster`).
+    *   **AI**: Client handles simple AI movement; Server validates positions.
 
 ### E. Crafting (Smelting/RLGS)
 *   **Logic**: Players combine items based on formulas (Recipes) to create new items (Suits, etc.).
@@ -81,6 +84,7 @@ erDiagram
     GUILD ||--|{ GUILD_SHOP_ITEM : "unlocks"
 
     ITEM }|--|| ITEM_TEMPLATE : "instance of"
+    SHOP_ITEM }|--|| ITEM_TEMPLATE : "sells"
 
     USER_MISSION }|--|| MISSION_TEMPLATE : "instance of"
     MISSION_TEMPLATE ||--|{ SUB_MISSION_TEMPLATE : "has tasks"
@@ -88,6 +92,13 @@ erDiagram
 
     RECIPE ||--|{ RECIPE_INPUT : "requires"
     RECIPE ||--|| ITEM_TEMPLATE : "produces"
+
+    SKILL ||--|{ SUB_SKILL : "triggers"
+    MONSTER_TEMPLATE ||--|{ SKILL : "uses"
+
+    MAP ||--|{ DUNGEON_STAGE : "contains"
+    DUNGEON_STAGE ||--|{ STAGE_MONSTER_SPAWN : "spawns"
+    STAGE_MONSTER_SPAWN }|--|| MONSTER_TEMPLATE : "is type"
 
     PLAYER_PROFILE {
         int mid "Member ID"
@@ -132,6 +143,17 @@ erDiagram
         string type "Weapon, Hat, Consumable"
         int base_stats
         int quality
+    }
+
+    SHOP_ITEM {
+        int id
+        int item_template_id
+        enum currency_type
+        int price
+        int discount_percent
+        boolean is_hot
+        boolean is_new
+        int required_vip_level
     }
 
     GUILD {
@@ -214,6 +236,56 @@ erDiagram
         string name
         int output_item_id
     }
+
+    SKILL {
+        int id
+        string name
+        int trigger_rate "odds"
+        int effect_code "secode"
+        int value_add
+    }
+
+    SUB_SKILL {
+        int effect_code
+        string name
+        int condition_type
+        int target_type
+        int duration "lasttime"
+    }
+
+    MAP {
+        int id
+        string name
+        int difficulty_level
+        int type
+    }
+
+    DUNGEON_STAGE {
+        int id "cpid"
+        int map_id
+        int stage_index
+        int difficulty
+        string win_condition
+        string lose_condition
+    }
+
+    MONSTER_TEMPLATE {
+        int role_id
+        string name
+        int hp "blood"
+        int attack_type
+        int move_range
+        string attributes "Attack|Defense..."
+        boolean is_boss
+    }
+
+    STAGE_MONSTER_SPAWN {
+        int dungeon_id
+        int monster_role_id
+        int quantity
+        string spawn_points "x,y coordinates"
+        int respawn_cd
+    }
 ```
 
 ### Entity Descriptions
@@ -226,6 +298,7 @@ erDiagram
     *   `owner_mid`: Tracks who actually owns the item if it is currently rented out.
     *   `rent_expire_time`: When the rental period ends.
     *   `dynamic_attributes`: The pipe-separated string stores RNG stats or synthesis results (`synthesisLevel`).
+*   **Shop Item**: Defines the general marketplace. Separated from `Item Template` because the same item might be sold for different prices or currencies (Gold vs Coins) or have discounts.
 
 #### 3. Social Structures
 *   **Guild (Union)**: A complex entity with multiple progression tracks (`smithy_level`, `shop_level`, etc.).
@@ -241,6 +314,14 @@ erDiagram
 
 #### 5. Crafting (Smelting)
 *   **Recipe**: Represents the `RLGS` (Role Login Gift/Smelt) data. Maps input items to an output item.
+
+#### 6. Battle & World
+*   **Map**: The visual environment.
+*   **Dungeon Stage (Copy)**: Represents a specific playable level within a map (e.g., "Forest Map - Stage 3 - Hard Mode").
+*   **Monster Template**: The "Role" or definition of a monster (Base HP, Attack Type).
+*   **Stage Monster Spawn**: Configuration for which monsters appear in a specific stage, how many, and where they spawn.
+*   **Skill**: Abilities used by players or monsters.
+    *   **Sub Skill**: Represents the specific effect (Buff, Damage, Heal) triggered by a skill, often with conditions.
 
 ## 4. Tauri/Rust Implementation Notes
 
@@ -281,6 +362,8 @@ pub struct GuildTechLevels {
     pub store: i32,
     pub statue: i32,
 }
+
+// ... Additional structs for Skills, Maps, Monsters
 ```
 
 ### State Management (Client)
@@ -288,9 +371,10 @@ In the Tauri app, use a centralized Store (like `Redux` or `useReducer` if using
 1.  `inventory`: `Vec<Item>`
 2.  `active_missions`: `HashMap<MissionId, Progress>`
 3.  `guild_info`: `Option<Guild>`
+4.  `skills`: `Vec<Skill>` (Loaded static data)
 
 ### Network Sync
 1.  **Poll**: Client requests `get_player_state` every X seconds (or after battle).
 2.  **Push**: Server pushes updates (e.g., "Guild Level Up", "Friend Request") via WebSocket if real-time features are implemented.
 
-This design covers the missing entities found in the source code analysis (`Guild Levels`, `Rental System`, `Mission Structure`, `Smelting Formulas`).
+This design covers the missing entities found in the source code analysis (`Guild Levels`, `Rental System`, `Mission Structure`, `Smelting Formulas`, `Skills`, `Maps`, `Monsters`, `Shops`).
