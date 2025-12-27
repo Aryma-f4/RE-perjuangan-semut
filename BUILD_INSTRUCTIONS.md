@@ -1,45 +1,29 @@
-# Instruksi Kompilasi SWF (Wajib)
+# Instruksi Kompilasi SWF (Koreksi)
 
-Karena Ruffle tidak mendukung fitur "Adobe AIR" (desktop) yang digunakan game asli, Anda **WAJIB** mengkompilasi ulang kode game menjadi file SWF web biasa.
+Terdapat kesalahan sintaks pada perintah sebelumnya. Compiler `amxmlc`/`mxmlc` tidak menggunakan flag `-src` atau `--main-file`.
 
-Saya telah memodifikasi file `src/Application.as` dan `src/Constants.as` di folder source code Anda agar kompatibel dengan Web.
+Berikut adalah perintah yang **BENAR** untuk mengkompilasi ulang kode game.
 
-## Langkah 1: Download Apache Flex SDK
+## Langkah 1: Persiapan
 
-1.  Download **Apache Flex SDK 4.16.1** (atau versi 4.x lainnya).
-    *   Link: [https://flex.apache.org/download-binaries.html](https://flex.apache.org/download-binaries.html)
-2.  Ekstrak folder tersebut, misal ke: `C:\FlexSDK`.
-3.  Pastikan di dalam folder `bin` ada file `amxmlc.bat` (Windows) atau `amxmlc` (Mac/Linux).
+Pastikan Anda berada di folder `antwarsmobilestarling.swf-decompile` di terminal.
 
-## Langkah 2: Struktur Folder
+## Langkah 2: Jalankan Perintah
 
-Pastikan struktur folder Anda seperti ini:
-```
-D:\projects\reverse\jule-perjuangan-semut\
-  ├── antwarsmobilestarling.swf-decompile\
-  │     ├── src\
-  │     │    ├── AntWars.as
-  │     │    ├── Application.as (Sudah dimodifikasi)
-  │     │    └── ...
-  │     └── libs\  (Jika ada library .swc)
-```
-
-## Langkah 3: Menjalankan Kompilasi
-
-Buka terminal (CMD/PowerShell) di folder `antwarsmobilestarling.swf-decompile` dan jalankan perintah berikut:
+Copy dan paste perintah di bawah ini (sesuaikan path `amxmlc.bat` jika perlu):
 
 **Windows:**
 ```cmd
-C:\FlexSDK\bin\amxmlc.bat -src "src" -include-libraries "libs" -output "..\antwars-web\public\antwars.swf" --main-file "src\AntWars.as" -target-player=11.4
+C:\apacheflex\bin\amxmlc.bat -source-path+=src -library-path+=libs -static-link-runtime-shared-libraries=true -output "..\antwars-web\public\antwars.swf" -target-player=11.4 src\AntWars.as
 ```
 
-**Linux/Mac:**
-```bash
-/path/to/flexsdk/bin/amxmlc -src "src" -include-libraries "libs" -output "../antwars-web/public/antwars.swf" --main-file "src/AntWars.as" -target-player=11.4
-```
+**Penjelasan Perubahan:**
+1.  **Hapus `-src`**: Diganti dengan `-source-path+=src`.
+2.  **Hapus `--main-file`**: File utama (`src\AntWars.as`) diletakkan di **akhir perintah** sebagai argumen posisi.
+3.  **Ganti `-include-libraries`**: Diganti dengan `-library-path+=libs` (agar library dilink dengan benar).
+4.  **Tambah `-static-link-runtime-shared-libraries=true`**: Opsi ini penting agar SWF tidak error saat dijalankan di Ruffle karena kekurangan library RSL bawaan.
 
-*Catatan: Anda mungkin perlu menyesuaikan path `-include-libraries` jika library game (Starling, Feathers, dll) ada di folder lain.*
+## Langkah 3: Troubleshooting
 
-## Langkah 4: Test
-
-Setelah berhasil compile, file `antwars.swf` baru akan muncul di folder `antwars-web/public/`. Refresh browser Next.js Anda (`localhost:3000`), dan Ruffle seharusnya bisa memuat game tanpa error `NativeApplication`.
+Jika masih ada error seperti `Type was not found ...`:
+*   Cek apakah folder `libs` benar-benar berisi file `.swc` (library game). Jika kosong/tidak ada, Anda mungkin perlu mencari library Starling/Feathers SWC versi lama dan memasukkannya ke sana.
