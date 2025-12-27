@@ -1,29 +1,26 @@
-# Instruksi Kompilasi SWF (Koreksi)
+# Instruksi Kompilasi SWF (Final Fix)
 
-Terdapat kesalahan sintaks pada perintah sebelumnya. Compiler `amxmlc`/`mxmlc` tidak menggunakan flag `-src` atau `--main-file`.
+Error `unable to open '{airHome}'` terjadi karena Anda menggunakan `amxmlc` (Compiler AIR) padahal SDK Anda belum dikonfigurasi dengan AIR SDK lengkap, atau kita sebenarnya ingin mengkompilasi untuk **Web (Flash Player)**, bukan AIR.
 
-Berikut adalah perintah yang **BENAR** untuk mengkompilasi ulang kode game.
+Solusinya adalah menggunakan **`mxmlc`** (Compiler Flash Standard) dan memaksa konfigurasi web.
 
-## Langkah 1: Persiapan
+## Langkah 1: Jalankan Perintah Baru
 
-Pastikan Anda berada di folder `antwarsmobilestarling.swf-decompile` di terminal.
-
-## Langkah 2: Jalankan Perintah
-
-Copy dan paste perintah di bawah ini (sesuaikan path `amxmlc.bat` jika perlu):
+Gunakan perintah ini di terminal (folder `antwarsmobilestarling.swf-decompile`):
 
 **Windows:**
 ```cmd
-C:\apacheflex\bin\amxmlc.bat -source-path+=src -library-path+=libs -static-link-runtime-shared-libraries=true -output "..\antwars-web\public\antwars.swf" -target-player=11.4 src\AntWars.as
+C:\apacheflex\bin\mxmlc.bat -load-config="C:\apacheflex\frameworks\flex-config.xml" -source-path+=src -library-path+=libs -static-link-runtime-shared-libraries=true -output "..\antwars-web\public\antwars.swf" -target-player=11.4 src\AntWars.as
 ```
 
-**Penjelasan Perubahan:**
-1.  **Hapus `-src`**: Diganti dengan `-source-path+=src`.
-2.  **Hapus `--main-file`**: File utama (`src\AntWars.as`) diletakkan di **akhir perintah** sebagai argumen posisi.
-3.  **Ganti `-include-libraries`**: Diganti dengan `-library-path+=libs` (agar library dilink dengan benar).
-4.  **Tambah `-static-link-runtime-shared-libraries=true`**: Opsi ini penting agar SWF tidak error saat dijalankan di Ruffle karena kekurangan library RSL bawaan.
+**Perubahan Penting:**
+1.  Ganti `amxmlc.bat` menjadi **`mxmlc.bat`**.
+2.  Tambah parameter `-load-config` yang menunjuk ke `flex-config.xml`. Ini memaksa compiler untuk menggunakan mode Web/Flash Player, bukan AIR.
 
-## Langkah 3: Troubleshooting
+## Langkah 2: Jika Masih Error (Opsi Alternatif)
 
-Jika masih ada error seperti `Type was not found ...`:
-*   Cek apakah folder `libs` benar-benar berisi file `.swc` (library game). Jika kosong/tidak ada, Anda mungkin perlu mencari library Starling/Feathers SWC versi lama dan memasukkannya ke sana.
+Jika cara di atas masih gagal karena setup SDK yang rumit, Anda bisa mencoba **mendownload SWF yang sudah saya patch** (Jika saya bisa memberikannya, tapi saya tidak bisa).
+
+Maka, pastikan di dalam folder `C:\apacheflex\frameworks\libs\player\11.4\` ada file `playerglobal.swc`. Jika folder versi `11.4` tidak ada, ganti `-target-player=11.4` menjadi versi yang ada di folder tersebut (misal `14.0` atau `20.0`).
+
+Selamat mencoba!
