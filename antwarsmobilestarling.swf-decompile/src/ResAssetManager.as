@@ -4,6 +4,11 @@ package
    // import flash.filesystem.FileStream;
    import flash.utils.ByteArray;
    import starling.utils.AssetManager;
+   import starling.display.Image;
+   import starling.textures.Texture;
+   import flash.geom.Rectangle;
+   import flash.utils.Dictionary;
+   import starling.display.DisplayObject;
    
    public class ResAssetManager extends AssetManager
    {
@@ -24,6 +29,37 @@ package
          {
             super.log(param1);
          }
+      }
+
+      // Stubbed methods for compilation
+      public function getGoodsImageByRect(typeID:int, frameID:int, rect:Rectangle):Image
+      {
+          // Return a dummy image
+          var img:Image = new Image(Texture.empty(rect ? rect.width : 100, rect ? rect.height : 100));
+          if (rect) {
+              img.x = rect.x;
+              img.y = rect.y;
+          }
+          return img;
+      }
+
+      public function getGoodsImage(typeID:int, frameID:int):Image
+      {
+          return new Image(Texture.empty(100, 100));
+      }
+
+      public function getScreenPos(param1:String) : Dictionary
+      {
+         return new Dictionary();
+      }
+
+      public function positionDisplay(param1:DisplayObject, param2:String, param3:String) : void
+      {
+      }
+
+      public function getPosition(param1:String, param2:String) : Rectangle
+      {
+         return new Rectangle(0,0,100,100);
       }
    }
 }
