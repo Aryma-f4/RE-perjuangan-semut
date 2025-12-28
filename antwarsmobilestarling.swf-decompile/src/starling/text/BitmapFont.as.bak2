@@ -7,41 +7,40 @@ package starling.text
    import starling.textures.Texture;
    import starling.textures.TextureSmoothing;
    import starling.utils.cleanMasterString;
-   import starling.display.QuadBatch; // ADDED IMPORT
-   
+
    public class BitmapFont
    {
-      
+
       public static const NATIVE_SIZE:int = -1;
-      
+
       public static const MINI:String = "mini";
-      
+
       private static const CHAR_SPACE:int = 32;
-      
+
       private static const CHAR_TAB:int = 9;
-      
+
       private static const CHAR_NEWLINE:int = 10;
-      
+
       private static const CHAR_CARRIAGE_RETURN:int = 13;
-      
+
       private var mTexture:Texture;
-      
+
       private var mChars:Dictionary;
-      
+
       private var mName:String;
-      
+
       private var mSize:Number;
-      
+
       private var mLineHeight:Number;
-      
+
       private var mBaseline:Number;
-      
+
       private var mOffsetX:Number;
-      
+
       private var mOffsetY:Number;
-      
+
       private var mHelperImage:Image;
-      
+
       public function BitmapFont(param1:Texture = null, param2:XML = null)
       {
          super();
@@ -61,9 +60,6 @@ package starling.text
             parseFontXml(param2);
          }
       }
-      // ... rest of the file (omitted for brevity, assume content is preserved or user has it)
-      // Since I am overwriting, I must include the full content from previous step + fix.
-      // I will rely on the previous content I read and just add the import.
 
       public function get name() : String
       {
@@ -132,7 +128,7 @@ package starling.text
             mTexture.dispose();
          }
       }
-      
+
       private function parseFontXml(param1:XML) : void
       {
          var _loc6_:XML = null;
@@ -182,17 +178,17 @@ package starling.text
             }
          }
       }
-      
+
       public function getChar(param1:int) : BitmapChar
       {
          return mChars[param1];
       }
-      
+
       public function addChar(param1:int, param2:BitmapChar) : void
       {
          mChars[param1] = param2;
       }
-      
+
       public function createSprite(param1:Number, param2:Number, param3:String, param4:Number = -1, param5:uint = 16777215, param6:String = "center", param7:String = "center", param8:Boolean = true, param9:Boolean = true) : Sprite
       {
          var _loc14_:CharLocation = null;
@@ -214,7 +210,7 @@ package starling.text
          }
          return _loc13_;
       }
-      
+
       public function fillQuadBatch(param1:QuadBatch, param2:Number, param3:Number, param4:String, param5:Number = -1, param6:uint = 16777215, param7:String = "center", param8:String = "center", param9:Boolean = true, param10:Boolean = true) : void
       {
          var _loc15_:CharLocation = null;
@@ -238,7 +234,7 @@ package starling.text
             _loc16_++;
          }
       }
-      
+
       private function arrangeChars(param1:Number, param2:Number, param3:String, param4:Number = -1, param5:String = "center", param6:String = "center", param7:Boolean = true, param8:Boolean = true) : Vector.<CharLocation>
       {
          var _loc13_:BitmapChar = null;
@@ -443,9 +439,15 @@ package starling.text
          }
          return _loc10_;
       }
-      
+
       public static function instanceFromPool(param1:BitmapChar) : CharLocation
       {
+         // Stubbed because CharLocation seems to be a missing inner class or helper
+         // I will create a dummy CharLocation class below or assume it exists in decompiled folder?
+         // The previous error said "Type was not found ... BitmapChar".
+         // Wait, the error was "Type not found: BitmapChar" in BitmapFont.as
+         // I need to import BitmapChar.
+         // If BitmapChar.as is missing, I need to create it.
          return new CharLocation(param1);
       }
    }
@@ -459,7 +461,7 @@ class CharLocation
    public var scale:Number;
    public var x:Number;
    public var y:Number;
-   
+
    public function CharLocation(param1:BitmapChar)
    {
       this.char = param1;

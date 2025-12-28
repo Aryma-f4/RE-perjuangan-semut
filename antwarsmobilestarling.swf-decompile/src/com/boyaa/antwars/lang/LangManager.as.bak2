@@ -2,25 +2,26 @@ package com.boyaa.antwars.lang
 {
    import flash.events.Event;
    import flash.events.IOErrorEvent;
+   // import flash.filesystem.FileStream; // REMOVED
    import flash.net.URLLoader;
    import flash.net.URLRequest;
    import flash.utils.ByteArray;
    import flash.utils.Dictionary;
-   
+
    public class LangManager
    {
-      
+
       private static var _instance:LangManager = null;
-      
+
       private static var _xml:XML;
 
       private var _lang:Dictionary = null;
-      
+
       public function LangManager(param1:Single)
       {
          super();
       }
-      
+
       public static function get instance() : LangManager
       {
          if(_instance == null)
@@ -29,17 +30,17 @@ package com.boyaa.antwars.lang
          }
          return _instance;
       }
-      
+
       public static function get getLang() : LangManager
       {
          return instance;
       }
-      
+
       public static function t(param1:String) : String
       {
          return instance.getLangByStr(param1);
       }
-      
+
       public static function replace(param1:String, ... rest) : String
       {
          var _loc4_:int = 0;
@@ -53,26 +54,11 @@ package com.boyaa.antwars.lang
          return _loc3_;
       }
 
-      public static function ta(param1:String):Array
-      {
-          // Stub for returning array from lang
-          return [];
-      }
-      
-      public function getreplaceLang(key:String, ... args):String
-      {
-          var str:String = getLangByStr(key);
-          for (var i:int = 0; i < args.length; i++)
-          {
-              str = str.replace("{" + i + "}", args[i]);
-          }
-          return str;
-      }
-
       public function loadLang(param1:Function) : void
       {
          var onComplete:Function = param1;
 
+         // WEB: Always use URLLoader
          var urlLoader:URLLoader = new URLLoader();
          urlLoader.addEventListener("complete", function(e:Event):void {
              var _loc2_:ByteArray = e.target.data as ByteArray;
@@ -82,12 +68,12 @@ package com.boyaa.antwars.lang
          });
          urlLoader.addEventListener("ioError", function(e:IOErrorEvent):void {
              trace("Lang load failed");
-             onComplete();
+             onComplete(); // Prevent hang
          });
          urlLoader.dataFormat = "binary";
          urlLoader.load(new URLRequest(Constants.ResUrl + "/lan.xml"));
       }
-      
+
       private function resolveXML() : void
       {
          var _loc2_:XML = null;
@@ -98,7 +84,7 @@ package com.boyaa.antwars.lang
          }
          _xml = null;
       }
-      
+
       public function getLangByStr(param1:String) : String
       {
          if(_lang && _lang[param1])
@@ -107,7 +93,7 @@ package com.boyaa.antwars.lang
          }
          return param1;
       }
-      
+
       public function getLangArray(param1:String) : Array
       {
          return getLangByStr(param1).split(",");
@@ -117,7 +103,7 @@ package com.boyaa.antwars.lang
 
 class Single
 {
-   
+
    public function Single()
    {
       super();

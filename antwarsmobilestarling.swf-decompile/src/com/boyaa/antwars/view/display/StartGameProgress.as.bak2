@@ -5,25 +5,24 @@ package com.boyaa.antwars.view.display
    import flash.display.Sprite;
    import flash.text.TextField;
    import flash.text.TextFormat;
-   import flash.geom.Rectangle; // Moved inside package
-   
+
    public class StartGameProgress extends Sprite
    {
-      
+
       public static const ProgressBackground:Class = ProgressBackgroundPng;
-      
+
       private var _progress:Sprite;
-      
+
       private var _width:Number = 0;
-      
+
       private var _height:Number = 0;
-      
+
       private var _bg:Bitmap;
-      
+
       private var _bar:Shape;
 
       private var _text:TextField;
-      
+
       public function StartGameProgress()
       {
          super();
@@ -48,7 +47,7 @@ package com.boyaa.antwars.view.display
          _text.autoSize = "center";
          addChild(_text);
       }
-      
+
       public function set progress(param1:Number) : void
       {
          _progress.scrollRect = new Rectangle(0,0,_width * param1,_height);
@@ -57,3 +56,5 @@ package com.boyaa.antwars.view.display
       }
    }
 }
+
+import flash.geom.Rectangle;
