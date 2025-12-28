@@ -1,0 +1,161 @@
+package com.boyaa.antwars.view.monster
+{
+   import com.boyaa.antwars.data.model.CopyMonsterRole;
+
+   public class MonsterData
+   {
+
+      private var _roleid:int;
+
+      private var _attr:Array;
+
+      private var _attack_type:int = 0;
+
+      private var _max_move:int = 100;
+
+      private var _skills:Array;
+
+      private var _blood:int = 100;
+
+      private var _attack_dist:int = 100;
+
+      private var _isBoss:int;
+
+      private var _influ_through:int = 1;
+
+      private var _monster_width:int = 70;
+
+      private var _monster_height:int = 70;
+
+      private var _monster_name:String;
+
+      private var _move_speed:int = 30;
+
+      private var _isfly:Boolean = false;
+
+      private var _spiece_type:int;
+
+      private var _siteId:int = 1;
+
+      private const DATA_TYPE:Array;
+
+      private const DATA_XML:Array;
+
+      public function MonsterData(param1:CopyMonsterRole)
+      {
+         var _loc2_:int = 0;
+         _attr = [];
+         _skills = [];
+         DATA_TYPE = ["roleid","spiece_type","blood","isBoss","influ_through","attack_type","attack_dist","max_move","monster_width","monster_height","attr"];
+         DATA_XML = ["roleid","spiece_type","blood","isBoss","influ_through","attack_type","attack_dist","max_move","width","height","attr"];
+         super();
+         _loc2_ = 0;
+         while(_loc2_ < DATA_TYPE.length)
+         {
+            if(this["_" + DATA_TYPE[_loc2_]] is int)
+            {
+               this["_" + DATA_TYPE[_loc2_]] = int(param1[DATA_XML[_loc2_]]);
+            }
+            else
+            {
+               this["_" + DATA_TYPE[_loc2_]] = param1[DATA_XML[_loc2_]];
+            }
+            _loc2_++;
+         }
+      }
+
+      public function get monster_width() : int
+      {
+         return _monster_width;
+      }
+
+      public function get monster_height() : int
+      {
+         return _monster_height;
+      }
+
+      public function get move_speed() : int
+      {
+         return _move_speed;
+      }
+
+      public function get attack_type() : int
+      {
+         return _attack_type;
+      }
+
+      public function get attr() : Array
+      {
+         return _attr;
+      }
+
+      public function setRolAttr(param1:Array, param2:Boolean = false) : void
+      {
+         if(param2)
+         {
+            _blood = param1[6];
+            _attr = param1;
+         }
+      }
+
+      public function get blood() : int
+      {
+         return _blood;
+      }
+
+      public function get max_move() : int
+      {
+         return _max_move;
+      }
+
+      public function set move_speed(param1:int) : void
+      {
+         _move_speed = param1;
+      }
+
+      public function get influ_through() : int
+      {
+         return _influ_through;
+      }
+
+      public function get attack_dist() : int
+      {
+         return _attack_dist;
+      }
+
+      public function get roleid() : int
+      {
+         return _roleid;
+      }
+
+      public function get isfly() : Boolean
+      {
+         return _isfly;
+      }
+
+      public function set isfly(param1:Boolean) : void
+      {
+         _isfly = param1;
+      }
+
+      public function set attack_dist(param1:int) : void
+      {
+         _attack_dist = param1;
+      }
+
+      public function get spiece_type() : int
+      {
+         return _spiece_type;
+      }
+
+      public function set spiece_type(param1:int) : void
+      {
+         _spiece_type = param1;
+      }
+
+      public function get siteId() : int
+      {
+         return _siteId;
+      }
+   }
+}

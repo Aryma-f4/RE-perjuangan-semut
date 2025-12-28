@@ -1,59 +1,60 @@
 package com.boyaa.antwars.view.display
 {
    import flash.display.Bitmap;
-   import starling.display.Image;
-   import starling.display.Sprite;
-   import starling.textures.Texture;
+   import flash.display.Shape;
+   import flash.display.Sprite;
+   import flash.text.TextField;
+   import flash.text.TextFormat;
    
    public class StartGameProgress extends Sprite
    {
       
-      public static const Progress:Class = progress_png$4a8acd3df0cfabb859009eea7cecaf451761316058;
+      public static const ProgressBackground:Class = ProgressBackgroundPng;
       
-      public static const ProgressBackground:Class = §progressBackgroud_png$3dacaced6a7caa30e72966c88e062146-1709281216§;
+      private var _progress:Sprite;
       
-      private var _bitMap:Bitmap;
+      private var _width:Number = 0;
       
-      private var _backGround:Image;
+      private var _height:Number = 0;
       
-      private var _progressBar:Gauge;
+      private var _bg:Bitmap;
       
-      private var _progressBarTexture:Texture;
+      private var _bar:Shape;
+
+      private var _text:TextField;
       
       public function StartGameProgress()
       {
          super();
-         init();
+         _bg = new ProgressBackground();
+         _width = _bg.width;
+         _height = _bg.height;
+         addChild(_bg);
+         _progress = new Sprite();
+         _bar = new Shape();
+         _bar.graphics.beginFill(6618880);
+         _bar.graphics.drawRect(26,62,406,12);
+         _bar.graphics.endFill();
+         _progress.addChild(_bar);
+         _progress.scrollRect = new Rectangle(0,0,0,_height);
+         addChild(_progress);
+         _text = new TextField();
+         _text.defaultTextFormat = new TextFormat("Arial",12,16777215);
+         _text.width = _width;
+         _text.height = 20;
+         _text.y = 60;
+         _text.text = "0%";
+         _text.autoSize = "center";
+         addChild(_text);
       }
       
-      private function init() : void
+      public function set progress(param1:Number) : void
       {
-         _bitMap = new Progress();
-         var _loc1_:Texture = Texture.fromBitmap(_bitMap);
-         _progressBarTexture = _loc1_;
-         _progressBar = new Gauge(_loc1_);
-         _bitMap.bitmapData.dispose();
-         _bitMap = new ProgressBackground();
-         _loc1_ = Texture.fromBitmap(_bitMap);
-         _backGround = new Image(_loc1_);
-         _bitMap.bitmapData.dispose();
-         progressBar.x = _backGround.width - progressBar.width >> 1;
-         progressBar.y = _backGround.height - progressBar.height >> 1;
-         addChild(_backGround);
-         addChild(_progressBar);
-      }
-      
-      public function get progressBar() : Gauge
-      {
-         return _progressBar;
-      }
-      
-      override public function dispose() : void
-      {
-         _backGround.texture.dispose();
-         _progressBarTexture.dispose();
-         super.dispose();
+         _progress.scrollRect = new Rectangle(0,0,_width * param1,_height);
+         _text.text = int(param1 * 100) + "%";
+         _text.x = (_width - _text.width) / 2;
       }
    }
 }
 
+import flash.geom.Rectangle;

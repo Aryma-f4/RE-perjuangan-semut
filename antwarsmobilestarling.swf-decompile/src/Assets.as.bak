@@ -7,63 +7,60 @@ package
    import flash.utils.Dictionary;
    import starling.display.DisplayObject;
    import starling.textures.Texture;
-   
+
    public class Assets
    {
-      
+
       public static var width:int;
-      
+
       public static var height:int;
-      
+
       private static var _emptyTexture:Texture;
-      
+
       public static var sAsset:ResAssetManager = null;
-      
+
       public static var btAsset:ResAssetManager = null;
-      
+
       private static var pointHelper:Point = new Point();
-      
+
       public static var leftTop:Point = new Point();
-      
+
       public static var rightTop:Point = new Point();
-      
+
       public static var leftBottom:Point = new Point();
-      
+
       public static var rightBottom:Point = new Point();
-      
+
       public static var leftCenter:Point = new Point();
-      
+
       public static var rightCenter:Point = new Point();
-      
+
       public static var topCenter:Point = new Point();
-      
+
       public static var bottomCenter:Point = new Point();
-      
-      // FIXED
-      public static const Close:Class = ClosePng;
-      
+
+      public static const Close:Class = close_png$6211fb77530e260e14fb061a5761244e598160905;
+
       public function Assets()
       {
          super();
       }
-      
+
       public static function getScreenPos(param1:String) : Dictionary
       {
-         // Stubbed
-         return new Dictionary();
+         return sAsset.getScreenPos(param1);
       }
-      
+
       public static function positionDisplay(param1:DisplayObject, param2:String, param3:String) : void
       {
-         // Stubbed
+         sAsset.positionDisplay(param1,param2,param3);
       }
-      
+
       public static function getPosition(param1:String, param2:String) : Rectangle
       {
-         // Stubbed
-         return new Rectangle(0,0,100,100);
+         return sAsset.getPosition(param1,param2);
       }
-      
+
       public static function initScreenPoint(param1:Stage, param2:Rectangle) : void
       {
          var _loc5_:Number = NaN;
@@ -115,7 +112,7 @@ package
             Assets.bottomCenter.y = Assets.leftBottom.y;
          }
       }
-      
+
       public static function emptyTexture() : Texture
       {
          if(!_emptyTexture)

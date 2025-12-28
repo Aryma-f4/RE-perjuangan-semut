@@ -1,7 +1,7 @@
 package com.greensock
 {
    import com.greensock.core.*;
-   import com.greensock.plugins.*;
+   // import com.greensock.plugins.*;
    import flash.display.*;
    import flash.events.*;
    import flash.utils.*;
@@ -529,4 +529,3 @@ package com.greensock
       }
    }
 }
-
