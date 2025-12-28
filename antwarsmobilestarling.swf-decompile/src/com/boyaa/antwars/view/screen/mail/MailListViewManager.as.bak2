@@ -10,32 +10,28 @@ package com.boyaa.antwars.view.screen.mail
    import starling.events.Event;
    import starling.events.Touch;
    import starling.events.TouchEvent;
-   
-   // Import the event classes we just created/verified
-   import com.boyaa.antwars.view.screen.mail.MailBoxEvent;
-   import com.boyaa.antwars.view.screen.mail.MailEventManager;
 
    public class MailListViewManager extends MailViewManager
    {
-      
+
       private var _selectAllBtn:Sprite;
-      
+
       private var _deleteBtn:Button;
-      
+
       private var _mailViewList:List;
-      
+
       private var _mailDataList:Array;
-      
+
       private var _layout:LayoutUitl;
-      
+
       private var _onKeyReceiveBtn:Button;
-      
+
       public function MailListViewManager(param1:Sprite, param2:LayoutUitl)
       {
          _layout = param2;
          super(param1);
       }
-      
+
       override protected function initView() : void
       {
          super.initView();
@@ -53,7 +49,7 @@ package com.boyaa.antwars.view.screen.mail
          _mailViewList.addEventListener("change",itemSelectHandel);
          MailEventManager.instance.addEventListener(MailBoxEvent.MAIL_LIST_ITEM_SELECT_ICON_CLICK,itemIconSelectHandel);
       }
-      
+
       private function oneKeyReceiveMailHandel(param1:Event) : void
       {
          var _loc3_:Array = [];
@@ -70,7 +66,7 @@ package com.boyaa.antwars.view.screen.mail
             MailEventManager.instance.dispatchEvent(new MailBoxEvent(MailBoxEvent.MAIL_LIST_FILE_ONE_KEY,_loc3_));
          }
       }
-      
+
       private function itemIconSelectHandel(param1:MailBoxEvent) : void
       {
          if(!param1.data.show)
@@ -78,7 +74,7 @@ package com.boyaa.antwars.view.screen.mail
             _selectAllBtn.getChildByName("selectIcon").visible = false;
          }
       }
-      
+
       private function itemSelectHandel(param1:Event) : void
       {
          if(_mailViewList.selectedIndex == -1)
@@ -89,14 +85,14 @@ package com.boyaa.antwars.view.screen.mail
          _mailViewList.selectedIndex = -1;
          dispatchEvent(new MailBoxEvent(MailBoxEvent.MAIL_SELECT_EVENT,_loc2_));
       }
-      
+
       override public function active() : void
       {
          super.active();
          GameServer.instance.getMailList(getMailListDone);
          _selectAllBtn.getChildByName("selectIcon").visible = false;
       }
-      
+
       private function getMailListDone(param1:Array) : void
       {
          var _loc3_:int = 0;
@@ -119,7 +115,7 @@ package com.boyaa.antwars.view.screen.mail
          _mailViewList.dataProvider = new ListCollection(_mailDataList);
          _mailViewList.itemRendererType = MessageListItemRender;
       }
-      
+
       private function selectAllClickHandel(param1:TouchEvent) : void
       {
          var _loc3_:Touch = param1.getTouch(this._targetView);
@@ -134,7 +130,7 @@ package com.boyaa.antwars.view.screen.mail
             return;
          }
       }
-      
+
       private function deleteMailHandel(param1:Event) : void
       {
          var _loc4_:int = 0;
@@ -158,7 +154,7 @@ package com.boyaa.antwars.view.screen.mail
          }
          _mailViewList.dataProvider = new ListCollection(_mailDataList);
       }
-      
+
       override public function dispose() : void
       {
          super.dispose();
@@ -175,23 +171,21 @@ import starling.display.Sprite;
 import starling.events.Touch;
 import starling.events.TouchEvent;
 import starling.text.TextField;
-import com.boyaa.antwars.view.screen.mail.MailBoxEvent;
-import com.boyaa.antwars.view.screen.mail.MailEventManager;
 
 class MessageListItemRender extends ListItemRenderer
 {
-   
+
    private var _initCover:Boolean;
-   
+
    private var _selectBtn:Sprite;
-   
+
    private var _cover:Sprite;
-   
+
    public function MessageListItemRender()
    {
       super();
    }
-   
+
    override protected function initialize() : void
    {
       super.initialize();
@@ -203,7 +197,7 @@ class MessageListItemRender extends ListItemRenderer
       MailEventManager.instance.addEventListener(MailBoxEvent.MAIL_LIST_ALL_SELECT,allSelectHandel);
       MailEventManager.instance.addEventListener(MailBoxEvent.MAIL_LIST_FILE_ONE_KEY,oneKeyFileHandel);
    }
-   
+
    private function oneKeyFileHandel(param1:MailBoxEvent) : void
    {
       var _loc2_:Array = param1.data as Array;
@@ -217,12 +211,12 @@ class MessageListItemRender extends ListItemRenderer
          _cover.getChildByName("fileIcon").visible = this._data.file == 1;
       }
    }
-   
+
    private function allSelectHandel(param1:MailBoxEvent) : void
    {
       _selectBtn.getChildByName("selectIcon").visible = param1.data as Boolean;
    }
-   
+
    override protected function commitData() : void
    {
       super.commitData();
@@ -243,7 +237,7 @@ class MessageListItemRender extends ListItemRenderer
       _selectBtn.getChildByName("selectIcon").visible = this._data.select;
       _cover.getChildByName("fileIcon").visible = this._data.file == 1;
    }
-   
+
    private function selectAllIcon(param1:TouchEvent) : void
    {
       var _loc2_:Touch = param1.getTouch(this._selectBtn);
@@ -259,7 +253,7 @@ class MessageListItemRender extends ListItemRenderer
          }));
       }
    }
-   
+
    override public function dispose() : void
    {
       MailEventManager.instance.removeEventListener(MailBoxEvent.MAIL_LIST_ALL_SELECT,allSelectHandel);

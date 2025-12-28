@@ -1,33 +1,23 @@
 package com.boyaa.antwars.view.screen.mail
 {
-   import flash.events.EventDispatcher;
+   import starling.events.EventDispatcher;
    
    public class MailEventManager extends EventDispatcher
    {
+      private static var _instance:MailEventManager;
       
-      private static var _instance:MailEventManager = null;
-      
-      public function MailEventManager(param1:Single)
+      public function MailEventManager()
       {
          super();
       }
       
       public static function get instance() : MailEventManager
       {
-         if(_instance == null)
+         if(!_instance)
          {
-            _instance = new MailEventManager(new Single());
+            _instance = new MailEventManager();
          }
          return _instance;
       }
-   }
-}
-
-class Single
-{
-   
-   public function Single()
-   {
-      super();
    }
 }
