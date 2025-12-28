@@ -4,23 +4,27 @@ Error `unable to open '{airHome}'` terjadi karena Anda menggunakan `amxmlc` (Com
 
 Solusinya adalah menggunakan **`mxmlc`** (Compiler Flash Standard) dan memaksa konfigurasi web.
 
-## Langkah 1: Jalankan Perintah Baru
+## Langkah 1: Persiapan
 
-Gunakan perintah ini di terminal (folder `antwarsmobilestarling.swf-decompile`):
+Pastikan Anda berada di folder `antwarsmobilestarling.swf-decompile` di terminal.
+Buat folder `libs` jika belum ada: `mkdir libs`.
+
+## Langkah 2: Jalankan Perintah Baru
+
+Gunakan perintah ini di terminal (folder `antwarsmobilestarling.swf-decompile`).
+**Catatan Penting:** File utama adalah `src\Main.as`.
 
 **Windows:**
 ```cmd
-C:\apacheflex\bin\mxmlc.bat -load-config="C:\apacheflex\frameworks\flex-config.xml" -source-path+=src -library-path+=libs -static-link-runtime-shared-libraries=true -output "..\antwars-web\public\antwars.swf" -target-player=11.4 src\AntWars.as
+C:\apacheflex\bin\mxmlc.bat -load-config="C:\apacheflex\frameworks\flex-config.xml" -source-path+=src -library-path+=libs -static-link-runtime-shared-libraries=true -output "..\antwars-web\public\antwars.swf" -target-player=11.4 src\Main.as
 ```
 
 **Perubahan Penting:**
 1.  Ganti `amxmlc.bat` menjadi **`mxmlc.bat`**.
-2.  Tambah parameter `-load-config` yang menunjuk ke `flex-config.xml`. Ini memaksa compiler untuk menggunakan mode Web/Flash Player, bukan AIR.
+2.  Ganti `src\AntWars.as` menjadi **`src\Main.as`**.
+3.  Tambah parameter `-load-config` yang menunjuk ke `flex-config.xml`. Ini memaksa compiler untuk menggunakan mode Web/Flash Player, bukan AIR.
 
-## Langkah 2: Jika Masih Error (Opsi Alternatif)
+## Langkah 3: Troubleshooting
 
-Jika cara di atas masih gagal karena setup SDK yang rumit, Anda bisa mencoba **mendownload SWF yang sudah saya patch** (Jika saya bisa memberikannya, tapi saya tidak bisa).
-
-Maka, pastikan di dalam folder `C:\apacheflex\frameworks\libs\player\11.4\` ada file `playerglobal.swc`. Jika folder versi `11.4` tidak ada, ganti `-target-player=11.4` menjadi versi yang ada di folder tersebut (misal `14.0` atau `20.0`).
-
-Selamat mencoba!
+Jika masih ada error seperti `Type was not found ...`:
+*   Karena hasil decompile sudah menyertakan library (Starling, Feathers) di dalam folder `src`, biasanya tidak butuh file tambahan di `libs`. Namun, pastikan semua folder seperti `com`, `starling`, `feathers` ada di dalam `src`.

@@ -52,12 +52,16 @@ sdk use java 8.0.382-zulu
     xattr -d com.apple.quarantine mxmlc  # Jika perlu
     ```
 
-## 6. Compile SWF di Mac
+## 6. Compile SWF di Mac (DIPERBARUI)
 
-Jalankan perintah ini dari folder source code (`antwarsmobilestarling.swf-decompile`):
+Jalankan perintah ini dari folder source code (`antwarsmobilestarling.swf-decompile`).
+Catatan: Kita menggunakan `src/Main.as` karena `AntWars.as` tidak ditemukan. Jika folder `libs` kosong/tidak ada, buat dulu dengan `mkdir libs`.
 
 ```bash
-# Sesuaikan path ke flex_sdk Anda
+# Buat folder libs jika belum ada
+mkdir -p libs
+
+# Compile (Sesuaikan path ke flex_sdk Anda)
 ~/Documents/flex_sdk/bin/mxmlc \
   -load-config+="$HOME/Documents/flex_sdk/frameworks/flex-config.xml" \
   -source-path+=src \
@@ -65,7 +69,7 @@ Jalankan perintah ini dari folder source code (`antwarsmobilestarling.swf-decomp
   -static-link-runtime-shared-libraries=true \
   -output="../antwars-web/public/antwars.swf" \
   -target-player=11.4 \
-  src/AntWars.as
+  src/Main.as
 ```
 
 ## 7. Menjalankan Server (Port 80)
