@@ -4,7 +4,7 @@ Panduan ini khusus untuk pengguna MacBook dengan chip M1/M2 untuk menjalankan pr
 
 ## 1. Persiapan Terminal
 
-Pastikan Anda menggunakan Terminal bawaan atau iTerm2. Disarankan untuk tidak menggunakan mode Rosetta kecuali terpaksa, namun beberapa tools lama (Flex SDK) mungkin butuh Java versi lama yang lebih stabil di x86_64.
+Pastikan Anda menggunakan Terminal bawaan atau iTerm2.
 
 ## 2. Instalasi Homebrew
 
@@ -26,7 +26,7 @@ brew install node
 
 ## 4. Instalasi Java (PENTING)
 
-Flex SDK membutuhkan Java 8 atau Java 11. Java versi terbaru sering bermasalah dengan compiler lama ini. Kita gunakan `sdkman` untuk mengelola versi Java.
+Flex SDK membutuhkan Java 8 atau Java 11.
 
 ```bash
 # Instal SDKMAN
@@ -45,25 +45,20 @@ sdk use java 8.0.382-zulu
 1.  Download SDK dari: [https://flex.apache.org/download-binaries.html](https://flex.apache.org/download-binaries.html)
 2.  Ekstrak ke folder yang mudah diakses, misal `~/Documents/flex_sdk`.
 3.  **Berikan izin eksekusi**:
-    MacOS sering memblokir file binary dari internet.
     ```bash
     cd ~/Documents/flex_sdk/bin
     chmod +x mxmlc
-    xattr -d com.apple.quarantine mxmlc  # Jika perlu
+    xattr -d com.apple.quarantine mxmlc
     ```
 
 ## 6. Compile SWF di Mac (DIPERBARUI)
 
-Jalankan perintah ini dari folder source code (`antwarsmobilestarling.swf-decompile`).
-Catatan: Kita menggunakan `src/Main.as` karena `AntWars.as` tidak ditemukan. Jika folder `libs` kosong/tidak ada, buat dulu dengan `mkdir libs`.
+Jalankan perintah di bawah ini dari terminal yang berada di folder `antwarsmobilestarling.swf-decompile`.
+
+**PENTING**: Copy hanya baris perintahnya saja (jangan copy tanda `#` komentar).
 
 ```bash
-# Buat folder libs jika belum ada
-mkdir -p libs
-
-# Compile (Sesuaikan path ke flex_sdk Anda)
 ~/Documents/flex_sdk/bin/mxmlc \
-  -load-config+="$HOME/Documents/flex_sdk/frameworks/flex-config.xml" \
   -source-path+=src \
   -library-path+=libs \
   -static-link-runtime-shared-libraries=true \
@@ -72,9 +67,9 @@ mkdir -p libs
   src/Main.as
 ```
 
-## 7. Menjalankan Server (Port 80)
+*Catatan: Saya telah menghapus `-load-config` karena `mxmlc` secara otomatis memuat `flex-config.xml`. Menambahkannya secara manual menyebabkan error duplikasi konfigurasi.*
 
-Di Mac, port 80 adalah privileged port.
+## 7. Menjalankan Server (Port 80)
 
 1.  Edit `server_emulator/src/main.rs`: Pastikan `.bind(("127.0.0.1", 80))`
 2.  Jalankan dengan `sudo`:
@@ -94,5 +89,3 @@ Tambahkan:
 127.0.0.1 pclpidat01.boyaagame.com
 ```
 Simpan dengan `Ctrl+O`, lalu `Enter`, lalu `Ctrl+X`.
-
-Selamat mencoba!
