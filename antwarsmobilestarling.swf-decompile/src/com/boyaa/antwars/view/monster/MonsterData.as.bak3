@@ -1,0 +1,41 @@
+package com.boyaa.antwars.view.monster
+{
+   public dynamic class MonsterData
+   {
+
+      private static var _instance:MonsterData;
+
+      public var DATA_TYPE:Array;
+
+      public var DATA_XML:Array;
+
+      // Public properties matching error log
+      public var blood:int;
+      public var influ_through:int;
+      public var attack_type:int;
+      public var attack_dist:int;
+      public var max_move:int;
+      public var monster_width:int;
+      public var monster_height:int;
+      public var spiece_type:int;
+      public var attr:Array;
+      public var move_speed:Number; // inferred
+      public var isfly:Boolean;
+
+      public function MonsterData()
+      {
+         super();
+         DATA_TYPE = ["roleid","spiece_type","blood","isBoss","influ_through","attack_type","attack_dist","max_move","monster_width","monster_height","attr"];
+         DATA_XML = ["roleid","spiece_type","blood","isBoss","influ_through","attack_type","attack_dist","max_move","width","height","attr"];
+      }
+
+      public static function get instance() : MonsterData
+      {
+         if(!_instance)
+         {
+            _instance = new MonsterData();
+         }
+         return _instance;
+      }
+   }
+}
