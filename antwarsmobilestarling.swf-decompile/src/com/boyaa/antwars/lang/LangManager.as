@@ -1,51 +1,28 @@
 package com.boyaa.antwars.lang
 {
-   import flash.filesystem.FileStream;
-   import flash.system.System;
+   import flash.events.Event;
+   import flash.events.IOErrorEvent;
+   // import flash.filesystem.FileStream; // REMOVED
+   import flash.net.URLLoader;
+   import flash.net.URLRequest;
    import flash.utils.ByteArray;
+   import flash.utils.Dictionary;
    
    public class LangManager
    {
       
       private static var _instance:LangManager = null;
       
-      private var _obj:Object = null;
+      private static var _xml:XML;
+
+      private var _lang:Dictionary = null;
       
       public function LangManager(param1:Single)
       {
          super();
       }
       
-      public static function t(param1:String, param2:Array = null) : String
-      {
-         var _loc5_:int = 0;
-         var _loc4_:RegExp = null;
-         var _loc3_:String = LangManager.getLang.getLangByStr(param1);
-         if(!param2)
-         {
-            return _loc3_;
-         }
-         _loc5_ = 0;
-         while(_loc5_ < param2.length)
-         {
-            _loc4_ = new RegExp("parma" + (_loc5_ + 1),"g");
-            _loc3_ = _loc3_.replace(_loc4_,param2[_loc5_]);
-            _loc5_++;
-         }
-         return _loc3_;
-      }
-      
-      public static function ta(param1:String) : Array
-      {
-         return LangManager.getLang.getLangArray(param1);
-      }
-      
-      public static function replace(param1:String, ... rest) : String
-      {
-         return LangManager.getLang.getreplaceLang(param1,rest);
-      }
-      
-      public static function get getLang() : LangManager
+      public static function get instance() : LangManager
       {
          if(_instance == null)
          {
@@ -54,48 +31,72 @@ package com.boyaa.antwars.lang
          return _instance;
       }
       
-      public function init() : void
+      public static function get getLang() : LangManager
       {
-         var _loc2_:FileStream = new FileStream();
-         _loc2_.open(Application.instance.resManager.getResFile("lan.xml"),"read");
-         var _loc1_:ByteArray = new ByteArray();
-         _loc2_.readBytes(_loc1_);
-         var _loc4_:XML = new XML(_loc1_);
-         var _loc3_:ResolveLan = new ResolveLan(_loc4_);
-         _loc3_.resolveXML();
-         _obj = _loc3_.obj;
-         System.disposeXML(_loc4_);
+         return instance;
+      }
+      
+      public static function t(param1:String) : String
+      {
+         return instance.getLangByStr(param1);
+      }
+      
+      public static function replace(param1:String, ... rest) : String
+      {
+         var _loc4_:int = 0;
+         var _loc3_:String = instance.getLangByStr(param1);
+         _loc4_ = 0;
+         while(_loc4_ < rest.length)
+         {
+            _loc3_ = _loc3_.replace("{" + _loc4_ + "}",rest[_loc4_]);
+            _loc4_++;
+         }
+         return _loc3_;
+      }
+      
+      public function loadLang(param1:Function) : void
+      {
+         var onComplete:Function = param1;
+
+         // WEB: Always use URLLoader
+         var urlLoader:URLLoader = new URLLoader();
+         urlLoader.addEventListener("complete", function(e:Event):void {
+             var _loc2_:ByteArray = e.target.data as ByteArray;
+             _xml = new XML(_loc2_);
+             resolveXML();
+             onComplete();
+         });
+         urlLoader.addEventListener("ioError", function(e:IOErrorEvent):void {
+             trace("Lang load failed");
+             onComplete(); // Prevent hang
+         });
+         urlLoader.dataFormat = "binary";
+         urlLoader.load(new URLRequest(Constants.ResUrl + "/lan.xml"));
+      }
+      
+      private function resolveXML() : void
+      {
+         var _loc2_:XML = null;
+         _lang = new Dictionary();
+         for each(_loc2_ in _xml.lan)
+         {
+            _lang[String(_loc2_.@key)] = String(_loc2_.@value);
+         }
+         _xml = null;
       }
       
       public function getLangByStr(param1:String) : String
       {
-         var _loc2_:RegExp = /\\n/g;
-         return _obj[param1].replace(_loc2_,"\n");
-      }
-      
-      public function getreplaceLang(param1:String, ... rest) : String
-      {
-         var _loc4_:int = 0;
-         var _loc3_:RegExp = null;
-         param1 = getLangByStr(param1);
-         _loc4_ = 0;
-         while(_loc4_ < rest.length)
+         if(_lang && _lang[param1])
          {
-            _loc3_ = new RegExp("parma" + (_loc4_ + 1),"g");
-            param1 = param1.replace(_loc3_,rest[_loc4_]);
-            _loc4_++;
+            return _lang[param1];
          }
          return param1;
       }
       
       public function getLangArray(param1:String) : Array
       {
-         return getLangByStr(param1).split("|");
-      }
-      
-      public function set obj(param1:Object) : void
-      {
-         _obj = param1;
+         return getLangByStr(param1).split(",");
       }
    }
 }
