@@ -1,44 +1,43 @@
 package com.boyaa.antwars.view.screen.mail
 {
    import com.boyaa.antwars.data.model.ShopData;
-   // import flash.events.EventDispatcher; // REMOVED
-   import starling.events.EventDispatcher; // ADDED
+   import flash.events.EventDispatcher;
    import flash.geom.Rectangle;
    import starling.display.Image;
    import starling.display.Sprite;
-   
+
    public class MailViewManager extends EventDispatcher
    {
-      
+
       protected var _targetView:Sprite;
-      
+
       protected var _goodsBoxs:Array = [];
-      
+
       public function MailViewManager(param1:Sprite)
       {
          super();
          _targetView = param1;
          initView();
       }
-      
+
       protected function initView() : void
       {
       }
-      
+
       public function active() : void
       {
          this._targetView.visible = true;
       }
-      
+
       public function deactive() : void
       {
          this._targetView.visible = false;
       }
-      
+
       public function dispose() : void
       {
       }
-      
+
       protected function clearFileList() : void
       {
          var _loc1_:int = 0;
@@ -53,7 +52,7 @@ package com.boyaa.antwars.view.screen.mail
             _loc1_++;
          }
       }
-      
+
       protected function showFileImage(param1:int, param2:ShopData) : void
       {
          if(_goodsBoxs[param1])
